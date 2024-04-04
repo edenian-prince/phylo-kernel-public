@@ -1,0 +1,591 @@
+"","county_residence","county_workplace","n_workflows"
+"1","Adams County","Adams County",5527
+"2","Adams County","Benton County",165
+"3","Adams County","Clark County",22
+"4","Adams County","Franklin County",411
+"5","Adams County","Garfield County",1
+"6","Adams County","Grant County",1087
+"7","Adams County","King County",27
+"8","Adams County","Kittitas County",4
+"9","Adams County","Lincoln County",44
+"10","Adams County","Spokane County",61
+"11","Adams County","Walla Walla County",7
+"12","Adams County","Whitman County",49
+"13","Adams County","Yakima County",10
+"14","Asotin County","Asotin County",4504
+"15","Asotin County","Benton County",25
+"16","Asotin County","Clallam County",11
+"17","Asotin County","Columbia County",26
+"18","Asotin County","Garfield County",16
+"19","Asotin County","King County",10
+"20","Asotin County","Pierce County",4
+"21","Asotin County","Spokane County",47
+"22","Asotin County","Stevens County",16
+"23","Asotin County","Whitman County",486
+"24","Benton County","Adams County",312
+"25","Benton County","Benton County",67796
+"26","Benton County","Chelan County",81
+"27","Benton County","Clark County",20
+"28","Benton County","Columbia County",51
+"29","Benton County","Douglas County",36
+"30","Benton County","Franklin County",12040
+"31","Benton County","Grant County",185
+"32","Benton County","King County",252
+"33","Benton County","Kittitas County",8
+"34","Benton County","Klickitat County",142
+"35","Benton County","Lincoln County",102
+"36","Benton County","Okanogan County",12
+"37","Benton County","Pend Oreille County",31
+"38","Benton County","Pierce County",32
+"39","Benton County","Skagit County",23
+"40","Benton County","Spokane County",240
+"41","Benton County","Thurston County",29
+"42","Benton County","Walla Walla County",1591
+"43","Benton County","Whatcom County",9
+"44","Benton County","Yakima County",2671
+"45","Chelan County","Adams County",21
+"46","Chelan County","Benton County",25
+"47","Chelan County","Chelan County",28849
+"48","Chelan County","Douglas County",4675
+"49","Chelan County","Franklin County",29
+"50","Chelan County","Grant County",560
+"51","Chelan County","Island County",5
+"52","Chelan County","King County",436
+"53","Chelan County","Kittitas County",21
+"54","Chelan County","Lincoln County",48
+"55","Chelan County","Okanogan County",197
+"56","Chelan County","Pend Oreille County",19
+"57","Chelan County","Skamania County",4
+"58","Chelan County","Snohomish County",168
+"59","Chelan County","Spokane County",93
+"60","Chelan County","Whatcom County",5
+"61","Chelan County","Whitman County",22
+"62","Chelan County","Yakima County",58
+"63","Clallam County","Clallam County",27325
+"64","Clallam County","Grays Harbor County",9
+"65","Clallam County","Island County",15
+"66","Clallam County","Jefferson County",708
+"67","Clallam County","King County",385
+"68","Clallam County","Kitsap County",343
+"69","Clallam County","Pierce County",109
+"70","Clallam County","Skagit County",27
+"71","Clallam County","Snohomish County",16
+"72","Clallam County","Thurston County",44
+"73","Clallam County","Yakima County",4
+"74","Clark County","Benton County",32
+"75","Clark County","Clark County",156945
+"76","Clark County","Cowlitz County",4611
+"77","Clark County","Franklin County",65
+"78","Clark County","Grant County",19
+"79","Clark County","Grays Harbor County",23
+"80","Clark County","Island County",27
+"81","Clark County","Jefferson County",14
+"82","Clark County","King County",810
+"83","Clark County","Kitsap County",3
+"84","Clark County","Klickitat County",83
+"85","Clark County","Lewis County",69
+"86","Clark County","Pend Oreille County",11
+"87","Clark County","Pierce County",227
+"88","Clark County","Skamania County",263
+"89","Clark County","Snohomish County",131
+"90","Clark County","Spokane County",95
+"91","Clark County","Thurston County",141
+"92","Clark County","Wahkiakum County",22
+"93","Clark County","Whatcom County",14
+"94","Clark County","Whitman County",33
+"95","Clark County","Yakima County",10
+"96","Columbia County","Benton County",17
+"97","Columbia County","Columbia County",1358
+"98","Columbia County","Douglas County",10
+"99","Columbia County","Franklin County",80
+"100","Columbia County","Garfield County",5
+"101","Columbia County","King County",8
+"102","Columbia County","Lewis County",10
+"103","Columbia County","Walla Walla County",361
+"104","Cowlitz County","Benton County",38
+"105","Cowlitz County","Clark County",5145
+"106","Cowlitz County","Cowlitz County",33557
+"107","Cowlitz County","Franklin County",12
+"108","Cowlitz County","Grays Harbor County",27
+"109","Cowlitz County","Jefferson County",10
+"110","Cowlitz County","King County",181
+"111","Cowlitz County","Lewis County",605
+"112","Cowlitz County","Mason County",142
+"113","Cowlitz County","Pacific County",73
+"114","Cowlitz County","Pierce County",79
+"115","Cowlitz County","San Juan County",14
+"116","Cowlitz County","Skamania County",20
+"117","Cowlitz County","Spokane County",8
+"118","Cowlitz County","Thurston County",178
+"119","Cowlitz County","Wahkiakum County",190
+"120","Douglas County","Adams County",9
+"121","Douglas County","Benton County",21
+"122","Douglas County","Chelan County",9098
+"123","Douglas County","Cowlitz County",4
+"124","Douglas County","Douglas County",8455
+"125","Douglas County","Franklin County",49
+"126","Douglas County","Grant County",681
+"127","Douglas County","King County",147
+"128","Douglas County","Kittitas County",38
+"129","Douglas County","Okanogan County",928
+"130","Douglas County","Pierce County",9
+"131","Douglas County","Snohomish County",20
+"132","Douglas County","Spokane County",54
+"133","Ferry County","Benton County",4
+"134","Ferry County","Douglas County",6
+"135","Ferry County","Ferry County",1869
+"136","Ferry County","Grant County",11
+"137","Ferry County","King County",13
+"138","Ferry County","Okanogan County",169
+"139","Ferry County","Spokane County",74
+"140","Ferry County","Stevens County",311
+"141","Ferry County","Thurston County",1
+"142","Franklin County","Adams County",847
+"143","Franklin County","Benton County",15198
+"144","Franklin County","Chelan County",30
+"145","Franklin County","Columbia County",5
+"146","Franklin County","Franklin County",20586
+"147","Franklin County","Grant County",200
+"148","Franklin County","King County",80
+"149","Franklin County","Kittitas County",41
+"150","Franklin County","Pierce County",6
+"151","Franklin County","Skagit County",135
+"152","Franklin County","Spokane County",86
+"153","Franklin County","Walla Walla County",1939
+"154","Franklin County","Whitman County",16
+"155","Franklin County","Yakima County",537
+"156","Garfield County","Asotin County",66
+"157","Garfield County","Columbia County",26
+"158","Garfield County","Garfield County",588
+"159","Garfield County","Grays Harbor County",6
+"160","Garfield County","Kitsap County",11
+"161","Garfield County","Lewis County",11
+"162","Garfield County","Walla Walla County",4
+"163","Garfield County","Whitman County",109
+"164","Grant County","Adams County",1084
+"165","Grant County","Benton County",140
+"166","Grant County","Chelan County",447
+"167","Grant County","Douglas County",154
+"168","Grant County","Ferry County",28
+"169","Grant County","Franklin County",247
+"170","Grant County","Grant County",37667
+"171","Grant County","King County",208
+"172","Grant County","Kittitas County",220
+"173","Grant County","Lincoln County",104
+"174","Grant County","Okanogan County",279
+"175","Grant County","Pierce County",36
+"176","Grant County","Skagit County",6
+"177","Grant County","Snohomish County",28
+"178","Grant County","Spokane County",70
+"179","Grant County","Whatcom County",30
+"180","Grant County","Whitman County",5
+"181","Grant County","Yakima County",17
+"182","Grays Harbor County","Chelan County",18
+"183","Grays Harbor County","Clallam County",5
+"184","Grays Harbor County","Clark County",28
+"185","Grays Harbor County","Cowlitz County",27
+"186","Grays Harbor County","Douglas County",59
+"187","Grays Harbor County","Grays Harbor County",22952
+"188","Grays Harbor County","Jefferson County",34
+"189","Grays Harbor County","King County",431
+"190","Grays Harbor County","Kitsap County",33
+"191","Grays Harbor County","Lewis County",338
+"192","Grays Harbor County","Mason County",438
+"193","Grays Harbor County","Pacific County",443
+"194","Grays Harbor County","Pierce County",436
+"195","Grays Harbor County","Skagit County",22
+"196","Grays Harbor County","Snohomish County",80
+"197","Grays Harbor County","Thurston County",2453
+"198","Island County","Benton County",3
+"199","Island County","Clallam County",24
+"200","Island County","Clark County",6
+"201","Island County","Grays Harbor County",11
+"202","Island County","Island County",26466
+"203","Island County","Jefferson County",53
+"204","Island County","King County",2149
+"205","Island County","Kitsap County",69
+"206","Island County","Kittitas County",8
+"207","Island County","Pierce County",41
+"208","Island County","San Juan County",9
+"209","Island County","Skagit County",3274
+"210","Island County","Snohomish County",5537
+"211","Island County","Spokane County",8
+"212","Island County","Whatcom County",256
+"213","Jefferson County","Clallam County",371
+"214","Jefferson County","Grays Harbor County",16
+"215","Jefferson County","Island County",20
+"216","Jefferson County","Jefferson County",9034
+"217","Jefferson County","King County",510
+"218","Jefferson County","Kitsap County",901
+"219","Jefferson County","Mason County",58
+"220","Jefferson County","Pacific County",2
+"221","Jefferson County","Pierce County",36
+"222","Jefferson County","San Juan County",10
+"223","Jefferson County","Skagit County",15
+"224","Jefferson County","Snohomish County",117
+"225","Jefferson County","Thurston County",18
+"226","King County","Benton County",94
+"227","King County","Chelan County",156
+"228","King County","Clallam County",30
+"229","King County","Clark County",23
+"230","King County","Cowlitz County",103
+"231","King County","Douglas County",29
+"232","King County","Franklin County",38
+"233","King County","Grant County",103
+"234","King County","Grays Harbor County",72
+"235","King County","Island County",180
+"236","King County","Jefferson County",47
+"237","King County","King County",1122695
+"238","King County","Kitsap County",1506
+"239","King County","Kittitas County",353
+"240","King County","Lewis County",148
+"241","King County","Mason County",183
+"242","King County","Pierce County",28277
+"243","King County","San Juan County",94
+"244","King County","Skagit County",180
+"245","King County","Snohomish County",37754
+"246","King County","Spokane County",99
+"247","King County","Thurston County",1706
+"248","King County","Walla Walla County",48
+"249","King County","Whatcom County",474
+"250","King County","Whitman County",113
+"251","King County","Yakima County",37
+"252","Kitsap County","Asotin County",8
+"253","Kitsap County","Clallam County",53
+"254","Kitsap County","Grant County",7
+"255","Kitsap County","Grays Harbor County",9
+"256","Kitsap County","Island County",24
+"257","Kitsap County","Jefferson County",448
+"258","Kitsap County","King County",11779
+"259","Kitsap County","Kitsap County",105719
+"260","Kitsap County","Kittitas County",14
+"261","Kitsap County","Lewis County",8
+"262","Kitsap County","Mason County",792
+"263","Kitsap County","Pacific County",3
+"264","Kitsap County","Pierce County",7283
+"265","Kitsap County","San Juan County",1
+"266","Kitsap County","Skagit County",5
+"267","Kitsap County","Snohomish County",771
+"268","Kitsap County","Spokane County",38
+"269","Kitsap County","Thurston County",522
+"270","Kitsap County","Whatcom County",33
+"271","Kitsap County","Whitman County",30
+"272","Kitsap County","Yakima County",15
+"273","Kittitas County","Adams County",39
+"274","Kittitas County","Chelan County",8
+"275","Kittitas County","Douglas County",16
+"276","Kittitas County","Grant County",445
+"277","Kittitas County","Island County",4
+"278","Kittitas County","King County",1467
+"279","Kittitas County","Kittitas County",18530
+"280","Kittitas County","Mason County",21
+"281","Kittitas County","Pierce County",197
+"282","Kittitas County","Snohomish County",343
+"283","Kittitas County","Spokane County",74
+"284","Kittitas County","Thurston County",13
+"285","Kittitas County","Walla Walla County",14
+"286","Kittitas County","Whatcom County",62
+"287","Kittitas County","Yakima County",1198
+"288","Klickitat County","Benton County",33
+"289","Klickitat County","Clark County",63
+"290","Klickitat County","Cowlitz County",48
+"291","Klickitat County","Franklin County",17
+"292","Klickitat County","King County",26
+"293","Klickitat County","Klickitat County",6514
+"294","Klickitat County","Skamania County",56
+"295","Klickitat County","Spokane County",36
+"296","Klickitat County","Yakima County",47
+"297","Lewis County","Clark County",158
+"298","Lewis County","Cowlitz County",1217
+"299","Lewis County","Grant County",2
+"300","Lewis County","Grays Harbor County",197
+"301","Lewis County","King County",482
+"302","Lewis County","Kittitas County",2
+"303","Lewis County","Lewis County",22572
+"304","Lewis County","Mason County",111
+"305","Lewis County","Okanogan County",17
+"306","Lewis County","Pacific County",106
+"307","Lewis County","Pierce County",1189
+"308","Lewis County","Skagit County",16
+"309","Lewis County","Snohomish County",47
+"310","Lewis County","Spokane County",14
+"311","Lewis County","Thurston County",5005
+"312","Lewis County","Wahkiakum County",112
+"313","Lewis County","Whatcom County",7
+"314","Lewis County","Yakima County",38
+"315","Lincoln County","Adams County",61
+"316","Lincoln County","Douglas County",3
+"317","Lincoln County","Ferry County",20
+"318","Lincoln County","Grant County",378
+"319","Lincoln County","King County",7
+"320","Lincoln County","Kittitas County",16
+"321","Lincoln County","Lincoln County",2989
+"322","Lincoln County","Okanogan County",66
+"323","Lincoln County","Pierce County",11
+"324","Lincoln County","Snohomish County",1
+"325","Lincoln County","Spokane County",762
+"326","Lincoln County","Whitman County",19
+"327","Mason County","Clark County",11
+"328","Mason County","Grays Harbor County",404
+"329","Mason County","Jefferson County",1
+"330","Mason County","King County",1005
+"331","Mason County","Kitsap County",4381
+"332","Mason County","Kittitas County",10
+"333","Mason County","Klickitat County",9
+"334","Mason County","Lewis County",66
+"335","Mason County","Mason County",12551
+"336","Mason County","Pacific County",46
+"337","Mason County","Pierce County",2678
+"338","Mason County","Snohomish County",19
+"339","Mason County","Thurston County",3541
+"340","Mason County","Whatcom County",159
+"341","Okanogan County","Benton County",2
+"342","Okanogan County","Chelan County",315
+"343","Okanogan County","Douglas County",206
+"344","Okanogan County","Ferry County",95
+"345","Okanogan County","Grant County",341
+"346","Okanogan County","King County",63
+"347","Okanogan County","Kittitas County",25
+"348","Okanogan County","Lewis County",3
+"349","Okanogan County","Okanogan County",15480
+"350","Okanogan County","Pierce County",3
+"351","Okanogan County","Skagit County",5
+"352","Okanogan County","Spokane County",130
+"353","Okanogan County","Stevens County",26
+"354","Okanogan County","Yakima County",10
+"355","Pacific County","Clark County",19
+"356","Pacific County","Cowlitz County",8
+"357","Pacific County","Grays Harbor County",594
+"358","Pacific County","King County",19
+"359","Pacific County","Kitsap County",6
+"360","Pacific County","Lewis County",53
+"361","Pacific County","Lincoln County",19
+"362","Pacific County","Pacific County",5943
+"363","Pacific County","Pierce County",27
+"364","Pacific County","Thurston County",125
+"365","Pacific County","Wahkiakum County",45
+"366","Pend Oreille County","Benton County",8
+"367","Pend Oreille County","Ferry County",18
+"368","Pend Oreille County","Grant County",2
+"369","Pend Oreille County","Pend Oreille County",2801
+"370","Pend Oreille County","Spokane County",1134
+"371","Pend Oreille County","Stevens County",112
+"372","Pend Oreille County","Walla Walla County",6
+"373","Pierce County","Adams County",12
+"374","Pierce County","Clallam County",24
+"375","Pierce County","Clark County",34
+"376","Pierce County","Cowlitz County",43
+"377","Pierce County","Douglas County",7
+"378","Pierce County","Ferry County",8
+"379","Pierce County","Franklin County",2
+"380","Pierce County","Grays Harbor County",104
+"381","Pierce County","Jefferson County",146
+"382","Pierce County","King County",106481
+"383","Pierce County","Kitsap County",5435
+"384","Pierce County","Kittitas County",50
+"385","Pierce County","Lewis County",272
+"386","Pierce County","Mason County",506
+"387","Pierce County","Okanogan County",36
+"388","Pierce County","Pacific County",54
+"389","Pierce County","Pierce County",301095
+"390","Pierce County","Skagit County",14
+"391","Pierce County","Snohomish County",2282
+"392","Pierce County","Spokane County",415
+"393","Pierce County","Thurston County",8779
+"394","Pierce County","Whatcom County",65
+"395","Pierce County","Whitman County",93
+"396","Pierce County","Yakima County",100
+"397","San Juan County","Benton County",5
+"398","San Juan County","Clark County",2
+"399","San Juan County","Island County",3
+"400","San Juan County","King County",154
+"401","San Juan County","Kitsap County",3
+"402","San Juan County","Pierce County",2
+"403","San Juan County","San Juan County",7348
+"404","San Juan County","Skagit County",54
+"405","San Juan County","Snohomish County",22
+"406","San Juan County","Thurston County",4
+"407","San Juan County","Whatcom County",19
+"408","Skagit County","Benton County",16
+"409","Skagit County","Clark County",3
+"410","Skagit County","Grant County",14
+"411","Skagit County","Grays Harbor County",2
+"412","Skagit County","Island County",1725
+"413","Skagit County","Jefferson County",14
+"414","Skagit County","King County",1693
+"415","Skagit County","Kitsap County",21
+"416","Skagit County","Pierce County",64
+"417","Skagit County","San Juan County",44
+"418","Skagit County","Skagit County",44155
+"419","Skagit County","Snohomish County",5542
+"420","Skagit County","Spokane County",7
+"421","Skagit County","Thurston County",7
+"422","Skagit County","Whatcom County",3224
+"423","Skamania County","Benton County",3
+"424","Skamania County","Clark County",1037
+"425","Skamania County","Cowlitz County",24
+"426","Skamania County","King County",1
+"427","Skamania County","Klickitat County",421
+"428","Skamania County","Skamania County",2455
+"429","Skamania County","Stevens County",6
+"430","Snohomish County","Benton County",37
+"431","Snohomish County","Chelan County",63
+"432","Snohomish County","Clark County",38
+"433","Snohomish County","Cowlitz County",14
+"434","Snohomish County","Grant County",90
+"435","Snohomish County","Island County",770
+"436","Snohomish County","Jefferson County",9
+"437","Snohomish County","King County",132906
+"438","Snohomish County","Kitsap County",386
+"439","Snohomish County","Kittitas County",11
+"440","Snohomish County","Lewis County",59
+"441","Snohomish County","Mason County",5
+"442","Snohomish County","Pacific County",56
+"443","Snohomish County","Pierce County",1357
+"444","Snohomish County","San Juan County",7
+"445","Snohomish County","Skagit County",4409
+"446","Snohomish County","Snohomish County",266640
+"447","Snohomish County","Spokane County",38
+"448","Snohomish County","Thurston County",202
+"449","Snohomish County","Whatcom County",708
+"450","Snohomish County","Whitman County",43
+"451","Snohomish County","Yakima County",22
+"452","Spokane County","Adams County",17
+"453","Spokane County","Asotin County",79
+"454","Spokane County","Benton County",144
+"455","Spokane County","Chelan County",200
+"456","Spokane County","Clark County",7
+"457","Spokane County","Douglas County",10
+"458","Spokane County","Ferry County",18
+"459","Spokane County","Franklin County",103
+"460","Spokane County","Garfield County",5
+"461","Spokane County","Grant County",389
+"462","Spokane County","King County",677
+"463","Spokane County","Kitsap County",15
+"464","Spokane County","Kittitas County",13
+"465","Spokane County","Lincoln County",528
+"466","Spokane County","Okanogan County",37
+"467","Spokane County","Pend Oreille County",255
+"468","Spokane County","Pierce County",123
+"469","Spokane County","Snohomish County",62
+"470","Spokane County","Spokane County",225273
+"471","Spokane County","Stevens County",689
+"472","Spokane County","Thurston County",21
+"473","Spokane County","Walla Walla County",20
+"474","Spokane County","Whatcom County",25
+"475","Spokane County","Whitman County",326
+"476","Spokane County","Yakima County",147
+"477","Stevens County","Adams County",8
+"478","Stevens County","Chelan County",19
+"479","Stevens County","Clallam County",34
+"480","Stevens County","Clark County",27
+"481","Stevens County","Ferry County",340
+"482","Stevens County","Grant County",2
+"483","Stevens County","King County",112
+"484","Stevens County","Kitsap County",31
+"485","Stevens County","Kittitas County",39
+"486","Stevens County","Lincoln County",17
+"487","Stevens County","Okanogan County",2
+"488","Stevens County","Pacific County",3
+"489","Stevens County","Pend Oreille County",95
+"490","Stevens County","Pierce County",58
+"491","Stevens County","Skagit County",1
+"492","Stevens County","Snohomish County",9
+"493","Stevens County","Spokane County",4463
+"494","Stevens County","Stevens County",11238
+"495","Stevens County","Yakima County",6
+"496","Thurston County","Chelan County",10
+"497","Thurston County","Clallam County",21
+"498","Thurston County","Clark County",41
+"499","Thurston County","Cowlitz County",19
+"500","Thurston County","Grays Harbor County",1213
+"501","Thurston County","Jefferson County",16
+"502","Thurston County","King County",5430
+"503","Thurston County","Kitsap County",371
+"504","Thurston County","Klickitat County",14
+"505","Thurston County","Lewis County",3517
+"506","Thurston County","Mason County",1807
+"507","Thurston County","Pierce County",22229
+"508","Thurston County","San Juan County",23
+"509","Thurston County","Skagit County",120
+"510","Thurston County","Skamania County",28
+"511","Thurston County","Snohomish County",137
+"512","Thurston County","Spokane County",14
+"513","Thurston County","Thurston County",96421
+"514","Thurston County","Whatcom County",97
+"515","Thurston County","Yakima County",7
+"516","Wahkiakum County","Clark County",41
+"517","Wahkiakum County","Cowlitz County",337
+"518","Wahkiakum County","Grays Harbor County",27
+"519","Wahkiakum County","Kitsap County",7
+"520","Wahkiakum County","Pacific County",50
+"521","Wahkiakum County","Pierce County",35
+"522","Wahkiakum County","Snohomish County",20
+"523","Wahkiakum County","Wahkiakum County",611
+"524","Walla Walla County","Adams County",17
+"525","Walla Walla County","Asotin County",16
+"526","Walla Walla County","Benton County",885
+"527","Walla Walla County","Clark County",22
+"528","Walla Walla County","Columbia County",234
+"529","Walla Walla County","Franklin County",676
+"530","Walla Walla County","Grant County",20
+"531","Walla Walla County","King County",49
+"532","Walla Walla County","Spokane County",9
+"533","Walla Walla County","Walla Walla County",22834
+"534","Walla Walla County","Whitman County",37
+"535","Walla Walla County","Yakima County",11
+"536","Whatcom County","Clark County",4
+"537","Whatcom County","Cowlitz County",27
+"538","Whatcom County","Douglas County",3
+"539","Whatcom County","Island County",91
+"540","Whatcom County","King County",1029
+"541","Whatcom County","Kitsap County",57
+"542","Whatcom County","Kittitas County",19
+"543","Whatcom County","Lewis County",35
+"544","Whatcom County","Okanogan County",27
+"545","Whatcom County","Pacific County",2
+"546","Whatcom County","Pierce County",78
+"547","Whatcom County","San Juan County",87
+"548","Whatcom County","Skagit County",5147
+"549","Whatcom County","Snohomish County",1530
+"550","Whatcom County","Spokane County",27
+"551","Whatcom County","Thurston County",17
+"552","Whatcom County","Wahkiakum County",3
+"553","Whatcom County","Whatcom County",97518
+"554","Whatcom County","Yakima County",31
+"555","Whitman County","Adams County",29
+"556","Whitman County","Asotin County",87
+"557","Whitman County","Benton County",25
+"558","Whitman County","Clark County",58
+"559","Whitman County","Columbia County",18
+"560","Whitman County","Franklin County",4
+"561","Whitman County","Garfield County",76
+"562","Whitman County","Grant County",117
+"563","Whitman County","King County",34
+"564","Whitman County","Lincoln County",20
+"565","Whitman County","Pierce County",26
+"566","Whitman County","Snohomish County",15
+"567","Whitman County","Spokane County",530
+"568","Whitman County","Walla Walla County",2
+"569","Whitman County","Whitman County",19772
+"570","Whitman County","Yakima County",18
+"571","Yakima County","Adams County",2
+"572","Yakima County","Benton County",2349
+"573","Yakima County","Chelan County",25
+"574","Yakima County","Columbia County",35
+"575","Yakima County","Douglas County",26
+"576","Yakima County","Franklin County",135
+"577","Yakima County","Grant County",164
+"578","Yakima County","Grays Harbor County",38
+"579","Yakima County","King County",200
+"580","Yakima County","Kittitas County",420
+"581","Yakima County","Klickitat County",115
+"582","Yakima County","Lewis County",21
+"583","Yakima County","Pierce County",130
+"584","Yakima County","Snohomish County",212
+"585","Yakima County","Spokane County",19
+"586","Yakima County","Thurston County",82
+"587","Yakima County","Walla Walla County",85
+"588","Yakima County","Whatcom County",26
+"589","Yakima County","Whitman County",7
+"590","Yakima County","Yakima County",99540
