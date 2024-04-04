@@ -1,0 +1,40 @@
+"county","county_short","region","pop_density_2020","pop_size_2020","is_west"
+"Adams County","Adams","Southeast",10.71,20613,FALSE
+"Asotin County","Asotin","Southeast",35.04,22285,FALSE
+"Benton County","Benton","South Central",121.68,206873,FALSE
+"Chelan County","Chelan","North Central",27.09,79141,FALSE
+"Clallam County","Clallam","Peninsula/Coastal",44.37,77155,TRUE
+"Clark County","Clark","Southwest",800.82,503311,TRUE
+"Columbia County","Columbia","Southeast",4.55,3952,FALSE
+"Cowlitz County","Cowlitz","Southwest",97.03,110730,TRUE
+"Douglas County","Douglas","North Central",23.6,42938,FALSE
+"Ferry County","Ferry","Northeast",3.26,7178,FALSE
+"Franklin County","Franklin","South Central",77.92,96749,FALSE
+"Garfield County","Garfield","Southeast",3.22,2286,FALSE
+"Grant County","Grant","North Central",36.99,99123,FALSE
+"Grays Harbor County","Grays Harbor","Peninsula/Coastal",39.78,75636,TRUE
+"Island County","Island","North Puget Sound",416.63,86857,TRUE
+"Jefferson County","Jefferson","Peninsula/Coastal",18.28,32977,TRUE
+"King County","King","North Puget Sound",1073.02,2269675,TRUE
+"Kitsap County","Kitsap","Peninsula/Coastal",697.57,275611,TRUE
+"Kittitas County","Kittitas","South Central",20.23,46468,FALSE
+"Klickitat County","Kickitat","South Central",12.15,22735,FALSE
+"Lewis County","Lewis","South Puget Sound",34.19,82149,TRUE
+"Lincoln County","Lincoln","Northeast",4.71,10876,FALSE
+"Mason County","Mason","South Puget Sound",68.5,65726,TRUE
+"Okanogan County","Okanogan","North Central",8,42104,FALSE
+"Pacific County","Pacific","Peninsula/Coastal",25.03,23365,TRUE
+"Pend Oreille County","Pend Oreille","Northeast",9.57,13401,FALSE
+"Pierce County","Pierce","South Puget Sound",551.81,920393,TRUE
+"San Juan County","San Juan","Northwest",102.28,17788,TRUE
+"Skagit County","Skagit","Northwest",74.86,129523,TRUE
+"Skamania County","Skamania","Southwest",7,11604,TRUE
+"Snohomish County","Snohomish","North Puget Sound",396.81,827957,TRUE
+"Spokane County","Spokane","Northeast",305.71,539339,FALSE
+"Stevens County","Stevens","Northeast",18.75,46445,FALSE
+"Thurston County","Thurston","South Puget Sound",408.02,294793,TRUE
+"Wahkiakum County","Wahkiakum","Southwest",16.82,4422,TRUE
+"Walla Walla County","Walla Walla","South Central",49.28,62584,FALSE
+"Whatcom County","Whatcom","Northwest",107.62,226847,TRUE
+"Whitman County","Whitman","Southeast",22.22,47973,FALSE
+"Yakima County","Yakima","South Central",59.78,256728,FALSE
