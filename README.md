@@ -40,14 +40,17 @@ Trevor Bedford <sup>1,8</sup>.
 ## Abstract
 
 ## Install
-The code is written in R and relies on some packages, which can be installed using:
+The code is written in R and relies on some packages, which can be installed (a couple hours) using:
 
 ```bash
 Rscript ./scripts/install_requirements.R "scripts/requirements.txt"
 ```
 
+The analyses were performed using the following packages versions: ape (5.7-1), broom (1.0.5), colorspace (2.1-0), doParallel (1.0.17), foreach (1.5.2), ggpubr (0.6.0), ggrepel (0.9.4), ggsignif (0.6.4), igraph (1.5.1), mgcv (1.9-0), purrr (1.0.2), RColorBrewer (1.1-3), Rcpp (1.0.11), reshape2 (1.4.4), seqinr (4.2-30), sf (1.0-14), spdep (1.2-8), tidyverse (2.0.0), vegan (2.6-4), viridis (0.6.4). 
+
+
 ## Computing relative risks of observing sequence at a defined genetic distance in two subgroups from user data
-To facilitate the application of this method to other datasets, we provide the code developped to compute the relative risk of observing sequences at a defined genetic distance between different subgroups. We illustrate how this may be done starting from an arbitrary FASTA alignment and csv metadata file.
+To facilitate the application of this method to other datasets, we provide the code developped to compute the relative risk of observing sequences at a defined genetic distance between different subgroups. We illustrate how this may be done starting from an arbitrary FASTA alignment and csv metadata file. The following command takes around 10 seconds to run on an Mac with an M2 Chip. 
 
 ```bash
 cd scripts/
@@ -61,7 +64,7 @@ cd scripts/
 
 # --compute-subsample-CI: boolean (1 or 0) indicating whether to compute subsampled confidence interval around RR estimates. If not specified, default is 0. 
 # --n-subsamples: number of draws used to compute CI. If not specified, default is 1000.
-# --prop-subsample: proportion of . If not specified, default is 0.8. 
+# --prop-subsample: proportion of sequences subsampled in each replicate. If not specified, default is 0.8. 
 
 Rscript ./get_RR_from_fasta.R \
     --input-fasta="../data/synthetic_data/synthetic-fasta.fasta" \
@@ -70,7 +73,7 @@ Rscript ./get_RR_from_fasta.R \
     --n-mut-away=0 \
     --output-file-csv="../results/df_RR.csv" \
     --compute-subsample-CI=1 \
-    --n-subsamples=100 \
+    --n-subsamples=1000 \
     --prop-subsample=0.8
 ```
 
