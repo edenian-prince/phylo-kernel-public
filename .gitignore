@@ -19,3 +19,15 @@ Icon?
 ehthumbs.db
 Thumbs.db
 *~
+
+
+results/RR_zcta/*
+results/RR_county/*
+results/RR_vacc/*
+results/RR_age/*
+results/RR_region_by_period/*
+results/RR_region/*
+results/RR_county/*
+results/RR_county_by_variant/*
+results/RR_county_by_period/*
+results/direction_transmission/*
