@@ -79,4 +79,17 @@ Rscript ./get_RR_from_fasta.R \
 
 ## Overview
 This repository contains code and data associated with this manuscript.
-To improve readibility and reuse of our code, we have splitted the different analyses in individual scripts.
+To improve readibility and reuse of our code, we have splitted the different analyses in individual scripts with headers indicating which analyses are performed.
+To facilitate reproduction of our results, here are the relationships between manuscript figures and files used to generated them:
+
+#### Figure 1
+- Figure 1A: 
+
+#### Figure 2
+-
+
+#### Figure 3
+
+#### Figure 4
+
+#### Supplementary figures
