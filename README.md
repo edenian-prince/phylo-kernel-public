@@ -78,4 +78,5 @@ Rscript ./get_RR_from_fasta.R \
 ```
 
 ## Overview
-This repository contains code and data associated with the above manuscript.
+This repository contains code and data associated with this manuscript.
+To improve readibility and reuse of our code, we have splitted the different analyses in individual scripts.

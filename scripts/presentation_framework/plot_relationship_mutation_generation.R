@@ -60,7 +60,7 @@ plt_relationship_proba_mutation <- df_proba %>%
   scale_colour_manual(values = colorRampPalette(colors = brewer.pal(9, 'BuPu')[-(1:2)] %>% rev())(6),
                       name = 'Number of\ngenerations') +
   theme_classic() +
-  theme(legend.position = c(0.8, 0.4),
+  theme(legend.position.inside = c(0.8, 0.4),
         legend.background = element_blank(),
         axis.text = element_text(size = 12),
         legend.text = element_text(size = 12),
