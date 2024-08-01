@@ -83,13 +83,34 @@ To improve readibility and reuse of our code, we have splitted the different ana
 To facilitate reproduction of our results, here are the relationships between manuscript figures and files used to generated them:
 
 #### Figure 1
-- Figure 1A: 
+- [plot_relationship_mutation_generation.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_relationship_mutation_generation.R) for Figure 1A
+- [plot_identical_cluster_size_distribution.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_identical_cluster_size_distribution.R) for Figure 1B
+- Figure 1F: [plot_RR_within_county.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_within_county.R) for Figure 1F
 
 #### Figure 2
--
+- [plot_chloropleth_maps_RR_counties.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_chloropleth_maps_RR_counties.R) for Figure 2A
+- [plot_RR_local_spread.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/) for Figure 2B-C
+- [MDS_from_RR.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/MDS_from_RR.R) for Figure 2D
+- [plot_RR_local_spread_east_west.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_local_spread_east_west.R) for Figure 2E
+- [plot_RR_distance_east_west.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_distance_east_west.R) for Figure 2F
+- [plot_direction_transmission_east_west.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_direction_transmission_east_west.R) for Figure 2G
 
 #### Figure 3
+- [gam_RR_seq_mobility.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility.R) for Figure 3A-B
 
 #### Figure 4
+- [plot_RR_age_geography.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography.R) for Figure 4B
+- [plot_RR_age_geography_heatmaps.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography_heatmaps.R) for Figure 4C
+- [plot_direction_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_direction_age.R) for Figure 4D
 
 #### Supplementary figures
+- [plot_cor_RR_sequencing_effort.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_cor_RR_sequencing_effort.R) for Figure S2
+- [plot_heatmap_matrix_RR_counties.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_heatmap_matrix_RR_counties.R) for Figure S5
+- [plot_chloropleth_maps_RR_counties.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_chloropleth_maps_RR_counties.R) for Figure S6
+- [impact_subsampling_RR_East_West.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/impact_subsampling_RR_East_West.R) for Figure S7
+- [gam_RR_seq_mobility.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility.R) for Figure S10 and S12
+- [gam_RR_seq_mobility_over_time.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility_over_time.R) for Figure S13
+- [plot_RR_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age.R) for Figure S17
+- [plot_RR_age_func_genetic_distance.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_func_genetic_distance.R) for Figure S18
+- [plot_RR_age_geography.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography.R) for Figure S19
+- [impact_unsampled_locations.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/impact_unsampled_locations.R) for Figure S23
