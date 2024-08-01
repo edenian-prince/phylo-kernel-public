@@ -1,3 +1,6 @@
+## This script reproduces figures exploring the timing of sequences collection between age groups
+## within pairs of identical sequences.
+
 library(tidyverse)
 library(RColorBrewer)
 

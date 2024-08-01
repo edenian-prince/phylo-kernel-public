@@ -1,3 +1,6 @@
+## This script reproduces figures depicting the relative risk of observing 
+## identical sequences between two age groups.
+
 library(tidyverse)
 library(viridis)
 my_pal_age <- viridis_pal(option = 'A', direction = -1)(10)[-1]
@@ -13,8 +16,7 @@ df_uncertainty_age <- readRDS('../results/RR_age/df_RR_uncertainty_age_0_mut_awa
             lower_RR = quantile(RR, 0.025), 
             upper_RR = quantile(RR, 0.975))
 
-## Plot the relative risk of observing identical sequences
-## between two age groups
+## Plot the relative risk of observing identical sequences between two age groups
 plt_RR_intergenerational_mixing <- df_RR_age %>% 
   ggplot(aes(x = group_1, colour = as.factor(group_2))) +
   geom_point(aes(y = RR)) +

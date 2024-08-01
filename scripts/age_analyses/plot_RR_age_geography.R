@@ -1,3 +1,7 @@
+## This script reproduces figures depicting the relative risk of observing 
+## identical sequences between two age groups either by using all pairs of identical sequences,
+## only pairs observed in different postal codes and only pairs in different counties.
+
 library(tidyverse)
 library(colorspace)
 my_pal <- c(lighten('darkcyan', amount = 0.6), 'darkcyan', darken('darkcyan', amount = 0.6))

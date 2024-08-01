@@ -1,3 +1,8 @@
+## This script reproduces heatmaps depicting the relative risk of observing 
+## identical sequences between two age groups either by using all pairs of identical sequences,
+## only pairs observed in differen postal codes and only pairs in different counties.
+
+
 library(tidyverse)
 library(colorspace)
 library(RColorBrewer)

@@ -1,3 +1,7 @@
+## This script reproduces figures depicting the relative risk of observing 
+## identical sequences, sequences 1 mutation away, sequences 2 mutations away 
+## and sequences 3 mutations away between two age groups.
+
 library(tidyverse)
 library(viridis)
 my_pal_age <- viridis_pal(option = 'D', direction = -1)(5)[-1]
