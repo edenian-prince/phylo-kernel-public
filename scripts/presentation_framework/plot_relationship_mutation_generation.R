@@ -1,3 +1,6 @@
+## This script computes the probability distribution for the genetic distance
+## separating infecting viruses of individuals situated at a given number of generations
+
 library(dplyr)
 library(ggplot2)
 library(RColorBrewer)

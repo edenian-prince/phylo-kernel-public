@@ -1,3 +1,9 @@
+## This script computes the correlation between
+## the proportion of pairs of identical sequences observed in a county A & B among sequences oberved in county A and the number of sequences from county B
+## the proportion of pairs of identical sequences observed in a county A & B among sequences oberved in county A and the proportion of pairs of identical sequences observed in county B
+## the relative risk of observing identical sequences in county A and B and the number of sequences from county B
+## the relative risk of observing identical sequences in county A and B and the proportion of pairs of identical sequences observed in county B
+
 library(dplyr)
 library(ggplot2)
 library(viridis)

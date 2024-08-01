@@ -1,3 +1,9 @@
+## This script simulates a branching process with mutations
+## assuming a Poisson distributed offspring distribution. 
+## This simulation approach follows that described in Tran-Kiem and Bedford 10.1073/pnas.2305299121.
+
+## We then simulate two clusters with different reproduction numbers (high and low) and display them.
+
 library(tidyverse)
 library(purrr)
 library(ggstar)
@@ -108,7 +114,9 @@ get_infector_infectee_pairs_from_sim_epi_clusters <- function(list_sim){
   return(df_res)
 }
 
-# Lower reproduction number simulation (R0 = 1.2)
+
+## Perform simulations
+### Lower reproduction number simulation (R0 = 1.2)
 set.seed(91)
 list_sim_1 <- simulate_epi_clusters(R0 = 1.2, 
                                     n_max_gen = 10,
@@ -120,7 +128,7 @@ df_pairs_1 <- get_infector_infectee_pairs_from_sim_epi_clusters(list_sim_1) %>%
 
 df_pairs_1
 
-# Higher reproduction number simulation (R0 = 2.0)
+### Higher reproduction number simulation (R0 = 2.0)
 set.seed(32)
 list_sim_2 <- simulate_epi_clusters(R0 = 2.0, n_max_gen = 10,
                                     p_trans_before_mut = 0.69,
@@ -131,8 +139,8 @@ df_pairs_2 <- get_infector_infectee_pairs_from_sim_epi_clusters(list_sim_2) %>%
   filter(n_mut == 0 | (n_mut == 1 & has_mutated == T))
 df_pairs_2
 
-
-# Reorder individuals for nice plots
+## Display results
+### Reorder individuals for nicer plots
 df_low_R <- df_pairs_1 %>% 
   filter(n_mut == 0 | (n_mut == 1 & has_mutated == T)) %>% 
   group_by(gen_infectee) %>%
@@ -159,7 +167,7 @@ df_high_R <- df_pairs_2 %>%
             by = 'infector') %>% 
   mutate(scenario = 'Higher transmission intensity')
 
-# Plot the results
+### Plot the results
 gen_max_plot <- 9 # Maximum number of generations to plot
 
 plt_cluster_over_time <- bind_rows(df_low_R, df_high_R) %>% 

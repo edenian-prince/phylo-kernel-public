@@ -1,3 +1,6 @@
+## This script reproduces the figure representing the size 
+## distribution of clusters of identical sequences in our WA dataset.
+
 library(tidyverse)
 
 ## Load dataframe with cluster size distribution

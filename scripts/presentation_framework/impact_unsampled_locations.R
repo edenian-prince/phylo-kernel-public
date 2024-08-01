@@ -1,3 +1,7 @@
+## This script reproduces the analysis evaluating how unsampled locations
+## impact the computation of the relative risk of observing identical sequences
+## between sampled locations.
+
 library(tidyverse)
 
 ## Load characteristics of WA counties
@@ -7,8 +11,9 @@ vec_counties_west <- df_char_counties$county[df_char_counties$is_west == T]
 ## Load the relative risk of observing identical sequences between two counties
 df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds')
 
+## Dataframe with relative risk computed only using sequences from Western WA
 df_RR_only_west <- df_RR_counties %>% 
-  rename(RR_full = RR) %>% 
+  rename(RR_full = RR) %>%
   filter(group_1 %in% vec_counties_west, group_2 %in% vec_counties_west) %>% 
   group_by(group_1) %>% 
   mutate(n_pairs_1_x = sum(n_pairs)) %>% 
@@ -19,6 +24,7 @@ df_RR_only_west <- df_RR_counties %>%
          RR_only_west = n_pairs / n_pairs_1_x / n_pairs_x_2 * n_pairs_x_x) %>% 
   filter(group_1 >= group_2)
   
+## Dataframe with relative risk computed only using sequences from Eastern WA
 df_RR_only_east <- df_RR_counties %>% 
   rename(RR_full = RR) %>% 
   filter(! group_1 %in% vec_counties_west, ! group_2 %in% vec_counties_west) %>% 
@@ -31,6 +37,7 @@ df_RR_only_east <- df_RR_counties %>%
          RR_only_east = n_pairs / n_pairs_1_x / n_pairs_x_2 * n_pairs_x_x) %>% 
   filter(group_1 >= group_2)
 
+## Correlation between the relative risks computed from the subsampled dataset and from the full dataset
 cor_only_east <- df_RR_only_east %>% summarise(cor = cor(RR_full, RR_only_east, method = 'spearman')) %>% round(digits = 2) %>% unlist() %>% as.numeric()
 cor_only_west <- df_RR_only_west %>% summarise(cor = cor(RR_full, RR_only_west, method = 'spearman')) %>% round(digits = 2) %>% unlist() %>% as.numeric()
 
@@ -39,6 +46,7 @@ zero_value_east <- min(c(df_RR_only_east$RR_full[df_RR_only_east$RR_full > 0.],
 zero_value_west <- min(c(df_RR_only_west$RR_full[df_RR_only_west$RR_full > 0.],
                          df_RR_only_west$RR_only_west[df_RR_only_west$RR_only_west > 0.])) * 0.5
 
+## Display the results
 plt_cor_east <- df_RR_only_east %>% 
   mutate(RR_full_crop = ifelse(RR_full == 0., zero_value_east, RR_full),
          RR_only_east_crop = ifelse(RR_only_east == 0., zero_value_east, RR_only_east)) %>% 
