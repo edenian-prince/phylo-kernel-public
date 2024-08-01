@@ -39,6 +39,8 @@ Trevor Bedford <sup>1,8</sup>.
 
 ## Abstract
 
+Pathogen genomics can provide insights into disease transmission patterns, but new methods are needed to handle modern large-scale pathogen genome datasets. Genetically proximal viruses indicate epidemiological linkage and are informative about transmission events. Here, we leverage pairs of identical sequences using 114,298 SARS-CoV-2 genomes collected via sentinel surveillance from March 2021 to December 2022 in Washington State, USA, with linked age and residence information to characterize fine-scale transmission. The location of pairs of identical sequences is highly consistent with expectations from mobility and social contact data. Outliers in the relationship between genetic and mobility data can be explained by SARS-CoV-2 transmission between postal codes with male prisons, consistent with transmission between prison facilities. Transmission patterns between age groups vary across spatial scales. Finally, we use the timing of sequence collection to understand the age groups driving transmission. This work improves our ability to characterize transmission from large pathogen genome datasets.
+
 ## Install
 The code is written in R and relies on some packages, which can be installed (a couple hours) using:
 
