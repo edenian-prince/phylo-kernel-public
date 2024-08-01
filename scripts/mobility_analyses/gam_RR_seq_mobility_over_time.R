@@ -4,7 +4,7 @@ library(vegan)
 library(broom)
 library(ggrepel)
 library(ggpubr)
-source('utils_comp_RR.R')
+source('../utils_comp_RR.R')
 
 ## Load relative risk of observing identical sequences between regions
 vec_periods <- 1:4

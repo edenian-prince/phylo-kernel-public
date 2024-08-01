@@ -2,7 +2,7 @@ library(mgcv)
 library(tidyverse)
 library(vegan)
 library(broom)
-source('utils_comp_RR.R')
+source('../utils_comp_RR.R')
 
 ## Load relative risk of observing identical sequences between regions and counties
 df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds') %>% rename(RR_seq = RR) %>% ungroup()

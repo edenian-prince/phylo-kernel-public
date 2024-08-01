@@ -3,7 +3,7 @@
 
 library(tidyverse)
 library(vegan)
-source('utils_comp_RR.R')
+source('../utils_comp_RR.R')
 
 ## Load relative risk of observing identical sequences between ahe groups
 df_RR_age <- readRDS('../results/RR_age/df_RR_age_0_mut_away.rds') %>% rename(RR_seq = RR) %>% ungroup()
