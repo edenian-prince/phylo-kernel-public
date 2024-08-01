@@ -116,3 +116,8 @@ To facilitate reproduction of our results, here are the relationships between ma
 - [plot_RR_age_func_genetic_distance.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_func_genetic_distance.R) for Figure S18
 - [plot_RR_age_geography.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography.R) for Figure S19
 - [impact_unsampled_locations.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/impact_unsampled_locations.R) for Figure S23
+
+#### Supplementary tables
+- [plot_RR_local_spread_east_west.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_local_spread_east_west.R) for Table S2
+- [compare_RR_seq_mobility.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compare_RR_seq_mobility.R) for Table S3
+- [compute_prison_population_vs_county.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compute_prison_population_vs_county.R) for Table S4
