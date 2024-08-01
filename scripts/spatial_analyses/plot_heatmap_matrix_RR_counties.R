@@ -1,3 +1,5 @@
+## This script reproduces the heatmap of relative risk of observing identical sequences between counties.
+
 library(dplyr)
 library(ggplot2)
 library(tidyr)

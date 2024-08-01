@@ -1,3 +1,6 @@
+## This script reproduces chloropleth maps depicting the relative risk
+## of observing identical sequences between counties.
+
 library(tidyr)
 library(sf)
 library(ggplot2)
@@ -53,22 +56,28 @@ list_labels_legend_all_counties <- list(
   'Yakima County' = c( 0.3, 0.5, 1.0, 2.0, 3.0)
 )
 
-## Generate the maps
+## Generate the maps (one for each county)
 vec_names_counties <- df_RR_counties$group_1 %>% unique() %>% sort()
+
 list_map_all_counties <- lapply(vec_names_counties, FUN = function(curr_county){
+  # Get dataset for county-specific map
   df_pairs_for_map <- df_RR_counties %>% 
     filter(group_1 == curr_county) %>% 
     select(group_2, RR) %>% ungroup()
   
+  # Add RR to shapefile
   curr_shape_file_county <- shape_file_county %>% 
     left_join(df_pairs_for_map, by = c('NAMELSAD10' = 'group_2'))
   
+  # Define scale
   max_log10_RR <- log10(max(df_pairs_for_map$RR[df_pairs_for_map$RR > 0.]))
   min_log10_RR <- log10(min(df_pairs_for_map$RR[df_pairs_for_map$RR > 0.]))
   curr_range <- max(abs(max_log10_RR), abs(min_log10_RR))
   
+  # Get the centroid of the focal county (added to the plot)
   centroid_to_add <- st_centroid(curr_shape_file_county %>% filter(NAMELSAD10 == curr_county))
   
+  # Make map
   curr_plot <- curr_shape_file_county %>% 
     ggplot() + 
     geom_sf(aes(fill = log10(RR)), colour = 'white') +

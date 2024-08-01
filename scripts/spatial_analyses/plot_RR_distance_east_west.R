@@ -1,3 +1,7 @@
+## This script despicts how the RR of observing identical sequences varies as a function of the 
+## geographic distances between counties by stratifying by counties Eastern / Western WA
+## memberships.
+
 library(tidyverse)
 
 ## Load distance matrix

@@ -1,3 +1,7 @@
+## This script evaluates how subsampling impacts our comparison of the 
+## RR of observing identical sequences between counties by adjacency status
+## depending on Eastern / Western WA membership.
+
 library(tidyverse)
 library(ggpubr)
 

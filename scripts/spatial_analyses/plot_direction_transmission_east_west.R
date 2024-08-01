@@ -1,3 +1,7 @@
+## This script reproduces figures depicting the proportion of pairs first observed in Western WA
+## among pairs observed in Eastern and Western WA. This was used in the manuscript to assess
+## the typical transmission direction between groups.
+
 library(tidyverse)
 
 ## Load timing of identical sequence collection information

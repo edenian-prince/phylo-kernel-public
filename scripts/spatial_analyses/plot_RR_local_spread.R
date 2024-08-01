@@ -1,3 +1,8 @@
+## This script (1) compares the relative risk of observing identical sequences within the same county,
+## in adjacent counties and in non adjacent counties.
+## It also (2) despicts how the RR of observing identical sequences varies as a function of the 
+## geographic distances between counties.
+
 library(tidyverse)
 library(ggsignif)
 
@@ -110,35 +115,12 @@ plot(plt_comp_RR_adjacent)
 # plot(plt_comp_RR_adjacent)
 # dev.off()
 
-## Plot RR by distance
-distance_max_to_plot <- 330
-distance_max_to_plot_2 <- 250
+## Plot RR by distance between counties 
+distance_max_to_plot <- 250
 
 df_for_plot <- df_RR_counties %>% 
   filter(group_1 > group_2) %>% 
   mutate(modif_RR = ifelse(RR == 0., yaxis_zero_value, RR))
-
-plt_RR_distance <- df_for_plot %>% 
-  ggplot(aes(x = distance_km)) +
-  geom_point(aes(y = log(modif_RR)), alpha = 0.2) +
-  geom_smooth(data = df_for_plot %>% mutate(n_pairs = 1.) %>% filter(RR > 0.), aes(y = log(RR)),
-              color = 'firebrick', fill = 'firebrick', method = 'loess') +
-  scale_x_continuous(name = 'Distance between counties\ncentroids (in km)',
-                     breaks = seq(50, 450, 50),
-                     labels = c('', 100, '', 200, '', 300, '', 400, ''),
-                     expand = expansion(mult = c(0.05, 0.01))) +
-  scale_y_continuous(name = expression(RR["identical sequences"]),
-                     breaks = log(c(yaxis_zero_value, 0.1, 1., 10., 100.)),
-                     labels = c(0, expression(10^{-1}), expression(10^{0}), expression(10^{1}), expression(10^{2})),
-                     expand = expansion(mult = c(0.1, 0.1))) +
-  theme_classic() +
-  theme(axis.text = element_text(size = 12),
-        axis.title.y = element_text(size = 13),
-        axis.title.x = element_text(size = 12),
-        strip.background = element_blank(),
-        strip.text = element_blank()) +
-  facet_grid((n_pairs == 0.) ~ ., scales = 'free', space = 'free_y') +
-  coord_cartesian(xlim = c(NA, distance_max_to_plot))
 
 plt_RR_distance_2 <- df_for_plot %>% 
   ggplot(aes(x = distance_km)) +
@@ -159,28 +141,20 @@ plt_RR_distance_2 <- df_for_plot %>%
         strip.background = element_blank(),
         strip.text = element_blank()) +
   facet_grid((n_pairs == 0.) ~ ., scales = 'free', space = 'free_y') +
-  coord_cartesian(xlim = c(NA, distance_max_to_plot_2))
+  coord_cartesian(xlim = c(NA, distance_max_to_plot))
 
 plot(plt_RR_distance)
-plot(plt_RR_distance_2)
 
-# pdf('../plots/figure_space/RR_geog_distance.pdf', height = 4.0, width = 3.)
+# pdf('../plots/figure_space/RR_geog_distance.pdf', height = 3.0, width = 3.)
 # plot(plt_RR_distance)
 # dev.off()
-# png('../plots/figure_space/RR_geog_distance.png', height = 4., width = 3.0,
+# png('../plots/figure_space/RR_geog_distance.png', height = 3., width = 3.0,
 #     res = 350, units = 'in')
 # plot(plt_RR_distance)
 # dev.off()
 
-# pdf('../plots/figure_space/RR_geog_distance_2.pdf', height = 3.0, width = 3.)
-# plot(plt_RR_distance_2)
-# dev.off()
-# png('../plots/figure_space/RR_geog_distance_2.png', height = 3., width = 3.0,
-#     res = 350, units = 'in')
-# plot(plt_RR_distance_2)
-# dev.off()
 
-## Get the distance at which the association is no longer significant
+## Get the distance at which the association is no longer significant using a LOESS curve
 mod_smooth <-  loess(data = df_for_plot %>% filter(RR > 0.), formula = log(RR) ~ distance_km)
 tibble(distance_km = seq(0, 400, 1)) %>% 
   mutate(pred = predict(mod_smooth, newdata = tibble(distance_km = seq(0, 400, 1))),

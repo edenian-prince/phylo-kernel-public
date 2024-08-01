@@ -1,3 +1,6 @@
+## This script evaluates how the RR of observing pairs of sequences within the same county varies
+## as a function of genetic distance between infecting viruses across pandemic waves in WA
+
 library(dplyr)
 library(ggplot2)
 library(viridis)

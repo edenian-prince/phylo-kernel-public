@@ -1,3 +1,6 @@
+## This script compare the relative risk of observing identical sequences within counties
+## with zip with female prisons.
+
 library(tidyverse)
 library(RColorBrewer)
 

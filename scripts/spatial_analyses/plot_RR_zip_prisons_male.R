@@ -1,3 +1,6 @@
+## This script compare the relative risk of observing identical sequences between Walla Walla and Mason postal codes
+## and Franklin and Mason postal codes. 
+
 library(tidyverse)
 library(RColorBrewer)
 

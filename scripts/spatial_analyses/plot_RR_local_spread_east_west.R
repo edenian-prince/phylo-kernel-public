@@ -1,10 +1,12 @@
+## This script evaluates how the RR of observing identical sequences within the same county, in adjacent counties
+## and in non adjacent counties varies depending on whether counties are in Eastern or Western WA
+
 library(tidyverse)
 
-## Load adjacency matrix
-df_adj_county <- readRDS('../data/maps/df_adj_county.rds')
-df_adj_zcta <- readRDS('../data/maps/df_adj_zcta.rds') %>% 
-  as_tibble() %>% 
-  mutate(zcta_1 = as.character(zcta_1), zcta_2 = as.character(zcta_2))
+## Load adjacency matrices
+df_adj_county <- readRDS('../data/maps/df_adj_county.rds') # between counties
+df_adj_zcta <- readRDS('../data/maps/df_adj_zcta.rds') %>% as_tibble() %>% 
+  mutate(zcta_1 = as.character(zcta_1), zcta_2 = as.character(zcta_2)) # between ZCTAs
 
 ## Load characteristics of WA counties
 df_char_counties <- read.csv('../data/maps/county_wa.csv') %>% as_tibble()
@@ -12,6 +14,8 @@ df_char_zctas <- read_csv('../data/maps/relationship_zcta_county_WA.csv', col_ty
   left_join(df_char_counties %>% select(county, is_west), by = 'county')
 
 ## Load the relative risk of observing identical sequences between two counties
+## and add information indicating adjacency status and Eastern / Western WA membership
+## (at the county level)
 df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds') %>% 
   left_join(df_adj_county, by = c('group_1' = 'county_1', 'group_2' = 'county_2')) %>% 
   mutate(is_same_county = (group_1 == group_2)) %>% 

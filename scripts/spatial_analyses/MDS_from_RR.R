@@ -1,3 +1,6 @@
+## This script reproduces the multidimensional scaling analysis to
+## visualize similarity between counties from pairs of identical sequences.
+
 library(tidyverse)
 library(vegan)
 library(ggrepel)
@@ -9,13 +12,13 @@ df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds') %>
 # Load characteristics of WA counties
 county_wa_regions <- read.csv('../data/maps/county_wa.csv') %>% as_tibble()
 
-# Get matrix of relative risk of observing identical sequences between counties
-## To do: include the script to generate this list
+# Vector of counties to be removed from the analysis (see methods)
 vec_counties_to_remove <- c('Wahkiakum County', 'Garfield County', 'Skamania County', 
                             'Columbia County', 'Ferry County', 'Lincoln County', 
                             'San Juan County', 'Asotin County', 'Pend Oreille County', 
                             'Klickitat County')
 
+# Function to get matrix of relative risk of observing identical sequences between counties
 get_mat_from_df_RR <- function(df_RR_identical, vec_counties_to_remove){
   curr_df_RR <- df_RR_identical %>% 
     filter(! group_1 %in% vec_counties_to_remove,
