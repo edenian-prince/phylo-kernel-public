@@ -1,3 +1,6 @@
+## This script commpute the correlation between the RR of observing identical sequences between regions 
+## and the relative risk of movement (from mobile phone and commuting data) stratifying by pandemic waves in WA
+
 library(mgcv)
 library(tidyverse)
 library(vegan)

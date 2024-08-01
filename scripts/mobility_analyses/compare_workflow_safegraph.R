@@ -1,3 +1,6 @@
+## This script compares the number of visits reported in the Safegraph mobility data
+## and the number of work commutes from the workflow data.
+
 library(tidyverse)
 
 df_visits <- read.csv('../data/mobility/safegraph_visits_march_2021_june_2022.csv', row.names = NULL) %>% 

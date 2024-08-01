@@ -1,3 +1,7 @@
+## This script implements GAM to evaluate the percentage of the variance in the genetic data 
+## explained by genetic data. It also identifies outliers in the relationship between genetic
+## and mobility from the GAM. The analysis is stratified by epidemic waves.
+
 library(mgcv)
 library(tidyverse)
 library(vegan)

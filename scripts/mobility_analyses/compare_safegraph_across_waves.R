@@ -1,3 +1,6 @@
+## This script compares the number of visits reported in the Safegraph mobility data
+## across epidemic waves.
+
 library(corrplot)
 library(tidyverse)
 

@@ -1,3 +1,6 @@
+## This script enables to compute the relative risk of movement between counties and regions from the 
+## number of work commutes (commuting data) and the number of visits obtained from mobile phone data.
+
 library(tidyverse)
 
 ## Load characteristics of counties

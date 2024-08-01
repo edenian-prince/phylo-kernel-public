@@ -1,3 +1,6 @@
+## This script commpute the correlation between the RR of observing identical sequences between regions and counties
+## and the relative risk of movement (from mobile phone and commuting data)
+
 library(mgcv)
 library(tidyverse)
 library(vegan)

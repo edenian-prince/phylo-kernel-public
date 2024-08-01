@@ -1,3 +1,7 @@
+## This script computes the ratio the population of each male WA prison
+##  and the the population of the county that prison is in.
+
+
 library(tidyverse)
 
 ## Load characteristics of WA counties

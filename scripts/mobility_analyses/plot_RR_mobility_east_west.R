@@ -1,3 +1,6 @@
+## This script compares the relative risk of movement among adjacent counties 
+## across the Eastern / Western WA border.
+
 library(tidyverse)
 library(ggpubr)
 
