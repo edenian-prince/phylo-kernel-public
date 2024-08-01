@@ -2,7 +2,7 @@ library(mgcv)
 library(tidyverse)
 library(vegan)
 library(broom)
-source('utils_comp_RR.R')
+source('../utils_comp_RR.R')
 
 ## Load relative risk of observing identical sequences between regions and counties
 vec_periods <- 1:4
