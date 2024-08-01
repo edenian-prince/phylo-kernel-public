@@ -1,4 +1,7 @@
+# Function to compute the total number of contacts occurring between
+# two age groups of the population (across all individuals)
 get_df_contacts_from_mat <- function(contact_mat, age_dist){
+  # contact_mat denotes the contact matrix and age_dist the number of individuals in two age groups. 
   df_contact <- contact_mat %>% 
     mutate(age_i = 0:(n() - 1)) %>% 
     pivot_longer(cols = -'age_i', names_prefix = 'V', names_to = 'age_j', values_to = 'contact_rate') %>% 
@@ -9,6 +12,8 @@ get_df_contacts_from_mat <- function(contact_mat, age_dist){
   return(df_contact)
 }
 
+# Function to compute the RR of contacts between two age groups
+# from the total number of contacts occurring between these two groups
 get_RR_contacts_from_df_contacts <- function(df_contacts){
   df_RR <- df_contacts %>% 
     mutate(n_contacts_ij = contact_rate * n_indiv_i) %>% 
@@ -25,6 +30,8 @@ get_RR_contacts_from_df_contacts <- function(df_contacts){
   return(df_RR)
 }
 
+# Function to compute the contact matrix in decades from the
+# number of contacts occurring between singe-year age groups
 get_contact_mat_decade_from_df_contacts <- function(df_contacts){
   
   df_contact_mat <- df_contacts %>% 

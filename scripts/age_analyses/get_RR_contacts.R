@@ -1,5 +1,7 @@
-library(tidyverse)
+## This script enables to compute the relative risk of contatcs of happening between two age groups
+## from WA contact data estimated by Mistry et al. 10.1038/s41467-020-20544-y
 
+library(tidyverse)
 source('utils_contact_mat.R')
 
 ## Load WA age distribution from Mistry et al. 10.1038/s41467-020-20544-y
