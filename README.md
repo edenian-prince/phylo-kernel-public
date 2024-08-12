@@ -87,7 +87,8 @@ To facilitate reproduction of our results, here are the relationships between ma
 #### Figure 1
 - [plot_relationship_mutation_generation.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_relationship_mutation_generation.R) for Figure 1A
 - [plot_identical_cluster_size_distribution.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_identical_cluster_size_distribution.R) for Figure 1B
-- Figure 1F: [plot_RR_within_county.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_within_county.R) for Figure 1F
+- [plot_signal_identical_sequences.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_signal_identical_sequences.R) for Figure 1D
+- [plot_RR_within_county.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_within_county.R) for Figure 1F
 
 #### Figure 2
 - [plot_chloropleth_maps_RR_counties.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_chloropleth_maps_RR_counties.R) for Figure 2A
