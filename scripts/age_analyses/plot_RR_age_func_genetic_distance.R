@@ -7,14 +7,14 @@ library(viridis)
 my_pal_age <- viridis_pal(option = 'D', direction = -1)(5)[-1]
 
 ## Load relative risk of observing identical sequences between two age groups
-df_RR_age <- readRDS('../results/RR_age/df_RR_age_0_mut_away.rds') %>% 
-  bind_rows(readRDS('../results/RR_age/df_RR_age_1_mut_away.rds')) %>% 
-  bind_rows(readRDS('../results/RR_age/df_RR_age_2_mut_away.rds')) %>% 
-  bind_rows(readRDS('../results/RR_age/df_RR_age_3_mut_away.rds'))
+df_RR_age <- read_csv('../../results/RR_age/df_RR_age_0_mut_away.csv') %>% 
+  bind_rows(read_csv('../../results/RR_age/df_RR_age_1_mut_away.csv')) %>% 
+  bind_rows(read_csv('../../results/RR_age/df_RR_age_2_mut_away.csv')) %>% 
+  bind_rows(read_csv('../../results/RR_age/df_RR_age_3_mut_away.csv'))
 
 ## Load results from subsampling to compute uncertainty intervals
 df_uncertainty_age <- Reduce('bind_rows', lapply(0:3, FUN = function(i_mut){
-  readRDS(paste0('../results/RR_age/df_RR_uncertainty_age_', i_mut, '_mut_away.rds')) %>% 
+  readRDS(paste0('../../results/RR_age/df_RR_uncertainty_age_', i_mut, '_mut_away.rds')) %>% 
     group_by(n_mutations, group_1, group_2) %>% 
     summarise(median_RR = median(RR), 
               lower_RR = quantile(RR, 0.025), 

@@ -7,10 +7,10 @@ my_pal_age <- viridis_pal(option = 'A', direction = -1)(10)[-1]
 
 
 ## Load relative risk of observing identical sequences between two age groups
-df_RR_age <- readRDS('../results/RR_age/df_RR_age_0_mut_away.rds') %>% ungroup()
+df_RR_age <- read_csv('../../results/RR_age/df_RR_age_0_mut_away.csv')
 
 ## Load results from subsampling to compute uncertainty intervals
-df_uncertainty_age <- readRDS('../results/RR_age/df_RR_uncertainty_age_0_mut_away.rds') %>% 
+df_uncertainty_age <- readRDS('../../results/RR_age/df_RR_uncertainty_age_0_mut_away.rds') %>% 
   group_by(n_mutations, group_1, group_2) %>% 
   summarise(median_RR = median(RR), 
             lower_RR = quantile(RR, 0.025), 
