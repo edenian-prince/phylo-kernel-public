@@ -7,7 +7,7 @@ library(purrr)
 library(RColorBrewer)
 
 ## Load relative risk of observing identical sequences between two counties
-df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds')
+df_RR_counties <- read_csv('../../results/RR_county/df_RR_county_0_mut_away.csv')
 
 ## Heatmap of the matrix of RR
 plt_heatmap <- df_RR_counties %>%

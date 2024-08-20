@@ -7,13 +7,13 @@ library(tidyverse)
 library(ggsignif)
 
 ## Load adjacency matrix
-df_adj_county <- readRDS('../data/maps/df_adj_county.rds')
+df_adj_county <- readRDS('../../data/maps/df_adj_county.rds')
 
 ## Load distance matrix
-df_dist_county <- readRDS('../data/maps/df_dist_county.rds')
+df_dist_county <- readRDS('../../data/maps/df_dist_county.rds')
 
 ## Load the relative risk of observing identical sequences between two counties
-df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds') %>% 
+df_RR_counties <- read_csv('../../results/RR_county/df_RR_county_0_mut_away.csv') %>% 
   left_join(df_adj_county, by = c('group_1' = 'county_1', 'group_2' = 'county_2')) %>% 
   left_join(df_dist_county, by = c('group_1' = 'county_1', 'group_2' = 'county_2')) %>% 
   mutate(is_same_county = (group_1 == group_2))

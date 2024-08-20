@@ -16,12 +16,10 @@ vec_n_mutations <- 0:10
 ## the same county by period of interest
 df_RR_counties_by_period <- Reduce('bind_rows', lapply(vec_n_mutations, FUN = function(i_mut){
   Reduce('bind_rows', lapply(vec_periods, FUN = function(i_period){
-    readRDS(paste0('../results/RR_county_by_period/df_RR_county_', i_mut, '_mut_away_period_', i_period, '.rds')) %>% 
+    read_csv(paste0('../../results/RR_county_by_period/df_RR_county_', i_mut, '_mut_away_period_', i_period, '.csv')) %>% 
       mutate(i_period = i_period)
-    
-    
   }))
-})) %>% ungroup() %>% 
+})) %>% 
   filter(group_1 == group_2)
 
 

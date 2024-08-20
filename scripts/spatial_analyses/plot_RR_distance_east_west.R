@@ -1,20 +1,19 @@
-## This script despicts how the RR of observing identical sequences varies as a function of the 
+## This script depicts how the RR of observing identical sequences varies as a function of the 
 ## geographic distances between counties by stratifying by counties Eastern / Western WA
 ## memberships.
 
 library(tidyverse)
 
 ## Load distance matrix
-df_dist_county <- readRDS('../data/maps/df_dist_county.rds')
-df_dist_zcta <- readRDS('../data/maps/df_dist_zcta.rds')
+df_dist_county <- readRDS('../../data/maps/df_dist_county.rds')
 
 ## Load characteristics of WA counties
-df_char_counties <- read.csv('../data/maps/county_wa.csv') %>% as_tibble()
-df_char_zctas <- read_csv('../data/maps/relationship_zcta_county_WA.csv', col_types = 'cc') %>% 
+df_char_counties <- read.csv('../../data/maps/county_wa.csv') %>% as_tibble()
+df_char_zctas <- read_csv('../../data/maps/relationship_zcta_county_WA.csv', col_types = 'cc') %>% 
   left_join(df_char_counties %>% select(county, is_west), by = 'county')
 
 ## Load the relative risk of observing identical sequences between two counties
-df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds') %>% 
+df_RR_counties <- read_csv('../../results/RR_county/df_RR_county_0_mut_away.csv') %>% 
   left_join(df_dist_county, by = c('group_1' = 'county_1', 'group_2' = 'county_2')) %>% 
   mutate(is_same_county = (group_1 == group_2)) %>% 
   left_join(df_char_counties %>% select(county, is_west), by = c('group_1' = 'county')) %>% 
@@ -26,19 +25,6 @@ df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds') %>
                             is_west_1 + is_west_2 == 0 ~ 'East - East'),
          region = factor(region, levels = c('West - West', 'West - East', 'East - East')))
 
-df_RR_zcta <- readRDS('../results/RR_zcta/df_RR_zcta_0_mut_away.rds') %>%
-  rename(group_1 = zcta_1, group_2 = zcta_2) %>% as_tibble() %>% 
-  left_join(df_dist_zcta, by = c('group_1' = 'zcta_1', 'group_2' = 'zcta_2')) %>% 
-  mutate(is_same_zcta = (group_1 == group_2)) %>% 
-  left_join(df_char_zctas %>% select(county, zcta, is_west), by = c('group_1' = 'zcta')) %>% 
-  rename(county_1 = county, is_west_1 = is_west) %>% 
-  left_join(df_char_zctas %>% select(county, zcta, is_west), by = c('group_2' = 'zcta')) %>% 
-  rename(county_2 = county, is_west_2 = is_west) %>% 
-  mutate(is_west_1 = as.numeric(is_west_1), is_west_2 = as.numeric(is_west_2)) %>% 
-  mutate(region = case_when(is_west_1 + is_west_2 == 2 ~ 'West - West',
-                            is_west_1 + is_west_2 == 1 ~ 'West - East',
-                            is_west_1 + is_west_2 == 0 ~ 'East - East'),
-         region = factor(region, levels = c('West - West', 'West - East', 'East - East'))) 
 
 ## Plot RR as a function of distance by East / West region
 col_west <- 'dodgerblue3'

@@ -8,8 +8,8 @@ library(viridis)
 ## Load relative risk of observing sequences at a given genetic distance within
 ## the same county
 df_RR_counties <- Reduce('bind_rows', lapply(0:10, FUN = function(curr_n_mut){
-  readRDS(paste0('../results/RR_county/df_RR_county_', curr_n_mut, '_mut_away.rds'))
-})) %>% ungroup() %>% 
+  read_csv(paste0('../../results/RR_county/df_RR_county_', curr_n_mut, '_mut_away.csv'))
+})) %>% 
   filter(group_1 == group_2)
 
 ## Plot the relative risk of observing sequences within the same county

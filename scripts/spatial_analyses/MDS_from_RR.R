@@ -6,11 +6,11 @@ library(vegan)
 library(ggrepel)
 
 # Load relative risk of observing identical sequences between two counties
-df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds') %>% 
+df_RR_counties <- read_csv('../../results/RR_county/df_RR_county_0_mut_away.csv') %>% 
   filter(n_pairs > 1)
 
 # Load characteristics of WA counties
-county_wa_regions <- read.csv('../data/maps/county_wa.csv') %>% as_tibble()
+county_wa_regions <- read.csv('../../data/maps/county_wa.csv') %>% as_tibble()
 
 # Vector of counties to be removed from the analysis (see methods)
 vec_counties_to_remove <- c('Wahkiakum County', 'Garfield County', 'Skamania County', 

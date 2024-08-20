@@ -8,10 +8,10 @@ library(RColorBrewer)
 library(ggpubr)
 
 ## Load WA counties shapefile
-shape_file_county <- read_sf('../data/maps/shapefile_counties/county10.shp')
+shape_file_county <- read_sf('../../data/maps/shapefile_counties/county10.shp')
 
 ## Load relative risk of observing identical sequences between two counties
-df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds')
+df_RR_counties <- read_csv('../../results/RR_county/df_RR_county_0_mut_away.csv')
 
 ## Breaks used for the legend in the different counties (manually defined)
 list_labels_legend_all_counties <- list(

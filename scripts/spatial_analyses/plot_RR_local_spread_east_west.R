@@ -4,19 +4,19 @@
 library(tidyverse)
 
 ## Load adjacency matrices
-df_adj_county <- readRDS('../data/maps/df_adj_county.rds') # between counties
-df_adj_zcta <- readRDS('../data/maps/df_adj_zcta.rds') %>% as_tibble() %>% 
+df_adj_county <- readRDS('../../data/maps/df_adj_county.rds') # between counties
+df_adj_zcta <- readRDS('../../data/maps/df_adj_zcta.rds') %>% as_tibble() %>% 
   mutate(zcta_1 = as.character(zcta_1), zcta_2 = as.character(zcta_2)) # between ZCTAs
 
 ## Load characteristics of WA counties
-df_char_counties <- read.csv('../data/maps/county_wa.csv') %>% as_tibble()
-df_char_zctas <- read_csv('../data/maps/relationship_zcta_county_WA.csv', col_types = 'cc') %>% 
+df_char_counties <- read.csv('../../data/maps/county_wa.csv') %>% as_tibble()
+df_char_zctas <- read_csv('../../data/maps/relationship_zcta_county_WA.csv', col_types = 'cc') %>% 
   left_join(df_char_counties %>% select(county, is_west), by = 'county')
 
 ## Load the relative risk of observing identical sequences between two counties
 ## and add information indicating adjacency status and Eastern / Western WA membership
 ## (at the county level)
-df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds') %>% 
+df_RR_counties <- read_csv('../../results/RR_county/df_RR_county_0_mut_away.csv') %>% 
   left_join(df_adj_county, by = c('group_1' = 'county_1', 'group_2' = 'county_2')) %>% 
   mutate(is_same_county = (group_1 == group_2)) %>% 
   left_join(df_char_counties %>% select(county, is_west), by = c('group_1' = 'county')) %>% 
@@ -31,24 +31,24 @@ df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds') %>
                                              is_adjacent == T ~ 'Adjacent counties',
                                              TRUE ~ 'Non adjacent counties'),
          is_adjacent_same_county = factor(is_adjacent_same_county, levels = c('Non adjacent counties', 'Adjacent counties', 'Same county')))
-
-df_RR_zcta <- readRDS('../results/RR_zcta/df_RR_zcta_0_mut_away.rds') %>%
-  rename(group_1 = zcta_1, group_2 = zcta_2) %>% as_tibble() %>% 
-  mutate(is_same_zcta = (group_1 == group_2)) %>% 
-  left_join(df_adj_zcta, by = c('group_1' = 'zcta_1', 'group_2' = 'zcta_2')) %>% 
-  left_join(df_char_zctas %>% select(county, zcta, is_west), by = c('group_1' = 'zcta')) %>% 
-  rename(county_1 = county, is_west_1 = is_west) %>% 
-  left_join(df_char_zctas %>% select(county, zcta, is_west), by = c('group_2' = 'zcta')) %>% 
-  rename(county_2 = county, is_west_2 = is_west) %>% 
-  mutate(is_west_1 = as.numeric(is_west_1), is_west_2 = as.numeric(is_west_2)) %>% 
-  mutate(region = case_when(is_west_1 + is_west_2 == 2 ~ 'West - West',
-                            is_west_1 + is_west_2 == 1 ~ 'West - East',
-                            is_west_1 + is_west_2 == 0 ~ 'East - East'),
-         region = factor(region, levels = c('West - West', 'West - East', 'East - East')),
-         is_adjacent_same_zcta = case_when(is_same_zcta == T ~ 'Same ZCTA',
-                                           is_adjacent == T ~ 'Adjacent ZCTAs',
-                                           TRUE ~ 'Non adjacent ZCTAs'),
-         is_adjacent_same_zcta = factor(is_adjacent_same_zcta, levels = c('Non adjacent ZCTAs', 'Adjacent ZCTAs', 'Same ZCTA'))) 
+# 
+# df_RR_zcta <- readRDS('../results/RR_zcta/df_RR_zcta_0_mut_away.rds') %>%
+#   rename(group_1 = zcta_1, group_2 = zcta_2) %>% as_tibble() %>% 
+#   mutate(is_same_zcta = (group_1 == group_2)) %>% 
+#   left_join(df_adj_zcta, by = c('group_1' = 'zcta_1', 'group_2' = 'zcta_2')) %>% 
+#   left_join(df_char_zctas %>% select(county, zcta, is_west), by = c('group_1' = 'zcta')) %>% 
+#   rename(county_1 = county, is_west_1 = is_west) %>% 
+#   left_join(df_char_zctas %>% select(county, zcta, is_west), by = c('group_2' = 'zcta')) %>% 
+#   rename(county_2 = county, is_west_2 = is_west) %>% 
+#   mutate(is_west_1 = as.numeric(is_west_1), is_west_2 = as.numeric(is_west_2)) %>% 
+#   mutate(region = case_when(is_west_1 + is_west_2 == 2 ~ 'West - West',
+#                             is_west_1 + is_west_2 == 1 ~ 'West - East',
+#                             is_west_1 + is_west_2 == 0 ~ 'East - East'),
+#          region = factor(region, levels = c('West - West', 'West - East', 'East - East')),
+#          is_adjacent_same_zcta = case_when(is_same_zcta == T ~ 'Same ZCTA',
+#                                            is_adjacent == T ~ 'Adjacent ZCTAs',
+#                                            TRUE ~ 'Non adjacent ZCTAs'),
+#          is_adjacent_same_zcta = factor(is_adjacent_same_zcta, levels = c('Non adjacent ZCTAs', 'Adjacent ZCTAs', 'Same ZCTA'))) 
 
 ## At the county level
 wilcox.test(x = df_RR_counties[df_RR_counties$region == 'West - East' & df_RR_counties$is_adjacent_same_county == 'Adjacent counties'& (df_RR_counties$group_1 > df_RR_counties$group_2), ]$RR,
@@ -154,19 +154,19 @@ plot(plt_RR_adj_east_west)
 
 
 ## Same thing but at the ZCTA level
-df_RR_zcta <- df_RR_zcta %>% filter(RR > 0.)
-wilcox.test(x = df_RR_zcta[df_RR_zcta$region == 'West - East' & df_RR_zcta$is_adjacent_same_zcta == 'Adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR,
-            y = df_RR_zcta[df_RR_zcta$region == 'West - East' & df_RR_zcta$is_adjacent_same_zcta == 'Non adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR)
-
-wilcox.test(x = df_RR_zcta[df_RR_zcta$region == 'West - West' & df_RR_zcta$is_adjacent_same_zcta == 'Adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR,
-            y = df_RR_zcta[df_RR_zcta$region == 'West - West' & df_RR_zcta$is_adjacent_same_zcta == 'Non adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR)
-
-wilcox.test(x = df_RR_zcta[df_RR_zcta$region == 'West - West' & df_RR_zcta$is_adjacent_same_zcta == 'Adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR,
-            y = df_RR_zcta[df_RR_zcta$region == 'West - West' & df_RR_zcta$is_adjacent_same_zcta == 'Same ZCTA', ]$RR)
-
-wilcox.test(x = df_RR_zcta[df_RR_zcta$region == 'East - East' & df_RR_zcta$is_adjacent_same_zcta == 'Adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR,
-            y = df_RR_zcta[df_RR_zcta$region == 'East - East' & df_RR_zcta$is_adjacent_same_zcta == 'Non adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR)
-
-wilcox.test(x = df_RR_zcta[df_RR_zcta$region == 'East - East' & df_RR_zcta$is_adjacent_same_zcta == 'Adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR,
-            y = df_RR_zcta[df_RR_zcta$region == 'East - East' & df_RR_zcta$is_adjacent_same_zcta == 'Same ZCTA', ]$RR)
-
+# df_RR_zcta <- df_RR_zcta %>% filter(RR > 0.)
+# wilcox.test(x = df_RR_zcta[df_RR_zcta$region == 'West - East' & df_RR_zcta$is_adjacent_same_zcta == 'Adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR,
+#             y = df_RR_zcta[df_RR_zcta$region == 'West - East' & df_RR_zcta$is_adjacent_same_zcta == 'Non adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR)
+# 
+# wilcox.test(x = df_RR_zcta[df_RR_zcta$region == 'West - West' & df_RR_zcta$is_adjacent_same_zcta == 'Adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR,
+#             y = df_RR_zcta[df_RR_zcta$region == 'West - West' & df_RR_zcta$is_adjacent_same_zcta == 'Non adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR)
+# 
+# wilcox.test(x = df_RR_zcta[df_RR_zcta$region == 'West - West' & df_RR_zcta$is_adjacent_same_zcta == 'Adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR,
+#             y = df_RR_zcta[df_RR_zcta$region == 'West - West' & df_RR_zcta$is_adjacent_same_zcta == 'Same ZCTA', ]$RR)
+# 
+# wilcox.test(x = df_RR_zcta[df_RR_zcta$region == 'East - East' & df_RR_zcta$is_adjacent_same_zcta == 'Adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR,
+#             y = df_RR_zcta[df_RR_zcta$region == 'East - East' & df_RR_zcta$is_adjacent_same_zcta == 'Non adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR)
+# 
+# wilcox.test(x = df_RR_zcta[df_RR_zcta$region == 'East - East' & df_RR_zcta$is_adjacent_same_zcta == 'Adjacent ZCTAs'& (df_RR_zcta$group_1 > df_RR_zcta$group_2), ]$RR,
+#             y = df_RR_zcta[df_RR_zcta$region == 'East - East' & df_RR_zcta$is_adjacent_same_zcta == 'Same ZCTA', ]$RR)
+# 
