@@ -1,0 +1,1445 @@
+n_mutations,group_1,group_2,n_pairs,RR,variant
+10,Adams County,Adams County,220,0.8889560437568526,Omicron
+10,Asotin County,Adams County,25,0.868929761787844,Omicron
+10,Benton County,Adams County,2357,1.064595971056161,Omicron
+10,Chelan County,Adams County,689,0.9015354920244393,Omicron
+10,Clallam County,Adams County,695,0.8967118148109389,Omicron
+10,Clark County,Adams County,906,0.9303299349665118,Omicron
+10,Columbia County,Adams County,17,0.9789493601710554,Omicron
+10,Cowlitz County,Adams County,955,1.0071457008014029,Omicron
+10,Douglas County,Adams County,318,0.8435011212373082,Omicron
+10,Ferry County,Adams County,21,0.7467487963555722,Omicron
+10,Franklin County,Adams County,1442,1.0299993849758755,Omicron
+10,Grant County,Adams County,592,0.8997729322453252,Omicron
+10,Grays Harbor County,Adams County,1921,1.0343181922818954,Omicron
+10,Island County,Adams County,301,0.98642801311795,Omicron
+10,Jefferson County,Adams County,132,0.9497533064182816,Omicron
+10,King County,Adams County,33946,1.0185935622538131,Omicron
+10,Kitsap County,Adams County,1086,0.9738835099316854,Omicron
+10,Kittitas County,Adams County,260,0.9950012160976743,Omicron
+10,Klickitat County,Adams County,64,0.8643729302188312,Omicron
+10,Lewis County,Adams County,843,0.9415857451564236,Omicron
+10,Lincoln County,Adams County,33,1.1763422248538222,Omicron
+10,Mason County,Adams County,279,1.0893059915810783,Omicron
+10,Okanogan County,Adams County,326,0.9424382565790902,Omicron
+10,Pacific County,Adams County,477,0.9750432735349662,Omicron
+10,Pend Oreille County,Adams County,54,1.132222408111923,Omicron
+10,Pierce County,Adams County,5769,0.9910843604134112,Omicron
+10,San Juan County,Adams County,26,0.9351204684622242,Omicron
+10,Skagit County,Adams County,632,0.8904478302661435,Omicron
+10,Skamania County,Adams County,26,1.0623920553286168,Omicron
+10,Snohomish County,Adams County,4676,1.0031713786264593,Omicron
+10,Spokane County,Adams County,2511,0.9587247501691318,Omicron
+10,Stevens County,Adams County,70,0.9186832996497862,Omicron
+10,Thurston County,Adams County,4330,0.9359141013189064,Omicron
+10,Wahkiakum County,Adams County,10,1.1660133928822811,Omicron
+10,Walla Walla County,Adams County,558,1.0060005543824828,Omicron
+10,Whatcom County,Adams County,2341,0.9608734864779777,Omicron
+10,Whitman County,Adams County,729,0.9323062005616718,Omicron
+10,Yakima County,Adams County,5852,1.0508145965608533,Omicron
+10,Adams County,Asotin County,25,0.868929761787844,Omicron
+10,Asotin County,Asotin County,0,0,Omicron
+10,Benton County,Asotin County,210,0.8158899587103511,Omicron
+10,Chelan County,Asotin County,63,0.7090734335028823,Omicron
+10,Clallam County,Asotin County,55,0.6104046517242026,Omicron
+10,Clark County,Asotin County,97,0.8567765862404491,Omicron
+10,Columbia County,Asotin County,2,0.990668511045536,Omicron
+10,Cowlitz County,Asotin County,123,1.1157864955780215,Omicron
+10,Douglas County,Asotin County,38,0.8670201655462441,Omicron
+10,Ferry County,Asotin County,1,0.30587381108697853,Omicron
+10,Franklin County,Asotin County,160,0.9830571028089957,Omicron
+10,Grant County,Asotin County,31,0.40528447619549945,Omicron
+10,Grays Harbor County,Asotin County,228,1.0559630052000644,Omicron
+10,Island County,Asotin County,27,0.7611140226974521,Omicron
+10,Jefferson County,Asotin County,21,1.2997003486716552,Omicron
+10,King County,Asotin County,4286,1.10624557006726,Omicron
+10,Kitsap County,Asotin County,125,0.9642158313013943,Omicron
+10,Kittitas County,Asotin County,27,0.8887939413671587,Omicron
+10,Klickitat County,Asotin County,6,0.6970428739882493,Omicron
+10,Lewis County,Asotin County,106,1.018416022656961,Omicron
+10,Lincoln County,Asotin County,3,0.919873396577341,Omicron
+10,Mason County,Asotin County,10,0.33584025183730154,Omicron
+10,Okanogan County,Asotin County,41,1.0195445832425218,Omicron
+10,Pacific County,Asotin County,65,1.1428939295401288,Omicron
+10,Pend Oreille County,Asotin County,1,0.1803536947693224,Omicron
+10,Pierce County,Asotin County,720,1.0639706259341246,Omicron
+10,San Juan County,Asotin County,1,0.3093721909567388,Omicron
+10,Skagit County,Asotin County,60,0.7271595460897481,Omicron
+10,Skamania County,Asotin County,6,2.1088698337608323,Omicron
+10,Snohomish County,Asotin County,528,0.9743648548601644,Omicron
+10,Spokane County,Asotin County,195,0.6404259122112446,Omicron
+10,Stevens County,Asotin County,2,0.22577967055366163,Omicron
+10,Thurston County,Asotin County,438,0.8143465535434335,Omicron
+10,Wahkiakum County,Asotin County,0,0,Omicron
+10,Walla Walla County,Asotin County,38,0.5892976042292786,Omicron
+10,Whatcom County,Asotin County,223,0.7873298499433691,Omicron
+10,Whitman County,Asotin County,73,0.8030469966282594,Omicron
+10,Yakima County,Asotin County,741,1.144529642572833,Omicron
+10,Adams County,Benton County,2357,1.064595971056161,Omicron
+10,Asotin County,Benton County,210,0.8158899587103512,Omicron
+10,Benton County,Benton County,19090,0.9638263466269159,Omicron
+10,Chelan County,Benton County,6752,0.9875604075220741,Omicron
+10,Clallam County,Benton County,6372,0.9189914780072063,Omicron
+10,Clark County,Benton County,9080,1.0422268943931854,Omicron
+10,Columbia County,Benton County,157,1.0105983562931402,Omicron
+10,Cowlitz County,Benton County,8563,1.00944463752205,Omicron
+10,Douglas County,Benton County,3569,1.058212096855727,Omicron
+10,Ferry County,Benton County,224,0.890370750309106,Omicron
+10,Franklin County,Benton County,12357,0.9866256031490978,Omicron
+10,Grant County,Benton County,5285,0.8978914555005915,Omicron
+10,Grays Harbor County,Benton County,15763,0.9487096185860828,Omicron
+10,Island County,Benton County,2746,1.0059283871165066,Omicron
+10,Jefferson County,Benton County,1204,0.9683469734352591,Omicron
+10,King County,Benton County,304874,1.0225871678151888,Omicron
+10,Kitsap County,Benton County,10066,1.009024572780163,Omicron
+10,Kittitas County,Benton County,2224,0.9513770617421345,Omicron
+10,Klickitat County,Benton County,625,0.9435584982713509,Omicron
+10,Lewis County,Benton County,7837,0.9784750965814534,Omicron
+10,Lincoln County,Benton County,276,1.0997562990084437,Omicron
+10,Mason County,Benton County,1995,0.8706752891175715,Omicron
+10,Okanogan County,Benton County,3083,0.9962686433118562,Omicron
+10,Pacific County,Benton County,4345,0.9928026369085408,Omicron
+10,Pend Oreille County,Benton County,368,0.8624887407767625,Omicron
+10,Pierce County,Benton County,52833,1.014572263563911,Omicron
+10,San Juan County,Benton County,191,0.7678832814131475,Omicron
+10,Skagit County,Benton County,6368,1.0029102873125673,Omicron
+10,Skamania County,Benton County,205,0.9363386641894673,Omicron
+10,Snohomish County,Benton County,41544,0.996268891274946,Omicron
+10,Spokane County,Benton County,22946,0.9793137343795435,Omicron
+10,Stevens County,Benton County,698,1.0239784900476037,Omicron
+10,Thurston County,Benton County,39920,0.9645089382906634,Omicron
+10,Wahkiakum County,Benton County,83,1.0818056885180745,Omicron
+10,Walla Walla County,Benton County,4712,0.9495917493148572,Omicron
+10,Whatcom County,Benton County,21149,0.970336265650731,Omicron
+10,Whitman County,Benton County,7174,1.0255575738587979,Omicron
+10,Yakima County,Benton County,48085,0.9651593657959241,Omicron
+10,Adams County,Chelan County,689,0.9015354920244393,Omicron
+10,Asotin County,Chelan County,63,0.7090734335028823,Omicron
+10,Benton County,Chelan County,6752,0.9875604075220743,Omicron
+10,Chelan County,Chelan County,2382,1.0092792974163631,Omicron
+10,Clallam County,Chelan County,2409,1.0064932999484562,Omicron
+10,Clark County,Chelan County,2959,0.9839199438286906,Omicron
+10,Columbia County,Chelan County,47,0.876425821335829,Omicron
+10,Cowlitz County,Chelan County,2816,0.9616733543464572,Omicron
+10,Douglas County,Chelan County,1091,0.937107245357828,Omicron
+10,Ferry County,Chelan County,77,0.8866494776901408,Omicron
+10,Franklin County,Chelan County,4302,0.9950573498822224,Omicron
+10,Grant County,Chelan County,1930,0.9498926502533853,Omicron
+10,Grays Harbor County,Chelan County,5959,1.0389776010252334,Omicron
+10,Island County,Chelan County,956,1.0145250963086814,Omicron
+10,Jefferson County,Chelan County,445,1.036818874985857,Omicron
+10,King County,Chelan County,104164,1.0121292359034213,Omicron
+10,Kitsap County,Chelan County,3374,0.9797793143992725,Omicron
+10,Kittitas County,Chelan County,791,0.9802407390543669,Omicron
+10,Klickitat County,Chelan County,233,1.0190209328527233,Omicron
+10,Lewis County,Chelan County,2645,0.9566740144233229,Omicron
+10,Lincoln County,Chelan County,87,1.004257306021901,Omicron
+10,Mason County,Chelan County,768,0.9709858700901058,Omicron
+10,Okanogan County,Chelan County,997,0.9333326664575646,Omicron
+10,Pacific County,Chelan County,1451,0.9604592088035389,Omicron
+10,Pend Oreille County,Chelan County,157,1.0659667035780223,Omicron
+10,Pierce County,Chelan County,17958,0.9990196993846221,Omicron
+10,San Juan County,Chelan County,97,1.1297229472506531,Omicron
+10,Skagit County,Chelan County,2065,0.942144372933902,Omicron
+10,Skamania County,Chelan County,98,1.296712038905978,Omicron
+10,Snohomish County,Chelan County,14341,0.9962906786164701,Omicron
+10,Spokane County,Chelan County,7799,0.9642555509089793,Omicron
+10,Stevens County,Chelan County,209,0.8882190195882733,Omicron
+10,Thurston County,Chelan County,13977,0.9782910052290577,Omicron
+10,Wahkiakum County,Chelan County,26,0.981709260248008,Omicron
+10,Walla Walla County,Chelan County,1701,0.993057362480126,Omicron
+10,Whatcom County,Chelan County,7313,0.9720002364998613,Omicron
+10,Whitman County,Chelan County,2349,0.97279216025187,Omicron
+10,Yakima County,Chelan County,17642,1.0258304778079164,Omicron
+10,Adams County,Clallam County,695,0.8967118148109388,Omicron
+10,Asotin County,Clallam County,55,0.6104046517242026,Omicron
+10,Benton County,Clallam County,6372,0.9189914780072062,Omicron
+10,Chelan County,Clallam County,2409,1.0064932999484562,Omicron
+10,Clallam County,Clallam County,2104,0.866810780649853,Omicron
+10,Clark County,Clallam County,3035,0.9951257731072741,Omicron
+10,Columbia County,Clallam County,63,1.1584101020560211,Omicron
+10,Cowlitz County,Clallam County,3032,1.0210067418834958,Omicron
+10,Douglas County,Clallam County,1086,0.919811533168793,Omicron
+10,Ferry County,Clallam County,53,0.6017853172962014,Omicron
+10,Franklin County,Clallam County,4300,0.9807326680442601,Omicron
+10,Grant County,Clallam County,1714,0.8318260488829707,Omicron
+10,Grays Harbor County,Clallam County,6284,1.080372338588743,Omicron
+10,Island County,Clallam County,1008,1.054799499011054,Omicron
+10,Jefferson County,Clallam County,511,1.174000452561747,Omicron
+10,King County,Clallam County,107947,1.0342686920961282,Omicron
+10,Kitsap County,Clallam County,3373,0.9658373798859626,Omicron
+10,Kittitas County,Clallam County,813,0.9934620696357275,Omicron
+10,Klickitat County,Clallam County,239,1.0306935676728743,Omicron
+10,Lewis County,Clallam County,2630,0.9379906949698013,Omicron
+10,Lincoln County,Clallam County,104,1.1837597442758965,Omicron
+10,Mason County,Clallam County,684,0.8527314331151811,Omicron
+10,Okanogan County,Clallam County,945,0.8723235493148821,Omicron
+10,Pacific County,Clallam County,1478,0.9646958869220998,Omicron
+10,Pend Oreille County,Clallam County,144,0.9640753070569533,Omicron
+10,Pierce County,Clallam County,18555,1.0178447100677355,Omicron
+10,San Juan County,Clallam County,96,1.1024932254108837,Omicron
+10,Skagit County,Clallam County,2055,0.9245144621070002,Omicron
+10,Skamania County,Clallam County,106,1.3830179375128775,Omicron
+10,Snohomish County,Clallam County,14487,0.9924064351056254,Omicron
+10,Spokane County,Clallam County,7352,0.8963202453956881,Omicron
+10,Stevens County,Clallam County,184,0.7710740470854602,Omicron
+10,Thurston County,Clallam County,13517,0.9329081550099048,Omicron
+10,Wahkiakum County,Clallam County,21,0.781867776578841,Omicron
+10,Walla Walla County,Clallam County,1606,0.9245279460912386,Omicron
+10,Whatcom County,Clallam County,6908,0.9053731409211723,Omicron
+10,Whitman County,Clallam County,2354,0.9612757444789048,Omicron
+10,Yakima County,Clallam County,18095,1.0375065520514655,Omicron
+10,Adams County,Clark County,906,0.930329934966512,Omicron
+10,Asotin County,Clark County,97,0.8567765862404491,Omicron
+10,Benton County,Clark County,9080,1.0422268943931852,Omicron
+10,Chelan County,Clark County,2959,0.9839199438286905,Omicron
+10,Clallam County,Clark County,3035,0.9951257731072741,Omicron
+10,Clark County,Clark County,3770,0.9837875891211281,Omicron
+10,Columbia County,Clark County,76,1.1121825822130593,Omicron
+10,Cowlitz County,Clark County,3765,1.0090323816111737,Omicron
+10,Douglas County,Clark County,1464,0.9868492434984569,Omicron
+10,Ferry County,Clark County,113,1.0211390193273353,Omicron
+10,Franklin County,Clark County,5305,0.9629600826876589,Omicron
+10,Grant County,Clark County,2388,0.9223520800597296,Omicron
+10,Grays Harbor County,Clark County,7562,1.034700510008078,Omicron
+10,Island County,Clark County,1208,1.0060441206124968,Omicron
+10,Jefferson County,Clark County,544,0.9946882189952777,Omicron
+10,King County,Clark County,132392,1.0095440061625711,Omicron
+10,Kitsap County,Clark County,4375,0.9970258902230461,Omicron
+10,Kittitas County,Clark County,994,0.9666913656296561,Omicron
+10,Klickitat County,Clark County,273,0.9369901428924898,Omicron
+10,Lewis County,Clark County,3317,0.9415187288286212,Omicron
+10,Lincoln County,Clark County,126,1.1414095006639755,Omicron
+10,Mason County,Clark County,1040,1.0318824354419849,Omicron
+10,Okanogan County,Clark County,1337,0.9822406557389416,Omicron
+10,Pacific County,Clark County,1812,0.9412714723693669,Omicron
+10,Pend Oreille County,Clark County,187,0.996393266937345,Omicron
+10,Pierce County,Clark County,22785,0.9947416640470059,Omicron
+10,San Juan County,Clark County,127,1.1607778913295153,Omicron
+10,Skagit County,Clark County,2757,0.9871413843684702,Omicron
+10,Skamania County,Clark County,112,1.1630025865513598,Omicron
+10,Snohomish County,Clark County,18622,1.0152620300815083,Omicron
+10,Spokane County,Clark County,10305,0.9998766215559671,Omicron
+10,Stevens County,Clark County,297,0.9905477651511244,Omicron
+10,Thurston County,Clark County,17714,0.9730069141449347,Omicron
+10,Wahkiakum County,Clark County,37,1.0963682606297043,Omicron
+10,Walla Walla County,Clark County,2246,1.0290227220550852,Omicron
+10,Whatcom County,Clark County,9123,0.9515983114518752,Omicron
+10,Whitman County,Clark County,2989,0.971422483400919,Omicron
+10,Yakima County,Clark County,21813,0.9953787623675735,Omicron
+10,Adams County,Columbia County,17,0.9789493601710554,Omicron
+10,Asotin County,Columbia County,2,0.990668511045536,Omicron
+10,Benton County,Columbia County,157,1.0105983562931404,Omicron
+10,Chelan County,Columbia County,47,0.8764258213358292,Omicron
+10,Clallam County,Columbia County,63,1.1584101020560211,Omicron
+10,Clark County,Columbia County,76,1.1121825822130593,Omicron
+10,Columbia County,Columbia County,0,0,Omicron
+10,Cowlitz County,Columbia County,54,0.8115894460899122,Omicron
+10,Douglas County,Columbia County,23,0.8694409267171004,Omicron
+10,Ferry County,Columbia County,3,1.5203031335280295,Omicron
+10,Franklin County,Columbia County,100,1.0179475569015182,Omicron
+10,Grant County,Columbia County,50,1.0830161208388507,Omicron
+10,Grays Harbor County,Columbia County,139,1.0665845740019768,Omicron
+10,Island County,Columbia County,24,1.120892188566751,Omicron
+10,Jefferson County,Columbia County,13,1.3330116182497889,Omicron
+10,King County,Columbia County,2329,0.9959453495171695,Omicron
+10,Kitsap County,Columbia County,79,1.0096200758234197,Omicron
+10,Kittitas County,Columbia County,20,1.09077194350935,Omicron
+10,Klickitat County,Columbia County,7,1.3473267206231874,Omicron
+10,Lewis County,Columbia County,60,0.9550745008571058,Omicron
+10,Lincoln County,Columbia County,2,1.0160227711739656,Omicron
+10,Mason County,Columbia County,23,1.2797561478734312,Omicron
+10,Okanogan County,Columbia County,23,0.9475820875983024,Omicron
+10,Pacific County,Columbia County,28,0.815675170322931,Omicron
+10,Pend Oreille County,Columbia County,2,0.5976152634682173,Omicron
+10,Pierce County,Columbia County,387,0.9474902472331244,Omicron
+10,San Juan County,Columbia County,3,1.5376913429316634,Omicron
+10,Skagit County,Columbia County,47,0.9437195654607344,Omicron
+10,Skamania County,Columbia County,1,0.582324638508749,Omicron
+10,Snohomish County,Columbia County,346,1.0578654385284803,Omicron
+10,Spokane County,Columbia County,209,1.137227130367232,Omicron
+10,Stevens County,Columbia County,5,0.9351719788460141,Omicron
+10,Thurston County,Columbia County,316,0.9733944740977304,Omicron
+10,Wahkiakum County,Columbia County,0,0,Omicron
+10,Walla Walla County,Columbia County,39,1.0020336993826187,Omicron
+10,Whatcom County,Columbia County,161,0.9417689587045923,Omicron
+10,Whitman County,Columbia County,54,0.98418899271006,Omicron
+10,Yakima County,Columbia County,388,0.9929038720944946,Omicron
+10,Adams County,Cowlitz County,955,1.0071457008014026,Omicron
+10,Asotin County,Cowlitz County,123,1.1157864955780215,Omicron
+10,Benton County,Cowlitz County,8563,1.0094446375220498,Omicron
+10,Chelan County,Cowlitz County,2816,0.9616733543464572,Omicron
+10,Clallam County,Cowlitz County,3032,1.0210067418834958,Omicron
+10,Clark County,Cowlitz County,3765,1.0090323816111735,Omicron
+10,Columbia County,Cowlitz County,54,0.8115894460899122,Omicron
+10,Cowlitz County,Cowlitz County,3398,0.9352842730246571,Omicron
+10,Douglas County,Cowlitz County,1404,0.9719792140108776,Omicron
+10,Ferry County,Cowlitz County,100,0.9280824538091123,Omicron
+10,Franklin County,Cowlitz County,5579,1.0400623897956704,Omicron
+10,Grant County,Cowlitz County,2590,1.0274064954221456,Omicron
+10,Grays Harbor County,Cowlitz County,7080,0.994927377978919,Omicron
+10,Island County,Cowlitz County,1152,0.9853322694831481,Omicron
+10,Jefferson County,Cowlitz County,537,1.0084224234731192,Omicron
+10,King County,Cowlitz County,128544,1.0066893072446845,Omicron
+10,Kitsap County,Cowlitz County,4200,0.9830096991827947,Omicron
+10,Kittitas County,Cowlitz County,1008,1.0067974831361204,Omicron
+10,Klickitat County,Cowlitz County,297,1.0469090603347557,Omicron
+10,Lewis County,Cowlitz County,3202,0.9334368749965637,Omicron
+10,Lincoln County,Cowlitz County,100,0.9303600898415992,Omicron
+10,Mason County,Cowlitz County,1071,1.0913561132372782,Omicron
+10,Okanogan County,Cowlitz County,1320,0.9959569438062063,Omicron
+10,Pacific County,Cowlitz County,1783,0.9512357858966145,Omicron
+10,Pend Oreille County,Cowlitz County,197,1.0780416441356813,Omicron
+10,Pierce County,Cowlitz County,21982,0.9856179698821289,Omicron
+10,San Juan County,Cowlitz County,109,1.0231799911289088,Omicron
+10,Skagit County,Cowlitz County,2676,0.9840311270767467,Omicron
+10,Skamania County,Cowlitz County,102,1.087784744079043,Omicron
+10,Snohomish County,Cowlitz County,17902,1.0023825754947209,Omicron
+10,Spokane County,Cowlitz County,10111,1.0075640474600749,Omicron
+10,Stevens County,Cowlitz County,292,1.0001887343267244,Omicron
+10,Thurston County,Cowlitz County,17271,0.9743094259090607,Omicron
+10,Wahkiakum County,Cowlitz County,27,0.8216722660432465,Omicron
+10,Walla Walla County,Cowlitz County,2071,0.9744856439794152,Omicron
+10,Whatcom County,Cowlitz County,9408,1.0078442689200175,Omicron
+10,Whitman County,Cowlitz County,2951,0.9849894509783046,Omicron
+10,Yakima County,Cowlitz County,21464,1.0059207447426741,Omicron
+10,Adams County,Douglas County,318,0.8435011212373082,Omicron
+10,Asotin County,Douglas County,38,0.8670201655462441,Omicron
+10,Benton County,Douglas County,3569,1.058212096855727,Omicron
+10,Chelan County,Douglas County,1091,0.937107245357828,Omicron
+10,Clallam County,Douglas County,1086,0.919811533168793,Omicron
+10,Clark County,Douglas County,1464,0.9868492434984569,Omicron
+10,Columbia County,Douglas County,23,0.8694409267171004,Omicron
+10,Cowlitz County,Douglas County,1404,0.9719792140108776,Omicron
+10,Douglas County,Douglas County,424,0.7382872000311104,Omicron
+10,Ferry County,Douglas County,50,1.16714866869253,Omicron
+10,Franklin County,Douglas County,2132,0.9996773297671617,Omicron
+10,Grant County,Douglas County,951,0.9488393176930163,Omicron
+10,Grays Harbor County,Douglas County,3309,1.1695653785898559,Omicron
+10,Island County,Douglas County,479,1.030470000782433,Omicron
+10,Jefferson County,Douglas County,238,1.1241254444735558,Omicron
+10,King County,Douglas County,52078,1.02581148120464,Omicron
+10,Kitsap County,Douglas County,1576,0.9277572104455553,Omicron
+10,Kittitas County,Douglas County,354,0.889312637225745,Omicron
+10,Klickitat County,Douglas County,104,0.922052099291238,Omicron
+10,Lewis County,Douglas County,1137,0.83366909725738,Omicron
+10,Lincoln County,Douglas County,63,1.4742163857492228,Omicron
+10,Mason County,Douglas County,424,1.0867070482909345,Omicron
+10,Okanogan County,Douglas County,435,0.8255160135375484,Omicron
+10,Pacific County,Douglas County,618,0.8292680338912252,Omicron
+10,Pend Oreille County,Douglas County,72,0.99099490261645,Omicron
+10,Pierce County,Douglas County,8603,0.9701992732614534,Omicron
+10,San Juan County,Douglas County,65,1.5346470538919799,Omicron
+10,Skagit County,Douglas County,897,0.8296306396607732,Omicron
+10,Skamania County,Douglas County,55,1.475282171205489,Omicron
+10,Snohomish County,Douglas County,7077,0.9966685725822857,Omicron
+10,Spokane County,Douglas County,3882,0.9729795123846785,Omicron
+10,Stevens County,Douglas County,103,0.8873724566255795,Omicron
+10,Thurston County,Douglas County,6658,0.9446976247068866,Omicron
+10,Wahkiakum County,Douglas County,8,0.6123425859354449,Omicron
+10,Walla Walla County,Douglas County,820,0.9704626191270822,Omicron
+10,Whatcom County,Douglas County,3452,0.9301147283513073,Omicron
+10,Whitman County,Douglas County,1141,0.9578943835556115,Omicron
+10,Yakima County,Douglas County,8798,1.0370666659818146,Omicron
+10,Adams County,Ferry County,21,0.7467487963555722,Omicron
+10,Asotin County,Ferry County,1,0.3058738110869786,Omicron
+10,Benton County,Ferry County,224,0.890370750309106,Omicron
+10,Chelan County,Ferry County,77,0.8866494776901408,Omicron
+10,Clallam County,Ferry County,53,0.6017853172962014,Omicron
+10,Clark County,Ferry County,113,1.0211390193273353,Omicron
+10,Columbia County,Ferry County,3,1.5203031335280293,Omicron
+10,Cowlitz County,Ferry County,100,0.9280824538091123,Omicron
+10,Douglas County,Ferry County,50,1.16714866869253,Omicron
+10,Ferry County,Ferry County,0,0,Omicron
+10,Franklin County,Ferry County,149,0.9366031279169899,Omicron
+10,Grant County,Ferry County,46,0.6152713313962136,Omicron
+10,Grays Harbor County,Ferry County,215,1.018738897921084,Omicron
+10,Island County,Ferry County,35,1.0094029654315926,Omicron
+10,Jefferson County,Ferry County,15,0.9497860190472673,Omicron
+10,King County,Ferry County,4093,1.0808158257798832,Omicron
+10,Kitsap County,Ferry County,121,0.9549050449014925,Omicron
+10,Kittitas County,Ferry County,32,1.0776999738436048,Omicron
+10,Klickitat County,Ferry County,10,1.1885537153417418,Omicron
+10,Lewis County,Ferry County,102,1.0026055459044243,Omicron
+10,Lincoln County,Ferry County,3,0.9411061935605903,Omicron
+10,Mason County,Ferry County,17,0.5841067714165388,Omicron
+10,Okanogan County,Ferry County,38,0.966755238802558,Omicron
+10,Pacific County,Ferry County,66,1.1872633934618348,Omicron
+10,Pend Oreille County,Ferry County,8,1.4761333880117262,Omicron
+10,Pierce County,Ferry County,690,1.043174122287398,Omicron
+10,San Juan County,Ferry County,2,0.6330264275673443,Omicron
+10,Skagit County,Ferry County,66,0.8183384698218691,Omicron
+10,Skamania County,Ferry County,6,2.1575474074475474,Omicron
+10,Snohomish County,Ferry County,540,1.0195112456849873,Omicron
+10,Spokane County,Ferry County,245,0.8232105758700798,Omicron
+10,Stevens County,Ferry County,8,0.9239647417947935,Omicron
+10,Thurston County,Ferry County,374,0.7114056778883069,Omicron
+10,Wahkiakum County,Ferry County,0,0,Omicron
+10,Walla Walla County,Ferry County,42,0.6663631030975147,Omicron
+10,Whatcom County,Ferry County,239,0.8632971907390681,Omicron
+10,Whitman County,Ferry County,84,0.9453833750601363,Omicron
+10,Yakima County,Ferry County,690,1.0903564588729533,Omicron
+10,Adams County,Franklin County,1442,1.0299993849758755,Omicron
+10,Asotin County,Franklin County,160,0.9830571028089957,Omicron
+10,Benton County,Franklin County,12357,0.9866256031490978,Omicron
+10,Chelan County,Franklin County,4302,0.9950573498822225,Omicron
+10,Clallam County,Franklin County,4300,0.98073266804426,Omicron
+10,Clark County,Franklin County,5305,0.962960082687659,Omicron
+10,Columbia County,Franklin County,100,1.0179475569015182,Omicron
+10,Cowlitz County,Franklin County,5579,1.0400623897956704,Omicron
+10,Douglas County,Franklin County,2132,0.9996773297671617,Omicron
+10,Ferry County,Franklin County,149,0.93660312791699,Omicron
+10,Franklin County,Franklin County,7854,0.991691751207923,Omicron
+10,Grant County,Franklin County,3465,0.9309547138831612,Omicron
+10,Grays Harbor County,Franklin County,10128,0.9639723790343051,Omicron
+10,Island County,Franklin County,1722,0.9975763567517693,Omicron
+10,Jefferson County,Franklin County,767,0.9755428400792401,Omicron
+10,King County,Franklin County,190201,1.0088793084085692,Omicron
+10,Kitsap County,Franklin County,6241,0.9893397725026303,Omicron
+10,Kittitas County,Franklin County,1382,0.9349155979110663,Omicron
+10,Klickitat County,Franklin County,402,0.9597571042642247,Omicron
+10,Lewis County,Franklin County,5011,0.9893974849074556,Omicron
+10,Lincoln County,Franklin County,175,1.1027368663769834,Omicron
+10,Mason County,Franklin County,1241,0.8565082875424327,Omicron
+10,Okanogan County,Franklin County,1907,0.9745409640884346,Omicron
+10,Pacific County,Franklin County,2827,1.0215165776442676,Omicron
+10,Pend Oreille County,Franklin County,209,0.7746372392505048,Omicron
+10,Pierce County,Franklin County,33192,1.007993205402812,Omicron
+10,San Juan County,Franklin County,127,0.8074432997656319,Omicron
+10,Skagit County,Franklin County,4194,1.0445612883451607,Omicron
+10,Skamania County,Franklin County,114,0.82343707409971445,Omicron
+10,Snohomish County,Franklin County,26205,0.9937997732070307,Omicron
+10,Spokane County,Franklin County,14367,0.969677720040753,Omicron
+10,Stevens County,Franklin County,433,1.004545880069219,Omicron
+10,Thurston County,Franklin County,26094,0.9970176609746081,Omicron
+10,Wahkiakum County,Franklin County,48,0.9893703135609802,Omicron
+10,Walla Walla County,Franklin County,3071,0.9787188130310978,Omicron
+10,Whatcom County,Franklin County,13891,1.0078883063975224,Omicron
+10,Whitman County,Franklin County,4394,0.9933566323681348,Omicron
+10,Yakima County,Franklin County,31553,1.0015589950006407,Omicron
+10,Adams County,Grant County,592,0.8997729322453252,Omicron
+10,Asotin County,Grant County,31,0.40528447619549934,Omicron
+10,Benton County,Grant County,5285,0.8978914555005915,Omicron
+10,Chelan County,Grant County,1930,0.9498926502533853,Omicron
+10,Clallam County,Grant County,1714,0.8318260488829707,Omicron
+10,Clark County,Grant County,2388,0.9223520800597296,Omicron
+10,Columbia County,Grant County,50,1.0830161208388505,Omicron
+10,Cowlitz County,Grant County,2590,1.0274064954221453,Omicron
+10,Douglas County,Grant County,951,0.9488393176930163,Omicron
+10,Ferry County,Grant County,46,0.6152713313962135,Omicron
+10,Franklin County,Grant County,3465,0.9309547138831612,Omicron
+10,Grant County,Grant County,1370,0.7832229343625304,Omicron
+10,Grays Harbor County,Grant County,5412,1.0960697647900712,Omicron
+10,Island County,Grant County,772,0.9516336999878333,Omicron
+10,Jefferson County,Grant County,460,1.2449397274889655,Omicron
+10,King County,Grant County,92867,1.0481594343293488,Omicron
+10,Kitsap County,Grant County,2859,0.96437280247932,Omicron
+10,Kittitas County,Grant County,672,0.9673266392693245,Omicron
+10,Klickitat County,Grant County,167,0.848381649305226,Omicron
+10,Lewis County,Grant County,2335,0.9810085594242759,Omicron
+10,Lincoln County,Grant County,81,1.086071398290884,Omicron
+10,Mason County,Grant County,551,0.8091907308803595,Omicron
+10,Okanogan County,Grant County,814,0.8851427640491467,Omicron
+10,Pacific County,Grant County,1311,1.0080029767557719,Omicron
+10,Pend Oreille County,Grant County,102,0.8044365026017404,Omicron
+10,Pierce County,Grant County,16049,1.0370785991276623,Omicron
+10,San Juan County,Grant County,87,1.1769745692990332,Omicron
+10,Skagit County,Grant County,1718,0.9104753086984764,Omicron
+10,Skamania County,Grant County,95,1.4601204480855248,Omicron
+10,Snohomish County,Grant County,12533,1.01136817025069,Omicron
+10,Spokane County,Grant County,5866,0.8424475981680172,Omicron
+10,Stevens County,Grant County,133,0.6565579039214277,Omicron
+10,Thurston County,Grant County,11267,0.9160306392662149,Omicron
+10,Wahkiakum County,Grant County,10,0.43858840918068737,Omicron
+10,Walla Walla County,Grant County,1118,0.7581575008539736,Omicron
+10,Whatcom County,Grant County,5906,0.9118257453177557,Omicron
+10,Whitman County,Grant County,1859,0.8942604944726491,Omicron
+10,Yakima County,Grant County,15236,1.0290734053029922,Omicron
+10,Adams County,Grays Harbor County,1921,1.0343181922818954,Omicron
+10,Asotin County,Grays Harbor County,228,1.0559630052000644,Omicron
+10,Benton County,Grays Harbor County,15763,0.9487096185860828,Omicron
+10,Chelan County,Grays Harbor County,5959,1.0389776010252336,Omicron
+10,Clallam County,Grays Harbor County,6284,1.080372338588743,Omicron
+10,Clark County,Grays Harbor County,7562,1.0347005100080777,Omicron
+10,Columbia County,Grays Harbor County,139,1.0665845740019768,Omicron
+10,Cowlitz County,Grays Harbor County,7080,0.994927377978919,Omicron
+10,Douglas County,Grays Harbor County,3309,1.1695653785898559,Omicron
+10,Ferry County,Grays Harbor County,215,1.018738897921084,Omicron
+10,Franklin County,Grays Harbor County,10128,0.9639723790343051,Omicron
+10,Grant County,Grays Harbor County,5412,1.0960697647900712,Omicron
+10,Grays Harbor County,Grays Harbor County,13334,0.9566574144313341,Omicron
+10,Island County,Grays Harbor County,2280,0.9956413865547626,Omicron
+10,Jefferson County,Grays Harbor County,1078,1.0335341621558656,Omicron
+10,King County,Grays Harbor County,247229,0.9885096760812093,Omicron
+10,Kitsap County,Grays Harbor County,8600,1.0276490633544,Omicron
+10,Kittitas County,Grays Harbor County,1976,1.0076423133119627,Omicron
+10,Klickitat County,Grays Harbor County,555,0.9988110976793031,Omicron
+10,Lewis County,Grays Harbor County,7203,1.072049670366506,Omicron
+10,Lincoln County,Grays Harbor County,182,0.8644907025548537,Omicron
+10,Mason County,Grays Harbor County,1845,0.9598674223598982,Omicron
+10,Okanogan County,Grays Harbor County,2591,0.9980950749001523,Omicron
+10,Pacific County,Grays Harbor County,3594,0.9789325669860797,Omicron
+10,Pend Oreille County,Grays Harbor County,319,0.8912465496643323,Omicron
+10,Pierce County,Grays Harbor County,43671,0.9997062634963223,Omicron
+10,San Juan County,Grays Harbor County,248,1.1885435197467558,Omicron
+10,Skagit County,Grays Harbor County,5756,1.0806408472278297,Omicron
+10,Skamania County,Grays Harbor County,166,0.9038341508228676,Omicron
+10,Snohomish County,Grays Harbor County,34953,0.999204266566477,Omicron
+10,Spokane County,Grays Harbor County,19682,1.0013494101847418,Omicron
+10,Stevens County,Grays Harbor County,623,1.089494446090313,Omicron
+10,Thurston County,Grays Harbor County,37038,1.066755312239035,Omicron
+10,Wahkiakum County,Grays Harbor County,47,0.7302483580813096,Omicron
+10,Walla Walla County,Grays Harbor County,3749,0.9006346551395843,Omicron
+10,Whatcom County,Grays Harbor County,19084,1.0437666026380412,Omicron
+10,Whitman County,Grays Harbor County,5801,0.9885601560527072,Omicron
+10,Yakima County,Grays Harbor County,40915,0.978979341363001,Omicron
+10,Adams County,Island County,301,0.98642801311795,Omicron
+10,Asotin County,Island County,27,0.7611140226974521,Omicron
+10,Benton County,Island County,2746,1.0059283871165066,Omicron
+10,Chelan County,Island County,956,1.0145250963086816,Omicron
+10,Clallam County,Island County,1008,1.0547994990110543,Omicron
+10,Clark County,Island County,1208,1.0060441206124966,Omicron
+10,Columbia County,Island County,24,1.120892188566751,Omicron
+10,Cowlitz County,Island County,1152,0.9853322694831482,Omicron
+10,Douglas County,Island County,479,1.0304700007824332,Omicron
+10,Ferry County,Island County,35,1.0094029654315926,Omicron
+10,Franklin County,Island County,1722,0.997576356751769,Omicron
+10,Grant County,Island County,772,0.9516336999878333,Omicron
+10,Grays Harbor County,Island County,2280,0.9956413865547626,Omicron
+10,Island County,Island County,396,1.0525321800963539,Omicron
+10,Jefferson County,Island County,183,1.0678967580704901,Omicron
+10,King County,Island County,40974,0.9971534096697914,Omicron
+10,Kitsap County,Island County,1384,1.0065945451214313,Omicron
+10,Kittitas County,Island County,318,0.9870034687175941,Omicron
+10,Klickitat County,Island County,96,1.0515591627784955,Omicron
+10,Lewis County,Island County,1102,0.9982864820536004,Omicron
+10,Lincoln County,Island County,47,1.3588105175752296,Omicron
+10,Mason County,Island County,331,1.0481295815197058,Omicron
+10,Okanogan County,Island County,415,0.9730265693871069,Omicron
+10,Pacific County,Island County,541,0.8969000992517354,Omicron
+10,Pend Oreille County,Island County,56,0.9522858001069234,Omicron
+10,Pierce County,Island County,7122,0.9923236652687095,Omicron
+10,San Juan County,Island County,38,1.1084576556805754,Omicron
+10,Skagit County,Island County,912,1.042143527214577,Omicron
+10,Skamania County,Island County,24,0.7953604719140095,Omicron
+10,Snohomish County,Island County,5810,1.0109229549582928,Omicron
+10,Spokane County,Island County,3194,0.9890618112975348,Omicron
+10,Stevens County,Island County,89,0.9473251856061389,Omicron
+10,Thurston County,Island County,5944,1.0420011315707134,Omicron
+10,Wahkiakum County,Island County,13,1.229385782952584,Omicron
+10,Walla Walla County,Island County,713,1.0425450878453815,Omicron
+10,Whatcom County,Island County,2881,0.9590678880271205,Omicron
+10,Whitman County,Island County,975,1.011292893503459,Omicron
+10,Yakima County,Island County,6809,0.9916225834521118,Omicron
+10,Adams County,Jefferson County,132,0.9497533064182816,Omicron
+10,Asotin County,Jefferson County,21,1.299700348671655,Omicron
+10,Benton County,Jefferson County,1204,0.968346973435259,Omicron
+10,Chelan County,Jefferson County,445,1.0368188749858571,Omicron
+10,Clallam County,Jefferson County,511,1.174000452561747,Omicron
+10,Clark County,Jefferson County,544,0.9946882189952777,Omicron
+10,Columbia County,Jefferson County,13,1.333011618249789,Omicron
+10,Cowlitz County,Jefferson County,537,1.0084224234731192,Omicron
+10,Douglas County,Jefferson County,238,1.1241254444735558,Omicron
+10,Ferry County,Jefferson County,15,0.9497860190472676,Omicron
+10,Franklin County,Jefferson County,767,0.9755428400792403,Omicron
+10,Grant County,Jefferson County,460,1.2449397274889653,Omicron
+10,Grays Harbor County,Jefferson County,1078,1.0335341621558656,Omicron
+10,Island County,Jefferson County,183,1.0678967580704903,Omicron
+10,Jefferson County,Jefferson County,74,0.9480863186341969,Omicron
+10,King County,Jefferson County,17825,0.9524038350118463,Omicron
+10,Kitsap County,Jefferson County,642,1.0251596212655876,Omicron
+10,Kittitas County,Jefferson County,177,1.2061541259424893,Omicron
+10,Klickitat County,Jefferson County,60,1.4429514228713678,Omicron
+10,Lewis County,Jefferson County,535,1.0640581421138398,Omicron
+10,Lincoln County,Jefferson County,6,0.3808467673898544,Omicron
+10,Mason County,Jefferson County,155,1.077597720831355,Omicron
+10,Okanogan County,Jefferson County,178,0.9162934588830873,Omicron
+10,Pacific County,Jefferson County,279,1.015521194238199,Omicron
+10,Pend Oreille County,Jefferson County,33,1.2320581411226568,Omicron
+10,Pierce County,Jefferson County,3322,1.0162229272565875,Omicron
+10,San Juan County,Jefferson County,18,1.152778842785633,Omicron
+10,Skagit County,Jefferson County,444,1.1139190948242408,Omicron
+10,Skamania County,Jefferson County,12,0.8731160853462784,Omicron
+10,Snohomish County,Jefferson County,2602,0.9940018654454119,Omicron
+10,Spokane County,Jefferson County,1508,1.0252454363756542,Omicron
+10,Stevens County,Jefferson County,48,1.1217298988228153,Omicron
+10,Thurston County,Jefferson County,2848,1.0961433570604755,Omicron
+10,Wahkiakum County,Jefferson County,6,1.2457590934843212,Omicron
+10,Walla Walla County,Jefferson County,335,1.0754447529379219,Omicron
+10,Whatcom County,Jefferson County,1507,1.10143107568063,Omicron
+10,Whitman County,Jefferson County,469,1.068029291910042,Omicron
+10,Yakima County,Jefferson County,3163,1.0113471341112383,Omicron
+10,Adams County,King County,33946,1.0185935622538131,Omicron
+10,Asotin County,King County,4286,1.1062455700672598,Omicron
+10,Benton County,King County,304874,1.022587167815189,Omicron
+10,Chelan County,King County,104164,1.0121292359034213,Omicron
+10,Clallam County,King County,107947,1.0342686920961282,Omicron
+10,Clark County,King County,132392,1.009544006162571,Omicron
+10,Columbia County,King County,2329,0.9959453495171695,Omicron
+10,Cowlitz County,King County,128544,1.0066893072446843,Omicron
+10,Douglas County,King County,52078,1.02581148120464,Omicron
+10,Ferry County,King County,4093,1.0808158257798832,Omicron
+10,Franklin County,King County,190201,1.0088793084085692,Omicron
+10,Grant County,King County,92867,1.0481594343293488,Omicron
+10,Grays Harbor County,King County,247229,0.9885096760812093,Omicron
+10,Island County,King County,40974,0.9971534096697914,Omicron
+10,Jefferson County,King County,17825,0.9524038350118463,Omicron
+10,King County,King County,4429932,0.9871066869176044,Omicron
+10,Kitsap County,King County,151702,1.010236853414978,Omicron
+10,Kittitas County,King County,35582,1.011195976570035,Omicron
+10,Klickitat County,King County,10175,1.020493670622363,Omicron
+10,Lewis County,King County,122572,1.0166659697605545,Omicron
+10,Lincoln County,King County,3672,0.9720243242530497,Omicron
+10,Mason County,King County,35742,1.0362850996535604,Omicron
+10,Okanogan County,King County,47648,1.0229035768233292,Omicron
+10,Pacific County,King County,66601,1.0109763022557128,Omicron
+10,Pend Oreille County,King County,6755,1.0517633989527915,Omicron
+10,Pierce County,King County,780377,0.9955641719002867,Omicron
+10,San Juan County,King County,3719,0.9932878143883013,Omicron
+10,Skagit County,King County,98005,1.025402445256906,Omicron
+10,Skamania County,King County,3076,0.9333671494840912,Omicron
+10,Snohomish County,King County,628829,1.0018158683147866,Omicron
+10,Spokane County,King County,363933,1.0318661787637593,Omicron
+10,Stevens County,King County,10962,1.0683468979551278,Omicron
+10,Thurston County,King County,635234,1.0196157690269383,Omicron
+10,Wahkiakum County,King County,1318,1.1412312703614125,Omicron
+10,Walla Walla County,King County,78330,1.0486893599935219,Omicron
+10,Whatcom County,King County,335438,1.0224257301291684,Omicron
+10,Whitman County,King County,107432,1.0202801072479366,Omicron
+10,Yakima County,King County,744722,0.9930489967868408,Omicron
+10,Adams County,Kitsap County,1086,0.9738835099316854,Omicron
+10,Asotin County,Kitsap County,125,0.9642158313013943,Omicron
+10,Benton County,Kitsap County,10066,1.009024572780163,Omicron
+10,Chelan County,Kitsap County,3374,0.9797793143992725,Omicron
+10,Clallam County,Kitsap County,3373,0.9658373798859626,Omicron
+10,Clark County,Kitsap County,4375,0.997025890223046,Omicron
+10,Columbia County,Kitsap County,79,1.00962007582342,Omicron
+10,Cowlitz County,Kitsap County,4200,0.9830096991827947,Omicron
+10,Douglas County,Kitsap County,1576,0.9277572104455553,Omicron
+10,Ferry County,Kitsap County,121,0.9549050449014925,Omicron
+10,Franklin County,Kitsap County,6241,0.9893397725026303,Omicron
+10,Grant County,Kitsap County,2859,0.96437280247932,Omicron
+10,Grays Harbor County,Kitsap County,8600,1.0276490633544,Omicron
+10,Island County,Kitsap County,1384,1.0065945451214315,Omicron
+10,Jefferson County,Kitsap County,642,1.0251596212655876,Omicron
+10,King County,Kitsap County,151702,1.010236853414978,Omicron
+10,Kitsap County,Kitsap County,4964,0.987935384841809,Omicron
+10,Kittitas County,Kitsap County,1173,0.9962489040165323,Omicron
+10,Klickitat County,Kitsap County,325,0.9741461656985917,Omicron
+10,Lewis County,Kitsap County,3889,0.9640283915739319,Omicron
+10,Lincoln County,Kitsap County,126,0.996804230522969,Omicron
+10,Mason County,Kitsap County,1128,0.9774045799703217,Omicron
+10,Okanogan County,Kitsap County,1547,0.9925335634941743,Omicron
+10,Pacific County,Kitsap County,2195,0.9957713278743773,Omicron
+10,Pend Oreille County,Kitsap County,208,0.967878631940729,Omicron
+10,Pierce County,Kitsap County,26059,0.9935446995224401,Omicron
+10,San Juan County,Kitsap County,121,0.9658266094994697,Omicron
+10,Skagit County,Kitsap County,3071,0.9602643350130693,Omicron
+10,Skamania County,Kitsap County,127,1.1516878051800474,Omicron
+10,Snohomish County,Kitsap County,21144,1.0067169049922184,Omicron
+10,Spokane County,Kitsap County,11570,0.9803929200691146,Omicron
+10,Stevens County,Kitsap County,311,0.9058321934913768,Omicron
+10,Thurston County,Kitsap County,20049,0.9617460055833322,Omicron
+10,Wahkiakum County,Kitsap County,39,1.0092243647845274,Omicron
+10,Walla Walla County,Kitsap County,2479,0.9918822735444353,Omicron
+10,Whatcom County,Kitsap County,10781,0.9820722132418669,Omicron
+10,Whitman County,Kitsap County,3488,0.9899815515069301,Omicron
+10,Yakima County,Kitsap County,25548,1.0181183565457832,Omicron
+10,Adams County,Kittitas County,260,0.9950012160976743,Omicron
+10,Asotin County,Kittitas County,27,0.8887939413671587,Omicron
+10,Benton County,Kittitas County,2224,0.9513770617421345,Omicron
+10,Chelan County,Kittitas County,791,0.9802407390543671,Omicron
+10,Clallam County,Kittitas County,813,0.9934620696357277,Omicron
+10,Clark County,Kittitas County,994,0.9666913656296561,Omicron
+10,Columbia County,Kittitas County,20,1.09077194350935,Omicron
+10,Cowlitz County,Kittitas County,1008,1.0067974831361204,Omicron
+10,Douglas County,Kittitas County,354,0.8893126372257448,Omicron
+10,Ferry County,Kittitas County,32,1.0776999738436048,Omicron
+10,Franklin County,Kittitas County,1382,0.9349155979110664,Omicron
+10,Grant County,Kittitas County,672,0.9673266392693246,Omicron
+10,Grays Harbor County,Kittitas County,1976,1.0076423133119627,Omicron
+10,Island County,Kittitas County,318,0.9870034687175943,Omicron
+10,Jefferson County,Kittitas County,177,1.2061541259424893,Omicron
+10,King County,Kittitas County,35582,1.0111959765700351,Omicron
+10,Kitsap County,Kittitas County,1173,0.9962489040165323,Omicron
+10,Kittitas County,Kittitas County,284,1.0293457153002306,Omicron
+10,Klickitat County,Kittitas County,83,1.0616758373607023,Omicron
+10,Lewis County,Kittitas County,913,0.965818979152469,Omicron
+10,Lincoln County,Kittitas County,33,1.1141055656034702,Omicron
+10,Mason County,Kittitas County,258,0.9540212592929427,Omicron
+10,Okanogan County,Kittitas County,348,0.9528119789502815,Omicron
+10,Pacific County,Kittitas County,550,1.0647823866371018,Omicron
+10,Pend Oreille County,Kittitas County,40,0.7943111059621978,Omicron
+10,Pierce County,Kittitas County,6198,1.008449867662975,Omicron
+10,San Juan County,Kittitas County,26,0.8856461125102858,Omicron
+10,Skagit County,Kittitas County,731,0.9754419661024126,Omicron
+10,Skamania County,Kittitas County,30,1.1609817116079757,Omicron
+10,Snohomish County,Kittitas County,4930,1.0017058431598416,Omicron
+10,Spokane County,Kittitas County,2712,0.9806850823375052,Omicron
+10,Stevens County,Kittitas County,79,0.9819458303862686,Omicron
+10,Thurston County,Kittitas County,4856,0.9940756365981934,Omicron
+10,Wahkiakum County,Kittitas County,7,0.7730262403169569,Omicron
+10,Walla Walla County,Kittitas County,547,0.9339938249282341,Omicron
+10,Whatcom County,Kittitas County,2587,1.005666266137218,Omicron
+10,Whitman County,Kittitas County,812,0.9835121536091369,Omicron
+10,Yakima County,Kittitas County,5879,0.9998109687715305,Omicron
+10,Adams County,Klickitat County,64,0.8643729302188312,Omicron
+10,Asotin County,Klickitat County,6,0.6970428739882495,Omicron
+10,Benton County,Klickitat County,625,0.9435584982713509,Omicron
+10,Chelan County,Klickitat County,233,1.0190209328527235,Omicron
+10,Clallam County,Klickitat County,239,1.0306935676728743,Omicron
+10,Clark County,Klickitat County,273,0.9369901428924898,Omicron
+10,Columbia County,Klickitat County,7,1.3473267206231871,Omicron
+10,Cowlitz County,Klickitat County,297,1.0469090603347557,Omicron
+10,Douglas County,Klickitat County,104,0.922052099291238,Omicron
+10,Ferry County,Klickitat County,10,1.1885537153417418,Omicron
+10,Franklin County,Klickitat County,402,0.9597571042642247,Omicron
+10,Grant County,Klickitat County,167,0.848381649305226,Omicron
+10,Grays Harbor County,Klickitat County,555,0.9988110976793031,Omicron
+10,Island County,Klickitat County,96,1.0515591627784955,Omicron
+10,Jefferson County,Klickitat County,60,1.4429514228713678,Omicron
+10,King County,Klickitat County,10175,1.020493670622363,Omicron
+10,Kitsap County,Klickitat County,325,0.9741461656985917,Omicron
+10,Kittitas County,Klickitat County,83,1.0616758373607023,Omicron
+10,Klickitat County,Klickitat County,16,0.7222785934169731,Omicron
+10,Lewis County,Klickitat County,267,0.9967979569682707,Omicron
+10,Lincoln County,Klickitat County,12,1.429764698403851,Omicron
+10,Mason County,Klickitat County,78,1.0178970817342676,Omicron
+10,Okanogan County,Klickitat County,107,1.0339098247718825,Omicron
+10,Pacific County,Klickitat County,132,0.9018680884760344,Omicron
+10,Pend Oreille County,Klickitat County,11,0.7708932600509766,Omicron
+10,Pierce County,Klickitat County,1740,0.999132094246692,Omicron
+10,San Juan County,Klickitat County,9,1.0819328373047183,Omicron
+10,Skagit County,Klickitat County,204,0.9606941509871305,Omicron
+10,Skamania County,Klickitat County,9,1.229185853071844,Omicron
+10,Snohomish County,Klickitat County,1377,0.9874114251489416,Omicron
+10,Spokane County,Klickitat County,744,0.9494754488379549,Omicron
+10,Stevens County,Klickitat County,22,0.9650593879374931,Omicron
+10,Thurston County,Klickitat County,1404,1.0143288537439619,Omicron
+10,Wahkiakum County,Klickitat County,2,0.7794658845719772,Omicron
+10,Walla Walla County,Klickitat County,136,0.8195331150873266,Omicron
+10,Whatcom County,Klickitat County,719,0.9864095405738882,Omicron
+10,Whitman County,Klickitat County,198,0.8463691246142289,Omicron
+10,Yakima County,Klickitat County,1677,1.0065107538967988,Omicron
+10,Adams County,Lewis County,843,0.9415857451564236,Omicron
+10,Asotin County,Lewis County,106,1.0184160226569612,Omicron
+10,Benton County,Lewis County,7837,0.9784750965814534,Omicron
+10,Chelan County,Lewis County,2645,0.9566740144233229,Omicron
+10,Clallam County,Lewis County,2630,0.9379906949698013,Omicron
+10,Clark County,Lewis County,3317,0.9415187288286212,Omicron
+10,Columbia County,Lewis County,60,0.9550745008571058,Omicron
+10,Cowlitz County,Lewis County,3202,0.9334368749965637,Omicron
+10,Douglas County,Lewis County,1137,0.8336690972573803,Omicron
+10,Ferry County,Lewis County,102,1.002605545904424,Omicron
+10,Franklin County,Lewis County,5011,0.9893974849074556,Omicron
+10,Grant County,Lewis County,2335,0.981008559424276,Omicron
+10,Grays Harbor County,Lewis County,7203,1.0720496703665061,Omicron
+10,Island County,Lewis County,1102,0.9982864820536004,Omicron
+10,Jefferson County,Lewis County,535,1.06405814211384,Omicron
+10,King County,Lewis County,122572,1.0166659697605545,Omicron
+10,Kitsap County,Lewis County,3889,0.9640283915739322,Omicron
+10,Kittitas County,Lewis County,913,0.965818979152469,Omicron
+10,Klickitat County,Lewis County,267,0.9967979569682709,Omicron
+10,Lewis County,Lewis County,2988,0.9225450603671892,Omicron
+10,Lincoln County,Lewis County,112,1.1036019607270655,Omicron
+10,Mason County,Lewis County,926,0.9993816480947706,Omicron
+10,Okanogan County,Lewis County,1197,0.9565422378214038,Omicron
+10,Pacific County,Lewis County,1757,0.9927775948007833,Omicron
+10,Pend Oreille County,Lewis County,177,1.0258549224338922,Omicron
+10,Pierce County,Lewis County,21022,0.9982948024325023,Omicron
+10,San Juan County,Lewis County,109,1.0836658998218953,Omicron
+10,Skagit County,Lewis County,2282,0.8887543432698898,Omicron
+10,Skamania County,Lewis County,104,1.174679798232126,Omicron
+10,Snohomish County,Lewis County,16767,0.9943303348444288,Omicron
+10,Spokane County,Lewis County,9065,0.9567307421422125,Omicron
+10,Stevens County,Lewis County,249,0.9033204099826336,Omicron
+10,Thurston County,Lewis County,16101,0.962001255293919,Omicron
+10,Wahkiakum County,Lewis County,19,0.612395278986759,Omicron
+10,Walla Walla County,Lewis County,1885,0.9393989489699578,Omicron
+10,Whatcom County,Lewis County,8743,0.9919732683886945,Omicron
+10,Whitman County,Lewis County,2713,0.9590815409016291,Omicron
+10,Yakima County,Lewis County,21170,1.0507933887235545,Omicron
+10,Adams County,Lincoln County,33,1.1763422248538222,Omicron
+10,Asotin County,Lincoln County,3,0.919873396577341,Omicron
+10,Benton County,Lincoln County,276,1.099756299008444,Omicron
+10,Chelan County,Lincoln County,87,1.0042573060219013,Omicron
+10,Clallam County,Lincoln County,104,1.1837597442758965,Omicron
+10,Clark County,Lincoln County,126,1.1414095006639755,Omicron
+10,Columbia County,Lincoln County,2,1.0160227711739656,Omicron
+10,Cowlitz County,Lincoln County,100,0.9303600898415992,Omicron
+10,Douglas County,Lincoln County,63,1.4742163857492228,Omicron
+10,Ferry County,Lincoln County,3,0.9411061935605903,Omicron
+10,Franklin County,Lincoln County,175,1.1027368663769834,Omicron
+10,Grant County,Lincoln County,81,1.086071398290884,Omicron
+10,Grays Harbor County,Lincoln County,182,0.8644907025548537,Omicron
+10,Island County,Lincoln County,47,1.3588105175752299,Omicron
+10,Jefferson County,Lincoln County,6,0.3808467673898544,Omicron
+10,King County,Lincoln County,3672,0.9720243242530497,Omicron
+10,Kitsap County,Lincoln County,126,0.9968042305229688,Omicron
+10,Kittitas County,Lincoln County,33,1.11410556560347,Omicron
+10,Klickitat County,Lincoln County,12,1.429764698403851,Omicron
+10,Lewis County,Lincoln County,112,1.1036019607270655,Omicron
+10,Lincoln County,Lincoln County,2,0.6289438610387398,Omicron
+10,Mason County,Lincoln County,36,1.239967579811496,Omicron
+10,Okanogan County,Lincoln County,41,1.0456378710455032,Omicron
+10,Pacific County,Lincoln County,48,0.8655833407303426,Omicron
+10,Pend Oreille County,Lincoln County,6,1.1098170096731845,Omicron
+10,Pierce County,Lincoln County,611,0.9260052192915325,Omicron
+10,San Juan County,Lincoln County,3,0.9518699361352133,Omicron
+10,Skagit County,Lincoln County,101,1.2553791629170008,Omicron
+10,Skamania County,Lincoln County,0,0,Omicron
+10,Snohomish County,Lincoln County,545,1.031476345701326,Omicron
+10,Spokane County,Lincoln County,344,1.1586914687418388,Omicron
+10,Stevens County,Lincoln County,9,1.04201130647484,Omicron
+10,Thurston County,Lincoln County,544,1.037311361020901,Omicron
+10,Wahkiakum County,Lincoln County,2,2.0572907564634924,Omicron
+10,Walla Walla County,Lincoln County,90,1.4314252404139836,Omicron
+10,Whatcom County,Lincoln County,271,0.9812874115079072,Omicron
+10,Whitman County,Lincoln County,112,1.2636046264291767,Omicron
+10,Yakima County,Lincoln County,549,0.8696735547661623,Omicron
+10,Adams County,Mason County,279,1.0893059915810783,Omicron
+10,Asotin County,Mason County,10,0.33584025183730154,Omicron
+10,Benton County,Mason County,1995,0.8706752891175715,Omicron
+10,Chelan County,Mason County,768,0.9709858700901057,Omicron
+10,Clallam County,Mason County,684,0.8527314331151811,Omicron
+10,Clark County,Mason County,1040,1.0318824354419849,Omicron
+10,Columbia County,Mason County,23,1.2797561478734312,Omicron
+10,Cowlitz County,Mason County,1071,1.0913561132372782,Omicron
+10,Douglas County,Mason County,424,1.0867070482909347,Omicron
+10,Ferry County,Mason County,17,0.5841067714165388,Omicron
+10,Franklin County,Mason County,1241,0.8565082875424329,Omicron
+10,Grant County,Mason County,551,0.8091907308803595,Omicron
+10,Grays Harbor County,Mason County,1845,0.9598674223598984,Omicron
+10,Island County,Mason County,331,1.0481295815197056,Omicron
+10,Jefferson County,Mason County,155,1.0775977208313547,Omicron
+10,King County,Mason County,35742,1.0362850996535604,Omicron
+10,Kitsap County,Mason County,1128,0.9774045799703216,Omicron
+10,Kittitas County,Mason County,258,0.9540212592929427,Omicron
+10,Klickitat County,Mason County,78,1.0178970817342676,Omicron
+10,Lewis County,Mason County,926,0.9993816480947706,Omicron
+10,Lincoln County,Mason County,36,1.239967579811496,Omicron
+10,Mason County,Mason County,218,0.8224135664529946,Omicron
+10,Okanogan County,Mason County,290,0.8100678348032999,Omicron
+10,Pacific County,Mason County,556,1.098166992936097,Omicron
+10,Pend Oreille County,Mason County,30,0.6077812861130379,Omicron
+10,Pierce County,Mason County,6432,1.0676876093903997,Omicron
+10,San Juan County,Mason County,23,0.7993005913554493,Omicron
+10,Skagit County,Mason County,816,1.110886383536561,Omicron
+10,Skamania County,Mason County,25,0.9870509210060813,Omicron
+10,Snohomish County,Mason County,4826,1.0004054084625542,Omicron
+10,Spokane County,Mason County,2364,0.8721331243584655,Omicron
+10,Stevens County,Mason County,75,0.951080172787677,Omicron
+10,Thurston County,Mason County,4792,1.000813112686229,Omicron
+10,Wahkiakum County,Mason County,9,1.0139910722904215,Omicron
+10,Walla Walla County,Mason County,432,0.7525508506088602,Omicron
+10,Whatcom County,Mason County,2321,0.9205089592058361,Omicron
+10,Whitman County,Mason County,802,0.9910452757930734,Omicron
+10,Yakima County,Mason County,5513,0.9565283687651687,Omicron
+10,Adams County,Okanogan County,326,0.9424382565790903,Omicron
+10,Asotin County,Okanogan County,41,1.0195445832425216,Omicron
+10,Benton County,Okanogan County,3083,0.9962686433118562,Omicron
+10,Chelan County,Okanogan County,997,0.9333326664575645,Omicron
+10,Clallam County,Okanogan County,945,0.8723235493148821,Omicron
+10,Clark County,Okanogan County,1337,0.9822406557389415,Omicron
+10,Columbia County,Okanogan County,23,0.9475820875983024,Omicron
+10,Cowlitz County,Okanogan County,1320,0.9959569438062063,Omicron
+10,Douglas County,Okanogan County,435,0.8255160135375484,Omicron
+10,Ferry County,Okanogan County,38,0.9667552388025582,Omicron
+10,Franklin County,Okanogan County,1907,0.9745409640884345,Omicron
+10,Grant County,Okanogan County,814,0.8851427640491467,Omicron
+10,Grays Harbor County,Okanogan County,2591,0.9980950749001523,Omicron
+10,Island County,Okanogan County,415,0.9730265693871069,Omicron
+10,Jefferson County,Okanogan County,178,0.9162934588830873,Omicron
+10,King County,Okanogan County,47648,1.0229035768233294,Omicron
+10,Kitsap County,Okanogan County,1547,0.9925335634941745,Omicron
+10,Kittitas County,Okanogan County,348,0.9528119789502815,Omicron
+10,Klickitat County,Okanogan County,107,1.0339098247718825,Omicron
+10,Lewis County,Okanogan County,1197,0.9565422378214038,Omicron
+10,Lincoln County,Okanogan County,41,1.0456378710455032,Omicron
+10,Mason County,Okanogan County,290,0.8100678348032999,Omicron
+10,Okanogan County,Okanogan County,470,0.9720998275769265,Omicron
+10,Pacific County,Okanogan County,757,1.1070802218483666,Omicron
+10,Pend Oreille County,Okanogan County,58,0.8700489367863983,Omicron
+10,Pierce County,Okanogan County,8290,1.0189252286370507,Omicron
+10,San Juan County,Okanogan County,37,0.9520804343535354,Omicron
+10,Skagit County,Okanogan County,937,0.9445146394859973,Omicron
+10,Skamania County,Okanogan County,36,1.0524262409988379,Omicron
+10,Snohomish County,Okanogan County,6508,0.9989088840620609,Omicron
+10,Spokane County,Okanogan County,3466,0.9467896153805496,Omicron
+10,Stevens County,Okanogan County,81,0.7605547823068897,Omicron
+10,Thurston County,Okanogan County,6145,0.9502714526184708,Omicron
+10,Wahkiakum County,Okanogan County,16,1.3347539736758962,Omicron
+10,Walla Walla County,Okanogan County,773,0.9970598219764347,Omicron
+10,Whatcom County,Okanogan County,3283,0.9640806806526241,Omicron
+10,Whitman County,Okanogan County,1037,0.948828020643663,Omicron
+10,Yakima County,Okanogan County,7991,1.0265984661874845,Omicron
+10,Adams County,Pacific County,477,0.9750432735349662,Omicron
+10,Asotin County,Pacific County,65,1.1428939295401288,Omicron
+10,Benton County,Pacific County,4345,0.992802636908541,Omicron
+10,Chelan County,Pacific County,1451,0.9604592088035387,Omicron
+10,Clallam County,Pacific County,1478,0.9646958869220996,Omicron
+10,Clark County,Pacific County,1812,0.9412714723693669,Omicron
+10,Columbia County,Pacific County,28,0.815675170322931,Omicron
+10,Cowlitz County,Pacific County,1783,0.9512357858966144,Omicron
+10,Douglas County,Pacific County,618,0.8292680338912252,Omicron
+10,Ferry County,Pacific County,66,1.1872633934618348,Omicron
+10,Franklin County,Pacific County,2827,1.0215165776442676,Omicron
+10,Grant County,Pacific County,1311,1.0080029767557719,Omicron
+10,Grays Harbor County,Pacific County,3594,0.9789325669860797,Omicron
+10,Island County,Pacific County,541,0.8969000992517354,Omicron
+10,Jefferson County,Pacific County,279,1.015521194238199,Omicron
+10,King County,Pacific County,66601,1.0109763022557128,Omicron
+10,Kitsap County,Pacific County,2195,0.9957713278743773,Omicron
+10,Kittitas County,Pacific County,550,1.0647823866371018,Omicron
+10,Klickitat County,Pacific County,132,0.9018680884760345,Omicron
+10,Lewis County,Pacific County,1757,0.9927775948007833,Omicron
+10,Lincoln County,Pacific County,48,0.8655833407303426,Omicron
+10,Mason County,Pacific County,556,1.098166992936097,Omicron
+10,Okanogan County,Pacific County,757,1.1070802218483666,Omicron
+10,Pacific County,Pacific County,1012,1.0464872213606895,Omicron
+10,Pend Oreille County,Pacific County,92,0.9758289963825465,Omicron
+10,Pierce County,Pacific County,11611,1.0090846840470729,Omicron
+10,San Juan County,Pacific County,55,1.000702097739616,Omicron
+10,Skagit County,Pacific County,1260,0.8980693037008788,Omicron
+10,Skamania County,Pacific County,48,0.992203167666382,Omicron
+10,Snohomish County,Pacific County,9226,1.0012948584354884,Omicron
+10,Spokane County,Pacific County,5133,0.9914399074718039,Omicron
+10,Stevens County,Pacific County,142,0.9427662599150558,Omicron
+10,Thurston County,Pacific County,8975,0.981364756366856,Omicron
+10,Wahkiakum County,Pacific County,12,0.7078360709699486,Omicron
+10,Walla Walla County,Pacific County,1021,0.931188638901296,Omicron
+10,Whatcom County,Pacific County,4722,0.9804798763536045,Omicron
+10,Whitman County,Pacific County,1461,0.9452118674607006,Omicron
+10,Yakima County,Pacific County,11182,1.0157554770280173,Omicron
+10,Adams County,Pend Oreille County,54,1.132222408111923,Omicron
+10,Asotin County,Pend Oreille County,1,0.1803536947693224,Omicron
+10,Benton County,Pend Oreille County,368,0.8624887407767625,Omicron
+10,Chelan County,Pend Oreille County,157,1.0659667035780225,Omicron
+10,Clallam County,Pend Oreille County,144,0.9640753070569532,Omicron
+10,Clark County,Pend Oreille County,187,0.996393266937345,Omicron
+10,Columbia County,Pend Oreille County,2,0.5976152634682173,Omicron
+10,Cowlitz County,Pend Oreille County,197,1.0780416441356813,Omicron
+10,Douglas County,Pend Oreille County,72,0.9909949026164498,Omicron
+10,Ferry County,Pend Oreille County,8,1.476133388011726,Omicron
+10,Franklin County,Pend Oreille County,209,0.7746372392505048,Omicron
+10,Grant County,Pend Oreille County,102,0.8044365026017404,Omicron
+10,Grays Harbor County,Pend Oreille County,319,0.8912465496643323,Omicron
+10,Island County,Pend Oreille County,56,0.9522858001069234,Omicron
+10,Jefferson County,Pend Oreille County,33,1.232058141122657,Omicron
+10,King County,Pend Oreille County,6755,1.0517633989527917,Omicron
+10,Kitsap County,Pend Oreille County,208,0.967878631940729,Omicron
+10,Kittitas County,Pend Oreille County,40,0.7943111059621978,Omicron
+10,Klickitat County,Pend Oreille County,11,0.7708932600509766,Omicron
+10,Lewis County,Pend Oreille County,177,1.025854922433892,Omicron
+10,Lincoln County,Pend Oreille County,6,1.1098170096731845,Omicron
+10,Mason County,Pend Oreille County,30,0.6077812861130379,Omicron
+10,Okanogan County,Pend Oreille County,58,0.8700489367863983,Omicron
+10,Pacific County,Pend Oreille County,92,0.9758289963825466,Omicron
+10,Pend Oreille County,Pend Oreille County,2,0.2175947244013711,Omicron
+10,Pierce County,Pend Oreille County,1157,1.031392152860831,Omicron
+10,San Juan County,Pend Oreille County,4,0.7465082067188177,Omicron
+10,Skagit County,Pend Oreille County,146,1.067393705625756,Omicron
+10,Skamania County,Pend Oreille County,3,0.6360819927510676,Omicron
+10,Snohomish County,Pend Oreille County,806,0.8972553408361557,Omicron
+10,Spokane County,Pend Oreille County,431,0.8538957982413286,Omicron
+10,Stevens County,Pend Oreille County,23,1.5663037854658886,Omicron
+10,Thurston County,Pend Oreille County,967,1.0845634098707988,Omicron
+10,Wahkiakum County,Pend Oreille County,1,0.6050397650212436,Omicron
+10,Walla Walla County,Pend Oreille County,80,0.7484010498409837,Omicron
+10,Whatcom County,Pend Oreille County,487,1.0372277740953295,Omicron
+10,Whitman County,Pend Oreille County,142,0.9423229505935609,Omicron
+10,Yakima County,Pend Oreille County,1013,0.9438687437853854,Omicron
+10,Adams County,Pierce County,5769,0.9910843604134113,Omicron
+10,Asotin County,Pierce County,720,1.0639706259341246,Omicron
+10,Benton County,Pierce County,52833,1.014572263563911,Omicron
+10,Chelan County,Pierce County,17958,0.9990196993846222,Omicron
+10,Clallam County,Pierce County,18555,1.0178447100677357,Omicron
+10,Clark County,Pierce County,22785,0.9947416640470059,Omicron
+10,Columbia County,Pierce County,387,0.9474902472331244,Omicron
+10,Cowlitz County,Pierce County,21982,0.9856179698821289,Omicron
+10,Douglas County,Pierce County,8603,0.9701992732614534,Omicron
+10,Ferry County,Pierce County,690,1.043174122287398,Omicron
+10,Franklin County,Pierce County,33192,1.007993205402812,Omicron
+10,Grant County,Pierce County,16049,1.0370785991276623,Omicron
+10,Grays Harbor County,Pierce County,43671,0.9997062634963222,Omicron
+10,Island County,Pierce County,7122,0.9923236652687095,Omicron
+10,Jefferson County,Pierce County,3322,1.0162229272565875,Omicron
+10,King County,Pierce County,780377,0.9955641719002866,Omicron
+10,Kitsap County,Pierce County,26059,0.9935446995224402,Omicron
+10,Kittitas County,Pierce County,6198,1.0084498676629747,Omicron
+10,Klickitat County,Pierce County,1740,0.9991320942466919,Omicron
+10,Lewis County,Pierce County,21022,0.9982948024325023,Omicron
+10,Lincoln County,Pierce County,611,0.9260052192915325,Omicron
+10,Mason County,Pierce County,6432,1.0676876093903997,Omicron
+10,Okanogan County,Pierce County,8290,1.0189252286370507,Omicron
+10,Pacific County,Pierce County,11611,1.0090846840470729,Omicron
+10,Pend Oreille County,Pierce County,1157,1.031392152860831,Omicron
+10,Pierce County,Pierce County,135588,0.9903388503584803,Omicron
+10,San Juan County,Pierce County,690,1.0551052494966748,Omicron
+10,Skagit County,Pierce County,16667,0.9983925117128738,Omicron
+10,Skamania County,Pierce County,591,1.0267185889707424,Omicron
+10,Snohomish County,Pierce County,109349,0.9973966930882232,Omicron
+10,Spokane County,Pierce County,62199,1.0096784956905052,Omicron
+10,Stevens County,Pierce County,1821,1.0160853862639316,Omicron
+10,Thurston County,Pierce County,109650,1.0076488377402406,Omicron
+10,Wahkiakum County,Pierce County,190,0.9419104551624601,Omicron
+10,Walla Walla County,Pierce County,13325,1.0213714561818508,Omicron
+10,Whatcom County,Pierce County,58025,1.0125871768089418,Omicron
+10,Whitman County,Pierce County,18425,1.0018230475602141,Omicron
+10,Yakima County,Pierce County,131888,1.0068842318334328,Omicron
+10,Adams County,San Juan County,26,0.9351204684622242,Omicron
+10,Asotin County,San Juan County,1,0.3093721909567388,Omicron
+10,Benton County,San Juan County,191,0.7678832814131475,Omicron
+10,Chelan County,San Juan County,97,1.129722947250653,Omicron
+10,Clallam County,San Juan County,96,1.1024932254108837,Omicron
+10,Clark County,San Juan County,127,1.1607778913295153,Omicron
+10,Columbia County,San Juan County,3,1.5376913429316634,Omicron
+10,Cowlitz County,San Juan County,109,1.0231799911289088,Omicron
+10,Douglas County,San Juan County,65,1.5346470538919799,Omicron
+10,Ferry County,San Juan County,2,0.6330264275673443,Omicron
+10,Franklin County,San Juan County,127,0.8074432997656319,Omicron
+10,Grant County,San Juan County,87,1.1769745692990332,Omicron
+10,Grays Harbor County,San Juan County,248,1.1885435197467558,Omicron
+10,Island County,San Juan County,38,1.1084576556805754,Omicron
+10,Jefferson County,San Juan County,18,1.1527788427856327,Omicron
+10,King County,San Juan County,3719,0.9932878143883013,Omicron
+10,Kitsap County,San Juan County,121,0.9658266094994697,Omicron
+10,Kittitas County,San Juan County,26,0.8856461125102858,Omicron
+10,Klickitat County,San Juan County,9,1.0819328373047181,Omicron
+10,Lewis County,San Juan County,109,1.0836658998218953,Omicron
+10,Lincoln County,San Juan County,3,0.9518699361352133,Omicron
+10,Mason County,San Juan County,23,0.7993005913554491,Omicron
+10,Okanogan County,San Juan County,37,0.9520804343535354,Omicron
+10,Pacific County,San Juan County,55,1.000702097739616,Omicron
+10,Pend Oreille County,San Juan County,4,0.7465082067188178,Omicron
+10,Pierce County,San Juan County,690,1.0551052494966748,Omicron
+10,San Juan County,San Juan County,6,1.9207996801106049,Omicron
+10,Skagit County,San Juan County,88,1.1035974364865766,Omicron
+10,Skamania County,San Juan County,6,2.182223990223448,Omicron
+10,Snohomish County,San Juan County,520,0.9929801870963477,Omicron
+10,Spokane County,San Juan County,248,0.8428213265733291,Omicron
+10,Stevens County,San Juan County,9,1.0513489859102942,Omicron
+10,Thurston County,San Juan County,538,1.0350634645578107,Omicron
+10,Wahkiakum County,San Juan County,0,0,Omicron
+10,Walla Walla County,San Juan County,34,0.5456065146871616,Omicron
+10,Whatcom County,San Juan County,275,1.004694672212869,Omicron
+10,Whitman County,San Juan County,82,0.9334294648595453,Omicron
+10,Yakima County,San Juan County,644,1.02930541098904,Omicron
+10,Adams County,Skagit County,632,0.8904478302661435,Omicron
+10,Asotin County,Skagit County,60,0.7271595460897483,Omicron
+10,Benton County,Skagit County,6368,1.002910287312567,Omicron
+10,Chelan County,Skagit County,2065,0.942144372933902,Omicron
+10,Clallam County,Skagit County,2055,0.9245144621070002,Omicron
+10,Clark County,Skagit County,2757,0.9871413843684702,Omicron
+10,Columbia County,Skagit County,47,0.9437195654607343,Omicron
+10,Cowlitz County,Skagit County,2676,0.9840311270767467,Omicron
+10,Douglas County,Skagit County,897,0.8296306396607731,Omicron
+10,Ferry County,Skagit County,66,0.8183384698218691,Omicron
+10,Franklin County,Skagit County,4194,1.0445612883451607,Omicron
+10,Grant County,Skagit County,1718,0.9104753086984764,Omicron
+10,Grays Harbor County,Skagit County,5756,1.0806408472278297,Omicron
+10,Island County,Skagit County,912,1.042143527214577,Omicron
+10,Jefferson County,Skagit County,444,1.1139190948242408,Omicron
+10,King County,Skagit County,98005,1.0254024452569057,Omicron
+10,Kitsap County,Skagit County,3071,0.9602643350130694,Omicron
+10,Kittitas County,Skagit County,731,0.9754419661024126,Omicron
+10,Klickitat County,Skagit County,204,0.9606941509871305,Omicron
+10,Lewis County,Skagit County,2282,0.8887543432698897,Omicron
+10,Lincoln County,Skagit County,101,1.2553791629170008,Omicron
+10,Mason County,Skagit County,816,1.110886383536561,Omicron
+10,Okanogan County,Skagit County,937,0.9445146394859973,Omicron
+10,Pacific County,Skagit County,1260,0.8980693037008788,Omicron
+10,Pend Oreille County,Skagit County,146,1.0673937056257563,Omicron
+10,Pierce County,Skagit County,16667,0.9983925117128738,Omicron
+10,San Juan County,Skagit County,88,1.1035974364865766,Omicron
+10,Skagit County,Skagit County,1804,0.8862611877645522,Omicron
+10,Skamania County,Skagit County,76,1.0828264465567221,Omicron
+10,Snohomish County,Skagit County,13232,0.9898284178658028,Omicron
+10,Spokane County,Skagit County,7222,0.9614761286949057,Omicron
+10,Stevens County,Skagit County,189,0.8648949899287254,Omicron
+10,Thurston County,Skagit County,12433,0.9370393385631173,Omicron
+10,Wahkiakum County,Skagit County,18,0.7318293780371136,Omicron
+10,Walla Walla County,Skagit County,1553,0.9762684904515289,Omicron
+10,Whatcom County,Skagit County,6401,0.9161074588277763,Omicron
+10,Whitman County,Skagit County,2205,0.9832714600765303,Omicron
+10,Yakima County,Skagit County,16408,1.02733296120552,Omicron
+10,Adams County,Skamania County,26,1.0623920553286168,Omicron
+10,Asotin County,Skamania County,6,2.1088698337608323,Omicron
+10,Benton County,Skamania County,205,0.9363386641894673,Omicron
+10,Chelan County,Skamania County,98,1.296712038905978,Omicron
+10,Clallam County,Skamania County,106,1.3830179375128777,Omicron
+10,Clark County,Skamania County,112,1.1630025865513598,Omicron
+10,Columbia County,Skamania County,1,0.5823246385087492,Omicron
+10,Cowlitz County,Skamania County,102,1.087784744079043,Omicron
+10,Douglas County,Skamania County,55,1.475282171205489,Omicron
+10,Ferry County,Skamania County,6,2.1575474074475474,Omicron
+10,Franklin County,Skamania County,114,0.8234370740997146,Omicron
+10,Grant County,Skamania County,95,1.4601204480855248,Omicron
+10,Grays Harbor County,Skamania County,166,0.9038341508228676,Omicron
+10,Island County,Skamania County,24,0.7953604719140095,Omicron
+10,Jefferson County,Skamania County,12,0.8731160853462784,Omicron
+10,King County,Skamania County,3076,0.933367149484091,Omicron
+10,Kitsap County,Skamania County,127,1.1516878051800474,Omicron
+10,Kittitas County,Skamania County,30,1.160981711607976,Omicron
+10,Klickitat County,Skamania County,9,1.229185853071844,Omicron
+10,Lewis County,Skamania County,104,1.174679798232126,Omicron
+10,Lincoln County,Skamania County,0,0,Omicron
+10,Mason County,Skamania County,25,0.9870509210060813,Omicron
+10,Okanogan County,Skamania County,36,1.0524262409988379,Omicron
+10,Pacific County,Skamania County,48,0.992203167666382,Omicron
+10,Pend Oreille County,Skamania County,3,0.6360819927510676,Omicron
+10,Pierce County,Skamania County,591,1.0267185889707424,Omicron
+10,San Juan County,Skamania County,6,2.182223990223448,Omicron
+10,Skagit County,Skamania County,76,1.0828264465567223,Omicron
+10,Skamania County,Skamania County,0,0,Omicron
+10,Snohomish County,Skamania County,429,0.9307044337013266,Omicron
+10,Spokane County,Skamania County,297,1.1467203931187022,Omicron
+10,Stevens County,Skamania County,12,1.592585978924797,Omicron
+10,Thurston County,Skamania County,608,1.3289404909882288,Omicron
+10,Wahkiakum County,Skamania County,0,0,Omicron
+10,Walla Walla County,Skamania County,42,0.7657150299223684,Omicron
+10,Whatcom County,Skamania County,273,1.1331340854193237,Omicron
+10,Whitman County,Skamania County,78,1.008740615122534,Omicron
+10,Yakima County,Skamania County,467,0.8479934938635555,Omicron
+10,Adams County,Snohomish County,4676,1.0031713786264593,Omicron
+10,Asotin County,Snohomish County,528,0.9743648548601646,Omicron
+10,Benton County,Snohomish County,41544,0.996268891274946,Omicron
+10,Chelan County,Snohomish County,14341,0.9962906786164701,Omicron
+10,Clallam County,Snohomish County,14487,0.9924064351056252,Omicron
+10,Clark County,Snohomish County,18622,1.0152620300815083,Omicron
+10,Columbia County,Snohomish County,346,1.0578654385284803,Omicron
+10,Cowlitz County,Snohomish County,17902,1.0023825754947209,Omicron
+10,Douglas County,Snohomish County,7077,0.9966685725822857,Omicron
+10,Ferry County,Snohomish County,540,1.0195112456849873,Omicron
+10,Franklin County,Snohomish County,26205,0.9937997732070307,Omicron
+10,Grant County,Snohomish County,12533,1.01136817025069,Omicron
+10,Grays Harbor County,Snohomish County,34953,0.999204266566477,Omicron
+10,Island County,Snohomish County,5810,1.0109229549582928,Omicron
+10,Jefferson County,Snohomish County,2602,0.9940018654454119,Omicron
+10,King County,Snohomish County,628829,1.0018158683147864,Omicron
+10,Kitsap County,Snohomish County,21144,1.0067169049922184,Omicron
+10,Kittitas County,Snohomish County,4930,1.0017058431598416,Omicron
+10,Klickitat County,Snohomish County,1377,0.9874114251489415,Omicron
+10,Lewis County,Snohomish County,16767,0.9943303348444288,Omicron
+10,Lincoln County,Snohomish County,545,1.031476345701326,Omicron
+10,Mason County,Snohomish County,4826,1.0004054084625542,Omicron
+10,Okanogan County,Snohomish County,6508,0.9989088840620609,Omicron
+10,Pacific County,Snohomish County,9226,1.0012948584354884,Omicron
+10,Pend Oreille County,Snohomish County,806,0.8972553408361557,Omicron
+10,Pierce County,Snohomish County,109349,0.9973966930882232,Omicron
+10,San Juan County,Snohomish County,520,0.9929801870963477,Omicron
+10,Skagit County,Snohomish County,13232,0.9898284178658027,Omicron
+10,Skamania County,Snohomish County,429,0.9307044337013266,Omicron
+10,Snohomish County,Snohomish County,87350,0.9949621595385394,Omicron
+10,Spokane County,Snohomish County,49287,0.9991314624238666,Omicron
+10,Stevens County,Snohomish County,1452,1.0117598058340593,Omicron
+10,Thurston County,Snohomish County,87713,1.0065957302883055,Omicron
+10,Wahkiakum County,Snohomish County,149,0.9224287520935182,Omicron
+10,Walla Walla County,Snohomish County,10275,0.983532863558179,Omicron
+10,Whatcom County,Snohomish County,45899,1.000255721511618,Omicron
+10,Whitman County,Snohomish County,14754,1.0018065057816627,Omicron
+10,Yakima County,Snohomish County,104274,0.9941246377902494,Omicron
+10,Adams County,Spokane County,2511,0.9587247501691318,Omicron
+10,Asotin County,Spokane County,195,0.6404259122112446,Omicron
+10,Benton County,Spokane County,22946,0.9793137343795434,Omicron
+10,Chelan County,Spokane County,7799,0.9642555509089793,Omicron
+10,Clallam County,Spokane County,7352,0.8963202453956882,Omicron
+10,Clark County,Spokane County,10305,0.9998766215559671,Omicron
+10,Columbia County,Spokane County,209,1.137227130367232,Omicron
+10,Cowlitz County,Spokane County,10111,1.0075640474600749,Omicron
+10,Douglas County,Spokane County,3882,0.9729795123846785,Omicron
+10,Ferry County,Spokane County,245,0.8232105758700798,Omicron
+10,Franklin County,Spokane County,14367,0.969677720040753,Omicron
+10,Grant County,Spokane County,5866,0.8424475981680172,Omicron
+10,Grays Harbor County,Spokane County,19682,1.0013494101847418,Omicron
+10,Island County,Spokane County,3194,0.9890618112975348,Omicron
+10,Jefferson County,Spokane County,1508,1.0252454363756542,Omicron
+10,King County,Spokane County,363933,1.0318661787637593,Omicron
+10,Kitsap County,Spokane County,11570,0.9803929200691146,Omicron
+10,Kittitas County,Spokane County,2712,0.9806850823375053,Omicron
+10,Klickitat County,Spokane County,744,0.9494754488379549,Omicron
+10,Lewis County,Spokane County,9065,0.9567307421422128,Omicron
+10,Lincoln County,Spokane County,344,1.1586914687418388,Omicron
+10,Mason County,Spokane County,2364,0.8721331243584655,Omicron
+10,Okanogan County,Spokane County,3466,0.9467896153805496,Omicron
+10,Pacific County,Spokane County,5133,0.9914399074718039,Omicron
+10,Pend Oreille County,Spokane County,431,0.8538957982413286,Omicron
+10,Pierce County,Spokane County,62199,1.0096784956905054,Omicron
+10,San Juan County,Spokane County,248,0.8428213265733291,Omicron
+10,Skagit County,Spokane County,7222,0.9614761286949057,Omicron
+10,Skamania County,Spokane County,297,1.1467203931187024,Omicron
+10,Snohomish County,Spokane County,49287,0.9991314624238666,Omicron
+10,Spokane County,Spokane County,25536,0.921275912690985,Omicron
+10,Stevens County,Spokane County,710,0.8804724078098616,Omicron
+10,Thurston County,Spokane County,46104,0.9416214027894291,Omicron
+10,Wahkiakum County,Spokane County,87,0.9585447915867478,Omicron
+10,Walla Walla County,Spokane County,5534,0.9427418708851608,Omicron
+10,Whatcom County,Spokane County,24286,0.9419121679612116,Omicron
+10,Whitman County,Spokane County,8037,0.9712133265419316,Omicron
+10,Yakima County,Spokane County,59422,1.0082277920331897,Omicron
+10,Adams County,Stevens County,70,0.9186832996497862,Omicron
+10,Asotin County,Stevens County,2,0.22577967055366166,Omicron
+10,Benton County,Stevens County,698,1.0239784900476037,Omicron
+10,Chelan County,Stevens County,209,0.8882190195882733,Omicron
+10,Clallam County,Stevens County,184,0.7710740470854602,Omicron
+10,Clark County,Stevens County,297,0.9905477651511242,Omicron
+10,Columbia County,Stevens County,5,0.9351719788460141,Omicron
+10,Cowlitz County,Stevens County,292,1.0001887343267246,Omicron
+10,Douglas County,Stevens County,103,0.8873724566255795,Omicron
+10,Ferry County,Stevens County,8,0.9239647417947935,Omicron
+10,Franklin County,Stevens County,433,1.004545880069219,Omicron
+10,Grant County,Stevens County,133,0.6565579039214277,Omicron
+10,Grays Harbor County,Stevens County,623,1.089494446090313,Omicron
+10,Island County,Stevens County,89,0.9473251856061389,Omicron
+10,Jefferson County,Stevens County,48,1.1217298988228153,Omicron
+10,King County,Stevens County,10962,1.0683468979551278,Omicron
+10,Kitsap County,Stevens County,311,0.9058321934913767,Omicron
+10,Kittitas County,Stevens County,79,0.9819458303862686,Omicron
+10,Klickitat County,Stevens County,22,0.9650593879374931,Omicron
+10,Lewis County,Stevens County,249,0.9033204099826336,Omicron
+10,Lincoln County,Stevens County,9,1.04201130647484,Omicron
+10,Mason County,Stevens County,75,0.9510801727876769,Omicron
+10,Okanogan County,Stevens County,81,0.7605547823068897,Omicron
+10,Pacific County,Stevens County,142,0.9427662599150558,Omicron
+10,Pend Oreille County,Stevens County,23,1.566303785465889,Omicron
+10,Pierce County,Stevens County,1821,1.0160853862639316,Omicron
+10,San Juan County,Stevens County,9,1.0513489859102945,Omicron
+10,Skagit County,Stevens County,189,0.8648949899287254,Omicron
+10,Skamania County,Stevens County,12,1.5925859789247967,Omicron
+10,Snohomish County,Stevens County,1452,1.0117598058340596,Omicron
+10,Spokane County,Stevens County,710,0.8804724078098616,Omicron
+10,Stevens County,Stevens County,16,0.6820213023935753,Omicron
+10,Thurston County,Stevens County,1120,0.7862783046638558,Omicron
+10,Wahkiakum County,Stevens County,3,1.1361481587035176,Omicron
+10,Walla Walla County,Stevens County,163,0.9544689415245678,Omicron
+10,Whatcom County,Stevens County,624,0.8318778514418725,Omicron
+10,Whitman County,Stevens County,214,0.8889042714804539,Omicron
+10,Yakima County,Stevens County,1762,1.027632566407259,Omicron
+10,Adams County,Thurston County,4330,0.9359141013189065,Omicron
+10,Asotin County,Thurston County,438,0.8143465535434338,Omicron
+10,Benton County,Thurston County,39920,0.9645089382906634,Omicron
+10,Chelan County,Thurston County,13977,0.9782910052290577,Omicron
+10,Clallam County,Thurston County,13517,0.9329081550099049,Omicron
+10,Clark County,Thurston County,17714,0.9730069141449347,Omicron
+10,Columbia County,Thurston County,316,0.9733944740977304,Omicron
+10,Cowlitz County,Thurston County,17271,0.9743094259090607,Omicron
+10,Douglas County,Thurston County,6658,0.9446976247068865,Omicron
+10,Ferry County,Thurston County,374,0.7114056778883069,Omicron
+10,Franklin County,Thurston County,26094,0.9970176609746081,Omicron
+10,Grant County,Thurston County,11267,0.9160306392662149,Omicron
+10,Grays Harbor County,Thurston County,37038,1.0667553122390352,Omicron
+10,Island County,Thurston County,5944,1.0420011315707134,Omicron
+10,Jefferson County,Thurston County,2848,1.0961433570604755,Omicron
+10,King County,Thurston County,635234,1.0196157690269383,Omicron
+10,Kitsap County,Thurston County,20049,0.9617460055833322,Omicron
+10,Kittitas County,Thurston County,4856,0.9940756365981934,Omicron
+10,Klickitat County,Thurston County,1404,1.0143288537439619,Omicron
+10,Lewis County,Thurston County,16101,0.962001255293919,Omicron
+10,Lincoln County,Thurston County,544,1.037311361020901,Omicron
+10,Mason County,Thurston County,4792,1.000813112686229,Omicron
+10,Okanogan County,Thurston County,6145,0.9502714526184708,Omicron
+10,Pacific County,Thurston County,8975,0.981364756366856,Omicron
+10,Pend Oreille County,Thurston County,967,1.0845634098707988,Omicron
+10,Pierce County,Thurston County,109650,1.0076488377402404,Omicron
+10,San Juan County,Thurston County,538,1.035063464557811,Omicron
+10,Skagit County,Thurston County,12433,0.9370393385631174,Omicron
+10,Skamania County,Thurston County,608,1.3289404909882288,Omicron
+10,Snohomish County,Thurston County,87713,1.0065957302883055,Omicron
+10,Spokane County,Thurston County,46104,0.9416214027894292,Omicron
+10,Stevens County,Thurston County,1120,0.7862783046638558,Omicron
+10,Thurston County,Thurston County,81818,0.9459919526340324,Omicron
+10,Wahkiakum County,Thurston County,142,0.8856912853230198,Omicron
+10,Walla Walla County,Thurston County,9786,0.9437559894986391,Omicron
+10,Whatcom County,Thurston County,42800,0.939721262866906,Omicron
+10,Whitman County,Thurston County,14138,0.9671849053687489,Omicron
+10,Yakima County,Thurston County,107592,1.0334566121911481,Omicron
+10,Adams County,Wahkiakum County,10,1.1660133928822811,Omicron
+10,Asotin County,Wahkiakum County,0,0,Omicron
+10,Benton County,Wahkiakum County,83,1.0818056885180745,Omicron
+10,Chelan County,Wahkiakum County,26,0.981709260248008,Omicron
+10,Clallam County,Wahkiakum County,21,0.7818677765788409,Omicron
+10,Clark County,Wahkiakum County,37,1.0963682606297045,Omicron
+10,Columbia County,Wahkiakum County,0,0,Omicron
+10,Cowlitz County,Wahkiakum County,27,0.8216722660432465,Omicron
+10,Douglas County,Wahkiakum County,8,0.6123425859354449,Omicron
+10,Ferry County,Wahkiakum County,0,0,Omicron
+10,Franklin County,Wahkiakum County,48,0.98937031356098,Omicron
+10,Grant County,Wahkiakum County,10,0.43858840918068737,Omicron
+10,Grays Harbor County,Wahkiakum County,47,0.7302483580813096,Omicron
+10,Island County,Wahkiakum County,13,1.229385782952584,Omicron
+10,Jefferson County,Wahkiakum County,6,1.245759093484321,Omicron
+10,King County,Wahkiakum County,1318,1.1412312703614127,Omicron
+10,Kitsap County,Wahkiakum County,39,1.0092243647845274,Omicron
+10,Kittitas County,Wahkiakum County,7,0.7730262403169569,Omicron
+10,Klickitat County,Wahkiakum County,2,0.7794658845719772,Omicron
+10,Lewis County,Wahkiakum County,19,0.612395278986759,Omicron
+10,Lincoln County,Wahkiakum County,2,2.0572907564634924,Omicron
+10,Mason County,Wahkiakum County,9,1.0139910722904215,Omicron
+10,Okanogan County,Wahkiakum County,16,1.3347539736758962,Omicron
+10,Pacific County,Wahkiakum County,12,0.7078360709699486,Omicron
+10,Pend Oreille County,Wahkiakum County,1,0.6050397650212437,Omicron
+10,Pierce County,Wahkiakum County,190,0.9419104551624602,Omicron
+10,San Juan County,Wahkiakum County,0,0,Omicron
+10,Skagit County,Wahkiakum County,18,0.7318293780371136,Omicron
+10,Skamania County,Wahkiakum County,0,0,Omicron
+10,Snohomish County,Wahkiakum County,149,0.9224287520935182,Omicron
+10,Spokane County,Wahkiakum County,87,0.9585447915867477,Omicron
+10,Stevens County,Wahkiakum County,3,1.1361481587035176,Omicron
+10,Thurston County,Wahkiakum County,142,0.8856912853230198,Omicron
+10,Wahkiakum County,Wahkiakum County,0,0,Omicron
+10,Walla Walla County,Wahkiakum County,18,0.9364453961943775,Omicron
+10,Whatcom County,Wahkiakum County,62,0.7343488489467823,Omicron
+10,Whitman County,Wahkiakum County,27,0.9964161113121538,Omicron
+10,Yakima County,Wahkiakum County,159,0.8238816618854645,Omicron
+10,Adams County,Walla Walla County,558,1.0060005543824828,Omicron
+10,Asotin County,Walla Walla County,38,0.5892976042292787,Omicron
+10,Benton County,Walla Walla County,4712,0.9495917493148572,Omicron
+10,Chelan County,Walla Walla County,1701,0.9930573624801258,Omicron
+10,Clallam County,Walla Walla County,1606,0.9245279460912387,Omicron
+10,Clark County,Walla Walla County,2246,1.0290227220550852,Omicron
+10,Columbia County,Walla Walla County,39,1.0020336993826189,Omicron
+10,Cowlitz County,Walla Walla County,2071,0.9744856439794152,Omicron
+10,Douglas County,Walla Walla County,820,0.9704626191270822,Omicron
+10,Ferry County,Walla Walla County,42,0.6663631030975146,Omicron
+10,Franklin County,Walla Walla County,3071,0.9787188130310978,Omicron
+10,Grant County,Walla Walla County,1118,0.7581575008539736,Omicron
+10,Grays Harbor County,Walla Walla County,3749,0.9006346551395843,Omicron
+10,Island County,Walla Walla County,713,1.0425450878453817,Omicron
+10,Jefferson County,Walla Walla County,335,1.0754447529379219,Omicron
+10,King County,Walla Walla County,78330,1.0486893599935219,Omicron
+10,Kitsap County,Walla Walla County,2479,0.9918822735444354,Omicron
+10,Kittitas County,Walla Walla County,547,0.9339938249282341,Omicron
+10,Klickitat County,Walla Walla County,136,0.8195331150873265,Omicron
+10,Lewis County,Walla Walla County,1885,0.9393989489699578,Omicron
+10,Lincoln County,Walla Walla County,90,1.4314252404139836,Omicron
+10,Mason County,Walla Walla County,432,0.7525508506088602,Omicron
+10,Okanogan County,Walla Walla County,773,0.9970598219764347,Omicron
+10,Pacific County,Walla Walla County,1021,0.9311886389012962,Omicron
+10,Pend Oreille County,Walla Walla County,80,0.7484010498409837,Omicron
+10,Pierce County,Walla Walla County,13325,1.0213714561818508,Omicron
+10,San Juan County,Walla Walla County,34,0.5456065146871616,Omicron
+10,Skagit County,Walla Walla County,1553,0.976268490451529,Omicron
+10,Skamania County,Walla Walla County,42,0.7657150299223684,Omicron
+10,Snohomish County,Walla Walla County,10275,0.9835328635581793,Omicron
+10,Spokane County,Walla Walla County,5534,0.9427418708851607,Omicron
+10,Stevens County,Walla Walla County,163,0.954468941524568,Omicron
+10,Thurston County,Walla Walla County,9786,0.9437559894986391,Omicron
+10,Wahkiakum County,Walla Walla County,18,0.9364453961943775,Omicron
+10,Walla Walla County,Walla Walla County,1096,0.8816190996051022,Omicron
+10,Whatcom County,Walla Walla County,5032,0.9215350197902833,Omicron
+10,Whitman County,Walla Walla County,1704,0.9723151433753656,Omicron
+10,Yakima County,Walla Walla County,12037,0.9643761357916661,Omicron
+10,Adams County,Whatcom County,2341,0.9608734864779775,Omicron
+10,Asotin County,Whatcom County,223,0.7873298499433691,Omicron
+10,Benton County,Whatcom County,21149,0.970336265650731,Omicron
+10,Chelan County,Whatcom County,7313,0.9720002364998613,Omicron
+10,Clallam County,Whatcom County,6908,0.9053731409211723,Omicron
+10,Clark County,Whatcom County,9123,0.951598311451875,Omicron
+10,Columbia County,Whatcom County,161,0.9417689587045923,Omicron
+10,Cowlitz County,Whatcom County,9408,1.0078442689200175,Omicron
+10,Douglas County,Whatcom County,3452,0.930114728351307,Omicron
+10,Ferry County,Whatcom County,239,0.8632971907390681,Omicron
+10,Franklin County,Whatcom County,13891,1.0078883063975224,Omicron
+10,Grant County,Whatcom County,5906,0.9118257453177557,Omicron
+10,Grays Harbor County,Whatcom County,19084,1.0437666026380412,Omicron
+10,Island County,Whatcom County,2881,0.9590678880271204,Omicron
+10,Jefferson County,Whatcom County,1507,1.10143107568063,Omicron
+10,King County,Whatcom County,335438,1.0224257301291684,Omicron
+10,Kitsap County,Whatcom County,10781,0.982072213241867,Omicron
+10,Kittitas County,Whatcom County,2587,1.005666266137218,Omicron
+10,Klickitat County,Whatcom County,719,0.9864095405738882,Omicron
+10,Lewis County,Whatcom County,8743,0.9919732683886945,Omicron
+10,Lincoln County,Whatcom County,271,0.9812874115079072,Omicron
+10,Mason County,Whatcom County,2321,0.9205089592058363,Omicron
+10,Okanogan County,Whatcom County,3283,0.9640806806526242,Omicron
+10,Pacific County,Whatcom County,4722,0.9804798763536045,Omicron
+10,Pend Oreille County,Whatcom County,487,1.0372277740953295,Omicron
+10,Pierce County,Whatcom County,58025,1.0125871768089416,Omicron
+10,San Juan County,Whatcom County,275,1.004694672212869,Omicron
+10,Skagit County,Whatcom County,6401,0.9161074588277763,Omicron
+10,Skamania County,Whatcom County,273,1.1331340854193237,Omicron
+10,Snohomish County,Whatcom County,45899,1.000255721511618,Omicron
+10,Spokane County,Whatcom County,24286,0.9419121679612116,Omicron
+10,Stevens County,Whatcom County,624,0.8318778514418727,Omicron
+10,Thurston County,Whatcom County,42800,0.9397212628669059,Omicron
+10,Wahkiakum County,Whatcom County,62,0.7343488489467822,Omicron
+10,Walla Walla County,Whatcom County,5032,0.9215350197902833,Omicron
+10,Whatcom County,Whatcom County,22552,0.9402796767818664,Omicron
+10,Whitman County,Whatcom County,7318,0.9506718615879554,Omicron
+10,Yakima County,Whatcom County,56665,1.0335794422082731,Omicron
+10,Adams County,Whitman County,729,0.9323062005616718,Omicron
+10,Asotin County,Whitman County,73,0.8030469966282594,Omicron
+10,Benton County,Whitman County,7174,1.0255575738587976,Omicron
+10,Chelan County,Whitman County,2349,0.9727921602518701,Omicron
+10,Clallam County,Whitman County,2354,0.9612757444789048,Omicron
+10,Clark County,Whitman County,2989,0.971422483400919,Omicron
+10,Columbia County,Whitman County,54,0.98418899271006,Omicron
+10,Cowlitz County,Whitman County,2951,0.9849894509783046,Omicron
+10,Douglas County,Whitman County,1141,0.9578943835556115,Omicron
+10,Ferry County,Whitman County,84,0.945383375060136,Omicron
+10,Franklin County,Whitman County,4394,0.9933566323681348,Omicron
+10,Grant County,Whitman County,1859,0.8942604944726491,Omicron
+10,Grays Harbor County,Whitman County,5801,0.9885601560527072,Omicron
+10,Island County,Whitman County,975,1.0112928935034589,Omicron
+10,Jefferson County,Whitman County,469,1.068029291910042,Omicron
+10,King County,Whitman County,107432,1.0202801072479366,Omicron
+10,Kitsap County,Whitman County,3488,0.9899815515069302,Omicron
+10,Kittitas County,Whitman County,812,0.9835121536091369,Omicron
+10,Klickitat County,Whitman County,198,0.8463691246142288,Omicron
+10,Lewis County,Whitman County,2713,0.959081540901629,Omicron
+10,Lincoln County,Whitman County,112,1.2636046264291767,Omicron
+10,Mason County,Whitman County,802,0.9910452757930732,Omicron
+10,Okanogan County,Whitman County,1037,0.948828020643663,Omicron
+10,Pacific County,Whitman County,1461,0.9452118674607006,Omicron
+10,Pend Oreille County,Whitman County,142,0.9423229505935609,Omicron
+10,Pierce County,Whitman County,18425,1.0018230475602141,Omicron
+10,San Juan County,Whitman County,82,0.9334294648595454,Omicron
+10,Skagit County,Whitman County,2205,0.9832714600765304,Omicron
+10,Skamania County,Whitman County,78,1.008740615122534,Omicron
+10,Snohomish County,Whitman County,14754,1.0018065057816627,Omicron
+10,Spokane County,Whitman County,8037,0.9712133265419318,Omicron
+10,Stevens County,Whitman County,214,0.8889042714804538,Omicron
+10,Thurston County,Whitman County,14138,0.9671849053687489,Omicron
+10,Wahkiakum County,Whitman County,27,0.9964161113121538,Omicron
+10,Walla Walla County,Whitman County,1704,0.9723151433753656,Omicron
+10,Whatcom County,Whitman County,7318,0.9506718615879552,Omicron
+10,Whitman County,Whitman County,2382,0.9641536277098194,Omicron
+10,Yakima County,Whitman County,17555,0.9976909927142794,Omicron
+10,Adams County,Yakima County,5852,1.0508145965608533,Omicron
+10,Asotin County,Yakima County,741,1.144529642572833,Omicron
+10,Benton County,Yakima County,48085,0.9651593657959241,Omicron
+10,Chelan County,Yakima County,17642,1.0258304778079164,Omicron
+10,Clallam County,Yakima County,18095,1.0375065520514655,Omicron
+10,Clark County,Yakima County,21813,0.9953787623675735,Omicron
+10,Columbia County,Yakima County,388,0.9929038720944947,Omicron
+10,Cowlitz County,Yakima County,21464,1.0059207447426741,Omicron
+10,Douglas County,Yakima County,8798,1.0370666659818146,Omicron
+10,Ferry County,Yakima County,690,1.0903564588729535,Omicron
+10,Franklin County,Yakima County,31553,1.0015589950006407,Omicron
+10,Grant County,Yakima County,15236,1.0290734053029922,Omicron
+10,Grays Harbor County,Yakima County,40915,0.978979341363001,Omicron
+10,Island County,Yakima County,6809,0.9916225834521118,Omicron
+10,Jefferson County,Yakima County,3163,1.0113471341112383,Omicron
+10,King County,Yakima County,744722,0.9930489967868407,Omicron
+10,Kitsap County,Yakima County,25548,1.0181183565457832,Omicron
+10,Kittitas County,Yakima County,5879,0.9998109687715305,Omicron
+10,Klickitat County,Yakima County,1677,1.0065107538967988,Omicron
+10,Lewis County,Yakima County,21170,1.0507933887235545,Omicron
+10,Lincoln County,Yakima County,549,0.8696735547661623,Omicron
+10,Mason County,Yakima County,5513,0.9565283687651687,Omicron
+10,Okanogan County,Yakima County,7991,1.0265984661874847,Omicron
+10,Pacific County,Yakima County,11182,1.0157554770280173,Omicron
+10,Pend Oreille County,Yakima County,1013,0.9438687437853852,Omicron
+10,Pierce County,Yakima County,131888,1.0068842318334328,Omicron
+10,San Juan County,Yakima County,644,1.02930541098904,Omicron
+10,Skagit County,Yakima County,16408,1.02733296120552,Omicron
+10,Skamania County,Yakima County,467,0.8479934938635555,Omicron
+10,Snohomish County,Yakima County,104274,0.9941246377902494,Omicron
+10,Spokane County,Yakima County,59422,1.0082277920331897,Omicron
+10,Stevens County,Yakima County,1762,1.0276325664072592,Omicron
+10,Thurston County,Yakima County,107592,1.033456612191148,Omicron
+10,Wahkiakum County,Yakima County,159,0.8238816618854645,Omicron
+10,Walla Walla County,Yakima County,12037,0.9643761357916661,Omicron
+10,Whatcom County,Yakima County,56665,1.0335794422082731,Omicron
+10,Whitman County,Yakima County,17555,0.9976909927142794,Omicron
+10,Yakima County,Yakima County,123350,0.9842946089366654,Omicron

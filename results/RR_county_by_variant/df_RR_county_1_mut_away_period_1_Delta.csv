@@ -1,0 +1,962 @@
+n_mutations,group_1,group_2,n_pairs,RR,variant
+1,Adams County,Adams County,12,80.48148148148148,Delta
+1,Asotin County,Adams County,0,0,Delta
+1,Benton County,Adams County,2,4.19903381642512,Delta
+1,Chelan County,Adams County,0,0,Delta
+1,Clallam County,Adams County,2,3.240865026099925,Delta
+1,Cowlitz County,Adams County,0,0,Delta
+1,Douglas County,Adams County,0,0,Delta
+1,Franklin County,Adams County,0,0,Delta
+1,Garfield County,Adams County,0,0,Delta
+1,Grant County,Adams County,6,26.33939393939394,Delta
+1,Grays Harbor County,Adams County,0,0,Delta
+1,Island County,Adams County,0,0,Delta
+1,Jefferson County,Adams County,0,0,Delta
+1,King County,Adams County,0,0,Delta
+1,Kitsap County,Adams County,0,0,Delta
+1,Kittitas County,Adams County,9,10.651960784313726,Delta
+1,Klickitat County,Adams County,0,0,Delta
+1,Lewis County,Adams County,0,0,Delta
+1,Mason County,Adams County,0,0,Delta
+1,Okanogan County,Adams County,0,0,Delta
+1,Pacific County,Adams County,0,0,Delta
+1,Pierce County,Adams County,0,0,Delta
+1,Skagit County,Adams County,0,0,Delta
+1,Snohomish County,Adams County,0,0,Delta
+1,Spokane County,Adams County,2,2.682716049382716,Delta
+1,Thurston County,Adams County,0,0,Delta
+1,Wahkiakum County,Adams County,0,0,Delta
+1,Walla Walla County,Adams County,0,0,Delta
+1,Whatcom County,Adams County,0,0,Delta
+1,Whitman County,Adams County,0,0,Delta
+1,Yakima County,Adams County,3,2.7128589263420726,Delta
+1,Adams County,Benton County,2,4.19903381642512,Delta
+1,Asotin County,Benton County,0,0,Delta
+1,Benton County,Benton County,50,32.86200378071834,Delta
+1,Chelan County,Benton County,0,0,Delta
+1,Clallam County,Benton County,0,0,Delta
+1,Cowlitz County,Benton County,0,0,Delta
+1,Douglas County,Benton County,0,0,Delta
+1,Franklin County,Benton County,7,11.757294685990338,Delta
+1,Garfield County,Benton County,0,0,Delta
+1,Grant County,Benton County,0,0,Delta
+1,Grays Harbor County,Benton County,0,0,Delta
+1,Island County,Benton County,0,0,Delta
+1,Jefferson County,Benton County,0,0,Delta
+1,King County,Benton County,18,0.3134762572630736,Delta
+1,Kitsap County,Benton County,0,0,Delta
+1,Kittitas County,Benton County,2,0.741005967604433,Delta
+1,Klickitat County,Benton County,1,7.558260869565218,Delta
+1,Lewis County,Benton County,0,0,Delta
+1,Mason County,Benton County,0,0,Delta
+1,Okanogan County,Benton County,0,0,Delta
+1,Pacific County,Benton County,0,0,Delta
+1,Pierce County,Benton County,3,0.4876297335203366,Delta
+1,Skagit County,Benton County,2,0.5598711755233495,Delta
+1,Snohomish County,Benton County,9,0.8185842097002041,Delta
+1,Spokane County,Benton County,7,2.9393236714975846,Delta
+1,Thurston County,Benton County,0,0,Delta
+1,Wahkiakum County,Benton County,0,0,Delta
+1,Walla Walla County,Benton County,0,0,Delta
+1,Whatcom County,Benton County,1,0.06864905421948427,Delta
+1,Whitman County,Benton County,0,0,Delta
+1,Yakima County,Benton County,13,3.680052108777072,Delta
+1,Adams County,Clallam County,2,3.240865026099925,Delta
+1,Asotin County,Clallam County,0,0,Delta
+1,Benton County,Clallam County,0,0,Delta
+1,Chelan County,Clallam County,0,0,Delta
+1,Clallam County,Clallam County,132,51.67983424170083,Delta
+1,Cowlitz County,Clallam County,0,0,Delta
+1,Douglas County,Clallam County,0,0,Delta
+1,Franklin County,Clallam County,0,0,Delta
+1,Garfield County,Clallam County,0,0,Delta
+1,Grant County,Clallam County,0,0,Delta
+1,Grays Harbor County,Clallam County,0,0,Delta
+1,Island County,Clallam County,0,0,Delta
+1,Jefferson County,Clallam County,1,19.44519015659955,Delta
+1,King County,Clallam County,3,0.04032412705285622,Delta
+1,Kitsap County,Clallam County,0,0,Delta
+1,Kittitas County,Clallam County,3,0.8578760363205684,Delta
+1,Klickitat County,Clallam County,0,0,Delta
+1,Lewis County,Clallam County,0,0,Delta
+1,Mason County,Clallam County,0,0,Delta
+1,Okanogan County,Clallam County,0,0,Delta
+1,Pacific County,Clallam County,0,0,Delta
+1,Pierce County,Clallam County,2,0.2509056794399942,Delta
+1,Skagit County,Clallam County,1,0.21605766840666168,Delta
+1,Snohomish County,Clallam County,3,0.210597727327793,Delta
+1,Spokane County,Clallam County,0,0,Delta
+1,Thurston County,Clallam County,2,1.3109116959505318,Delta
+1,Wahkiakum County,Clallam County,0,0,Delta
+1,Walla Walla County,Clallam County,0,0,Delta
+1,Whatcom County,Clallam County,0,0,Delta
+1,Whitman County,Clallam County,0,0,Delta
+1,Yakima County,Clallam County,0,0,Delta
+1,Adams County,Grant County,6,26.33939393939394,Delta
+1,Asotin County,Grant County,0,0,Delta
+1,Benton County,Grant County,0,0,Delta
+1,Chelan County,Grant County,3,8.317703349282295,Delta
+1,Clallam County,Grant County,0,0,Delta
+1,Cowlitz County,Grant County,0,0,Delta
+1,Douglas County,Grant County,4,31.607272727272726,Delta
+1,Franklin County,Grant County,0,0,Delta
+1,Garfield County,Grant County,0,0,Delta
+1,Grant County,Grant County,6,17.240330578512395,Delta
+1,Grays Harbor County,Grant County,0,0,Delta
+1,Island County,Grant County,0,0,Delta
+1,Jefferson County,Grant County,0,0,Delta
+1,King County,Grant County,14,0.5097947214076246,Delta
+1,Kitsap County,Grant County,1,14.36694214876033,Delta
+1,Kittitas County,Grant County,9,6.972192513368984,Delta
+1,Klickitat County,Grant County,0,0,Delta
+1,Lewis County,Grant County,1,0.9463255307566685,Delta
+1,Mason County,Grant County,0,0,Delta
+1,Okanogan County,Grant County,0,0,Delta
+1,Pacific County,Grant County,0,0,Delta
+1,Pierce County,Grant County,1,0.33986314760508307,Delta
+1,Skagit County,Grant County,0,0,Delta
+1,Snohomish County,Grant County,0,0,Delta
+1,Spokane County,Grant County,0,0,Delta
+1,Thurston County,Grant County,0,0,Delta
+1,Wahkiakum County,Grant County,0,0,Delta
+1,Walla Walla County,Grant County,2,8.542506142506141,Delta
+1,Whatcom County,Grant County,2,0.28707786309966143,Delta
+1,Whitman County,Grant County,0,0,Delta
+1,Yakima County,Grant County,6,3.551378958120531,Delta
+1,Adams County,Kittitas County,9,10.651960784313726,Delta
+1,Asotin County,Kittitas County,0,0,Delta
+1,Benton County,Kittitas County,2,0.741005967604433,Delta
+1,Chelan County,Kittitas County,0,0,Delta
+1,Clallam County,Kittitas County,3,0.8578760363205684,Delta
+1,Cowlitz County,Kittitas County,0,0,Delta
+1,Douglas County,Kittitas County,0,0,Delta
+1,Franklin County,Kittitas County,0,0,Delta
+1,Garfield County,Kittitas County,0,0,Delta
+1,Grant County,Kittitas County,9,6.972192513368984,Delta
+1,Grays Harbor County,Kittitas County,0,0,Delta
+1,Island County,Kittitas County,3,2.130392156862745,Delta
+1,Jefferson County,Kittitas County,0,0,Delta
+1,King County,Kittitas County,116,1.1388271437607302,Delta
+1,Kitsap County,Kittitas County,0,0,Delta
+1,Kittitas County,Kittitas County,30,6.265859284890427,Delta
+1,Klickitat County,Kittitas County,0,0,Delta
+1,Lewis County,Kittitas County,0,0,Delta
+1,Mason County,Kittitas County,0,0,Delta
+1,Okanogan County,Kittitas County,1,0.869547819127651,Delta
+1,Pacific County,Kittitas County,0,0,Delta
+1,Pierce County,Kittitas County,8,0.7330381615011596,Delta
+1,Skagit County,Kittitas County,0,0,Delta
+1,Snohomish County,Kittitas County,7,0.3589108326844576,Delta
+1,Spokane County,Kittitas County,0,0,Delta
+1,Thurston County,Kittitas County,0,0,Delta
+1,Wahkiakum County,Kittitas County,0,0,Delta
+1,Walla Walla County,Kittitas County,0,0,Delta
+1,Whatcom County,Kittitas County,12,0.46439066089651115,Delta
+1,Whitman County,Kittitas County,0,0,Delta
+1,Yakima County,Kittitas County,4,0.6383197473746053,Delta
+1,Adams County,Spokane County,2,2.682716049382716,Delta
+1,Asotin County,Spokane County,1,24.144444444444446,Delta
+1,Benton County,Spokane County,7,2.9393236714975846,Delta
+1,Chelan County,Spokane County,0,0,Delta
+1,Clallam County,Spokane County,0,0,Delta
+1,Cowlitz County,Spokane County,0,0,Delta
+1,Douglas County,Spokane County,0,0,Delta
+1,Franklin County,Spokane County,4,4.292345679012346,Delta
+1,Garfield County,Spokane County,0,0,Delta
+1,Grant County,Spokane County,0,0,Delta
+1,Grays Harbor County,Spokane County,0,0,Delta
+1,Island County,Spokane County,0,0,Delta
+1,Jefferson County,Spokane County,0,0,Delta
+1,King County,Spokane County,18,0.20027649769585257,Delta
+1,Kitsap County,Spokane County,0,0,Delta
+1,Kittitas County,Spokane County,0,0,Delta
+1,Klickitat County,Spokane County,0,0,Delta
+1,Lewis County,Spokane County,0,0,Delta
+1,Mason County,Spokane County,0,0,Delta
+1,Okanogan County,Spokane County,0,0,Delta
+1,Pacific County,Spokane County,0,0,Delta
+1,Pierce County,Spokane County,5,0.5192353643966547,Delta
+1,Skagit County,Spokane County,5,0.894238683127572,Delta
+1,Snohomish County,Spokane County,4,0.23243749164326782,Delta
+1,Spokane County,Spokane County,120,32.19259259259259,Delta
+1,Thurston County,Spokane County,0,0,Delta
+1,Wahkiakum County,Spokane County,0,0,Delta
+1,Walla Walla County,Spokane County,0,0,Delta
+1,Whatcom County,Spokane County,8,0.3508729437884751,Delta
+1,Whitman County,Spokane County,0,0,Delta
+1,Yakima County,Spokane County,6,1.0851435705368289,Delta
+1,Adams County,Yakima County,3,2.7128589263420726,Delta
+1,Asotin County,Yakima County,0,0,Delta
+1,Benton County,Yakima County,13,3.680052108777072,Delta
+1,Chelan County,Yakima County,1,0.5711281950193837,Delta
+1,Clallam County,Yakima County,0,0,Delta
+1,Cowlitz County,Yakima County,0,0,Delta
+1,Douglas County,Yakima County,0,0,Delta
+1,Franklin County,Yakima County,4,2.8937161880982107,Delta
+1,Garfield County,Yakima County,0,0,Delta
+1,Grant County,Yakima County,6,3.551378958120531,Delta
+1,Grays Harbor County,Yakima County,0,0,Delta
+1,Island County,Yakima County,1,0.5425717852684144,Delta
+1,Jefferson County,Yakima County,0,0,Delta
+1,King County,Yakima County,77,0.5775764165760542,Delta
+1,Kitsap County,Yakima County,0,0,Delta
+1,Kittitas County,Yakima County,4,0.6383197473746053,Delta
+1,Klickitat County,Yakima County,6,19.53258426966292,Delta
+1,Lewis County,Yakima County,1,0.19493597075511898,Delta
+1,Mason County,Yakima County,0,0,Delta
+1,Okanogan County,Yakima County,1,0.664373614614385,Delta
+1,Pacific County,Yakima County,0,0,Delta
+1,Pierce County,Yakima County,2,0.14001852523055858,Delta
+1,Skagit County,Yakima County,4,0.48228603134970177,Delta
+1,Snohomish County,Yakima County,5,0.19587429071061896,Delta
+1,Spokane County,Yakima County,6,1.0851435705368289,Delta
+1,Thurston County,Yakima County,0,0,Delta
+1,Wahkiakum County,Yakima County,0,0,Delta
+1,Walla Walla County,Yakima County,1,0.8798461382731045,Delta
+1,Whatcom County,Yakima County,10,0.29567944701275994,Delta
+1,Whitman County,Yakima County,0,0,Delta
+1,Yakima County,Yakima County,122,14.875001753426195,Delta
+1,Adams County,Garfield County,0,0,Delta
+1,Asotin County,Garfield County,1,4346,Delta
+1,Benton County,Garfield County,0,0,Delta
+1,Chelan County,Garfield County,0,0,Delta
+1,Clallam County,Garfield County,0,0,Delta
+1,Cowlitz County,Garfield County,0,0,Delta
+1,Douglas County,Garfield County,0,0,Delta
+1,Franklin County,Garfield County,0,0,Delta
+1,Garfield County,Garfield County,0,0,Delta
+1,Grant County,Garfield County,0,0,Delta
+1,Grays Harbor County,Garfield County,0,0,Delta
+1,Island County,Garfield County,0,0,Delta
+1,Jefferson County,Garfield County,0,0,Delta
+1,King County,Garfield County,0,0,Delta
+1,Kitsap County,Garfield County,0,0,Delta
+1,Kittitas County,Garfield County,0,0,Delta
+1,Klickitat County,Garfield County,0,0,Delta
+1,Lewis County,Garfield County,0,0,Delta
+1,Mason County,Garfield County,0,0,Delta
+1,Okanogan County,Garfield County,0,0,Delta
+1,Pacific County,Garfield County,0,0,Delta
+1,Pierce County,Garfield County,0,0,Delta
+1,Skagit County,Garfield County,0,0,Delta
+1,Snohomish County,Garfield County,0,0,Delta
+1,Spokane County,Garfield County,0,0,Delta
+1,Thurston County,Garfield County,0,0,Delta
+1,Wahkiakum County,Garfield County,0,0,Delta
+1,Walla Walla County,Garfield County,0,0,Delta
+1,Whatcom County,Garfield County,0,0,Delta
+1,Whitman County,Garfield County,0,0,Delta
+1,Yakima County,Garfield County,0,0,Delta
+1,Adams County,Franklin County,0,0,Delta
+1,Asotin County,Franklin County,0,0,Delta
+1,Benton County,Franklin County,7,11.757294685990338,Delta
+1,Chelan County,Franklin County,1,3.38869395711501,Delta
+1,Clallam County,Franklin County,0,0,Delta
+1,Cowlitz County,Franklin County,0,0,Delta
+1,Douglas County,Franklin County,0,0,Delta
+1,Franklin County,Franklin County,2,8.584691358024692,Delta
+1,Garfield County,Franklin County,0,0,Delta
+1,Grant County,Franklin County,0,0,Delta
+1,Grays Harbor County,Franklin County,0,0,Delta
+1,Island County,Franklin County,1,3.219259259259259,Delta
+1,Jefferson County,Franklin County,0,0,Delta
+1,King County,Franklin County,24,1.068141321044547,Delta
+1,Kitsap County,Franklin County,0,0,Delta
+1,Kittitas County,Franklin County,0,0,Delta
+1,Klickitat County,Franklin County,0,0,Delta
+1,Lewis County,Franklin County,0,0,Delta
+1,Mason County,Franklin County,0,0,Delta
+1,Okanogan County,Franklin County,0,0,Delta
+1,Pacific County,Franklin County,0,0,Delta
+1,Pierce County,Franklin County,0,0,Delta
+1,Skagit County,Franklin County,0,0,Delta
+1,Snohomish County,Franklin County,1,0.23243749164326782,Delta
+1,Spokane County,Franklin County,4,4.292345679012346,Delta
+1,Thurston County,Franklin County,1,2.1702871410736577,Delta
+1,Wahkiakum County,Franklin County,0,0,Delta
+1,Walla Walla County,Franklin County,0,0,Delta
+1,Whatcom County,Franklin County,0,0,Delta
+1,Whitman County,Franklin County,0,0,Delta
+1,Yakima County,Franklin County,4,2.8937161880982107,Delta
+1,Adams County,King County,0,0,Delta
+1,Asotin County,King County,0,0,Delta
+1,Benton County,King County,18,0.3134762572630736,Delta
+1,Chelan County,King County,6,0.21081736599563425,Delta
+1,Clallam County,King County,3,0.040324127052856214,Delta
+1,Cowlitz County,King County,2,0.2225294418842806,Delta
+1,Douglas County,King County,3,0.3004147465437788,Delta
+1,Franklin County,King County,24,1.068141321044547,Delta
+1,Garfield County,King County,0,0,Delta
+1,Grant County,King County,14,0.5097947214076246,Delta
+1,Grays Harbor County,King County,5,0.3708824031404676,Delta
+1,Island County,King County,12,0.4005529953917051,Delta
+1,Jefferson County,King County,0,0,Delta
+1,King County,King County,3212,1.4822306695831295,Delta
+1,Kitsap County,King County,2,0.3641390867197319,Delta
+1,Kittitas County,King County,116,1.13882714376073,Delta
+1,Klickitat County,King County,3,0.6008294930875576,Delta
+1,Lewis County,King County,49,0.5876376279698666,Delta
+1,Mason County,King County,0,0,Delta
+1,Okanogan County,King County,40,1.6349101852722656,Delta
+1,Pacific County,King County,1,0.09103477167993297,Delta
+1,Pierce County,King County,206,0.8872464198999058,Delta
+1,Skagit County,King County,33,0.24478238607270866,Delta
+1,Snohomish County,King County,355,0.8555734859449777,Delta
+1,Spokane County,King County,18,0.20027649769585254,Delta
+1,Thurston County,King County,24,0.5400714544607259,Delta
+1,Wahkiakum County,King County,6,0.8583278472679394,Delta
+1,Walla Walla County,King County,5,0.2706439158052062,Delta
+1,Whatcom County,King County,98,0.17826609240866073,Delta
+1,Whitman County,King County,8,0.43303026528832983,Delta
+1,Yakima County,King County,77,0.5775764165760542,Delta
+1,Adams County,Klickitat County,0,0,Delta
+1,Asotin County,Klickitat County,0,0,Delta
+1,Benton County,Klickitat County,1,7.558260869565218,Delta
+1,Chelan County,Klickitat County,0,0,Delta
+1,Clallam County,Klickitat County,0,0,Delta
+1,Cowlitz County,Klickitat County,0,0,Delta
+1,Douglas County,Klickitat County,0,0,Delta
+1,Franklin County,Klickitat County,0,0,Delta
+1,Garfield County,Klickitat County,0,0,Delta
+1,Grant County,Klickitat County,0,0,Delta
+1,Grays Harbor County,Klickitat County,0,0,Delta
+1,Island County,Klickitat County,0,0,Delta
+1,Jefferson County,Klickitat County,0,0,Delta
+1,King County,Klickitat County,3,0.6008294930875576,Delta
+1,Kitsap County,Klickitat County,0,0,Delta
+1,Kittitas County,Klickitat County,0,0,Delta
+1,Klickitat County,Klickitat County,0,0,Delta
+1,Lewis County,Klickitat County,0,0,Delta
+1,Mason County,Klickitat County,0,0,Delta
+1,Okanogan County,Klickitat County,0,0,Delta
+1,Pacific County,Klickitat County,0,0,Delta
+1,Pierce County,Klickitat County,0,0,Delta
+1,Skagit County,Klickitat County,0,0,Delta
+1,Snohomish County,Klickitat County,0,0,Delta
+1,Spokane County,Klickitat County,0,0,Delta
+1,Thurston County,Klickitat County,0,0,Delta
+1,Wahkiakum County,Klickitat County,0,0,Delta
+1,Walla Walla County,Klickitat County,0,0,Delta
+1,Whatcom County,Klickitat County,0,0,Delta
+1,Whitman County,Klickitat County,0,0,Delta
+1,Yakima County,Klickitat County,6,19.53258426966292,Delta
+1,Adams County,Pierce County,0,0,Delta
+1,Asotin County,Pierce County,0,0,Delta
+1,Benton County,Pierce County,3,0.48762973352033656,Delta
+1,Chelan County,Pierce County,6,1.9676287492925861,Delta
+1,Clallam County,Pierce County,2,0.2509056794399942,Delta
+1,Cowlitz County,Pierce County,1,1.0384707287933095,Delta
+1,Douglas County,Pierce County,0,0,Delta
+1,Franklin County,Pierce County,0,0,Delta
+1,Garfield County,Pierce County,0,0,Delta
+1,Grant County,Pierce County,1,0.33986314760508307,Delta
+1,Grays Harbor County,Pierce County,1,0.6923138191955397,Delta
+1,Island County,Pierce County,5,1.5577060931899642,Delta
+1,Jefferson County,Pierce County,2,12.461648745519714,Delta
+1,King County,Pierce County,206,0.8872464198999058,Delta
+1,Kitsap County,Pierce County,6,10.195894428152492,Delta
+1,Kittitas County,Pierce County,8,0.7330381615011596,Delta
+1,Klickitat County,Pierce County,0,0,Delta
+1,Lewis County,Pierce County,6,0.6715858605369905,Delta
+1,Mason County,Pierce County,1,1.869247311827957,Delta
+1,Okanogan County,Pierce County,2,0.7629580864603905,Delta
+1,Pacific County,Pierce County,1,0.8496578690127077,Delta
+1,Pierce County,Pierce County,120,4.82386403052376,Delta
+1,Skagit County,Pierce County,16,1.1077021107128633,Delta
+1,Snohomish County,Pierce County,26,0.5848427209088675,Delta
+1,Spokane County,Pierce County,5,0.5192353643966547,Delta
+1,Thurston County,Pierce County,12,2.5203334541500544,Delta
+1,Wahkiakum County,Pierce County,2,2.670353302611367,Delta
+1,Walla Walla County,Pierce County,0,0,Delta
+1,Whatcom County,Pierce County,27,0.45839852333655623,Delta
+1,Whitman County,Pierce County,4,2.0208079046788727,Delta
+1,Yakima County,Pierce County,2,0.14001852523055858,Delta
+1,Adams County,Skagit County,0,0,Delta
+1,Asotin County,Skagit County,0,0,Delta
+1,Benton County,Skagit County,2,0.5598711755233495,Delta
+1,Chelan County,Skagit County,0,0,Delta
+1,Clallam County,Skagit County,1,0.21605766840666168,Delta
+1,Cowlitz County,Skagit County,1,1.788477366255144,Delta
+1,Douglas County,Skagit County,0,0,Delta
+1,Franklin County,Skagit County,0,0,Delta
+1,Garfield County,Skagit County,0,0,Delta
+1,Grant County,Skagit County,0,0,Delta
+1,Grays Harbor County,Skagit County,0,0,Delta
+1,Island County,Skagit County,22,11.80395061728395,Delta
+1,Jefferson County,Skagit County,0,0,Delta
+1,King County,Skagit County,33,0.24478238607270866,Delta
+1,Kitsap County,Skagit County,0,0,Delta
+1,Kittitas County,Skagit County,0,0,Delta
+1,Klickitat County,Skagit County,0,0,Delta
+1,Lewis County,Skagit County,3,0.5783100465735196,Delta
+1,Mason County,Skagit County,0,0,Delta
+1,Okanogan County,Skagit County,1,0.6569916855631142,Delta
+1,Pacific County,Skagit County,0,0,Delta
+1,Pierce County,Skagit County,16,1.1077021107128633,Delta
+1,Skagit County,Skagit County,94,11.207791495198903,Delta
+1,Snohomish County,Skagit County,12,0.46487498328653565,Delta
+1,Spokane County,Skagit County,5,0.894238683127572,Delta
+1,Thurston County,Skagit County,0,0,Delta
+1,Wahkiakum County,Skagit County,2,4.598941798941798,Delta
+1,Walla Walla County,Skagit County,0,0,Delta
+1,Whatcom County,Skagit County,73,2.134477074713223,Delta
+1,Whitman County,Skagit County,1,0.8700700700700701,Delta
+1,Yakima County,Skagit County,4,0.48228603134970177,Delta
+1,Adams County,Snohomish County,0,0,Delta
+1,Asotin County,Snohomish County,0,0,Delta
+1,Benton County,Snohomish County,9,0.8185842097002042,Delta
+1,Chelan County,Snohomish County,5,0.9175164143813203,Delta
+1,Clallam County,Snohomish County,3,0.21059772732779297,Delta
+1,Cowlitz County,Snohomish County,0,0,Delta
+1,Douglas County,Snohomish County,0,0,Delta
+1,Franklin County,Snohomish County,1,0.23243749164326782,Delta
+1,Garfield County,Snohomish County,0,0,Delta
+1,Grant County,Snohomish County,0,0,Delta
+1,Grays Harbor County,Snohomish County,1,0.3873958194054463,Delta
+1,Island County,Snohomish County,1,0.17432811873245085,Delta
+1,Jefferson County,Snohomish County,0,0,Delta
+1,King County,Snohomish County,355,0.8555734859449778,Delta
+1,Kitsap County,Snohomish County,0,0,Delta
+1,Kittitas County,Snohomish County,7,0.3589108326844577,Delta
+1,Klickitat County,Snohomish County,0,0,Delta
+1,Lewis County,Snohomish County,3,0.18789857108886918,Delta
+1,Mason County,Snohomish County,8,8.367749699157642,Delta
+1,Okanogan County,Snohomish County,4,0.8538520101181266,Delta
+1,Pacific County,Snohomish County,0,0,Delta
+1,Pierce County,Snohomish County,26,0.5848427209088674,Delta
+1,Skagit County,Snohomish County,12,0.46487498328653565,Delta
+1,Snohomish County,Snohomish County,338,4.254361309138512,Delta
+1,Spokane County,Snohomish County,4,0.23243749164326782,Delta
+1,Thurston County,Snohomish County,2,0.23504914885274272,Delta
+1,Wahkiakum County,Snohomish County,1,0.7471205088533608,Delta
+1,Walla Walla County,Snohomish County,20,5.653884931863272,Delta
+1,Whatcom County,Snohomish County,23,0.2185039090379493,Delta
+1,Whitman County,Snohomish County,3,0.8480827397794908,Delta
+1,Yakima County,Snohomish County,5,0.19587429071061896,Delta
+1,Adams County,Whatcom County,0,0,Delta
+1,Asotin County,Whatcom County,0,0,Delta
+1,Benton County,Whatcom County,1,0.06864905421948427,Delta
+1,Chelan County,Whatcom County,4,0.5540099112449607,Delta
+1,Clallam County,Whatcom County,0,0,Delta
+1,Cowlitz County,Whatcom County,2,0.8771823594711877,Delta
+1,Douglas County,Whatcom County,0,0,Delta
+1,Franklin County,Whatcom County,0,0,Delta
+1,Garfield County,Whatcom County,0,0,Delta
+1,Grant County,Whatcom County,2,0.28707786309966143,Delta
+1,Grays Harbor County,Whatcom County,0,0,Delta
+1,Island County,Whatcom County,6,0.789464123524069,Delta
+1,Jefferson County,Whatcom County,0,0,Delta
+1,King County,Whatcom County,98,0.17826609240866073,Delta
+1,Kitsap County,Whatcom County,0,0,Delta
+1,Kittitas County,Whatcom County,12,0.46439066089651115,Delta
+1,Klickitat County,Whatcom County,0,0,Delta
+1,Lewis County,Whatcom County,4,0.18909320323929799,Delta
+1,Mason County,Whatcom County,0,0,Delta
+1,Okanogan County,Whatcom County,0,0,Delta
+1,Pacific County,Whatcom County,0,0,Delta
+1,Pierce County,Whatcom County,27,0.45839852333655623,Delta
+1,Skagit County,Whatcom County,73,2.134477074713224,Delta
+1,Snohomish County,Whatcom County,23,0.2185039090379493,Delta
+1,Spokane County,Whatcom County,8,0.35087294378847517,Delta
+1,Thurston County,Whatcom County,5,0.4435191705191399,Delta
+1,Wahkiakum County,Whatcom County,0,0,Delta
+1,Walla Walla County,Whatcom County,0,0,Delta
+1,Whatcom County,Whatcom County,824,5.908432677419009,Delta
+1,Whitman County,Whatcom County,2,0.42673736406706436,Delta
+1,Yakima County,Whatcom County,10,0.29567944701275994,Delta
+1,Adams County,Chelan County,0,0,Delta
+1,Asotin County,Chelan County,0,0,Delta
+1,Benton County,Chelan County,0,0,Delta
+1,Chelan County,Chelan County,18,48.15512465373961,Delta
+1,Clallam County,Chelan County,0,0,Delta
+1,Cowlitz County,Chelan County,0,0,Delta
+1,Douglas County,Chelan County,9,68.62105263157895,Delta
+1,Franklin County,Chelan County,1,3.38869395711501,Delta
+1,Garfield County,Chelan County,0,0,Delta
+1,Grant County,Chelan County,3,8.317703349282295,Delta
+1,Grays Harbor County,Chelan County,0,0,Delta
+1,Island County,Chelan County,0,0,Delta
+1,Jefferson County,Chelan County,0,0,Delta
+1,King County,Chelan County,6,0.21081736599563425,Delta
+1,Kitsap County,Chelan County,0,0,Delta
+1,Kittitas County,Chelan County,0,0,Delta
+1,Klickitat County,Chelan County,0,0,Delta
+1,Lewis County,Chelan County,0,0,Delta
+1,Mason County,Chelan County,0,0,Delta
+1,Okanogan County,Chelan County,0,0,Delta
+1,Pacific County,Chelan County,0,0,Delta
+1,Pierce County,Chelan County,6,1.9676287492925864,Delta
+1,Skagit County,Chelan County,0,0,Delta
+1,Snohomish County,Chelan County,5,0.9175164143813203,Delta
+1,Spokane County,Chelan County,0,0,Delta
+1,Thurston County,Chelan County,1,1.713384585058151,Delta
+1,Wahkiakum County,Chelan County,2,21.784461152882205,Delta
+1,Walla Walla County,Chelan County,1,4.121384542437174,Delta
+1,Whatcom County,Chelan County,4,0.5540099112449607,Delta
+1,Whitman County,Chelan County,0,0,Delta
+1,Yakima County,Chelan County,1,0.5711281950193837,Delta
+1,Adams County,Douglas County,0,0,Delta
+1,Asotin County,Douglas County,0,0,Delta
+1,Benton County,Douglas County,0,0,Delta
+1,Chelan County,Douglas County,9,68.62105263157895,Delta
+1,Clallam County,Douglas County,0,0,Delta
+1,Cowlitz County,Douglas County,0,0,Delta
+1,Douglas County,Douglas County,4,86.92,Delta
+1,Franklin County,Douglas County,0,0,Delta
+1,Garfield County,Douglas County,0,0,Delta
+1,Grant County,Douglas County,4,31.607272727272726,Delta
+1,Grays Harbor County,Douglas County,0,0,Delta
+1,Island County,Douglas County,0,0,Delta
+1,Jefferson County,Douglas County,0,0,Delta
+1,King County,Douglas County,3,0.3004147465437788,Delta
+1,Kitsap County,Douglas County,0,0,Delta
+1,Kittitas County,Douglas County,0,0,Delta
+1,Klickitat County,Douglas County,0,0,Delta
+1,Lewis County,Douglas County,0,0,Delta
+1,Mason County,Douglas County,0,0,Delta
+1,Okanogan County,Douglas County,0,0,Delta
+1,Pacific County,Douglas County,0,0,Delta
+1,Pierce County,Douglas County,0,0,Delta
+1,Skagit County,Douglas County,0,0,Delta
+1,Snohomish County,Douglas County,0,0,Delta
+1,Spokane County,Douglas County,0,0,Delta
+1,Thurston County,Douglas County,0,0,Delta
+1,Wahkiakum County,Douglas County,0,0,Delta
+1,Walla Walla County,Douglas County,0,0,Delta
+1,Whatcom County,Douglas County,0,0,Delta
+1,Whitman County,Douglas County,0,0,Delta
+1,Yakima County,Douglas County,0,0,Delta
+1,Adams County,Thurston County,0,0,Delta
+1,Asotin County,Thurston County,0,0,Delta
+1,Benton County,Thurston County,0,0,Delta
+1,Chelan County,Thurston County,1,1.7133845850581508,Delta
+1,Clallam County,Thurston County,2,1.3109116959505318,Delta
+1,Cowlitz County,Thurston County,0,0,Delta
+1,Douglas County,Thurston County,0,0,Delta
+1,Franklin County,Thurston County,1,2.1702871410736577,Delta
+1,Garfield County,Thurston County,0,0,Delta
+1,Grant County,Thurston County,0,0,Delta
+1,Grays Harbor County,Thurston County,3,10.85143570536829,Delta
+1,Island County,Thurston County,0,0,Delta
+1,Jefferson County,Thurston County,0,0,Delta
+1,King County,Thurston County,24,0.5400714544607259,Delta
+1,Kitsap County,Thurston County,1,8.878447395301329,Delta
+1,Kittitas County,Thurston County,0,0,Delta
+1,Klickitat County,Thurston County,0,0,Delta
+1,Lewis County,Thurston County,21,12.280966157572495,Delta
+1,Mason County,Thurston County,0,0,Delta
+1,Okanogan County,Thurston County,0,0,Delta
+1,Pacific County,Thurston County,0,0,Delta
+1,Pierce County,Thurston County,12,2.5203334541500544,Delta
+1,Skagit County,Thurston County,0,0,Delta
+1,Snohomish County,Thurston County,2,0.23504914885274275,Delta
+1,Spokane County,Thurston County,0,0,Delta
+1,Thurston County,Thurston County,16,17.55737911879813,Delta
+1,Wahkiakum County,Thurston County,0,0,Delta
+1,Walla Walla County,Thurston County,1,2.639538414819314,Delta
+1,Whatcom County,Thurston County,5,0.4435191705191399,Delta
+1,Whitman County,Thurston County,0,0,Delta
+1,Yakima County,Thurston County,0,0,Delta
+1,Adams County,Wahkiakum County,0,0,Delta
+1,Asotin County,Wahkiakum County,0,0,Delta
+1,Benton County,Wahkiakum County,0,0,Delta
+1,Chelan County,Wahkiakum County,2,21.784461152882205,Delta
+1,Clallam County,Wahkiakum County,0,0,Delta
+1,Cowlitz County,Wahkiakum County,0,0,Delta
+1,Douglas County,Wahkiakum County,0,0,Delta
+1,Franklin County,Wahkiakum County,0,0,Delta
+1,Garfield County,Wahkiakum County,0,0,Delta
+1,Grant County,Wahkiakum County,0,0,Delta
+1,Grays Harbor County,Wahkiakum County,1,22.994708994708994,Delta
+1,Island County,Wahkiakum County,0,0,Delta
+1,Jefferson County,Wahkiakum County,0,0,Delta
+1,King County,Wahkiakum County,6,0.8583278472679394,Delta
+1,Kitsap County,Wahkiakum County,0,0,Delta
+1,Kittitas County,Wahkiakum County,0,0,Delta
+1,Klickitat County,Wahkiakum County,0,0,Delta
+1,Lewis County,Wahkiakum County,0,0,Delta
+1,Mason County,Wahkiakum County,0,0,Delta
+1,Okanogan County,Wahkiakum County,0,0,Delta
+1,Pacific County,Wahkiakum County,0,0,Delta
+1,Pierce County,Wahkiakum County,2,2.670353302611367,Delta
+1,Skagit County,Wahkiakum County,2,4.598941798941799,Delta
+1,Snohomish County,Wahkiakum County,1,0.7471205088533609,Delta
+1,Spokane County,Wahkiakum County,0,0,Delta
+1,Thurston County,Wahkiakum County,0,0,Delta
+1,Wahkiakum County,Wahkiakum County,0,0,Delta
+1,Walla Walla County,Wahkiakum County,0,0,Delta
+1,Whatcom County,Wahkiakum County,0,0,Delta
+1,Whitman County,Wahkiakum County,0,0,Delta
+1,Yakima County,Wahkiakum County,0,0,Delta
+1,Adams County,Walla Walla County,0,0,Delta
+1,Asotin County,Walla Walla County,0,0,Delta
+1,Benton County,Walla Walla County,0,0,Delta
+1,Chelan County,Walla Walla County,1,4.121384542437173,Delta
+1,Clallam County,Walla Walla County,0,0,Delta
+1,Cowlitz County,Walla Walla County,0,0,Delta
+1,Douglas County,Walla Walla County,0,0,Delta
+1,Franklin County,Walla Walla County,0,0,Delta
+1,Garfield County,Walla Walla County,0,0,Delta
+1,Grant County,Walla Walla County,2,8.542506142506141,Delta
+1,Grays Harbor County,Walla Walla County,0,0,Delta
+1,Island County,Walla Walla County,0,0,Delta
+1,Jefferson County,Walla Walla County,0,0,Delta
+1,King County,Walla Walla County,5,0.27064391580520614,Delta
+1,Kitsap County,Walla Walla County,0,0,Delta
+1,Kittitas County,Walla Walla County,0,0,Delta
+1,Klickitat County,Walla Walla County,0,0,Delta
+1,Lewis County,Walla Walla County,0,0,Delta
+1,Mason County,Walla Walla County,1,23.491891891891893,Delta
+1,Okanogan County,Walla Walla County,0,0,Delta
+1,Pacific County,Walla Walla County,0,0,Delta
+1,Pierce County,Walla Walla County,0,0,Delta
+1,Skagit County,Walla Walla County,0,0,Delta
+1,Snohomish County,Walla Walla County,20,5.653884931863272,Delta
+1,Spokane County,Walla Walla County,0,0,Delta
+1,Thurston County,Walla Walla County,1,2.6395384148193135,Delta
+1,Wahkiakum County,Walla Walla County,0,0,Delta
+1,Walla Walla County,Walla Walla County,6,38.09495982468955,Delta
+1,Whatcom County,Walla Walla County,0,0,Delta
+1,Whitman County,Walla Walla County,0,0,Delta
+1,Yakima County,Walla Walla County,1,0.8798461382731045,Delta
+1,Adams County,Jefferson County,0,0,Delta
+1,Asotin County,Jefferson County,0,0,Delta
+1,Benton County,Jefferson County,0,0,Delta
+1,Chelan County,Jefferson County,0,0,Delta
+1,Clallam County,Jefferson County,1,19.44519015659955,Delta
+1,Cowlitz County,Jefferson County,0,0,Delta
+1,Douglas County,Jefferson County,0,0,Delta
+1,Franklin County,Jefferson County,0,0,Delta
+1,Garfield County,Jefferson County,0,0,Delta
+1,Grant County,Jefferson County,0,0,Delta
+1,Grays Harbor County,Jefferson County,0,0,Delta
+1,Island County,Jefferson County,0,0,Delta
+1,Jefferson County,Jefferson County,0,0,Delta
+1,King County,Jefferson County,0,0,Delta
+1,Kitsap County,Jefferson County,0,0,Delta
+1,Kittitas County,Jefferson County,0,0,Delta
+1,Klickitat County,Jefferson County,0,0,Delta
+1,Lewis County,Jefferson County,0,0,Delta
+1,Mason County,Jefferson County,0,0,Delta
+1,Okanogan County,Jefferson County,0,0,Delta
+1,Pacific County,Jefferson County,0,0,Delta
+1,Pierce County,Jefferson County,2,12.461648745519714,Delta
+1,Skagit County,Jefferson County,0,0,Delta
+1,Snohomish County,Jefferson County,0,0,Delta
+1,Spokane County,Jefferson County,0,0,Delta
+1,Thurston County,Jefferson County,0,0,Delta
+1,Wahkiakum County,Jefferson County,0,0,Delta
+1,Walla Walla County,Jefferson County,0,0,Delta
+1,Whatcom County,Jefferson County,0,0,Delta
+1,Whitman County,Jefferson County,0,0,Delta
+1,Yakima County,Jefferson County,0,0,Delta
+1,Adams County,Cowlitz County,0,0,Delta
+1,Asotin County,Cowlitz County,0,0,Delta
+1,Benton County,Cowlitz County,0,0,Delta
+1,Chelan County,Cowlitz County,0,0,Delta
+1,Clallam County,Cowlitz County,0,0,Delta
+1,Cowlitz County,Cowlitz County,6,160.96296296296296,Delta
+1,Douglas County,Cowlitz County,0,0,Delta
+1,Franklin County,Cowlitz County,0,0,Delta
+1,Garfield County,Cowlitz County,0,0,Delta
+1,Grant County,Cowlitz County,0,0,Delta
+1,Grays Harbor County,Cowlitz County,0,0,Delta
+1,Island County,Cowlitz County,3,24.144444444444446,Delta
+1,Jefferson County,Cowlitz County,0,0,Delta
+1,King County,Cowlitz County,2,0.2225294418842806,Delta
+1,Kitsap County,Cowlitz County,1,43.8989898989899,Delta
+1,Kittitas County,Cowlitz County,0,0,Delta
+1,Klickitat County,Cowlitz County,0,0,Delta
+1,Lewis County,Cowlitz County,1,2.891550232867598,Delta
+1,Mason County,Cowlitz County,0,0,Delta
+1,Okanogan County,Cowlitz County,0,0,Delta
+1,Pacific County,Cowlitz County,1,21.94949494949495,Delta
+1,Pierce County,Cowlitz County,1,1.0384707287933095,Delta
+1,Skagit County,Cowlitz County,1,1.788477366255144,Delta
+1,Snohomish County,Cowlitz County,0,0,Delta
+1,Spokane County,Cowlitz County,0,0,Delta
+1,Thurston County,Cowlitz County,0,0,Delta
+1,Wahkiakum County,Cowlitz County,0,0,Delta
+1,Walla Walla County,Cowlitz County,0,0,Delta
+1,Whatcom County,Cowlitz County,2,0.8771823594711877,Delta
+1,Whitman County,Cowlitz County,0,0,Delta
+1,Yakima County,Cowlitz County,0,0,Delta
+1,Adams County,Island County,0,0,Delta
+1,Asotin County,Island County,0,0,Delta
+1,Benton County,Island County,0,0,Delta
+1,Chelan County,Island County,0,0,Delta
+1,Clallam County,Island County,0,0,Delta
+1,Cowlitz County,Island County,3,24.144444444444442,Delta
+1,Douglas County,Island County,0,0,Delta
+1,Franklin County,Island County,1,3.2192592592592595,Delta
+1,Garfield County,Island County,0,0,Delta
+1,Grant County,Island County,0,0,Delta
+1,Grays Harbor County,Island County,0,0,Delta
+1,Island County,Island County,6,14.486666666666668,Delta
+1,Jefferson County,Island County,0,0,Delta
+1,King County,Island County,12,0.4005529953917051,Delta
+1,Kitsap County,Island County,0,0,Delta
+1,Kittitas County,Island County,3,2.130392156862745,Delta
+1,Klickitat County,Island County,0,0,Delta
+1,Lewis County,Island County,0,0,Delta
+1,Mason County,Island County,0,0,Delta
+1,Okanogan County,Island County,0,0,Delta
+1,Pacific County,Island County,0,0,Delta
+1,Pierce County,Island County,5,1.5577060931899644,Delta
+1,Skagit County,Island County,22,11.803950617283952,Delta
+1,Snohomish County,Island County,1,0.17432811873245088,Delta
+1,Spokane County,Island County,0,0,Delta
+1,Thurston County,Island County,0,0,Delta
+1,Wahkiakum County,Island County,0,0,Delta
+1,Walla Walla County,Island County,0,0,Delta
+1,Whatcom County,Island County,6,0.789464123524069,Delta
+1,Whitman County,Island County,0,0,Delta
+1,Yakima County,Island County,1,0.5425717852684144,Delta
+1,Adams County,Kitsap County,0,0,Delta
+1,Asotin County,Kitsap County,0,0,Delta
+1,Benton County,Kitsap County,0,0,Delta
+1,Chelan County,Kitsap County,0,0,Delta
+1,Clallam County,Kitsap County,0,0,Delta
+1,Cowlitz County,Kitsap County,1,43.898989898989896,Delta
+1,Douglas County,Kitsap County,0,0,Delta
+1,Franklin County,Kitsap County,0,0,Delta
+1,Garfield County,Kitsap County,0,0,Delta
+1,Grant County,Kitsap County,1,14.36694214876033,Delta
+1,Grays Harbor County,Kitsap County,0,0,Delta
+1,Island County,Kitsap County,0,0,Delta
+1,Jefferson County,Kitsap County,0,0,Delta
+1,King County,Kitsap County,2,0.3641390867197319,Delta
+1,Kitsap County,Kitsap County,0,0,Delta
+1,Kittitas County,Kitsap County,0,0,Delta
+1,Klickitat County,Kitsap County,0,0,Delta
+1,Lewis County,Kitsap County,0,0,Delta
+1,Mason County,Kitsap County,0,0,Delta
+1,Okanogan County,Kitsap County,0,0,Delta
+1,Pacific County,Kitsap County,0,0,Delta
+1,Pierce County,Kitsap County,6,10.195894428152492,Delta
+1,Skagit County,Kitsap County,0,0,Delta
+1,Snohomish County,Kitsap County,0,0,Delta
+1,Spokane County,Kitsap County,0,0,Delta
+1,Thurston County,Kitsap County,1,8.878447395301329,Delta
+1,Wahkiakum County,Kitsap County,0,0,Delta
+1,Walla Walla County,Kitsap County,0,0,Delta
+1,Whatcom County,Kitsap County,0,0,Delta
+1,Whitman County,Kitsap County,0,0,Delta
+1,Yakima County,Kitsap County,0,0,Delta
+1,Adams County,Lewis County,0,0,Delta
+1,Asotin County,Lewis County,0,0,Delta
+1,Benton County,Lewis County,0,0,Delta
+1,Chelan County,Lewis County,0,0,Delta
+1,Clallam County,Lewis County,0,0,Delta
+1,Cowlitz County,Lewis County,1,2.891550232867598,Delta
+1,Douglas County,Lewis County,0,0,Delta
+1,Franklin County,Lewis County,0,0,Delta
+1,Garfield County,Lewis County,0,0,Delta
+1,Grant County,Lewis County,1,0.9463255307566684,Delta
+1,Grays Harbor County,Lewis County,4,7.710800620980261,Delta
+1,Island County,Lewis County,0,0,Delta
+1,Jefferson County,Lewis County,0,0,Delta
+1,King County,Lewis County,49,0.5876376279698666,Delta
+1,Kitsap County,Lewis County,0,0,Delta
+1,Kittitas County,Lewis County,0,0,Delta
+1,Klickitat County,Lewis County,0,0,Delta
+1,Lewis County,Lewis County,68,21.193158592993655,Delta
+1,Mason County,Lewis County,0,0,Delta
+1,Okanogan County,Lewis County,0,0,Delta
+1,Pacific County,Lewis County,1,2.3658138268916713,Delta
+1,Pierce County,Lewis County,6,0.6715858605369905,Delta
+1,Skagit County,Lewis County,3,0.5783100465735196,Delta
+1,Snohomish County,Lewis County,3,0.18789857108886918,Delta
+1,Spokane County,Lewis County,0,0,Delta
+1,Thurston County,Lewis County,21,12.280966157572497,Delta
+1,Wahkiakum County,Lewis County,0,0,Delta
+1,Walla Walla County,Lewis County,0,0,Delta
+1,Whatcom County,Lewis County,4,0.18909320323929796,Delta
+1,Whitman County,Lewis County,5,7.033500566434698,Delta
+1,Yakima County,Lewis County,1,0.19493597075511898,Delta
+1,Adams County,Pacific County,0,0,Delta
+1,Asotin County,Pacific County,0,0,Delta
+1,Benton County,Pacific County,0,0,Delta
+1,Chelan County,Pacific County,0,0,Delta
+1,Clallam County,Pacific County,0,0,Delta
+1,Cowlitz County,Pacific County,1,21.949494949494948,Delta
+1,Douglas County,Pacific County,0,0,Delta
+1,Franklin County,Pacific County,0,0,Delta
+1,Garfield County,Pacific County,0,0,Delta
+1,Grant County,Pacific County,0,0,Delta
+1,Grays Harbor County,Pacific County,0,0,Delta
+1,Island County,Pacific County,0,0,Delta
+1,Jefferson County,Pacific County,0,0,Delta
+1,King County,Pacific County,1,0.09103477167993297,Delta
+1,Kitsap County,Pacific County,0,0,Delta
+1,Kittitas County,Pacific County,0,0,Delta
+1,Klickitat County,Pacific County,0,0,Delta
+1,Lewis County,Pacific County,1,2.3658138268916713,Delta
+1,Mason County,Pacific County,0,0,Delta
+1,Okanogan County,Pacific County,0,0,Delta
+1,Pacific County,Pacific County,18,323.25619834710744,Delta
+1,Pierce County,Pacific County,1,0.8496578690127077,Delta
+1,Skagit County,Pacific County,0,0,Delta
+1,Snohomish County,Pacific County,0,0,Delta
+1,Spokane County,Pacific County,0,0,Delta
+1,Thurston County,Pacific County,0,0,Delta
+1,Wahkiakum County,Pacific County,0,0,Delta
+1,Walla Walla County,Pacific County,0,0,Delta
+1,Whatcom County,Pacific County,0,0,Delta
+1,Whitman County,Pacific County,0,0,Delta
+1,Yakima County,Pacific County,0,0,Delta
+1,Adams County,Asotin County,0,0,Delta
+1,Asotin County,Asotin County,0,0,Delta
+1,Benton County,Asotin County,0,0,Delta
+1,Chelan County,Asotin County,0,0,Delta
+1,Clallam County,Asotin County,0,0,Delta
+1,Cowlitz County,Asotin County,0,0,Delta
+1,Douglas County,Asotin County,0,0,Delta
+1,Franklin County,Asotin County,0,0,Delta
+1,Garfield County,Asotin County,1,4346,Delta
+1,Grant County,Asotin County,0,0,Delta
+1,Grays Harbor County,Asotin County,0,0,Delta
+1,Island County,Asotin County,0,0,Delta
+1,Jefferson County,Asotin County,0,0,Delta
+1,King County,Asotin County,0,0,Delta
+1,Kitsap County,Asotin County,0,0,Delta
+1,Kittitas County,Asotin County,0,0,Delta
+1,Klickitat County,Asotin County,0,0,Delta
+1,Lewis County,Asotin County,0,0,Delta
+1,Mason County,Asotin County,0,0,Delta
+1,Okanogan County,Asotin County,0,0,Delta
+1,Pacific County,Asotin County,0,0,Delta
+1,Pierce County,Asotin County,0,0,Delta
+1,Skagit County,Asotin County,0,0,Delta
+1,Snohomish County,Asotin County,0,0,Delta
+1,Spokane County,Asotin County,1,24.144444444444446,Delta
+1,Thurston County,Asotin County,0,0,Delta
+1,Wahkiakum County,Asotin County,0,0,Delta
+1,Walla Walla County,Asotin County,0,0,Delta
+1,Whatcom County,Asotin County,0,0,Delta
+1,Whitman County,Asotin County,0,0,Delta
+1,Yakima County,Asotin County,0,0,Delta
+1,Adams County,Grays Harbor County,0,0,Delta
+1,Asotin County,Grays Harbor County,0,0,Delta
+1,Benton County,Grays Harbor County,0,0,Delta
+1,Chelan County,Grays Harbor County,0,0,Delta
+1,Clallam County,Grays Harbor County,0,0,Delta
+1,Cowlitz County,Grays Harbor County,0,0,Delta
+1,Douglas County,Grays Harbor County,0,0,Delta
+1,Franklin County,Grays Harbor County,0,0,Delta
+1,Garfield County,Grays Harbor County,0,0,Delta
+1,Grant County,Grays Harbor County,0,0,Delta
+1,Grays Harbor County,Grays Harbor County,12,143.0781893004115,Delta
+1,Island County,Grays Harbor County,0,0,Delta
+1,Jefferson County,Grays Harbor County,0,0,Delta
+1,King County,Grays Harbor County,5,0.37088240314046766,Delta
+1,Kitsap County,Grays Harbor County,0,0,Delta
+1,Kittitas County,Grays Harbor County,0,0,Delta
+1,Klickitat County,Grays Harbor County,0,0,Delta
+1,Lewis County,Grays Harbor County,4,7.710800620980263,Delta
+1,Mason County,Grays Harbor County,0,0,Delta
+1,Okanogan County,Grays Harbor County,0,0,Delta
+1,Pacific County,Grays Harbor County,0,0,Delta
+1,Pierce County,Grays Harbor County,1,0.6923138191955397,Delta
+1,Skagit County,Grays Harbor County,0,0,Delta
+1,Snohomish County,Grays Harbor County,1,0.3873958194054464,Delta
+1,Spokane County,Grays Harbor County,0,0,Delta
+1,Thurston County,Grays Harbor County,3,10.85143570536829,Delta
+1,Wahkiakum County,Grays Harbor County,1,22.994708994708994,Delta
+1,Walla Walla County,Grays Harbor County,0,0,Delta
+1,Whatcom County,Grays Harbor County,0,0,Delta
+1,Whitman County,Grays Harbor County,0,0,Delta
+1,Yakima County,Grays Harbor County,0,0,Delta
+1,Adams County,Okanogan County,0,0,Delta
+1,Asotin County,Okanogan County,0,0,Delta
+1,Benton County,Okanogan County,0,0,Delta
+1,Chelan County,Okanogan County,0,0,Delta
+1,Clallam County,Okanogan County,0,0,Delta
+1,Cowlitz County,Okanogan County,0,0,Delta
+1,Douglas County,Okanogan County,0,0,Delta
+1,Franklin County,Okanogan County,0,0,Delta
+1,Garfield County,Okanogan County,0,0,Delta
+1,Grant County,Okanogan County,0,0,Delta
+1,Grays Harbor County,Okanogan County,0,0,Delta
+1,Island County,Okanogan County,0,0,Delta
+1,Jefferson County,Okanogan County,0,0,Delta
+1,King County,Okanogan County,40,1.6349101852722656,Delta
+1,Kitsap County,Okanogan County,0,0,Delta
+1,Kittitas County,Okanogan County,1,0.869547819127651,Delta
+1,Klickitat County,Okanogan County,0,0,Delta
+1,Lewis County,Okanogan County,0,0,Delta
+1,Mason County,Okanogan County,0,0,Delta
+1,Okanogan County,Okanogan County,0,0,Delta
+1,Pacific County,Okanogan County,0,0,Delta
+1,Pierce County,Okanogan County,2,0.7629580864603906,Delta
+1,Skagit County,Okanogan County,1,0.6569916855631142,Delta
+1,Snohomish County,Okanogan County,4,0.8538520101181267,Delta
+1,Spokane County,Okanogan County,0,0,Delta
+1,Thurston County,Okanogan County,0,0,Delta
+1,Wahkiakum County,Okanogan County,0,0,Delta
+1,Walla Walla County,Okanogan County,0,0,Delta
+1,Whatcom County,Okanogan County,0,0,Delta
+1,Whitman County,Okanogan County,0,0,Delta
+1,Yakima County,Okanogan County,1,0.664373614614385,Delta
+1,Adams County,Whitman County,0,0,Delta
+1,Asotin County,Whitman County,0,0,Delta
+1,Benton County,Whitman County,0,0,Delta
+1,Chelan County,Whitman County,0,0,Delta
+1,Clallam County,Whitman County,0,0,Delta
+1,Cowlitz County,Whitman County,0,0,Delta
+1,Douglas County,Whitman County,0,0,Delta
+1,Franklin County,Whitman County,0,0,Delta
+1,Garfield County,Whitman County,0,0,Delta
+1,Grant County,Whitman County,0,0,Delta
+1,Grays Harbor County,Whitman County,0,0,Delta
+1,Island County,Whitman County,0,0,Delta
+1,Jefferson County,Whitman County,0,0,Delta
+1,King County,Whitman County,8,0.4330302652883298,Delta
+1,Kitsap County,Whitman County,0,0,Delta
+1,Kittitas County,Whitman County,0,0,Delta
+1,Klickitat County,Whitman County,0,0,Delta
+1,Lewis County,Whitman County,5,7.033500566434698,Delta
+1,Mason County,Whitman County,0,0,Delta
+1,Okanogan County,Whitman County,0,0,Delta
+1,Pacific County,Whitman County,0,0,Delta
+1,Pierce County,Whitman County,4,2.0208079046788723,Delta
+1,Skagit County,Whitman County,1,0.8700700700700701,Delta
+1,Snohomish County,Whitman County,3,0.8480827397794908,Delta
+1,Spokane County,Whitman County,0,0,Delta
+1,Thurston County,Whitman County,0,0,Delta
+1,Wahkiakum County,Whitman County,0,0,Delta
+1,Walla Walla County,Whitman County,0,0,Delta
+1,Whatcom County,Whitman County,2,0.4267373640670643,Delta
+1,Whitman County,Whitman County,14,88.8882395909423,Delta
+1,Yakima County,Whitman County,0,0,Delta
+1,Adams County,Mason County,0,0,Delta
+1,Asotin County,Mason County,0,0,Delta
+1,Benton County,Mason County,0,0,Delta
+1,Chelan County,Mason County,0,0,Delta
+1,Clallam County,Mason County,0,0,Delta
+1,Cowlitz County,Mason County,0,0,Delta
+1,Douglas County,Mason County,0,0,Delta
+1,Franklin County,Mason County,0,0,Delta
+1,Garfield County,Mason County,0,0,Delta
+1,Grant County,Mason County,0,0,Delta
+1,Grays Harbor County,Mason County,0,0,Delta
+1,Island County,Mason County,0,0,Delta
+1,Jefferson County,Mason County,0,0,Delta
+1,King County,Mason County,0,0,Delta
+1,Kitsap County,Mason County,0,0,Delta
+1,Kittitas County,Mason County,0,0,Delta
+1,Klickitat County,Mason County,0,0,Delta
+1,Lewis County,Mason County,0,0,Delta
+1,Mason County,Mason County,0,0,Delta
+1,Okanogan County,Mason County,0,0,Delta
+1,Pacific County,Mason County,0,0,Delta
+1,Pierce County,Mason County,1,1.869247311827957,Delta
+1,Skagit County,Mason County,0,0,Delta
+1,Snohomish County,Mason County,8,8.367749699157642,Delta
+1,Spokane County,Mason County,0,0,Delta
+1,Thurston County,Mason County,0,0,Delta
+1,Wahkiakum County,Mason County,0,0,Delta
+1,Walla Walla County,Mason County,1,23.491891891891893,Delta
+1,Whatcom County,Mason County,0,0,Delta
+1,Whitman County,Mason County,0,0,Delta
+1,Yakima County,Mason County,0,0,Delta

@@ -1,0 +1,1522 @@
+n_mutations,group_1,group_2,n_pairs,RR
+5,Adams County,Adams County,782,1.1828084235698715
+5,Asotin County,Adams County,225,0.8108113294024103
+5,Benton County,Adams County,6623,1.1700334117831686
+5,Chelan County,Adams County,669,1.1711518609275435
+5,Clallam County,Adams County,699,0.7767722617577969
+5,Clark County,Adams County,339,0.9355584604327378
+5,Columbia County,Adams County,0,0
+5,Cowlitz County,Adams County,831,0.8757512682378505
+5,Douglas County,Adams County,376,1.1063889633846598
+5,Ferry County,Adams County,28,0.7777531003499952
+5,Franklin County,Adams County,5409,1.2068586738002334
+5,Garfield County,Adams County,30,0.9007265447881361
+5,Grant County,Adams County,1011,1.1736890106791338
+5,Grays Harbor County,Adams County,483,1.0583930482466102
+5,Island County,Adams County,381,0.86584391037431
+5,Jefferson County,Adams County,26,0.40472243069507186
+5,King County,Adams County,11481,0.909202386349173
+5,Kitsap County,Adams County,194,0.7257971537203215
+5,Kittitas County,Adams County,678,1.1147778029018112
+5,Klickitat County,Adams County,293,1.0574995679891523
+5,Lewis County,Adams County,2231,0.9553776397958909
+5,Lincoln County,Adams County,93,0.9256581453197679
+5,Mason County,Adams County,184,0.8350325038802894
+5,Okanogan County,Adams County,370,1.0315439679621319
+5,Pacific County,Adams County,275,1.1007930008682725
+5,Pend Oreille County,Adams County,249,1.0205846562483465
+5,Pierce County,Adams County,2363,0.9194989221098887
+5,San Juan County,Adams County,22,1.3142603673470163
+5,Skagit County,Adams County,1545,0.9637469404410709
+5,Skamania County,Adams County,0,0
+5,Snohomish County,Adams County,3744,0.9368996283671938
+5,Spokane County,Adams County,6490,0.9852286126075461
+5,Stevens County,Adams County,215,0.9368114472258723
+5,Thurston County,Adams County,2071,0.9493575714149777
+5,Wahkiakum County,Adams County,41,0.9785871362594029
+5,Walla Walla County,Adams County,462,1.1390978356619603
+5,Whatcom County,Adams County,3170,0.8713394212489092
+5,Whitman County,Adams County,594,0.8652303501731416
+5,Yakima County,Adams County,6660,1.1116035650049934
+5,Adams County,Asotin County,225,0.8108113294024103
+5,Asotin County,Asotin County,128,1.0989473714385314
+5,Benton County,Asotin County,2290,0.9638481667088757
+5,Chelan County,Asotin County,241,1.005156700906979
+5,Clallam County,Asotin County,378,1.0007785015381438
+5,Clark County,Asotin County,160,1.0520123775799815
+5,Columbia County,Asotin County,0,0
+5,Cowlitz County,Asotin County,441,1.1072558289143861
+5,Douglas County,Asotin County,148,1.0375555073051246
+5,Ferry County,Asotin County,22,1.4559150489078163
+5,Franklin County,Asotin County,1792,0.9525923173008322
+5,Garfield County,Asotin County,14,1.0014502454682186
+5,Grant County,Asotin County,425,1.1754940828747849
+5,Grays Harbor County,Asotin County,272,1.4200328349256128
+5,Island County,Asotin County,224,1.2128086453054263
+5,Jefferson County,Asotin County,47,1.7430563177055296
+5,King County,Asotin County,4564,0.8611050185869417
+5,Kitsap County,Asotin County,87,0.7754653874425967
+5,Kittitas County,Asotin County,251,0.9832455166563652
+5,Klickitat County,Asotin County,149,1.2812340776280948
+5,Lewis County,Asotin County,1232,1.2569437555284055
+5,Lincoln County,Asotin County,39,0.9248300234598911
+5,Mason County,Asotin County,103,1.1136594769609225
+5,Okanogan County,Asotin County,201,1.3350935930819998
+5,Pacific County,Asotin County,127,1.2111733918142153
+5,Pend Oreille County,Asotin County,129,1.2597055203574952
+5,Pierce County,Asotin County,1002,0.9289340003276898
+5,San Juan County,Asotin County,7,0.9962914547639393
+5,Skagit County,Asotin County,603,0.8961515810028248
+5,Skamania County,Asotin County,0,0
+5,Snohomish County,Asotin County,1538,0.9169448099719582
+5,Spokane County,Asotin County,3030,1.095883989961235
+5,Stevens County,Asotin County,122,1.266494167952447
+5,Thurston County,Asotin County,1094,1.1948040225804348
+5,Wahkiakum County,Asotin County,17,0.9667055274807145
+5,Walla Walla County,Asotin County,160,0.939871906482041
+5,Whatcom County,Asotin County,1510,0.9888597103787015
+5,Whitman County,Asotin County,359,1.2458604038636267
+5,Yakima County,Asotin County,2614,1.0394675104911668
+5,Adams County,Benton County,6623,1.1700334117831683
+5,Asotin County,Benton County,2290,0.9638481667088759
+5,Benton County,Benton County,58852,1.2143408030941794
+5,Chelan County,Benton County,4693,0.9595630192297663
+5,Clallam County,Benton County,5812,0.7543588531160734
+5,Clark County,Benton County,2588,0.8342022508414395
+5,Columbia County,Benton County,0,0
+5,Cowlitz County,Benton County,6879,0.8467221356722623
+5,Douglas County,Benton County,2812,0.9664316832316578
+5,Ferry County,Benton County,220,0.7137436434670923
+5,Franklin County,Benton County,47717,1.2435075290133804
+5,Garfield County,Benton County,269,0.9433217327293965
+5,Grant County,Benton County,8620,1.1688129143085186
+5,Grays Harbor County,Benton County,3936,1.0073741229126667
+5,Island County,Benton County,3016,0.800537759411481
+5,Jefferson County,Benton County,308,0.5599773954449871
+5,King County,Benton County,99845,0.9235130235104475
+5,Kitsap County,Benton County,1625,0.7100725910662963
+5,Kittitas County,Benton County,5142,0.9874759883291588
+5,Klickitat County,Benton County,2262,0.9535446456977523
+5,Lewis County,Benton County,20797,1.0401884977986557
+5,Lincoln County,Benton County,731,0.8498081825353524
+5,Mason County,Benton County,1511,0.8009139814986933
+5,Okanogan County,Benton County,3471,1.1302551288255451
+5,Pacific County,Benton County,2280,1.0659667683343206
+5,Pend Oreille County,Benton County,2002,0.9584061983449879
+5,Pierce County,Benton County,19643,0.8927527003150375
+5,San Juan County,Benton County,77,0.5372609911223637
+5,Skagit County,Benton County,10593,0.7717725963734122
+5,Skamania County,Benton County,12,0.22772524462793392
+5,Snohomish County,Benton County,31318,0.9153498177147218
+5,Spokane County,Benton County,53159,0.9425512522866827
+5,Stevens County,Benton County,1622,0.8254683606326966
+5,Thurston County,Benton County,18063,0.9671090657254394
+5,Wahkiakum County,Benton County,250,0.696933767915221
+5,Walla Walla County,Benton County,4271,1.229941556839703
+5,Whatcom County,Benton County,25128,0.8067182410191344
+5,Whitman County,Benton County,4875,0.8293842294132081
+5,Yakima County,Benton County,61842,1.2055773532894414
+5,Adams County,Chelan County,669,1.1711518609275433
+5,Asotin County,Chelan County,241,1.005156700906979
+5,Benton County,Chelan County,4693,0.9595630192297664
+5,Chelan County,Chelan County,594,1.2035190789722958
+5,Clallam County,Chelan County,658,0.8462951770914066
+5,Clark County,Chelan County,325,1.0380876699136377
+5,Columbia County,Chelan County,0,0
+5,Cowlitz County,Chelan County,1054,1.285582054215383
+5,Douglas County,Chelan County,376,1.2805226780723993
+5,Ferry County,Chelan County,21,0.6751223004967497
+5,Franklin County,Chelan County,3709,0.9578019289091279
+5,Garfield County,Chelan County,31,1.0772409152940896
+5,Grant County,Chelan County,872,1.171649757480879
+5,Grays Harbor County,Chelan County,285,0.7228099915227073
+5,Island County,Chelan County,363,0.9547742452715365
+5,Jefferson County,Chelan County,39,0.7026320778420152
+5,King County,Chelan County,9784,0.8967610428821394
+5,Kitsap County,Chelan County,231,1.0002416856299132
+5,Kittitas County,Chelan County,633,1.2045969746239114
+5,Klickitat County,Chelan County,219,0.9148210148504601
+5,Lewis County,Chelan County,2245,1.1126825752492915
+5,Lincoln County,Chelan County,93,1.0713467744637066
+5,Mason County,Chelan County,203,1.0662548879993996
+5,Okanogan County,Chelan County,302,0.97447881500458855
+5,Pacific County,Chelan County,196,0.90804731044363
+5,Pend Oreille County,Chelan County,225,1.0673617739558572
+5,Pierce County,Chelan County,2166,0.9754957788787505
+5,San Juan County,Chelan County,11,0.7605554018413082
+5,Skagit County,Chelan County,1391,1.004248283077297
+5,Skamania County,Chelan County,6,1.128300467179957
+5,Snohomish County,Chelan County,3202,0.9273805721504909
+5,Spokane County,Chelan County,6446,1.132562192194368
+5,Stevens County,Chelan County,186,0.9380070716490898
+5,Thurston County,Chelan County,1977,1.048904209023052
+5,Wahkiakum County,Chelan County,42,1.1602307608228166
+5,Walla Walla County,Chelan County,306,0.8732124456454642
+5,Whatcom County,Chelan County,3356,1.0676514449654342
+5,Whitman County,Chelan County,798,1.3453262949671463
+5,Yakima County,Chelan County,5048,0.9751568758862603
+5,Adams County,Clallam County,699,0.7767722617577969
+5,Asotin County,Clallam County,378,1.0007785015381438
+5,Benton County,Clallam County,5812,0.7543588531160734
+5,Chelan County,Clallam County,658,0.8462951770914068
+5,Clallam County,Clallam County,2232,1.8222988472206574
+5,Clark County,Clallam County,513,1.0401535955870345
+5,Columbia County,Clallam County,0,0
+5,Cowlitz County,Clallam County,1318,1.0204789216277779
+5,Douglas County,Clallam County,396,0.8560991248966399
+5,Ferry County,Clallam County,60,1.2244578710245941
+5,Franklin County,Clallam County,4558,0.7471755169588116
+5,Garfield County,Clallam County,56,1.2352891056981667
+5,Grant County,Clallam County,1009,0.86060115806902
+5,Grays Harbor County,Clallam County,565,0.9096140773499425
+5,Island County,Clallam County,575,0.9600444760037942
+5,Jefferson County,Clallam County,103,1.1779586039985486
+5,King County,Clallam County,18019,1.0483840680702268
+5,Kitsap County,Clallam County,430,1.181927571017503
+5,Kittitas County,Clallam County,954,1.152433490449838
+5,Klickitat County,Clallam County,472,1.2515939470355004
+5,Lewis County,Clallam County,3163,0.9951385982338206
+5,Lincoln County,Clallam County,157,1.1480907241853107
+5,Mason County,Clallam County,333,1.110295727397295
+5,Okanogan County,Clallam County,413,0.8459504945601796
+5,Pacific County,Clallam County,458,1.3469371175905296
+5,Pend Oreille County,Clallam County,317,0.9545920806151387
+5,Pierce County,Clallam County,3551,1.0151893483507979
+5,San Juan County,Clallam County,30,1.3167061459182696
+5,Skagit County,Clallam County,2451,1.1232766136041028
+5,Skamania County,Clallam County,19,2.268070534011114
+5,Snohomish County,Clallam County,6130,1.127006908781004
+5,Spokane County,Clallam County,9070,1.0115992145023054
+5,Stevens County,Clallam County,316,1.0116020221947193
+5,Thurston County,Clallam County,3223,1.0854726923768585
+5,Wahkiakum County,Clallam County,44,0.7715733158638813
+5,Walla Walla County,Clallam County,364,0.659370194747201
+5,Whatcom County,Clallam County,6262,1.2645908676130282
+5,Whitman County,Clallam County,980,1.0487699929446141
+5,Yakima County,Clallam County,7398,0.9071913612063242
+5,Adams County,Clark County,339,0.9355584604327378
+5,Asotin County,Clark County,160,1.0520123775799815
+5,Benton County,Clark County,2588,0.8342022508414395
+5,Chelan County,Clark County,325,1.0380876699136377
+5,Clallam County,Clark County,513,1.0401535955870345
+5,Clark County,Clark County,294,1.4804104408249932
+5,Columbia County,Clark County,0,0
+5,Cowlitz County,Clark County,841,1.6171091093874213
+5,Douglas County,Clark County,209,1.1220955826593164
+5,Ferry County,Clark County,31,1.5711186723141755
+5,Franklin County,Clark County,1977,0.8048402375806702
+5,Garfield County,Clark County,14,0.7669434086795159
+5,Grant County,Clark County,484,1.0252052486881034
+5,Grays Harbor County,Clark County,279,1.1154949995220393
+5,Island County,Clark County,285,1.181743079794826
+5,Jefferson County,Clark County,24,0.6816457716643445
+5,King County,Clark County,6728,0.9721435731614236
+5,Kitsap County,Clark County,158,1.0785348789231657
+5,Kittitas County,Clark County,339,1.0170022027038164
+5,Klickitat County,Clark County,151,0.9943816518625486
+5,Lewis County,Clark County,1292,1.0094890037569362
+5,Lincoln County,Clark County,58,1.0533173763049861
+5,Mason County,Clark County,138,1.14268945824669
+5,Okanogan County,Clark County,181,0.9207212597297286
+5,Pacific County,Clark County,157,1.1466640445660217
+5,Pend Oreille County,Clark County,126,0.9422883231887493
+5,Pierce County,Clark County,1411,1.0017932317544678
+5,San Juan County,Clark County,11,1.1989884307339136
+5,Skagit County,Clark County,1057,1.2030206787370834
+5,Skamania County,Clark County,7,2.075179625936694
+5,Snohomish County,Clark County,2235,1.0204655095794195
+5,Spokane County,Clark County,3896,1.0791326781443045
+5,Stevens County,Clark County,145,1.1527770130258752
+5,Thurston County,Clark County,1228,1.0270974781932252
+5,Wahkiakum County,Clark County,64,2.7871426458241957
+5,Walla Walla County,Clark County,183,0.8232537496886929
+5,Whatcom County,Clark County,2251,1.128930411303804
+5,Whitman County,Clark County,480,1.275704578006498
+5,Yakima County,Clark County,2958,0.9008188140086958
+5,Adams County,Cowlitz County,831,0.8757512682378505
+5,Asotin County,Cowlitz County,441,1.107255828914386
+5,Benton County,Cowlitz County,6879,0.8467221356722623
+5,Chelan County,Cowlitz County,1054,1.285582054215383
+5,Clallam County,Cowlitz County,1318,1.0204789216277776
+5,Clark County,Cowlitz County,841,1.6171091093874213
+5,Columbia County,Cowlitz County,0,0
+5,Cowlitz County,Cowlitz County,2628,1.9296440624047049
+5,Douglas County,Cowlitz County,505,1.0353411213099382
+5,Ferry County,Cowlitz County,53,1.0257267571769697
+5,Franklin County,Cowlitz County,5381,0.83651652010581945
+5,Garfield County,Cowlitz County,67,1.4015823027481364
+5,Grant County,Cowlitz County,1175,0.9504118547043541
+5,Grays Harbor County,Cowlitz County,1190,1.8168492950601427
+5,Island County,Cowlitz County,532,0.8423612083035756
+5,Jefferson County,Cowlitz County,62,0.6724309765613743
+5,King County,Cowlitz County,16151,0.8911531828247418
+5,Kitsap County,Cowlitz County,379,0.9879269576213838
+5,Kittitas County,Cowlitz County,977,1.1192452962221497
+5,Klickitat County,Cowlitz County,372,0.9354651515983172
+5,Lewis County,Cowlitz County,3989,1.1901772212037574
+5,Lincoln County,Cowlitz County,155,1.0749084380178604
+5,Mason County,Cowlitz County,378,1.1952244071837739
+5,Okanogan County,Cowlitz County,480,0.9323937475689301
+5,Pacific County,Cowlitz County,311,0.8673721034027763
+5,Pend Oreille County,Cowlitz County,342,0.9766700928084401
+5,Pierce County,Cowlitz County,3569,0.967622918478868
+5,San Juan County,Cowlitz County,22,0.915700617397414
+5,Skagit County,Cowlitz County,2385,1.0365613404493983
+5,Skamania County,Cowlitz County,27,3.056538973737539
+5,Snohomish County,Cowlitz County,5213,0.9089019746856243
+5,Spokane County,Cowlitz County,10933,1.1563884963307678
+5,Stevens County,Cowlitz County,387,1.1748888694060022
+5,Thurston County,Cowlitz County,3481,1.1117978713372418
+5,Wahkiakum County,Cowlitz County,133,2.2117670419208366
+5,Walla Walla County,Cowlitz County,554,0.9517018450782225
+5,Whatcom County,Cowlitz County,5903,1.1305062802914585
+5,Whitman County,Cowlitz County,1354,1.3741560675807873
+5,Yakima County,Cowlitz County,7582,0.8817217973682926
+5,Adams County,Douglas County,376,1.1063889633846595
+5,Asotin County,Douglas County,148,1.0375555073051244
+5,Benton County,Douglas County,2812,0.9664316832316581
+5,Chelan County,Douglas County,376,1.2805226780723993
+5,Clallam County,Douglas County,396,0.8560991248966399
+5,Clark County,Douglas County,209,1.1220955826593164
+5,Columbia County,Douglas County,0,0
+5,Cowlitz County,Douglas County,505,1.0353411213099382
+5,Douglas County,Douglas County,226,1.2937214038553344
+5,Ferry County,Douglas County,21,1.1347896043999413
+5,Franklin County,Douglas County,2383,1.0343697501710505
+5,Garfield County,Douglas County,34,1.985925527441167
+5,Grant County,Douglas County,515,1.1631117577475705
+5,Grays Harbor County,Douglas County,121,0.5158192580820025
+5,Island County,Douglas County,183,0.8090550166584224
+5,Jefferson County,Douglas County,11,0.33311097847278553
+5,King County,Douglas County,5569,0.8579666409108065
+5,Kitsap County,Douglas County,144,1.0480653357839838
+5,Kittitas County,Douglas County,340,1.0875515958871433
+5,Klickitat County,Douglas County,144,1.0110843881257043
+5,Lewis County,Douglas County,1196,0.9963662683290916
+5,Lincoln County,Douglas County,58,1.1230730514524634
+5,Mason County,Douglas County,151,1.3331371760343311
+5,Okanogan County,Douglas County,142,0.7701701784226832
+5,Pacific County,Douglas County,78,0.6074071539277911
+5,Pend Oreille County,Douglas County,82,0.6538466068205706
+5,Pierce County,Douglas County,1342,1.0159032575586437
+5,San Juan County,Douglas County,4,0.4648695034122348
+5,Skagit County,Douglas County,882,1.0703244539076022
+5,Skamania County,Douglas County,7,2.2126078684739077
+5,Snohomish County,Douglas County,1995,0.9712084691446672
+5,Spokane County,Douglas County,4178,1.2338804666649734
+5,Stevens County,Douglas County,113,0.95786544575791
+5,Thurston County,Douglas County,1109,0.9889938702878579
+5,Wahkiakum County,Douglas County,20,0.9286626431685113
+5,Walla Walla County,Douglas County,156,0.7482659512376111
+5,Whatcom County,Douglas County,2007,1.0732176524567258
+5,Whitman County,Douglas County,494,1.3998599328283188
+5,Yakima County,Douglas County,3002,0.974762299753529
+5,Adams County,Ferry County,28,0.7777531003499952
+5,Asotin County,Ferry County,22,1.4559150489078168
+5,Benton County,Ferry County,220,0.7137436434670923
+5,Chelan County,Ferry County,21,0.6751223004967497
+5,Clallam County,Ferry County,60,1.2244578710245941
+5,Clark County,Ferry County,31,1.5711186723141755
+5,Columbia County,Ferry County,0,0
+5,Cowlitz County,Ferry County,53,1.02572675717697
+5,Douglas County,Ferry County,21,1.1347896043999413
+5,Ferry County,Ferry County,0,0
+5,Franklin County,Ferry County,164,0.6719846406953772
+5,Garfield County,Ferry County,2,1.1027517779974032
+5,Grant County,Ferry County,64,1.3644509267144247
+5,Grays Harbor County,Ferry County,15,0.6036249339857768
+5,Island County,Ferry County,31,1.2937560358413098
+5,Jefferson County,Ferry County,8,2.2869147610818628
+5,King County,Ferry County,621,0.9031263510371734
+5,Kitsap County,Ferry County,19,1.3053987597029508
+5,Kittitas County,Ferry County,57,1.7211136079635143
+5,Klickitat County,Ferry County,12,0.7953712493317198
+5,Lewis County,Ferry County,102,0.8021428893625178
+5,Lincoln County,Ferry County,7,1.2795043964211905
+5,Mason County,Ferry County,20,1.666831186230972
+5,Okanogan County,Ferry County,13,0.6655879274296915
+5,Pacific County,Ferry County,9,0.6615939713100872
+5,Pend Oreille County,Ferry County,13,0.9785186419738389
+5,Pierce County,Ferry County,122,0.8718131139784018
+5,San Juan County,Ferry County,1,1.0970711506799666
+5,Skagit County,Ferry County,93,1.0653530193947172
+5,Skamania County,Ferry County,1,2.9838029719894714
+5,Snohomish County,Ferry County,189,0.8685505402236365
+5,Spokane County,Ferry County,514,1.4329515352737816
+5,Stevens County,Ferry County,22,1.760404515035306
+5,Thurston County,Ferry County,158,1.3300956416300838
+5,Wahkiakum County,Ferry County,5,2.1916021314715564
+5,Walla Walla County,Ferry County,10,0.4527882154262752
+5,Whatcom County,Ferry County,310,1.5648252975268464
+5,Whitman County,Ferry County,47,1.257242987491073
+5,Yakima County,Ferry County,255,0.7816133096874439
+5,Adams County,Franklin County,5409,1.2068586738002336
+5,Asotin County,Franklin County,1792,0.9525923173008322
+5,Benton County,Franklin County,47717,1.2435075290133801
+5,Chelan County,Franklin County,3709,0.9578019289091279
+5,Clallam County,Franklin County,4558,0.7471755169588117
+5,Clark County,Franklin County,1977,0.8048402375806705
+5,Columbia County,Franklin County,2,4.561846951062114
+5,Cowlitz County,Franklin County,5381,0.83651652010581945
+5,Douglas County,Franklin County,2383,1.0343697501710505
+5,Ferry County,Franklin County,164,0.6719846406953773
+5,Franklin County,Franklin County,38356,1.2624219106141212
+5,Garfield County,Franklin County,214,0.9478012111915459
+5,Grant County,Franklin County,6958,1.191565954532573
+5,Grays Harbor County,Franklin County,3189,1.0308278563184667
+5,Island County,Franklin County,2440,0.8179678542468811
+5,Jefferson County,Franklin County,254,0.5832428484411628
+5,King County,Franklin County,77579,0.9062683352547788
+5,Kitsap County,Franklin County,1199,0.6617051166614414
+5,Kittitas County,Franklin County,4181,1.0140761419082338
+5,Klickitat County,Franklin County,1794,0.9551394783355881
+5,Lewis County,Franklin County,16194,1.022966510544753
+5,Lincoln County,Franklin County,570,0.8369014361459303
+5,Mason County,Franklin County,1273,0.8522082622954661
+5,Okanogan County,Franklin County,2769,1.1387824209656212
+5,Pacific County,Franklin County,1821,1.0752629716379312
+5,Pend Oreille County,Franklin County,1636,0.9891559459161854
+5,Pierce County,Franklin County,15632,0.897292067012033
+5,San Juan County,Franklin County,74,0.652112056108042
+5,Skagit County,Franklin County,7981,0.7343846966582186
+5,Skamania County,Franklin County,11,0.263644394719877
+5,Snohomish County,Franklin County,24478,0.9035765179768607
+5,Spokane County,Franklin County,41838,0.9369038286332505
+5,Stevens County,Franklin County,1282,0.8240119938843176
+5,Thurston County,Franklin County,14210,0.9608942096972021
+5,Wahkiakum County,Franklin County,164,0.5774192693394804
+5,Walla Walla County,Franklin County,3362,1.2227805981825364
+5,Whatcom County,Franklin County,19869,0.8056304810114879
+5,Whitman County,Franklin County,3577,0.7685922821052494
+5,Yakima County,Franklin County,49809,1.2263524507801775
+5,Adams County,Garfield County,30,0.9007265447881361
+5,Asotin County,Garfield County,14,1.0014502454682188
+5,Benton County,Garfield County,269,0.9433217327293963
+5,Chelan County,Garfield County,31,1.0772409152940896
+5,Clallam County,Garfield County,56,1.2352891056981667
+5,Clark County,Garfield County,14,0.7669434086795159
+5,Columbia County,Garfield County,0,0
+5,Cowlitz County,Garfield County,67,1.4015823027481364
+5,Douglas County,Garfield County,34,1.985925527441167
+5,Ferry County,Garfield County,2,1.1027517779974032
+5,Franklin County,Garfield County,214,0.9478012111915459
+5,Garfield County,Garfield County,0,0
+5,Grant County,Garfield County,74,1.7052876772185332
+5,Grays Harbor County,Garfield County,34,1.4789136462443324
+5,Island County,Garfield County,39,1.7593137198944464
+5,Jefferson County,Garfield County,12,3.7079103407832155
+5,King County,Garfield County,672,1.0563654156183604
+5,Kitsap County,Garfield County,7,0.5198470959266732
+5,Kittitas County,Garfield County,40,1.3055173906996287
+5,Klickitat County,Garfield County,18,1.2895825110524
+5,Lewis County,Garfield County,105,0.8925423925992608
+5,Lincoln County,Garfield County,6,1.1854492882237937
+5,Mason County,Garfield County,10,0.9008440391604282
+5,Okanogan County,Garfield County,30,1.6602417308552424
+5,Pacific County,Garfield County,12,0.9534946555234914
+5,Pend Oreille County,Garfield County,23,1.8712920606529826
+5,Pierce County,Garfield County,118,0.9114514947243028
+5,San Juan County,Garfield County,2,2.37166190502983
+5,Skagit County,Garfield County,94,1.1639288511993784
+5,Skamania County,Garfield County,0,0
+5,Snohomish County,Garfield County,197,0.9785601007796929
+5,Spokane County,Garfield County,255,0.7684162684904737
+5,Stevens County,Garfield County,9,0.7784312992344998
+5,Thurston County,Garfield County,96,0.8735444400726516
+5,Wahkiakum County,Garfield County,2,0.9475664879113267
+5,Walla Walla County,Garfield County,20,0.9788431323778376
+5,Whatcom County,Garfield County,181,0.987576454083808
+5,Whitman County,Garfield County,40,1.1565631283399256
+5,Yakima County,Garfield County,263,0.8713557503593432
+5,Adams County,Grant County,1011,1.1736890106791338
+5,Asotin County,Grant County,425,1.1754940828747849
+5,Benton County,Grant County,8620,1.1688129143085189
+5,Chelan County,Grant County,872,1.171649757480879
+5,Clallam County,Grant County,1009,0.86060115806902
+5,Clark County,Grant County,484,1.0252052486881034
+5,Columbia County,Grant County,0,0
+5,Cowlitz County,Grant County,1175,0.9504118547043542
+5,Douglas County,Grant County,515,1.1631117577475705
+5,Ferry County,Grant County,64,1.3644509267144245
+5,Franklin County,Grant County,6958,1.1915659545325727
+5,Garfield County,Grant County,74,1.7052876772185332
+5,Grant County,Grant County,1288,1.1476566372574215
+5,Grays Harbor County,Grant County,491,0.8258013090914388
+5,Island County,Grant County,507,0.8843350075475181
+5,Jefferson County,Grant County,36,0.4301111037860277
+5,King County,Grant County,12961,0.7877956666225975
+5,Kitsap County,Grant County,285,0.8183754972297795
+5,Kittitas County,Grant County,747,0.9426998707172005
+5,Klickitat County,Grant County,296,0.8199710441712146
+5,Lewis County,Grant County,2975,0.9778150093482485
+5,Lincoln County,Grant County,157,1.1993931326951741
+5,Mason County,Grant County,268,0.9335005514728573
+5,Okanogan County,Grant County,441,0.9436671481028301
+5,Pacific County,Grant County,273,0.8387447981813506
+5,Pend Oreille County,Grant County,306,0.9626431861188497
+5,Pierce County,Grant County,2967,0.8861337466797083
+5,San Juan County,Grant County,27,1.2379888177228227
+5,Skagit County,Grant County,2137,1.0231357920171023
+5,Skamania County,Grant County,10,1.247062744972137
+5,Snohomish County,Grant County,4559,0.8756308332244366
+5,Spokane County,Grant County,9788,1.1404611795715742
+5,Stevens County,Grant County,310,1.0367395100860324
+5,Thurston County,Grant County,2812,0.9893711969157956
+5,Wahkiakum County,Grant County,60,1.0991605259260462
+5,Walla Walla County,Grant County,657,1.2433077697142083
+5,Whatcom County,Grant County,4810,1.0147694964160632
+5,Whitman County,Grant County,1074,1.2007257059052048
+5,Yakima County,Grant County,8466,1.0845465392557252
+5,Adams County,Grays Harbor County,483,1.0583930482466102
+5,Asotin County,Grays Harbor County,272,1.4200328349256128
+5,Benton County,Grays Harbor County,3936,1.0073741229126667
+5,Chelan County,Grays Harbor County,285,0.7228099915227073
+5,Clallam County,Grays Harbor County,565,0.9096140773499425
+5,Clark County,Grays Harbor County,279,1.1154949995220393
+5,Columbia County,Grays Harbor County,0,0
+5,Cowlitz County,Grays Harbor County,1190,1.8168492950601425
+5,Douglas County,Grays Harbor County,121,0.5158192580820025
+5,Ferry County,Grays Harbor County,15,0.6036249339857769
+5,Franklin County,Grays Harbor County,3189,1.0308278563184665
+5,Garfield County,Grays Harbor County,34,1.4789136462443324
+5,Grant County,Grays Harbor County,491,0.8258013090914386
+5,Grays Harbor County,Grays Harbor County,432,1.3714367624819275
+5,Island County,Grays Harbor County,265,0.872474408960107
+5,Jefferson County,Grays Harbor County,29,0.6539945313854849
+5,King County,Grays Harbor County,7465,0.8564516575807861
+5,Kitsap County,Grays Harbor County,171,0.9268337360449407
+5,Kittitas County,Grays Harbor County,360,0.857537876974743
+5,Klickitat County,Grays Harbor County,148,0.7738672822871016
+5,Lewis County,Grays Harbor County,1756,1.0894121286830685
+5,Lincoln County,Grays Harbor County,81,1.1680055047063054
+5,Mason County,Grays Harbor County,198,1.3017960225781406
+5,Okanogan County,Grays Harbor County,201,0.8118471480442175
+5,Pacific County,Grays Harbor County,163,0.9452632252104431
+5,Pend Oreille County,Grays Harbor County,173,1.0272779894136266
+5,Pierce County,Grays Harbor County,1739,0.9803457649168774
+5,San Juan County,Grays Harbor County,3,0.25964034507565936
+5,Skagit County,Grays Harbor County,1127,1.018475618523436
+5,Skamania County,Grays Harbor County,3,0.70616717320928
+5,Snohomish County,Grays Harbor County,2494,0.9041612033320767
+5,Spokane County,Grays Harbor County,5447,1.1979588123870473
+5,Stevens County,Grays Harbor County,150,0.9468848767201271
+5,Thurston County,Grays Harbor County,1653,1.0977786121682176
+5,Wahkiakum County,Grays Harbor County,40,1.3831453765628985
+5,Walla Walla County,Grays Harbor County,279,0.996587525218784
+5,Whatcom County,Grays Harbor County,2695,1.0731960421910616
+5,Whitman County,Grays Harbor County,600,1.2661604468457544
+5,Yakima County,Grays Harbor County,3806,0.9203153758204676
+5,Adams County,Island County,381,0.8658439103743097
+5,Asotin County,Island County,224,1.2128086453054265
+5,Benton County,Island County,3016,0.800537759411481
+5,Chelan County,Island County,363,0.9547742452715365
+5,Clallam County,Island County,575,0.9600444760037942
+5,Clark County,Island County,285,1.1817430797948258
+5,Columbia County,Island County,0,0
+5,Cowlitz County,Island County,532,0.8423612083035756
+5,Douglas County,Island County,183,0.8090550166584222
+5,Ferry County,Island County,31,1.2937560358413098
+5,Franklin County,Island County,2440,0.8179678542468811
+5,Garfield County,Island County,39,1.7593137198944462
+5,Grant County,Island County,507,0.8843350075475181
+5,Grays Harbor County,Island County,265,0.872474408960107
+5,Island County,Island County,276,0.9423900426061464
+5,Jefferson County,Island County,28,0.6548607083344841
+5,King County,Island County,8293,0.9867326318327666
+5,Kitsap County,Island County,171,0.9612063177706913
+5,Kittitas County,Island County,418,1.0326231947968438
+5,Klickitat County,Island County,186,1.0086314319494203
+5,Lewis County,Island County,1760,1.1323877056241007
+5,Lincoln County,Island County,70,1.0468216451221772
+5,Mason County,Island County,185,1.261433213271749
+5,Okanogan County,Island County,188,0.7875005113727443
+5,Pacific County,Island County,157,0.9442339110860266
+5,Pend Oreille County,Island County,144,0.886786667804266
+5,Pierce County,Island County,1749,1.0225493753680472
+5,San Juan County,Island County,6,0.5385387482761741
+5,Skagit County,Island County,1202,1.1265383265756552
+5,Skamania County,Island County,7,1.7088309201722967
+5,Snohomish County,Island County,2891,1.0869568247756303
+5,Spokane County,Island County,4851,1.1064468818805278
+5,Stevens County,Island County,145,0.9492677064200189
+5,Thurston County,Island County,1641,1.1302259538996653
+5,Wahkiakum County,Island County,31,1.1116915769770965
+5,Walla Walla County,Island County,199,0.7371894357858809
+5,Whatcom County,Island County,3126,1.2909934825995935
+5,Whitman County,Island County,566,1.2387073276006941
+5,Yakima County,Island County,3693,0.9261087443696074
+5,Adams County,Jefferson County,26,0.4047224306950719
+5,Asotin County,Jefferson County,47,1.7430563177055296
+5,Benton County,Jefferson County,308,0.5599773954449871
+5,Chelan County,Jefferson County,39,0.7026320778420152
+5,Clallam County,Jefferson County,103,1.1779586039985483
+5,Clark County,Jefferson County,24,0.6816457716643445
+5,Columbia County,Jefferson County,0,0
+5,Cowlitz County,Jefferson County,62,0.6724309765613743
+5,Douglas County,Jefferson County,11,0.3331109784727856
+5,Ferry County,Jefferson County,8,2.286914761081863
+5,Franklin County,Jefferson County,254,0.5832428484411629
+5,Garfield County,Jefferson County,12,3.707910340783215
+5,Grant County,Jefferson County,36,0.4301111037860277
+5,Grays Harbor County,Jefferson County,29,0.6539945313854849
+5,Island County,Jefferson County,28,0.6548607083344841
+5,Jefferson County,Jefferson County,6,0.9611948786090718
+5,King County,Jefferson County,1185,0.9657739154130136
+5,Kitsap County,Jefferson County,25,0.9625644333733343
+5,Kittitas County,Jefferson County,64,1.0829661039629133
+5,Klickitat County,Jefferson County,32,1.188608488934203
+5,Lewis County,Jefferson County,256,1.1282146600219227
+5,Lincoln County,Jefferson County,14,1.434075397331133
+5,Mason County,Jefferson County,21,0.9808015050523521
+5,Okanogan County,Jefferson County,16,0.4590735524244026
+5,Pacific County,Jefferson County,23,0.9474953183452814
+5,Pend Oreille County,Jefferson County,16,0.6749101216711662
+5,Pierce County,Jefferson County,276,1.1052813854519885
+5,San Juan County,Jefferson County,1,0.6148016179985047
+5,Skagit County,Jefferson County,193,1.2389908771058356
+5,Skamania County,Jefferson County,0,0
+5,Snohomish County,Jefferson County,434,1.1176947916325546
+5,Spokane County,Jefferson County,866,1.3529647516149483
+5,Stevens County,Jefferson County,21,0.9416928972283128
+5,Thurston County,Jefferson County,285,1.3445310947112359
+5,Wahkiakum County,Jefferson County,0,0
+5,Walla Walla County,Jefferson County,18,0.4567387166346923
+5,Whatcom County,Jefferson County,540,1.527559486154698
+5,Whitman County,Jefferson County,61,0.9144319801207742
+5,Yakima County,Jefferson County,620,1.0649854202531643
+5,Adams County,King County,11481,0.909202386349173
+5,Asotin County,King County,4564,0.8611050185869417
+5,Benton County,King County,99845,0.9235130235104475
+5,Chelan County,King County,9784,0.8967610428821396
+5,Clallam County,King County,18019,1.0483840680702268
+5,Clark County,King County,6728,0.9721435731614236
+5,Columbia County,King County,0,0
+5,Cowlitz County,King County,16151,0.8911531828247415
+5,Douglas County,King County,5569,0.8579666409108065
+5,Ferry County,King County,621,0.9031263510371736
+5,Franklin County,King County,77579,0.9062683352547788
+5,Garfield County,King County,672,1.0563654156183604
+5,Grant County,King County,12961,0.7877956666225977
+5,Grays Harbor County,King County,7465,0.8564516575807859
+5,Island County,King County,8293,0.9867326318327666
+5,Jefferson County,King County,1185,0.9657739154130136
+5,King County,King County,286930,1.1896795671309666
+5,Kitsap County,King County,6188,1.212096033738645
+5,Kittitas County,King County,10263,0.8834991619964846
+5,Klickitat County,King County,4398,0.831076491306971
+5,Lewis County,King County,39666,0.8893385215796769
+5,Lincoln County,King County,1860,0.9692901892240519
+5,Mason County,King County,4477,1.0637653660472108
+5,Okanogan County,King County,5114,0.7464830274149646
+5,Pacific County,King County,4359,0.9135514873275009
+5,Pend Oreille County,King County,3803,0.816110954484309
+5,Pierce County,King County,54545,1.1112599004223969
+5,San Juan County,King County,334,1.0446682408501642
+5,Skagit County,King County,32449,1.059763701710535
+5,Skamania County,King County,142,1.20796852083079
+5,Snohomish County,King County,85590,1.121381655511205
+5,Spokane County,King County,113255,0.9001666064467964
+5,Stevens County,King County,3994,0.9111607088508936
+5,Thurston County,King County,40113,0.9627378740862639
+5,Wahkiakum County,King County,646,0.8072747301491976
+5,Walla Walla County,King County,6980,0.9010474626425894
+5,Whatcom County,King County,69708,1.0031916703059673
+5,Whitman County,King County,12292,0.9374347445129568
+5,Yakima County,King County,103496,0.9044247972145399
+5,Adams County,Kitsap County,194,0.7257971537203217
+5,Asotin County,Kitsap County,87,0.7754653874425967
+5,Benton County,Kitsap County,1625,0.7100725910662963
+5,Chelan County,Kitsap County,231,1.000241685629913
+5,Clallam County,Kitsap County,430,1.181927571017503
+5,Clark County,Kitsap County,158,1.0785348789231657
+5,Columbia County,Kitsap County,0,0
+5,Cowlitz County,Kitsap County,379,0.9879269576213838
+5,Douglas County,Kitsap County,144,1.0480653357839838
+5,Ferry County,Kitsap County,19,1.3053987597029508
+5,Franklin County,Kitsap County,1199,0.6617051166614414
+5,Garfield County,Kitsap County,7,0.5198470959266732
+5,Grant County,Kitsap County,285,0.8183754972297795
+5,Grays Harbor County,Kitsap County,171,0.9268337360449407
+5,Island County,Kitsap County,171,0.9612063177706911
+5,Jefferson County,Kitsap County,25,0.9625644333733344
+5,King County,Kitsap County,6188,1.212096033738645
+5,Kitsap County,Kitsap County,410,3.79405185803868
+5,Kittitas County,Kitsap County,244,0.9923258850430396
+5,Klickitat County,Kitsap County,90,0.8034538993370263
+5,Lewis County,Kitsap County,732,0.7753404794443546
+5,Lincoln County,Kitsap County,47,1.1571013800087477
+5,Mason County,Kitsap County,120,1.3470157662742432
+5,Okanogan County,Kitsap County,70,0.48271404465950074
+5,Pacific County,Kitsap County,96,0.950495519176575
+5,Pend Oreille County,Kitsap County,72,0.7299415058964706
+5,Pierce County,Kitsap County,1424,1.370576771850822
+5,San Juan County,Kitsap County,10,1.4776262776316993
+5,Skagit County,Kitsap County,843,1.300672560511797
+5,Skamania County,Kitsap County,2,0.8037665881478211
+5,Snohomish County,Kitsap County,1969,1.2187336932700106
+5,Spokane County,Kitsap County,2419,0.9083099311058339
+5,Stevens County,Kitsap County,82,0.8837582000342212
+5,Thurston County,Kitsap County,827,0.9376939288177037
+5,Wahkiakum County,Kitsap County,16,0.9445859981114606
+5,Walla Walla County,Kitsap County,134,0.8172025715629635
+5,Whatcom County,Kitsap County,1798,1.2224290532982527
+5,Whitman County,Kitsap County,404,1.455568137444985
+5,Yakima County,Kitsap County,1676,0.6919195332800022
+5,Adams County,Kittitas County,678,1.1147778029018112
+5,Asotin County,Kittitas County,251,0.9832455166563652
+5,Benton County,Kittitas County,5142,0.9874759883291588
+5,Chelan County,Kittitas County,633,1.2045969746239114
+5,Clallam County,Kittitas County,954,1.152433490449838
+5,Clark County,Kittitas County,339,1.0170022027038164
+5,Columbia County,Kittitas County,1,16.808536405257716
+5,Cowlitz County,Kittitas County,977,1.1192452962221497
+5,Douglas County,Kittitas County,340,1.0875515958871433
+5,Ferry County,Kittitas County,57,1.7211136079635148
+5,Franklin County,Kittitas County,4181,1.0140761419082338
+5,Garfield County,Kittitas County,40,1.3055173906996287
+5,Grant County,Kittitas County,747,0.9426998707172005
+5,Grays Harbor County,Kittitas County,360,0.8575378769747428
+5,Island County,Kittitas County,418,1.0326231947968438
+5,Jefferson County,Kittitas County,64,1.0829661039629133
+5,King County,Kittitas County,10263,0.8834991619964846
+5,Kitsap County,Kittitas County,244,0.9923258850430396
+5,Kittitas County,Kittitas County,678,1.2118232360937242
+5,Klickitat County,Kittitas County,196,0.7689880884101566
+5,Lewis County,Kittitas County,2045,0.9519623614919694
+5,Lincoln County,Kittitas County,103,1.114437882035111
+5,Mason County,Kittitas County,247,1.2185222791465018
+5,Okanogan County,Kittitas County,269,0.815247100342157
+5,Pacific County,Kittitas County,211,0.9181346632030146
+5,Pend Oreille County,Kittitas County,167,0.7440757003785391
+5,Pierce County,Kittitas County,2305,0.9750107309987175
+5,San Juan County,Kittitas County,26,1.688429928667227
+5,Skagit County,Kittitas County,1758,1.1920771470436728
+5,Skamania County,Kittitas County,14,2.4727093836105927
+5,Snohomish County,Kittitas County,3677,1.000234475560687
+5,Spokane County,Kittitas County,6726,1.109941641746813
+5,Stevens County,Kittitas County,245,1.1604616060364852
+5,Thurston County,Kittitas County,1897,0.9452964205263376
+5,Wahkiakum County,Kittitas County,45,1.1675597708823215
+5,Walla Walla County,Kittitas County,441,1.1819758511829466
+5,Whatcom County,Kittitas County,3677,1.098683730757686
+5,Whitman County,Kittitas County,857,1.356991367767305
+5,Yakima County,Kittitas County,5152,0.9347651640190386
+5,Adams County,Klickitat County,293,1.0574995679891523
+5,Asotin County,Klickitat County,149,1.281234077628095
+5,Benton County,Klickitat County,2262,0.9535446456977524
+5,Chelan County,Klickitat County,219,0.91482101485046
+5,Clallam County,Klickitat County,472,1.2515939470355004
+5,Clark County,Klickitat County,151,0.9943816518625486
+5,Columbia County,Klickitat County,0,0
+5,Cowlitz County,Klickitat County,372,0.9354651515983172
+5,Douglas County,Klickitat County,144,1.0110843881257043
+5,Ferry County,Klickitat County,12,0.7953712493317198
+5,Franklin County,Klickitat County,1794,0.9551394783355884
+5,Garfield County,Klickitat County,18,1.2895825110524
+5,Grant County,Klickitat County,296,0.8199710441712146
+5,Grays Harbor County,Klickitat County,148,0.7738672822871016
+5,Island County,Klickitat County,186,1.0086314319494203
+5,Jefferson County,Klickitat County,32,1.188608488934203
+5,King County,Klickitat County,4398,0.831076491306971
+5,Kitsap County,Klickitat County,90,0.8034538993370263
+5,Kittitas County,Klickitat County,196,0.7689880884101566
+5,Klickitat County,Klickitat County,120,1.0334720765485095
+5,Lewis County,Klickitat County,1178,1.2037206620572842
+5,Lincoln County,Klickitat County,42,0.9975206420649934
+5,Mason County,Klickitat County,86,0.9312985604609694
+5,Okanogan County,Klickitat County,166,1.104330407086673
+5,Pacific County,Klickitat County,99,0.9456122352045363
+5,Pend Oreille County,Klickitat County,127,1.2421050605313633
+5,Pierce County,Klickitat County,1003,0.9313080532555461
+5,San Juan County,Klickitat County,7,0.9978418013187169
+5,Skagit County,Klickitat County,683,1.0166235241056472
+5,Skamania County,Klickitat County,1,0.38770285650437014
+5,Snohomish County,Klickitat County,1464,0.8741847497530342
+5,Spokane County,Klickitat County,3397,1.2305316502781576
+5,Stevens County,Klickitat County,86,0.8941638395408414
+5,Thurston County,Klickitat County,1134,1.2404169627670427
+5,Wahkiakum County,Klickitat County,20,1.139070393949037
+5,Walla Walla County,Klickitat County,163,0.9589844786709695
+5,Whatcom County,Klickitat County,1845,1.2101226610800817
+5,Whitman County,Klickitat County,300,1.0427290604659705
+5,Yakima County,Klickitat County,2552,1.01639213176908
+5,Adams County,Lewis County,2231,0.9553776397958909
+5,Asotin County,Lewis County,1232,1.2569437555284055
+5,Benton County,Lewis County,20797,1.0401884977986557
+5,Chelan County,Lewis County,2245,1.1126825752492915
+5,Clallam County,Lewis County,3163,0.9951385982338204
+5,Clark County,Lewis County,1292,1.0094890037569362
+5,Columbia County,Lewis County,0,0
+5,Cowlitz County,Lewis County,3989,1.1901772212037574
+5,Douglas County,Lewis County,1196,0.9963662683290916
+5,Ferry County,Lewis County,102,0.8021428893625178
+5,Franklin County,Lewis County,16194,1.0229665105447527
+5,Garfield County,Lewis County,105,0.8925423925992608
+5,Grant County,Lewis County,2975,0.9778150093482485
+5,Grays Harbor County,Lewis County,1756,1.0894121286830682
+5,Island County,Lewis County,1760,1.1323877056241007
+5,Jefferson County,Lewis County,256,1.1282146600219227
+5,King County,Lewis County,39666,0.8893385215796769
+5,Kitsap County,Lewis County,732,0.7753404794443546
+5,Kittitas County,Lewis County,2045,0.9519623614919694
+5,Klickitat County,Lewis County,1178,1.2037206620572842
+5,Lewis County,Lewis County,9010,1.0923659136398898
+5,Lincoln County,Lewis County,428,1.206088826623318
+5,Mason County,Lewis County,881,1.1319553927873982
+5,Okanogan County,Lewis County,1672,1.3197453469266571
+5,Pacific County,Lewis County,928,1.051692528358875
+5,Pend Oreille County,Lewis County,1264,1.466778745650326
+5,Pierce County,Lewis County,8580,0.9452411878625604
+5,San Juan County,Lewis County,53,0.8964012365374603
+5,Skagit County,Lewis County,5040,0.8900879295249909
+5,Skamania County,Lewis County,16,0.7360069367043192
+5,Snohomish County,Lewis County,12724,0.9014647178030514
+5,Spokane County,Lewis County,25983,1.116733280621839
+5,Stevens County,Lewis County,1008,1.243489457733631
+5,Thurston County,Lewis County,7919,1.0277510024272363
+5,Wahkiakum County,Lewis County,177,1.1960704442998364
+5,Walla Walla County,Lewis County,1517,1.058942743139813
+5,Whatcom County,Lewis County,12656,0.9849006258519726
+5,Whitman County,Lewis County,2131,0.878813250279423
+5,Yakima County,Lewis County,21747,1.0276445014426816
+5,Adams County,Lincoln County,93,0.9256581453197676
+5,Asotin County,Lincoln County,39,0.9248300234598911
+5,Benton County,Lincoln County,731,0.8498081825353525
+5,Chelan County,Lincoln County,93,1.0713467744637066
+5,Clallam County,Lincoln County,157,1.1480907241853104
+5,Clark County,Lincoln County,58,1.0533173763049861
+5,Columbia County,Lincoln County,0,0
+5,Cowlitz County,Lincoln County,155,1.0749084380178604
+5,Douglas County,Lincoln County,58,1.1230730514524634
+5,Ferry County,Lincoln County,7,1.2795043964211903
+5,Franklin County,Lincoln County,570,0.83690143614593
+5,Garfield County,Lincoln County,6,1.1854492882237937
+5,Grant County,Lincoln County,157,1.199393132695174
+5,Grays Harbor County,Lincoln County,81,1.1680055047063052
+5,Island County,Lincoln County,70,1.0468216451221772
+5,Jefferson County,Lincoln County,14,1.4340753973311329
+5,King County,Lincoln County,1860,0.9692901892240519
+5,Kitsap County,Lincoln County,47,1.1571013800087477
+5,Kittitas County,Lincoln County,103,1.114437882035111
+5,Klickitat County,Lincoln County,42,0.9975206420649934
+5,Lewis County,Lincoln County,428,1.206088826623318
+5,Lincoln County,Lincoln County,24,1.5719507780759672
+5,Mason County,Lincoln County,56,1.6723747724098328
+5,Okanogan County,Lincoln County,65,1.192502777392538
+5,Pacific County,Lincoln County,44,1.1590059486193711
+5,Pend Oreille County,Lincoln County,43,1.1597868119158785
+5,Pierce County,Lincoln County,372,0.9525558872490327
+5,San Juan County,Lincoln County,3,1.1793426595658476
+5,Skagit County,Lincoln County,226,0.9276902463969189
+5,Skamania County,Lincoln County,0,0
+5,Snohomish County,Lincoln County,572,0.9419183944807188
+5,Spokane County,Lincoln County,1115,1.1138512827428066
+5,Stevens County,Lincoln County,32,0.9175373036787583
+5,Thurston County,Lincoln County,361,1.0889725792304144
+5,Wahkiakum County,Lincoln County,4,0.6282545751842077
+5,Walla Walla County,Lincoln County,49,0.7950146908772041
+5,Whatcom County,Lincoln County,635,1.1485815842563925
+5,Whitman County,Lincoln County,150,1.4377937184463991
+5,Yakima County,Lincoln County,801,0.8797681608424605
+5,Adams County,Mason County,184,0.8350325038802894
+5,Asotin County,Mason County,103,1.1136594769609225
+5,Benton County,Mason County,1511,0.8009139814986933
+5,Chelan County,Mason County,203,1.0662548879993996
+5,Clallam County,Mason County,333,1.1102957273972953
+5,Clark County,Mason County,138,1.14268945824669
+5,Columbia County,Mason County,0,0
+5,Cowlitz County,Mason County,378,1.1952244071837737
+5,Douglas County,Mason County,151,1.3331371760343311
+5,Ferry County,Mason County,20,1.6668311862309722
+5,Franklin County,Mason County,1273,0.8522082622954661
+5,Garfield County,Mason County,10,0.9008440391604283
+5,Grant County,Mason County,268,0.9335005514728572
+5,Grays Harbor County,Mason County,198,1.3017960225781406
+5,Island County,Mason County,185,1.261433213271749
+5,Jefferson County,Mason County,21,0.9808015050523521
+5,King County,Mason County,4477,1.0637653660472108
+5,Kitsap County,Mason County,120,1.3470157662742432
+5,Kittitas County,Mason County,247,1.2185222791465018
+5,Klickitat County,Mason County,86,0.9312985604609696
+5,Lewis County,Mason County,881,1.131955392787398
+5,Lincoln County,Mason County,56,1.6723747724098328
+5,Mason County,Mason County,70,0.9531505438066851
+5,Okanogan County,Mason County,120,1.003795323258367
+5,Pacific County,Mason County,77,0.9247867378756556
+5,Pend Oreille County,Mason County,106,1.30356729218735
+5,Pierce County,Mason County,942,1.0998065650144249
+5,San Juan County,Mason County,6,1.0754442038657013
+5,Skagit County,Mason County,577,1.0799116935771116
+5,Skamania County,Mason County,5,2.437485184768584
+5,Snohomish County,Mason County,1513,1.135988818821032
+5,Spokane County,Mason County,2041,0.9296366264354712
+5,Stevens County,Mason County,75,0.9805119578969999
+5,Thurston County,Mason County,824,1.1333259507815343
+5,Wahkiakum County,Mason County,22,1.575492096272856
+5,Walla Walla County,Mason County,119,0.8803267822889366
+5,Whatcom County,Mason County,1059,0.8733774265929514
+5,Whitman County,Mason County,296,1.2936444011456605
+5,Yakima County,Mason County,1748,0.8753767996168011
+5,Adams County,Okanogan County,370,1.031543967962132
+5,Asotin County,Okanogan County,201,1.3350935930819998
+5,Benton County,Okanogan County,3471,1.1302551288255451
+5,Chelan County,Okanogan County,302,0.97447881500458855
+5,Clallam County,Okanogan County,413,0.8459504945601796
+5,Clark County,Okanogan County,181,0.9207212597297286
+5,Columbia County,Okanogan County,0,0
+5,Cowlitz County,Okanogan County,480,0.9323937475689301
+5,Douglas County,Okanogan County,142,0.7701701784226832
+5,Ferry County,Okanogan County,13,0.6655879274296915
+5,Franklin County,Okanogan County,2769,1.1387824209656212
+5,Garfield County,Okanogan County,30,1.6602417308552422
+5,Grant County,Okanogan County,441,0.9436671481028301
+5,Grays Harbor County,Okanogan County,201,0.8118471480442176
+5,Island County,Okanogan County,188,0.7875005113727443
+5,Jefferson County,Okanogan County,16,0.4590735524244026
+5,King County,Okanogan County,5114,0.7464830274149649
+5,Kitsap County,Okanogan County,70,0.4827140446595007
+5,Kittitas County,Okanogan County,269,0.815247100342157
+5,Klickitat County,Okanogan County,166,1.1043304070866733
+5,Lewis County,Okanogan County,1672,1.3197453469266571
+5,Lincoln County,Okanogan County,65,1.192502777392538
+5,Mason County,Okanogan County,120,1.0037953232583672
+5,Okanogan County,Okanogan County,246,1.264152567130755
+5,Pacific County,Okanogan County,122,0.9001422785488621
+5,Pend Oreille County,Okanogan County,164,1.2390016928476588
+5,Pierce County,Okanogan County,1246,0.8936838488990023
+5,San Juan County,Okanogan County,1,0.11011261962529939
+5,Skagit County,Okanogan County,727,0.83588648513855
+5,Skamania County,Okanogan County,2,0.5989663687498773
+5,Snohomish County,Okanogan County,1844,0.8505434557760979
+5,Spokane County,Okanogan County,4457,1.2471345684519437
+5,Stevens County,Okanogan County,138,1.1083353354488266
+5,Thurston County,Okanogan County,1417,1.1972860813497648
+5,Wahkiakum County,Okanogan County,21,0.9238751900797245
+5,Walla Walla County,Okanogan County,245,1.1134314892668238
+5,Whatcom County,Okanogan County,1883,0.9540184742258088
+5,Whitman County,Okanogan County,343,0.9209112621582752
+5,Yakima County,Okanogan County,3727,1.1466040160088249
+5,Adams County,Pacific County,275,1.1007930008682725
+5,Asotin County,Pacific County,127,1.2111733918142156
+5,Benton County,Pacific County,2280,1.0659667683343206
+5,Chelan County,Pacific County,196,0.90804731044363
+5,Clallam County,Pacific County,458,1.3469371175905298
+5,Clark County,Pacific County,157,1.1466640445660214
+5,Columbia County,Pacific County,0,0
+5,Cowlitz County,Pacific County,311,0.8673721034027763
+5,Douglas County,Pacific County,78,0.6074071539277911
+5,Ferry County,Pacific County,9,0.6615939713100872
+5,Franklin County,Pacific County,1821,1.075262971637931
+5,Garfield County,Pacific County,12,0.9534946555234914
+5,Grant County,Pacific County,273,0.8387447981813507
+5,Grays Harbor County,Pacific County,163,0.9452632252104431
+5,Island County,Pacific County,157,0.9442339110860266
+5,Jefferson County,Pacific County,23,0.9474953183452814
+5,King County,Pacific County,4359,0.9135514873275009
+5,Kitsap County,Pacific County,96,0.950495519176575
+5,Kittitas County,Pacific County,211,0.9181346632030146
+5,Klickitat County,Pacific County,99,0.9456122352045363
+5,Lewis County,Pacific County,928,1.051692528358875
+5,Lincoln County,Pacific County,44,1.1590059486193711
+5,Mason County,Pacific County,77,0.9247867378756556
+5,Okanogan County,Pacific County,122,0.9001422785488621
+5,Pacific County,Pacific County,76,0.8051037842945475
+5,Pend Oreille County,Pacific County,94,1.0196305781730113
+5,Pierce County,Pacific County,953,0.9813992313095629
+5,San Juan County,Pacific County,12,1.897165798820083
+5,Skagit County,Pacific County,603,0.9954447276574934
+5,Skamania County,Pacific County,7,3.0099371568845767
+5,Snohomish County,Pacific County,1330,0.8807936553094939
+5,Spokane County,Pacific County,2730,1.0967819036460402
+5,Stevens County,Pacific County,79,0.9109743110082014
+5,Thurston County,Pacific County,848,1.0287524481935983
+5,Wahkiakum County,Pacific County,18,1.136981664098632
+5,Walla Walla County,Pacific County,150,0.9787586656105787
+5,Whatcom County,Pacific County,1634,1.1886266488844777
+5,Whitman County,Pacific County,269,1.03696211535944
+5,Yakima County,Pacific County,2098,0.9267156464681465
+5,Adams County,Pend Oreille County,249,1.0205846562483465
+5,Asotin County,Pend Oreille County,129,1.2597055203574952
+5,Benton County,Pend Oreille County,2002,0.958406198344988
+5,Chelan County,Pend Oreille County,225,1.0673617739558572
+5,Clallam County,Pend Oreille County,317,0.9545920806151387
+5,Clark County,Pend Oreille County,126,0.9422883231887492
+5,Columbia County,Pend Oreille County,0,0
+5,Cowlitz County,Pend Oreille County,342,0.9766700928084401
+5,Douglas County,Pend Oreille County,82,0.6538466068205706
+5,Ferry County,Pend Oreille County,13,0.9785186419738389
+5,Franklin County,Pend Oreille County,1636,0.9891559459161853
+5,Garfield County,Pend Oreille County,23,1.8712920606529824
+5,Grant County,Pend Oreille County,306,0.9626431861188497
+5,Grays Harbor County,Pend Oreille County,173,1.0272779894136266
+5,Island County,Pend Oreille County,144,0.8867866678042658
+5,Jefferson County,Pend Oreille County,16,0.6749101216711662
+5,King County,Pend Oreille County,3803,0.816110954484309
+5,Kitsap County,Pend Oreille County,72,0.7299415058964706
+5,Kittitas County,Pend Oreille County,167,0.7440757003785391
+5,Klickitat County,Pend Oreille County,127,1.2421050605313633
+5,Lewis County,Pend Oreille County,1264,1.466778745650326
+5,Lincoln County,Pend Oreille County,43,1.1597868119158785
+5,Mason County,Pend Oreille County,106,1.30356729218735
+5,Okanogan County,Pend Oreille County,164,1.2390016928476586
+5,Pacific County,Pend Oreille County,94,1.0196305781730113
+5,Pend Oreille County,Pend Oreille County,102,1.1329008205388096
+5,Pierce County,Pend Oreille County,899,0.9479582848332184
+5,San Juan County,Pend Oreille County,1,0.16188282055538275
+5,Skagit County,Pend Oreille County,541,0.9144791869405265
+5,Skamania County,Pend Oreille County,1,0.44028725100264343
+5,Snohomish County,Pend Oreille County,1290,0.8747601066400097
+5,Spokane County,Pend Oreille County,3010,1.2382286449673285
+5,Stevens County,Pend Oreille County,120,1.4168928441997521
+5,Thurston County,Pend Oreille County,1056,1.3117638841647639
+5,Wahkiakum County,Pend Oreille County,10,0.646781631907665
+5,Walla Walla County,Pend Oreille County,160,1.0690082718082679
+5,Whatcom County,Pend Oreille County,1325,0.9869292281016495
+5,Whitman County,Pend Oreille County,260,1.0262677460882441
+5,Yakima County,Pend Oreille County,2237,1.0117744725363744
+5,Adams County,Pierce County,2363,0.9194989221098886
+5,Asotin County,Pierce County,1002,0.9289340003276897
+5,Benton County,Pierce County,19643,0.8927527003150375
+5,Chelan County,Pierce County,2166,0.9754957788787506
+5,Clallam County,Pierce County,3551,1.015189348350798
+5,Clark County,Pierce County,1411,1.0017932317544678
+5,Columbia County,Pierce County,1,3.9779450829069147
+5,Cowlitz County,Pierce County,3569,0.967622918478868
+5,Douglas County,Pierce County,1342,1.0159032575586437
+5,Ferry County,Pierce County,122,0.8718131139784018
+5,Franklin County,Pierce County,15632,0.897292067012033
+5,Garfield County,Pierce County,118,0.9114514947243028
+5,Grant County,Pierce County,2967,0.8861337466797085
+5,Grays Harbor County,Pierce County,1739,0.9803457649168772
+5,Island County,Pierce County,1749,1.0225493753680475
+5,Jefferson County,Pierce County,276,1.1052813854519885
+5,King County,Pierce County,54545,1.1112599004223969
+5,Kitsap County,Pierce County,1424,1.370576771850822
+5,Kittitas County,Pierce County,2305,0.9750107309987175
+5,Klickitat County,Pierce County,1003,0.9313080532555462
+5,Lewis County,Pierce County,8580,0.9452411878625604
+5,Lincoln County,Pierce County,372,0.9525558872490327
+5,Mason County,Pierce County,942,1.0998065650144246
+5,Okanogan County,Pierce County,1246,0.8936838488990023
+5,Pacific County,Pierce County,953,0.9813992313095631
+5,Pend Oreille County,Pierce County,899,0.9479582848332183
+5,Pierce County,Pierce County,11076,1.1087925443740538
+5,San Juan County,Pierce County,84,1.2909750945171186
+5,Skagit County,Pierce County,6993,1.1222197405254413
+5,Skamania County,Pierce County,22,0.9195950104093044
+5,Snohomish County,Pierce County,16679,1.0737596562223066
+5,Spokane County,Pierce County,24830,0.9697256559120592
+5,Stevens County,Pierce County,846,0.9483397163646206
+5,Thurston County,Pierce County,8316,0.9807177762133914
+5,Wahkiakum County,Pierce County,165,1.0131632704085016
+5,Walla Walla County,Pierce County,1463,0.9279898463313728
+5,Whatcom County,Pierce County,14723,1.0411283197356944
+5,Whitman County,Pierce County,2721,1.0196560231039737
+5,Yakima County,Pierce County,20582,0.883777870450342
+5,Adams County,San Juan County,22,1.3142603673470163
+5,Asotin County,San Juan County,7,0.9962914547639393
+5,Benton County,San Juan County,77,0.5372609911223638
+5,Chelan County,San Juan County,11,0.7605554018413082
+5,Clallam County,San Juan County,30,1.3167061459182694
+5,Clark County,San Juan County,11,1.1989884307339136
+5,Columbia County,San Juan County,0,0
+5,Cowlitz County,San Juan County,22,0.915700617397414
+5,Douglas County,San Juan County,4,0.4648695034122349
+5,Ferry County,San Juan County,1,1.0970711506799666
+5,Franklin County,San Juan County,74,0.652112056108042
+5,Garfield County,San Juan County,2,2.3716619050298307
+5,Grant County,San Juan County,27,1.2379888177228227
+5,Grays Harbor County,San Juan County,3,0.25964034507565936
+5,Island County,San Juan County,6,0.5385387482761741
+5,Jefferson County,San Juan County,1,0.6148016179985047
+5,King County,San Juan County,334,1.0446682408501642
+5,Kitsap County,San Juan County,10,1.4776262776316993
+5,Kittitas County,San Juan County,26,1.6884299286672273
+5,Klickitat County,San Juan County,7,0.997841801318717
+5,Lewis County,San Juan County,53,0.8964012365374601
+5,Lincoln County,San Juan County,3,1.1793426595658476
+5,Mason County,San Juan County,6,1.075444203865701
+5,Okanogan County,San Juan County,1,0.11011261962529939
+5,Pacific County,San Juan County,12,1.8971657988200827
+5,Pend Oreille County,San Juan County,1,0.16188282055538275
+5,Pierce County,San Juan County,84,1.2909750945171188
+5,San Juan County,San Juan County,2,4.718889431128253
+5,Skagit County,San Juan County,64,1.5767599403569554
+5,Skamania County,San Juan County,0,0
+5,Snohomish County,San Juan County,135,1.3342649270292275
+5,Spokane County,San Juan County,183,1.0972219419549971
+5,Stevens County,San Juan County,12,2.06512360131754
+5,Thurston County,San Juan County,80,1.4484075551751951
+5,Wahkiakum County,San Juan County,8,7.541482157491306
+5,Walla Walla County,San Juan County,4,0.38952031925917807
+5,Whatcom County,San Juan County,95,1.0313421824673752
+5,Whitman County,San Juan County,33,1.898498747534163
+5,Yakima County,San Juan County,102,0.6723988291966678
+5,Adams County,Skagit County,1545,0.9637469404410709
+5,Asotin County,Skagit County,603,0.8961515810028248
+5,Benton County,Skagit County,10593,0.7717725963734124
+5,Chelan County,Skagit County,1391,1.004248283077297
+5,Clallam County,Skagit County,2451,1.1232766136041028
+5,Clark County,Skagit County,1057,1.2030206787370834
+5,Columbia County,Skagit County,0,0
+5,Cowlitz County,Skagit County,2385,1.0365613404493983
+5,Douglas County,Skagit County,882,1.0703244539076022
+5,Ferry County,Skagit County,93,1.0653530193947172
+5,Franklin County,Skagit County,7981,0.7343846966582186
+5,Garfield County,Skagit County,94,1.1639288511993784
+5,Grant County,Skagit County,2137,1.0231357920171023
+5,Grays Harbor County,Skagit County,1127,1.018475618523436
+5,Island County,Skagit County,1202,1.1265383265756552
+5,Jefferson County,Skagit County,193,1.2389908771058356
+5,King County,Skagit County,32449,1.059763701710535
+5,Kitsap County,Skagit County,843,1.300672560511797
+5,Kittitas County,Skagit County,1758,1.1920771470436726
+5,Klickitat County,Skagit County,683,1.0166235241056474
+5,Lewis County,Skagit County,5040,0.8900879295249909
+5,Lincoln County,Skagit County,226,0.9276902463969189
+5,Mason County,Skagit County,577,1.0799116935771116
+5,Okanogan County,Skagit County,727,0.83588648513855
+5,Pacific County,Skagit County,603,0.9954447276574934
+5,Pend Oreille County,Skagit County,541,0.9144791869405265
+5,Pierce County,Skagit County,6993,1.1222197405254413
+5,San Juan County,Skagit County,64,1.5767599403569557
+5,Skagit County,Skagit County,5414,1.3927707994116756
+5,Skamania County,Skagit County,9,0.6030640785455661
+5,Snohomish County,Skagit County,10935,1.1285034389109563
+5,Spokane County,Skagit County,16103,1.0081519278567186
+5,Stevens County,Skagit County,595,1.0691965963505508
+5,Thurston County,Skagit County,5493,1.0384514363369466
+5,Wahkiakum County,Skagit County,158,1.555247835755192
+5,Walla Walla County,Skagit County,732,0.744315400581858
+5,Whatcom County,Skagit County,10927,1.2386708479113744
+5,Whitman County,Skagit County,1795,1.0782926025680624
+5,Yakima County,Skagit County,12330,0.8487223740457609
+5,Adams County,Snohomish County,3744,0.9368996283671935
+5,Asotin County,Snohomish County,1538,0.9169448099719582
+5,Benton County,Snohomish County,31318,0.9153498177147218
+5,Chelan County,Snohomish County,3202,0.927380572150491
+5,Clallam County,Snohomish County,6130,1.1270069087810042
+5,Clark County,Snohomish County,2235,1.0204655095794197
+5,Columbia County,Snohomish County,0,0
+5,Cowlitz County,Snohomish County,5213,0.9089019746856243
+5,Douglas County,Snohomish County,1995,0.9712084691446673
+5,Ferry County,Snohomish County,189,0.8685505402236368
+5,Franklin County,Snohomish County,24478,0.9035765179768607
+5,Garfield County,Snohomish County,197,0.9785601007796929
+5,Grant County,Snohomish County,4559,0.8756308332244366
+5,Grays Harbor County,Snohomish County,2494,0.9041612033320767
+5,Island County,Snohomish County,2891,1.0869568247756303
+5,Jefferson County,Snohomish County,434,1.1176947916325546
+5,King County,Snohomish County,85590,1.121381655511205
+5,Kitsap County,Snohomish County,1969,1.2187336932700106
+5,Kittitas County,Snohomish County,3677,1.000234475560687
+5,Klickitat County,Snohomish County,1464,0.8741847497530343
+5,Lewis County,Snohomish County,12724,0.9014647178030516
+5,Lincoln County,Snohomish County,572,0.9419183944807188
+5,Mason County,Snohomish County,1513,1.135988818821032
+5,Okanogan County,Snohomish County,1844,0.850543455776098
+5,Pacific County,Snohomish County,1330,0.8807936553094939
+5,Pend Oreille County,Snohomish County,1290,0.8747601066400097
+5,Pierce County,Snohomish County,16679,1.0737596562223066
+5,San Juan County,Snohomish County,135,1.3342649270292275
+5,Skagit County,Snohomish County,10935,1.1285034389109563
+5,Skamania County,Snohomish County,58,1.5590916395826768
+5,Snohomish County,Snohomish County,25860,1.070619916165375
+5,Spokane County,Snohomish County,37934,0.9527315119919018
+5,Stevens County,Snohomish County,1390,1.0020239457108504
+5,Thurston County,Snohomish County,12743,0.9664312697610925
+5,Wahkiakum County,Snohomish County,211,0.8331969510595019
+5,Walla Walla County,Snohomish County,2181,0.8896604566509194
+5,Whatcom County,Snohomish County,23414,1.0647638198238931
+5,Whitman County,Snohomish County,4149,0.9998579539061065
+5,Yakima County,Snohomish County,32464,0.8964525405576944
+5,Adams County,Spokane County,6490,0.9852286126075461
+5,Asotin County,Spokane County,3030,1.095883989961235
+5,Benton County,Spokane County,53159,0.9425512522866827
+5,Chelan County,Spokane County,6446,1.132562192194368
+5,Clallam County,Spokane County,9070,1.0115992145023054
+5,Clark County,Spokane County,3896,1.0791326781443045
+5,Columbia County,Spokane County,1,1.5518995226376235
+5,Cowlitz County,Spokane County,10933,1.156388496330768
+5,Douglas County,Spokane County,4178,1.2338804666649732
+5,Ferry County,Spokane County,514,1.4329515352737816
+5,Franklin County,Spokane County,41838,0.9369038286332505
+5,Garfield County,Spokane County,255,0.7684162684904738
+5,Grant County,Spokane County,9788,1.1404611795715742
+5,Grays Harbor County,Spokane County,5447,1.1979588123870475
+5,Island County,Spokane County,4851,1.106446881880528
+5,Jefferson County,Spokane County,866,1.3529647516149483
+5,King County,Spokane County,113255,0.9001666064467961
+5,Kitsap County,Spokane County,2419,0.9083099311058338
+5,Kittitas County,Spokane County,6726,1.109941641746813
+5,Klickitat County,Spokane County,3397,1.2305316502781576
+5,Lewis County,Spokane County,25983,1.1167332806218393
+5,Lincoln County,Spokane County,1115,1.1138512827428066
+5,Mason County,Spokane County,2041,0.9296366264354711
+5,Okanogan County,Spokane County,4457,1.2471345684519437
+5,Pacific County,Spokane County,2730,1.0967819036460402
+5,Pend Oreille County,Spokane County,3010,1.2382286449673285
+5,Pierce County,Spokane County,24830,0.9697256559120592
+5,San Juan County,Spokane County,183,1.0972219419549971
+5,Skagit County,Spokane County,16103,1.0081519278567186
+5,Skamania County,Spokane County,61,0.9947376975225396
+5,Snohomish County,Spokane County,37934,0.952731511991902
+5,Spokane County,Spokane County,71064,1.0827461089844492
+5,Stevens County,Spokane County,2668,1.1667672157797802
+5,Thurston County,Spokane County,23328,1.0732771653402058
+5,Wahkiakum County,Spokane County,564,1.3510748609739434
+5,Walla Walla County,Spokane County,3981,0.9851353246976261
+5,Whatcom County,Spokane County,36561,1.008627558153024
+5,Whitman County,Spokane County,7801,1.1404604825814326
+5,Yakima County,Spokane County,60163,1.0078359579500151
+5,Adams County,Stevens County,215,0.9368114472258723
+5,Asotin County,Stevens County,122,1.266494167952447
+5,Benton County,Stevens County,1622,0.8254683606326967
+5,Chelan County,Stevens County,186,0.9380070716490897
+5,Clallam County,Stevens County,316,1.0116020221947193
+5,Clark County,Stevens County,145,1.1527770130258752
+5,Columbia County,Stevens County,0,0
+5,Cowlitz County,Stevens County,387,1.1748888694060022
+5,Douglas County,Stevens County,113,0.9578654457579101
+5,Ferry County,Stevens County,22,1.760404515035306
+5,Franklin County,Stevens County,1282,0.8240119938843177
+5,Garfield County,Stevens County,9,0.7784312992344998
+5,Grant County,Stevens County,310,1.0367395100860324
+5,Grays Harbor County,Stevens County,150,0.9468848767201272
+5,Island County,Stevens County,145,0.9492677064200189
+5,Jefferson County,Stevens County,21,0.9416928972283127
+5,King County,Stevens County,3994,0.9111607088508936
+5,Kitsap County,Stevens County,82,0.8837582000342212
+5,Kittitas County,Stevens County,245,1.1604616060364852
+5,Klickitat County,Stevens County,86,0.8941638395408417
+5,Lewis County,Stevens County,1008,1.2434894577336308
+5,Lincoln County,Stevens County,32,0.9175373036787581
+5,Mason County,Stevens County,75,0.9805119578969999
+5,Okanogan County,Stevens County,138,1.1083353354488266
+5,Pacific County,Stevens County,79,0.9109743110082014
+5,Pend Oreille County,Stevens County,120,1.4168928441997521
+5,Pierce County,Stevens County,846,0.9483397163646206
+5,San Juan County,Stevens County,12,2.06512360131754
+5,Skagit County,Stevens County,595,1.0691965963505508
+5,Skamania County,Stevens County,6,2.8083510970631695
+5,Snohomish County,Stevens County,1390,1.0020239457108504
+5,Spokane County,Stevens County,2668,1.1667672157797802
+5,Stevens County,Stevens County,122,1.531368230036434
+5,Thurston County,Stevens County,864,1.1409576779269417
+5,Wahkiakum County,Stevens County,21,1.4439129579317582
+5,Walla Walla County,Stevens County,125,0.8878408789238674
+5,Whatcom County,Stevens County,1411,1.1172778466949074
+5,Whitman County,Stevens County,295,1.2378653010969602
+5,Yakima County,Stevens County,2033,0.9775053739609234
+5,Adams County,Thurston County,2071,0.9493575714149777
+5,Asotin County,Thurston County,1094,1.1948040225804348
+5,Benton County,Thurston County,18063,0.9671090657254394
+5,Chelan County,Thurston County,1977,1.048904209023052
+5,Clallam County,Thurston County,3223,1.0854726923768585
+5,Clark County,Thurston County,1228,1.0270974781932254
+5,Columbia County,Thurston County,0,0
+5,Cowlitz County,Thurston County,3481,1.1117978713372416
+5,Douglas County,Thurston County,1109,0.9889938702878578
+5,Ferry County,Thurston County,158,1.3300956416300838
+5,Franklin County,Thurston County,14210,0.960894209697202
+5,Garfield County,Thurston County,96,0.8735444400726516
+5,Grant County,Thurston County,2812,0.9893711969157954
+5,Grays Harbor County,Thurston County,1653,1.0977786121682178
+5,Island County,Thurston County,1641,1.1302259538996655
+5,Jefferson County,Thurston County,285,1.3445310947112359
+5,King County,Thurston County,40113,0.9627378740862639
+5,Kitsap County,Thurston County,827,0.9376939288177039
+5,Kittitas County,Thurston County,1897,0.9452964205263376
+5,Klickitat County,Thurston County,1134,1.2404169627670427
+5,Lewis County,Thurston County,7919,1.0277510024272363
+5,Lincoln County,Thurston County,361,1.0889725792304141
+5,Mason County,Thurston County,824,1.1333259507815343
+5,Okanogan County,Thurston County,1417,1.1972860813497648
+5,Pacific County,Thurston County,848,1.0287524481935983
+5,Pend Oreille County,Thurston County,1056,1.3117638841647639
+5,Pierce County,Thurston County,8316,0.9807177762133915
+5,San Juan County,Thurston County,80,1.4484075551751951
+5,Skagit County,Thurston County,5493,1.0384514363369468
+5,Skamania County,Thurston County,10,0.4924205195243166
+5,Snohomish County,Thurston County,12743,0.9664312697610925
+5,Spokane County,Thurston County,23328,1.0732771653402058
+5,Stevens County,Thurston County,864,1.1409576779269417
+5,Thurston County,Thurston County,7160,0.9947290599164146
+5,Wahkiakum County,Thurston County,150,1.0850480446940498
+5,Walla Walla County,Thurston County,1373,1.0259628897582445
+5,Whatcom County,Thurston County,12058,1.0044895984694995
+5,Whitman County,Thurston County,2398,1.0586113416486005
+5,Yakima County,Thurston County,18916,0.9568570716566903
+5,Adams County,Wahkiakum County,41,0.9785871362594027
+5,Asotin County,Wahkiakum County,17,0.9667055274807145
+5,Benton County,Wahkiakum County,250,0.696933767915221
+5,Chelan County,Wahkiakum County,42,1.1602307608228166
+5,Clallam County,Wahkiakum County,44,0.7715733158638813
+5,Clark County,Wahkiakum County,64,2.7871426458241952
+5,Columbia County,Wahkiakum County,0,0
+5,Cowlitz County,Wahkiakum County,133,2.211767041920837
+5,Douglas County,Wahkiakum County,20,0.9286626431685115
+5,Ferry County,Wahkiakum County,5,2.191602131471557
+5,Franklin County,Wahkiakum County,164,0.5774192693394803
+5,Garfield County,Wahkiakum County,2,0.9475664879113267
+5,Grant County,Wahkiakum County,60,1.0991605259260462
+5,Grays Harbor County,Wahkiakum County,40,1.3831453765628985
+5,Island County,Wahkiakum County,31,1.1116915769770968
+5,Jefferson County,Wahkiakum County,0,0
+5,King County,Wahkiakum County,646,0.8072747301491976
+5,Kitsap County,Wahkiakum County,16,0.9445859981114605
+5,Kittitas County,Wahkiakum County,45,1.1675597708823215
+5,Klickitat County,Wahkiakum County,20,1.1390703939490368
+5,Lewis County,Wahkiakum County,177,1.1960704442998364
+5,Lincoln County,Wahkiakum County,4,0.6282545751842076
+5,Mason County,Wahkiakum County,22,1.575492096272856
+5,Okanogan County,Wahkiakum County,21,0.9238751900797245
+5,Pacific County,Wahkiakum County,18,1.136981664098632
+5,Pend Oreille County,Wahkiakum County,10,0.646781631907665
+5,Pierce County,Wahkiakum County,165,1.0131632704085016
+5,San Juan County,Wahkiakum County,8,7.541482157491306
+5,Skagit County,Wahkiakum County,158,1.555247835755192
+5,Skamania County,Wahkiakum County,0,0
+5,Snohomish County,Wahkiakum County,211,0.8331969510595021
+5,Spokane County,Wahkiakum County,564,1.3510748609739434
+5,Stevens County,Wahkiakum County,21,1.4439129579317582
+5,Thurston County,Wahkiakum County,150,1.0850480446940498
+5,Wahkiakum County,Wahkiakum County,0,0
+5,Walla Walla County,Wahkiakum County,17,0.6614179282712606
+5,Whatcom County,Wahkiakum County,311,1.3489519486402455
+5,Whitman County,Wahkiakum County,51,1.1722587046249606
+5,Yakima County,Wahkiakum County,339,0.892860047344043
+5,Adams County,Walla Walla County,462,1.1390978356619603
+5,Asotin County,Walla Walla County,160,0.939871906482041
+5,Benton County,Walla Walla County,4271,1.229941556839703
+5,Chelan County,Walla Walla County,306,0.8732124456454642
+5,Clallam County,Walla Walla County,364,0.6593701947472009
+5,Clark County,Walla Walla County,183,0.8232537496886929
+5,Columbia County,Walla Walla County,1,25.205210658729314
+5,Cowlitz County,Walla Walla County,554,0.9517018450782225
+5,Douglas County,Walla Walla County,156,0.7482659512376111
+5,Ferry County,Walla Walla County,10,0.4527882154262752
+5,Franklin County,Walla Walla County,3362,1.2227805981825364
+5,Garfield County,Walla Walla County,20,0.9788431323778376
+5,Grant County,Walla Walla County,657,1.2433077697142083
+5,Grays Harbor County,Walla Walla County,279,0.996587525218784
+5,Island County,Walla Walla County,199,0.7371894357858809
+5,Jefferson County,Walla Walla County,18,0.4567387166346923
+5,King County,Walla Walla County,6980,0.9010474626425895
+5,Kitsap County,Walla Walla County,134,0.8172025715629635
+5,Kittitas County,Walla Walla County,441,1.1819758511829466
+5,Klickitat County,Walla Walla County,163,0.9589844786709695
+5,Lewis County,Walla Walla County,1517,1.058942743139813
+5,Lincoln County,Walla Walla County,49,0.7950146908772039
+5,Mason County,Walla Walla County,119,0.8803267822889366
+5,Okanogan County,Walla Walla County,245,1.1134314892668238
+5,Pacific County,Walla Walla County,150,0.9787586656105787
+5,Pend Oreille County,Walla Walla County,160,1.0690082718082679
+5,Pierce County,Walla Walla County,1463,0.9279898463313728
+5,San Juan County,Walla Walla County,4,0.38952031925917807
+5,Skagit County,Walla Walla County,732,0.744315400581858
+5,Skamania County,Walla Walla County,1,0.2648533519306058
+5,Snohomish County,Walla Walla County,2181,0.8896604566509194
+5,Spokane County,Walla Walla County,3981,0.9851353246976261
+5,Stevens County,Walla Walla County,125,0.8878408789238675
+5,Thurston County,Walla Walla County,1373,1.0259628897582447
+5,Wahkiakum County,Walla Walla County,17,0.6614179282712606
+5,Walla Walla County,Walla Walla County,492,1.977404641877563
+5,Whatcom County,Walla Walla County,1729,0.7747016649986013
+5,Whitman County,Walla Walla County,353,0.838168626753575
+5,Yakima County,Walla Walla County,4217,1.1473362047890407
+5,Adams County,Whatcom County,3170,0.8713394212489092
+5,Asotin County,Whatcom County,1510,0.9888597103787015
+5,Benton County,Whatcom County,25128,0.8067182410191344
+5,Chelan County,Whatcom County,3356,1.067651444965434
+5,Clallam County,Whatcom County,6262,1.2645908676130282
+5,Clark County,Whatcom County,2251,1.1289304113038037
+5,Columbia County,Whatcom County,0,0
+5,Cowlitz County,Whatcom County,5903,1.1305062802914583
+5,Douglas County,Whatcom County,2007,1.0732176524567256
+5,Ferry County,Whatcom County,310,1.5648252975268464
+5,Franklin County,Whatcom County,19869,0.8056304810114879
+5,Garfield County,Whatcom County,181,0.987576454083808
+5,Grant County,Whatcom County,4810,1.014769496416063
+5,Grays Harbor County,Whatcom County,2695,1.0731960421910618
+5,Island County,Whatcom County,3126,1.2909934825995935
+5,Jefferson County,Whatcom County,540,1.527559486154698
+5,King County,Whatcom County,69708,1.0031916703059673
+5,Kitsap County,Whatcom County,1798,1.222429053298253
+5,Kittitas County,Whatcom County,3677,1.098683730757686
+5,Klickitat County,Whatcom County,1845,1.210122661080082
+5,Lewis County,Whatcom County,12656,0.9849006258519726
+5,Lincoln County,Whatcom County,635,1.1485815842563925
+5,Mason County,Whatcom County,1059,0.8733774265929514
+5,Okanogan County,Whatcom County,1883,0.9540184742258087
+5,Pacific County,Whatcom County,1634,1.1886266488844774
+5,Pend Oreille County,Whatcom County,1325,0.9869292281016495
+5,Pierce County,Whatcom County,14723,1.0411283197356944
+5,San Juan County,Whatcom County,95,1.0313421824673752
+5,Skagit County,Whatcom County,10927,1.2386708479113742
+5,Skamania County,Whatcom County,51,1.5058603535434327
+5,Snohomish County,Whatcom County,23414,1.0647638198238931
+5,Spokane County,Whatcom County,36561,1.008627558153024
+5,Stevens County,Whatcom County,1411,1.1172778466949074
+5,Thurston County,Whatcom County,12058,1.0044895984694995
+5,Wahkiakum County,Whatcom County,311,1.3489519486402455
+5,Walla Walla County,Whatcom County,1729,0.7747016649986013
+5,Whatcom County,Whatcom County,24514,1.224511103099747
+5,Whitman County,Whatcom County,4202,1.1122996308187831
+5,Yakima County,Whatcom County,30188,0.9156520836823397
+5,Adams County,Whitman County,594,0.8652303501731416
+5,Asotin County,Whitman County,359,1.2458604038636267
+5,Benton County,Whitman County,4875,0.8293842294132081
+5,Chelan County,Whitman County,798,1.345326294967146
+5,Clallam County,Whitman County,980,1.0487699929446141
+5,Clark County,Whitman County,480,1.275704578006498
+5,Columbia County,Whitman County,0,0
+5,Cowlitz County,Whitman County,1354,1.3741560675807873
+5,Douglas County,Whitman County,494,1.3998599328283188
+5,Ferry County,Whitman County,47,1.2572429874910733
+5,Franklin County,Whitman County,3577,0.7685922821052494
+5,Garfield County,Whitman County,40,1.1565631283399256
+5,Grant County,Whitman County,1074,1.2007257059052048
+5,Grays Harbor County,Whitman County,600,1.2661604468457544
+5,Island County,Whitman County,566,1.238707327600694
+5,Jefferson County,Whitman County,61,0.9144319801207741
+5,King County,Whitman County,12292,0.9374347445129568
+5,Kitsap County,Whitman County,404,1.455568137444985
+5,Kittitas County,Whitman County,857,1.356991367767305
+5,Klickitat County,Whitman County,300,1.0427290604659705
+5,Lewis County,Whitman County,2131,0.878813250279423
+5,Lincoln County,Whitman County,150,1.4377937184463991
+5,Mason County,Whitman County,296,1.2936444011456605
+5,Okanogan County,Whitman County,343,0.9209112621582752
+5,Pacific County,Whitman County,269,1.0369621153594397
+5,Pend Oreille County,Whitman County,260,1.0262677460882441
+5,Pierce County,Whitman County,2721,1.0196560231039737
+5,San Juan County,Whitman County,33,1.898498747534163
+5,Skagit County,Whitman County,1795,1.0782926025680624
+5,Skamania County,Whitman County,22,3.4423450728786404
+5,Snohomish County,Whitman County,4149,0.9998579539061064
+5,Spokane County,Whitman County,7801,1.1404604825814326
+5,Stevens County,Whitman County,295,1.2378653010969605
+5,Thurston County,Whitman County,2398,1.0586113416486005
+5,Wahkiakum County,Whitman County,51,1.1722587046249606
+5,Walla Walla County,Whitman County,353,0.8381686267535747
+5,Whatcom County,Whitman County,4202,1.1122996308187834
+5,Whitman County,Whitman County,1326,1.8600579226089267
+5,Yakima County,Whitman County,5345,0.8591342951023586
+5,Adams County,Yakima County,6660,1.1116035650049936
+5,Asotin County,Yakima County,2614,1.0394675104911666
+5,Benton County,Yakima County,61842,1.2055773532894414
+5,Chelan County,Yakima County,5048,0.9751568758862603
+5,Clallam County,Yakima County,7398,0.9071913612063242
+5,Clark County,Yakima County,2958,0.9008188140086958
+5,Columbia County,Yakima County,0,0
+5,Cowlitz County,Yakima County,7582,0.8817217973682925
+5,Douglas County,Yakima County,3002,0.9747622997535292
+5,Ferry County,Yakima County,255,0.781613309687444
+5,Franklin County,Yakima County,49809,1.2263524507801775
+5,Garfield County,Yakima County,263,0.8713557503593432
+5,Grant County,Yakima County,8466,1.0845465392557252
+5,Grays Harbor County,Yakima County,3806,0.9203153758204676
+5,Island County,Yakima County,3693,0.9261087443696077
+5,Jefferson County,Yakima County,620,1.0649854202531641
+5,King County,Yakima County,103496,0.9044247972145399
+5,Kitsap County,Yakima County,1676,0.6919195332800022
+5,Kittitas County,Yakima County,5152,0.9347651640190388
+5,Klickitat County,Yakima County,2552,1.01639213176908
+5,Lewis County,Yakima County,21747,1.0276445014426816
+5,Lincoln County,Yakima County,801,0.8797681608424603
+5,Mason County,Yakima County,1748,0.875376799616801
+5,Okanogan County,Yakima County,3727,1.1466040160088249
+5,Pacific County,Yakima County,2098,0.9267156464681465
+5,Pend Oreille County,Yakima County,2237,1.0117744725363744
+5,Pierce County,Yakima County,20582,0.883777870450342
+5,San Juan County,Yakima County,102,0.6723988291966678
+5,Skagit County,Yakima County,12330,0.8487223740457608
+5,Skamania County,Yakima County,31,0.5558067517258195
+5,Snohomish County,Yakima County,32464,0.8964525405576944
+5,Spokane County,Yakima County,60163,1.0078359579500151
+5,Stevens County,Yakima County,2033,0.9775053739609234
+5,Thurston County,Yakima County,18916,0.9568570716566902
+5,Wahkiakum County,Yakima County,339,0.8928600473440429
+5,Walla Walla County,Yakima County,4217,1.1473362047890407
+5,Whatcom County,Yakima County,30188,0.9156520836823397
+5,Whitman County,Yakima County,5345,0.8591342951023588
+5,Yakima County,Yakima County,59886,1.102983596723166
+5,Adams County,Skamania County,0,0
+5,Asotin County,Skamania County,0,0
+5,Benton County,Skamania County,12,0.22772524462793392
+5,Chelan County,Skamania County,6,1.128300467179957
+5,Clallam County,Skamania County,19,2.268070534011114
+5,Clark County,Skamania County,7,2.0751796259366935
+5,Columbia County,Skamania County,0,0
+5,Cowlitz County,Skamania County,27,3.056538973737539
+5,Douglas County,Skamania County,7,2.2126078684739077
+5,Ferry County,Skamania County,1,2.9838029719894714
+5,Franklin County,Skamania County,11,0.263644394719877
+5,Garfield County,Skamania County,0,0
+5,Grant County,Skamania County,10,1.247062744972137
+5,Grays Harbor County,Skamania County,3,0.70616717320928
+5,Island County,Skamania County,7,1.7088309201722964
+5,Jefferson County,Skamania County,0,0
+5,King County,Skamania County,142,1.20796852083079
+5,Kitsap County,Skamania County,2,0.8037665881478211
+5,Kittitas County,Skamania County,14,2.4727093836105927
+5,Klickitat County,Skamania County,1,0.3877028565043701
+5,Lewis County,Skamania County,16,0.7360069367043193
+5,Lincoln County,Skamania County,0,0
+5,Mason County,Skamania County,5,2.437485184768584
+5,Okanogan County,Skamania County,2,0.5989663687498773
+5,Pacific County,Skamania County,7,3.0099371568845767
+5,Pend Oreille County,Skamania County,1,0.44028725100264343
+5,Pierce County,Skamania County,22,0.9195950104093044
+5,San Juan County,Skamania County,0,0
+5,Skagit County,Skamania County,9,0.6030640785455661
+5,Skamania County,Skamania County,0,0
+5,Snohomish County,Skamania County,58,1.5590916395826768
+5,Spokane County,Skamania County,61,0.9947376975225398
+5,Stevens County,Skamania County,6,2.8083510970631695
+5,Thurston County,Skamania County,10,0.4924205195243166
+5,Wahkiakum County,Skamania County,0,0
+5,Walla Walla County,Skamania County,1,0.2648533519306058
+5,Whatcom County,Skamania County,51,1.5058603535434327
+5,Whitman County,Skamania County,22,3.4423450728786404
+5,Yakima County,Skamania County,31,0.5558067517258195
+5,Adams County,Columbia County,0,0
+5,Asotin County,Columbia County,0,0
+5,Benton County,Columbia County,0,0
+5,Chelan County,Columbia County,0,0
+5,Clallam County,Columbia County,0,0
+5,Clark County,Columbia County,0,0
+5,Columbia County,Columbia County,0,0
+5,Cowlitz County,Columbia County,0,0
+5,Douglas County,Columbia County,0,0
+5,Ferry County,Columbia County,0,0
+5,Franklin County,Columbia County,2,4.561846951062114
+5,Garfield County,Columbia County,0,0
+5,Grant County,Columbia County,0,0
+5,Grays Harbor County,Columbia County,0,0
+5,Island County,Columbia County,0,0
+5,Jefferson County,Columbia County,0,0
+5,King County,Columbia County,0,0
+5,Kitsap County,Columbia County,0,0
+5,Kittitas County,Columbia County,1,16.80853640525772
+5,Klickitat County,Columbia County,0,0
+5,Lewis County,Columbia County,0,0
+5,Lincoln County,Columbia County,0,0
+5,Mason County,Columbia County,0,0
+5,Okanogan County,Columbia County,0,0
+5,Pacific County,Columbia County,0,0
+5,Pend Oreille County,Columbia County,0,0
+5,Pierce County,Columbia County,1,3.9779450829069147
+5,San Juan County,Columbia County,0,0
+5,Skagit County,Columbia County,0,0
+5,Skamania County,Columbia County,0,0
+5,Snohomish County,Columbia County,0,0
+5,Spokane County,Columbia County,1,1.5518995226376235
+5,Stevens County,Columbia County,0,0
+5,Thurston County,Columbia County,0,0
+5,Wahkiakum County,Columbia County,0,0
+5,Walla Walla County,Columbia County,1,25.205210658729314
+5,Whatcom County,Columbia County,0,0
+5,Whitman County,Columbia County,0,0
+5,Yakima County,Columbia County,0,0
