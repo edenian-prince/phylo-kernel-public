@@ -10,9 +10,9 @@ my_pal <- c(lighten('darkcyan', amount = 0.6), 'darkcyan', darken('darkcyan', am
 
 ## Load relative risk of observing identical sequences between two age groups
 ## for different spatial scales
-df_RR_age_all_pairs <- readRDS('../results/RR_age/df_RR_age_0_mut_away.rds')
-df_RR_age_different_counties <- readRDS('../results/RR_age/df_RR_age_different_counties_0_mut_away.rds')
-df_RR_age_different_postal_codes <- readRDS('../results/RR_age/df_RR_age_different_postal_codes_0_mut_away.rds') 
+df_RR_age_all_pairs <- read_csv('../../results/RR_age/df_RR_age_0_mut_away.csv')
+df_RR_age_different_counties <- read_csv('../../results/RR_age/df_RR_age_different_counties_0_mut_away.csv')
+df_RR_age_different_postal_codes <- read_csv('../../results/RR_age/df_RR_age_different_postal_codes_0_mut_away.csv')
 
 df_RR_all <- df_RR_age_all_pairs %>% mutate(type = 'All pairs') %>% 
   bind_rows(df_RR_age_different_counties %>% mutate(type = 'Only pairs in different counties')) %>% 

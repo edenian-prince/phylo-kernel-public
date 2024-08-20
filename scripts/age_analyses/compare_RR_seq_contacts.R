@@ -6,10 +6,11 @@ library(vegan)
 source('../utils_comp_RR.R')
 
 ## Load relative risk of observing identical sequences between ahe groups
-df_RR_age <- readRDS('../results/RR_age/df_RR_age_0_mut_away.rds') %>% rename(RR_seq = RR) %>% ungroup()
+df_RR_age <- read_csv('../../results/RR_age/df_RR_age_0_mut_away.csv') %>% rename(RR_seq = RR)
+
 
 ## Load results from subsampling to compute uncertainty intervals around RR of identical sequences
-df_uncertainty_age <- readRDS('../results/RR_age/df_RR_uncertainty_age_0_mut_away.rds') %>% 
+df_uncertainty_age <- readRDS('../../results/RR_age/df_RR_uncertainty_age_0_mut_away.rds') %>% 
   group_by(n_mutations, group_1, group_2) %>% 
   summarise(median_RR = median(RR), 
             lower_RR = quantile(RR, 0.025), 
@@ -18,7 +19,7 @@ df_uncertainty_age <- readRDS('../results/RR_age/df_RR_uncertainty_age_0_mut_awa
 
 ## Load relative risk of contacts between two age groups
 ## This can be obtained using scripts/age_analyses/get_RR_contacts.R
-df_RR_contacts <- readRDS( '../results/RR_contacts/df_RR_overall.rds') %>% 
+df_RR_contacts <- readRDS( '../../results/RR_contacts/df_RR_overall.rds') %>% 
   select(age_decade_i, age_decade_j, RR_contacts)
 
 ## Join dataframes for comparison
