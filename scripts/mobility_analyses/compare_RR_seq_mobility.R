@@ -8,16 +8,16 @@ library(broom)
 source('../utils_comp_RR.R')
 
 ## Load relative risk of observing identical sequences between regions and counties
-df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds') %>% rename(RR_seq = RR) %>% ungroup()
-df_RR_regions <- readRDS('../results/RR_region/df_RR_region_0_mut_away.rds') %>% rename(RR_seq = RR) %>% ungroup()
+df_RR_counties <- read_csv('../../results/RR_county/df_RR_county_0_mut_away.csv') %>% rename(RR_seq = RR)
+df_RR_regions <- read_csv('../../results/RR_region/df_RR_region_0_mut_away.csv') %>% rename(RR_seq = RR)
 
 ## Load relative risk of movements between regions and counties
-df_RR_mobility_commute <- readRDS('../results/RR_mobility/RR_workflow_county_WA.rds') %>% rename(RR_workflow = RR)
-df_RR_mobility_commute_region <- readRDS('../results/RR_mobility/RR_workflow_region_WA.rds') %>% rename(RR_workflow = RR)
-df_RR_mobility_mobile_phone <- readRDS('../results/RR_mobility/RR_mobile_phone_county_WA.rds') %>% rename(RR_mobile_phone = RR)
-df_RR_mobility_mobile_phone_region <- readRDS('../results/RR_mobility/RR_mobile_phone_region_WA.rds') %>% rename(RR_mobile_phone = RR)
-df_distance <- readRDS('../data/maps/df_dist_county.rds')
-df_distance_region <- readRDS('../data/maps/df_dist_region.rds')
+df_RR_mobility_commute <- readRDS('../../results/RR_mobility/RR_workflow_county_WA.rds') %>% rename(RR_workflow = RR)
+df_RR_mobility_commute_region <- readRDS('../../results/RR_mobility/RR_workflow_region_WA.rds') %>% rename(RR_workflow = RR)
+df_RR_mobility_mobile_phone <- readRDS('../../results/RR_mobility/RR_mobile_phone_county_WA.rds') %>% rename(RR_mobile_phone = RR)
+df_RR_mobility_mobile_phone_region <- readRDS('../../results/RR_mobility/RR_mobile_phone_region_WA.rds') %>% rename(RR_mobile_phone = RR)
+df_distance <- readRDS('../../data/maps/df_dist_county.rds')
+df_distance_region <- readRDS('../../data/maps/df_dist_region.rds')
 
 df_RR_for_comparison_counties <- df_RR_counties %>% select(group_1, group_2, RR_seq) %>% 
   left_join(df_RR_mobility_commute %>% select(county_1, county_2, RR_workflow),

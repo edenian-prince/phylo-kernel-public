@@ -11,17 +11,17 @@ library(ggpubr)
 source('../utils_comp_RR.R')
 
 ## Load relative risk of observing identical sequences between counties
-df_RR_counties <- readRDS('../results/RR_county/df_RR_county_0_mut_away.rds') %>% rename(RR_seq = RR) %>% ungroup()
-df_RR_uncertainty_counties <- readRDS('../results/RR_county/df_RR_uncertainty_county_0_mut_away.rds')
-df_RR_regions <- readRDS('../results/RR_region/df_RR_region_0_mut_away.rds') %>% rename(RR_seq = RR) %>% ungroup()
+df_RR_counties <- read_csv('../../results/RR_county/df_RR_county_0_mut_away.csv') %>% rename(RR_seq = RR) 
+df_RR_uncertainty_counties <- readRDS('../../results/RR_county/df_RR_uncertainty_county_0_mut_away.rds')
+df_RR_regions <- read_csv('../../results/RR_region/df_RR_region_0_mut_away.csv') %>% rename(RR_seq = RR)
 
 ## Load relative risk of movements between counties
-df_RR_mobility_commute <- readRDS('../results/RR_mobility/RR_workflow_county_WA.rds') %>% rename(RR_workflow = RR)
-df_RR_mobility_commute_region <- readRDS('../results/RR_mobility/RR_workflow_region_WA.rds') %>% rename(RR_workflow = RR)
-df_RR_mobility_mobile_phone <- readRDS('../results/RR_mobility/RR_mobile_phone_county_WA.rds') %>% rename(RR_mobile_phone = RR)
-df_RR_mobility_mobile_phone_region <- readRDS('../results/RR_mobility/RR_mobile_phone_region_WA.rds') %>% rename(RR_mobile_phone = RR)
-df_distance <- readRDS('../data/maps/df_dist_county.rds')
-df_distance_region <- readRDS('../data/maps/df_dist_region.rds')
+df_RR_mobility_commute <- readRDS('../../results/RR_mobility/RR_workflow_county_WA.rds') %>% rename(RR_workflow = RR)
+df_RR_mobility_commute_region <- readRDS('../../results/RR_mobility/RR_workflow_region_WA.rds') %>% rename(RR_workflow = RR)
+df_RR_mobility_mobile_phone <- readRDS('../../results/RR_mobility/RR_mobile_phone_county_WA.rds') %>% rename(RR_mobile_phone = RR)
+df_RR_mobility_mobile_phone_region <- readRDS('../../results/RR_mobility/RR_mobile_phone_region_WA.rds') %>% rename(RR_mobile_phone = RR)
+df_distance <- readRDS('../../data/maps/df_dist_county.rds')
+df_distance_region <- readRDS('../../data/maps/df_dist_region.rds')
 
 df_RR_for_comparison_counties <- df_RR_counties %>% select(group_1, group_2, RR_seq) %>% 
   left_join(df_RR_mobility_commute %>% select(county_1, county_2, RR_workflow),
@@ -42,7 +42,7 @@ df_RR_for_comparison_regions <- df_RR_regions %>% select(group_1, group_2, RR_se
   filter(group_1 >= group_2)
 
 ## Load adjacency between counties
-df_adj_county <- readRDS('../data/maps/df_adj_county.rds') %>% 
+df_adj_county <- readRDS('../../data/maps/df_adj_county.rds') %>% 
   as_tibble() %>% 
   rename(group_1 = county_1, group_2 = county_2)
 
@@ -174,31 +174,31 @@ plt_fit_distance_regions_with_R2 <- gam_seq_distance_regions$plt_fit +
                           round(summary(gam_seq_distance_regions$mod)$r.sq, 2)), 
            parse = T, size = 5)
 
-pdf('../plots/figure_mobility/fit_gam_safegraph_counties.pdf',
-    height = 3., width = 3.9)
+# pdf('../plots/figure_mobility/fit_gam_safegraph_counties.pdf',
+#     height = 3., width = 3.9)
 plot(gam_seq_mobile_phone_counties$plt_fit +
        theme(legend.position = c(0.35, 0.8),
              legend.background = element_blank()) +
        guides(colour = guide_legend(override.aes = list(alpha = 1.))))
-dev.off()
-pdf('../plots/figure_mobility/outliers_gam_safegraph_counties.pdf',
-    height = 3., width = 3.9)
+#dev.off()
+#pdf('../plots/figure_mobility/outliers_gam_safegraph_counties.pdf',
+#    height = 3., width = 3.9)
 plot(gam_seq_mobile_phone_counties$plt_outliers + theme(legend.position = 'none'))
-dev.off()
+#dev.off()
 
-pdf('../plots/figure_mobility/panel_gam_safegraph_counties.pdf',
-    height = 3.5, width = 8.)
+# pdf('../plots/figure_mobility/panel_gam_safegraph_counties.pdf',
+#     height = 3.5, width = 8.)
 plot(ggarrange(gam_seq_mobile_phone_counties$plt_fit +
                 guides(colour = guide_legend(override.aes = list(alpha = 1.))), 
               gam_seq_mobile_phone_counties$plt_outliers , common.legend = T, legend = 'top'))
-dev.off()
+#dev.off()
 
-pdf('../plots/figure_mobility/panel_gam_safegraph_counties_with_R2.pdf',
-    height = 3.5, width = 8.)
+#pdf('../plots/figure_mobility/panel_gam_safegraph_counties_with_R2.pdf',
+#    height = 3.5, width = 8.)
 plot(ggarrange(plt_fit_mobile_phone_counties_with_R2 +
                  guides(colour = guide_legend(override.aes = list(alpha = 1.))), 
                gam_seq_mobile_phone_counties$plt_outliers , common.legend = T, legend = 'top'))
-dev.off()
+#dev.off()
 
 
 panel_fit_counties <- ggarrange(plt_fit_mobile_phone_counties_with_R2 + 
@@ -229,10 +229,10 @@ panel_fit_counties <- ggarrange(plt_fit_mobile_phone_counties_with_R2 +
 
 plot(panel_fit_counties)
 
-pdf('../plots/figure_mobility/summary_gam_safegraph_workflow_counties.pdf',
-    height = 10.5, width = 9.0)
-plot(panel_fit_counties)
-dev.off()
+# pdf('../plots/figure_mobility/summary_gam_safegraph_workflow_counties.pdf',
+#     height = 10.5, width = 9.0)
+# plot(panel_fit_counties)
+# dev.off()
 
 plt_residuals_regions <- gam_seq_workflow_regions$df_pred %>% mutate(type = 'Commuting') %>% 
   bind_rows(gam_seq_mobile_phone_regions$df_pred %>% mutate(type = 'Mobile phone')) %>% 
@@ -257,10 +257,10 @@ panel_fit_regions <- ggarrange(plt_fit_mobile_phone_regions_with_R2 + ggtitle('M
                                plt_fit_distance_regions_with_R2 + ggtitle('Distance'), 
                                plt_residuals_regions, labels = 'AUTO')
 
-pdf('../plots/figure_mobility/summary_gam_safegraph_workflow_regions.pdf',
-    height = 6.5, width = 7.5)
+# pdf('../plots/figure_mobility/summary_gam_safegraph_workflow_regions.pdf',
+#     height = 6.5, width = 7.5)
 plot(panel_fit_regions)
-dev.off()
+#dev.off()
 
 
 ##

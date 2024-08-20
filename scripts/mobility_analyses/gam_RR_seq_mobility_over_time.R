@@ -13,18 +13,18 @@ source('../utils_comp_RR.R')
 ## Load relative risk of observing identical sequences between regions
 vec_periods <- 1:4
 df_RR_regions_by_period <- Reduce('bind_rows', lapply(vec_periods, FUN = function(i_period){
-  readRDS(paste0('../results/RR_region_by_period/df_RR_region_0_mut_away_period_', i_period, '.rds')) %>% 
+  read_csv(paste0('../../results/RR_region_by_period/df_RR_region_0_mut_away_period_', i_period, '.csv')) %>% 
     rename(RR_seq = RR) %>% ungroup() %>% 
     mutate(i_period = i_period)
 }))
 df_uncertainty_RR_regions_by_period <- Reduce('bind_rows', lapply(vec_periods, FUN = function(i_period){
-  readRDS(paste0('../results/RR_region_by_period/df_RR_uncertainty_region_0_mut_away_period_', i_period, '.rds')) %>% 
+  readRDS(paste0('../../results/RR_region_by_period/df_RR_uncertainty_region_0_mut_away_period_', i_period, '.rds')) %>% 
     ungroup()
 }))
 
 ## Load relative risk of movements between regions
 df_RR_mobility_mobile_phone_region_by_period <- Reduce('bind_rows', lapply(vec_periods, FUN = function(i_period){
-  readRDS(paste0('../results/RR_mobility/RR_mobile_phone_region_WA_period_', i_period, '.rds')) %>% 
+  readRDS(paste0('../../results/RR_mobility/RR_mobile_phone_region_WA_period_', i_period, '.rds')) %>% 
     rename(RR_mobile_phone = RR) %>% ungroup() %>% 
     mutate(i_period = i_period)
 }))
@@ -37,7 +37,7 @@ df_RR_for_comparison_regions <- df_RR_regions_by_period %>% select(group_1, grou
   filter(group_1 >= group_2)
 
 ## Load adjacency between counties
-df_adj_county <- readRDS('../data/maps/df_adj_county.rds') %>% 
+df_adj_county <- readRDS('../../data/maps/df_adj_county.rds') %>% 
   as_tibble() %>% 
   rename(group_1 = county_1, group_2 = county_2)
 
