@@ -1,0 +1,82 @@
+n_mutations,group_1,group_2,n_pairs,RR
+0,North Central,North Central,134,88.26248985938346
+0,North Puget Sound,North Central,117,0.243879978584605
+0,Northeast,North Central,9,1.116178829190056
+0,Northwest,North Central,14,0.40415087687070195
+0,Peninsula/Coastal,North Central,3,1.4044481549106287
+0,South Central,North Central,278,4.8372320723784075
+0,South Puget Sound,North Central,18,0.17901189202100054
+0,Southeast,North Central,115,55.61834528802958
+0,Southwest,North Central,0,0
+0,North Central,North Puget Sound,117,0.243879978584605
+0,North Puget Sound,North Puget Sound,171462,1.1310377018980722
+0,Northeast,North Puget Sound,1647,0.6464036213994381
+0,Northwest,North Puget Sound,2760,0.2521410064403298
+0,Peninsula/Coastal,North Puget Sound,281,0.41630314067073276
+0,South Central,North Puget Sound,6400,0.35241226277940313
+0,South Puget Sound,North Puget Sound,34055,1.071788696505835
+0,Southeast,North Puget Sound,185,0.2831462813146934
+0,Southwest,North Puget Sound,498,0.8720154220027727
+0,North Central,Northeast,9,1.116178829190056
+0,North Puget Sound,Northeast,1647,0.6464036213994381
+0,Northeast,Northeast,1184,27.647945777157034
+0,Northwest,Northeast,29,0.15762800639855043
+0,Peninsula/Coastal,Northeast,13,1.145902599664355
+0,South Central,Northeast,353,1.1565029060752479
+0,South Puget Sound,Northeast,328,0.6141905309406291
+0,Southeast,Northeast,75,6.82969614445712
+0,Southwest,Northeast,16,1.6669239657745405
+0,North Central,Northwest,14,0.40415087687070195
+0,North Puget Sound,Northwest,2760,0.2521410064403298
+0,Northeast,Northwest,29,0.1576280063985504
+0,Northwest,Northwest,12096,15.303873999235895
+0,Peninsula/Coastal,Northwest,14,0.2872477306684328
+0,South Central,Northwest,305,0.2325927002724732
+0,South Puget Sound,Northwest,429,0.18698672850675363
+0,Southeast,Northwest,42,0.8902533723171064
+0,Southwest,Northwest,9,0.2182541627056852
+0,North Central,Peninsula/Coastal,3,1.4044481549106282
+0,North Puget Sound,Peninsula/Coastal,281,0.41630314067073276
+0,Northeast,Peninsula/Coastal,13,1.145902599664355
+0,Northwest,Peninsula/Coastal,14,0.2872477306684328
+0,Peninsula/Coastal,Peninsula/Coastal,514,171.02541663820773
+0,South Central,Peninsula/Coastal,37,0.4575798934035345
+0,South Puget Sound,Peninsula/Coastal,90,0.6361579633804151
+0,Southeast,Peninsula/Coastal,7,2.4061979061008847
+0,Southwest,Peninsula/Coastal,9,3.5394151303242216
+0,North Central,South Central,278,4.8372320723784075
+0,North Puget Sound,South Central,6400,0.35241226277940313
+0,Northeast,South Central,353,1.1565029060752479
+0,Northwest,South Central,305,0.23259270027247322
+0,Peninsula/Coastal,South Central,37,0.4575798934035345
+0,South Central,South Central,17004,7.8159896507737665
+0,South Puget Sound,South Central,1408,0.3699071994579926
+0,Southeast,South Central,200,2.5552357253720697
+0,Southwest,South Central,59,0.862399857177925
+0,North Central,South Puget Sound,18,0.17901189202100054
+0,North Puget Sound,South Puget Sound,34055,1.0717886965058347
+0,Northeast,South Puget Sound,328,0.6141905309406293
+0,Northwest,South Puget Sound,429,0.18698672850675369
+0,Peninsula/Coastal,South Puget Sound,90,0.636157963380415
+0,South Central,South Puget Sound,1408,0.3699071994579926
+0,South Puget Sound,South Puget Sound,9120,1.3694375037481912
+0,Southeast,South Puget Sound,35,0.2555796489900209
+0,Southwest,South Puget Sound,84,0.7017674171535518
+0,North Central,Southeast,115,55.61834528802958
+0,North Puget Sound,Southeast,185,0.2831462813146934
+0,Northeast,Southeast,75,6.82969614445712
+0,Northwest,Southeast,42,0.8902533723171064
+0,Peninsula/Coastal,Southeast,7,2.4061979061008847
+0,South Central,Southeast,200,2.5552357253720692
+0,South Puget Sound,Southeast,35,0.2555796489900209
+0,Southeast,Southeast,278,98.72198221121702
+0,Southwest,Southeast,0,0
+0,North Central,Southwest,0,0
+0,North Puget Sound,Southwest,498,0.8720154220027727
+0,Northeast,Southwest,16,1.6669239657745405
+0,Northwest,Southwest,9,0.21825416270568518
+0,Peninsula/Coastal,Southwest,9,3.539415130324221
+0,South Central,Southwest,59,0.862399857177925
+0,South Puget Sound,Southwest,84,0.7017674171535518
+0,Southeast,Southwest,0,0
+0,Southwest,Southwest,144,66.93340847187001
