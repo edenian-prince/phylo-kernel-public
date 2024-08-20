@@ -1,0 +1,471 @@
+n_mutations,group_1,group_2,n_pairs,n_pairs_1_x,n_pairs_x_2,n_pairs_x_x,RR,type,age_decade,i_period
+0,No valid vaccination record,No valid vaccination record,2924,2924,2924,2924,1,All pairs,0-9y,1
+0,No valid vaccination record,No valid vaccination record,2450,2450,2450,2450,1,Only pairs in different postal_codes,0-9y,1
+0,No valid vaccination record,No valid vaccination record,1446,1446,1446,1446,1,All pairs,0-9y,2
+0,No valid vaccination record,No valid vaccination record,898,898,898,898,1,Only pairs in different postal_codes,0-9y,2
+0,Completed primary series,Completed primary series,186,1957,1957,21450,1.0417381990778227,All pairs,0-9y,3
+0,Completed primary series,No valid vaccination record,1771,1957,19493,21450,0.995809692936167,All pairs,0-9y,3
+0,No valid vaccination record,Completed primary series,1771,19493,1957,21450,0.9958096929361667,All pairs,0-9y,3
+0,No valid vaccination record,No valid vaccination record,17722,19493,19493,21450,1.0004206859346392,All pairs,0-9y,3
+0,Completed primary series,Completed primary series,168,1910,1910,20952,0.9648682876017654,Only pairs in different postal_codes,0-9y,3
+0,Completed primary series,No valid vaccination record,1742,1910,19042,20952,1.003523872002974,Only pairs in different postal_codes,0-9y,3
+0,No valid vaccination record,Completed primary series,1742,19042,1910,20952,1.0035238720029738,Only pairs in different postal_codes,0-9y,3
+0,No valid vaccination record,No valid vaccination record,17300,19042,19042,20952,0.9996465394640437,Only pairs in different postal_codes,0-9y,3
+0,Completed primary series,Completed primary series,374,831,831,2116,1.146001584219207,All pairs,0-9y,4
+0,Completed primary series,Completed primary series + booster,5,831,20,2116,0.6365824308062575,All pairs,0-9y,4
+0,Completed primary series,No valid vaccination record,452,831,1265,2116,0.909834810195821,All pairs,0-9y,4
+0,Completed primary series + booster,Completed primary series,5,20,831,2116,0.6365824308062575,All pairs,0-9y,4
+0,Completed primary series + booster,Completed primary series + booster,10,20,20,2116,52.900000000000006,All pairs,0-9y,4
+0,Completed primary series + booster,No valid vaccination record,5,20,1265,2116,0.41818181818181815,All pairs,0-9y,4
+0,No valid vaccination record,Completed primary series,452,1265,831,2116,0.909834810195821,All pairs,0-9y,4
+0,No valid vaccination record,Completed primary series + booster,5,1265,20,2116,0.41818181818181815,All pairs,0-9y,4
+0,No valid vaccination record,No valid vaccination record,808,1265,1265,2116,1.0684297520661157,All pairs,0-9y,4
+0,Completed primary series,Completed primary series,284,684,684,1728,1.048938134810711,Only pairs in different postal_codes,0-9y,4
+0,Completed primary series,Completed primary series + booster,4,684,14,1728,0.7218045112781954,Only pairs in different postal_codes,0-9y,4
+0,Completed primary series,No valid vaccination record,396,684,1030,1728,0.9712825753704649,Only pairs in different postal_codes,0-9y,4
+0,Completed primary series + booster,Completed primary series,4,14,684,1728,0.7218045112781954,Only pairs in different postal_codes,0-9y,4
+0,Completed primary series + booster,Completed primary series + booster,6,14,14,1728,52.89795918367347,Only pairs in different postal_codes,0-9y,4
+0,Completed primary series + booster,No valid vaccination record,4,14,1030,1728,0.47933425797503465,Only pairs in different postal_codes,0-9y,4
+0,No valid vaccination record,Completed primary series,396,1030,684,1728,0.9712825753704649,Only pairs in different postal_codes,0-9y,4
+0,No valid vaccination record,Completed primary series + booster,4,1030,14,1728,0.47933425797503465,Only pairs in different postal_codes,0-9y,4
+0,No valid vaccination record,No valid vaccination record,630,1030,1030,1728,1.0261476105193703,Only pairs in different postal_codes,0-9y,4
+0,Completed primary series,No valid vaccination record,36,36,8308,8344,1.00433317284545,All pairs,10-19y,1
+0,No valid vaccination record,Completed primary series,36,8308,36,8344,1.0043331728454503,All pairs,10-19y,1
+0,No valid vaccination record,No valid vaccination record,8272,8308,8308,8344,0.9999812236130914,All pairs,10-19y,1
+0,Completed primary series,No valid vaccination record,35,35,7507,7542,1.0046623151725058,Only pairs in different postal_codes,10-19y,1
+0,No valid vaccination record,Completed primary series,35,7507,35,7542,1.0046623151725056,Only pairs in different postal_codes,10-19y,1
+0,No valid vaccination record,No valid vaccination record,7472,7507,7507,7542,0.9999782628172321,Only pairs in different postal_codes,10-19y,1
+0,Completed primary series,Completed primary series,380,769,769,3320,2.1333838382984336,All pairs,10-19y,2
+0,Completed primary series,No valid vaccination record,389,769,2551,3320,0.6583409754404173,All pairs,10-19y,2
+0,No valid vaccination record,Completed primary series,389,2551,769,3320,0.6583409754404173,All pairs,10-19y,2
+0,No valid vaccination record,No valid vaccination record,2162,2551,2551,3320,1.1029932535814657,All pairs,10-19y,2
+0,Completed primary series,Completed primary series,262,545,545,2366,2.087002777543978,Only pairs in different postal_codes,10-19y,2
+0,Completed primary series,No valid vaccination record,283,545,1821,2366,0.6746751709162724,Only pairs in different postal_codes,10-19y,2
+0,No valid vaccination record,Completed primary series,283,1821,545,2366,0.6746751709162724,Only pairs in different postal_codes,10-19y,2
+0,No valid vaccination record,No valid vaccination record,1538,1821,1821,2366,1.0973652014555912,Only pairs in different postal_codes,10-19y,2
+0,Completed primary series,Completed primary series,43580,75740,75740,132072,1.0033382726572337,All pairs,10-19y,3
+0,Completed primary series,Completed primary series + booster,3064,75740,5539,132072,0.9645902094817682,All pairs,10-19y,3
+0,Completed primary series,No valid vaccination record,29096,75740,50793,132072,0.9988835874750772,All pairs,10-19y,3
+0,Completed primary series + booster,Completed primary series,3064,5539,75740,132072,0.9645902094817682,All pairs,10-19y,3
+0,Completed primary series + booster,Completed primary series + booster,364,5539,5539,132072,1.5669293230059556,All pairs,10-19y,3
+0,Completed primary series + booster,No valid vaccination record,2111,5539,50793,132072,0.9909774184183034,All pairs,10-19y,3
+0,No valid vaccination record,Completed primary series,29096,50793,75740,132072,0.9988835874750771,All pairs,10-19y,3
+0,No valid vaccination record,Completed primary series + booster,2111,50793,5539,132072,0.9909774184183034,All pairs,10-19y,3
+0,No valid vaccination record,No valid vaccination record,19586,50793,50793,132072,1.0026486556025174,All pairs,10-19y,3
+0,Completed primary series,Completed primary series,42684,74316,74316,129418,1.0002190992128637,Only pairs in different postal_codes,10-19y,3
+0,Completed primary series,Completed primary series + booster,2958,74316,5255,129418,0.980252158486539,Only pairs in different postal_codes,10-19y,3
+0,Completed primary series,No valid vaccination record,28674,74316,49847,129418,1.0017552175667555,Only pairs in different postal_codes,10-19y,3
+0,Completed primary series + booster,Completed primary series,2958,5255,74316,129418,0.980252158486539,Only pairs in different postal_codes,10-19y,3
+0,Completed primary series + booster,Completed primary series + booster,304,5255,5255,129418,1.4246980402878504,Only pairs in different postal_codes,10-19y,3
+0,Completed primary series + booster,No valid vaccination record,1993,5255,49847,129418,0.9846689347042292,Only pairs in different postal_codes,10-19y,3
+0,No valid vaccination record,Completed primary series,28674,49847,74316,129418,1.0017552175667552,Only pairs in different postal_codes,10-19y,3
+0,No valid vaccination record,Completed primary series + booster,1993,49847,5255,129418,0.9846689347042292,Only pairs in different postal_codes,10-19y,3
+0,No valid vaccination record,No valid vaccination record,19180,49847,49847,129418,0.9989994182084836,Only pairs in different postal_codes,10-19y,3
+0,Completed primary series,Completed primary series,1090,2421,2421,5742,1.0678250561613147,All pairs,10-19y,4
+0,Completed primary series,Completed primary series + booster,845,2421,2123,5742,0.9440067800527765,All pairs,10-19y,4
+0,Completed primary series,No valid vaccination record,486,2421,1198,5742,0.9621612228559371,All pairs,10-19y,4
+0,Completed primary series + booster,Completed primary series,845,2123,2421,5742,0.9440067800527765,All pairs,10-19y,4
+0,Completed primary series + booster,Completed primary series + booster,864,2123,2123,5742,1.10072021457562,All pairs,10-19y,4
+0,Completed primary series + booster,No valid vaccination record,414,2123,1198,5742,0.9346665859333778,All pairs,10-19y,4
+0,No valid vaccination record,Completed primary series,486,1198,2421,5742,0.9621612228559371,All pairs,10-19y,4
+0,No valid vaccination record,Completed primary series + booster,414,1198,2123,5742,0.9346665859333778,All pairs,10-19y,4
+0,No valid vaccination record,No valid vaccination record,298,1198,1198,5742,1.1922458410093617,All pairs,10-19y,4
+0,Completed primary series,Completed primary series,924,2132,2132,5024,1.021285583039118,Only pairs in different postal_codes,10-19y,4
+0,Completed primary series,Completed primary series + booster,783,2132,1895,5024,0.9736771498017396,Only pairs in different postal_codes,10-19y,4
+0,Completed primary series,No valid vaccination record,425,2132,997,5024,1.0045144815308966,Only pairs in different postal_codes,10-19y,4
+0,Completed primary series + booster,Completed primary series,783,1895,2132,5024,0.9736771498017396,Only pairs in different postal_codes,10-19y,4
+0,Completed primary series + booster,Completed primary series + booster,736,1895,1895,5024,1.0296959781677932,Only pairs in different postal_codes,10-19y,4
+0,Completed primary series + booster,No valid vaccination record,376,1895,997,5024,0.9998459759224904,Only pairs in different postal_codes,10-19y,4
+0,No valid vaccination record,Completed primary series,425,997,2132,5024,1.0045144815308966,Only pairs in different postal_codes,10-19y,4
+0,No valid vaccination record,Completed primary series + booster,376,997,1895,5024,0.9998459759224904,Only pairs in different postal_codes,10-19y,4
+0,No valid vaccination record,No valid vaccination record,196,997,997,5024,0.9906389177562778,Only pairs in different postal_codes,10-19y,4
+0,Completed primary series,Completed primary series,18,316,316,18992,3.423489825348502,All pairs,20-29y,1
+0,Completed primary series,No valid vaccination record,298,316,18676,18992,0.9589942822440497,All pairs,20-29y,1
+0,No valid vaccination record,Completed primary series,298,18676,316,18992,0.9589942822440497,All pairs,20-29y,1
+0,No valid vaccination record,No valid vaccination record,18378,18676,18676,18992,1.0006938213113556,All pairs,20-29y,1
+0,Completed primary series,Completed primary series,16,302,302,18060,3.1682820928906628,Only pairs in different postal_codes,20-29y,1
+0,Completed primary series,No valid vaccination record,286,302,17758,18060,0.9631252848263891,Only pairs in different postal_codes,20-29y,1
+0,No valid vaccination record,Completed primary series,286,17758,302,18060,0.9631252848263893,Only pairs in different postal_codes,20-29y,1
+0,No valid vaccination record,No valid vaccination record,17472,17758,17758,18060,1.0006271068804162,Only pairs in different postal_codes,20-29y,1
+0,Completed primary series,Completed primary series,792,1754,1754,6764,1.7412839718694781,All pairs,20-29y,2
+0,Completed primary series,Completed primary series + booster,1,1754,1,6764,3.856328392246294,All pairs,20-29y,2
+0,Completed primary series,No valid vaccination record,961,1754,5009,6764,0.7398545787479913,All pairs,20-29y,2
+0,Completed primary series + booster,Completed primary series,1,1,1754,6764,3.856328392246294,All pairs,20-29y,2
+0,No valid vaccination record,Completed primary series,961,5009,1754,6764,0.7398545787479913,All pairs,20-29y,2
+0,No valid vaccination record,No valid vaccination record,4048,5009,5009,6764,1.0912946833451833,All pairs,20-29y,2
+0,Completed primary series,Completed primary series,540,1375,1375,5604,1.6006135537190083,Only pairs in different postal_codes,20-29y,2
+0,Completed primary series,Completed primary series + booster,1,1375,1,5604,4.075636363636363,Only pairs in different postal_codes,20-29y,2
+0,Completed primary series,No valid vaccination record,834,1375,4228,5604,0.803945299733379,Only pairs in different postal_codes,20-29y,2
+0,Completed primary series + booster,Completed primary series,1,1,1375,5604,4.075636363636363,Only pairs in different postal_codes,20-29y,2
+0,No valid vaccination record,Completed primary series,834,4228,1375,5604,0.8039452997333792,Only pairs in different postal_codes,20-29y,2
+0,No valid vaccination record,No valid vaccination record,3394,4228,4228,5604,1.0639960295332553,Only pairs in different postal_codes,20-29y,2
+0,Completed primary series,Completed primary series,48252,84125,84125,146544,0.9991557829858543,All pairs,20-29y,3
+0,Completed primary series,Completed primary series + booster,8807,84125,15402,146544,0.9960791321557012,All pairs,20-29y,3
+0,Completed primary series,No valid vaccination record,27066,84125,47017,146544,1.002794924449729,All pairs,20-29y,3
+0,Completed primary series + booster,Completed primary series,8807,15402,84125,146544,0.9960791321557012,All pairs,20-29y,3
+0,Completed primary series + booster,Completed primary series + booster,1688,15402,15402,146544,1.0427645198790578,All pairs,20-29y,3
+0,Completed primary series + booster,No valid vaccination record,4907,15402,47017,146544,0.9930064417598822,All pairs,20-29y,3
+0,No valid vaccination record,Completed primary series,27066,47017,84125,146544,1.0027949244497287,All pairs,20-29y,3
+0,No valid vaccination record,Completed primary series + booster,4907,47017,15402,146544,0.9930064417598824,All pairs,20-29y,3
+0,No valid vaccination record,No valid vaccination record,15044,47017,47017,146544,0.9972901666350652,All pairs,20-29y,3
+0,Completed primary series,Completed primary series,45714,79711,79711,138614,0.9972861898561067,Only pairs in different postal_codes,20-29y,3
+0,Completed primary series,Completed primary series + booster,8136,79711,14121,138614,1.001922952081859,Only pairs in different postal_codes,20-29y,3
+0,Completed primary series,No valid vaccination record,25861,79711,44782,138614,1.004224164039836,Only pairs in different postal_codes,20-29y,3
+0,Completed primary series + booster,Completed primary series,8136,14121,79711,138614,1.001922952081859,Only pairs in different postal_codes,20-29y,3
+0,Completed primary series + booster,Completed primary series + booster,1440,14121,14121,138614,1.0010106134953347,Only pairs in different postal_codes,20-29y,3
+0,Completed primary series + booster,No valid vaccination record,4545,14121,44782,138614,0.9962585122021193,Only pairs in different postal_codes,20-29y,3
+0,No valid vaccination record,Completed primary series,25861,44782,79711,138614,1.0042241640398362,Only pairs in different postal_codes,20-29y,3
+0,No valid vaccination record,Completed primary series + booster,4545,44782,14121,138614,0.9962585122021194,Only pairs in different postal_codes,20-29y,3
+0,No valid vaccination record,No valid vaccination record,14376,44782,44782,138614,0.9936608728822853,Only pairs in different postal_codes,20-29y,3
+0,Completed primary series,Completed primary series,1970,6427,6427,21120,1.007264528397089,All pairs,20-29y,4
+0,Completed primary series,Completed primary series + booster,2745,6427,8908,21120,1.0126229229530868,All pairs,20-29y,4
+0,Completed primary series,No valid vaccination record,1712,6427,5785,21120,0.9724919409379106,All pairs,20-29y,4
+0,Completed primary series + booster,Completed primary series,2745,8908,6427,21120,1.0126229229530868,All pairs,20-29y,4
+0,Completed primary series + booster,Completed primary series + booster,4238,8908,8908,21120,1.127961949612554,All pairs,20-29y,4
+0,Completed primary series + booster,No valid vaccination record,1925,8908,5785,21120,0.7889347324169199,All pairs,20-29y,4
+0,No valid vaccination record,Completed primary series,1712,5785,6427,21120,0.9724919409379108,All pairs,20-29y,4
+0,No valid vaccination record,Completed primary series + booster,1925,5785,8908,21120,0.7889347324169198,All pairs,20-29y,4
+0,No valid vaccination record,No valid vaccination record,2148,5785,5785,21120,1.3555684873331246,All pairs,20-29y,4
+0,Completed primary series,Completed primary series,1732,5696,5696,18684,0.9974193402032572,Only pairs in different postal_codes,20-29y,4
+0,Completed primary series,Completed primary series + booster,2480,5696,8028,18684,1.0133143548143297,Only pairs in different postal_codes,20-29y,4
+0,Completed primary series,No valid vaccination record,1484,5696,4960,18684,0.981413668901776,Only pairs in different postal_codes,20-29y,4
+0,Completed primary series + booster,Completed primary series,2480,8028,5696,18684,1.0133143548143295,Only pairs in different postal_codes,20-29y,4
+0,Completed primary series + booster,Completed primary series + booster,3754,8028,8028,18684,1.0883019297928105,Only pairs in different postal_codes,20-29y,4
+0,Completed primary series + booster,No valid vaccination record,1794,8028,4960,18684,0.8417890206856647,Only pairs in different postal_codes,20-29y,4
+0,No valid vaccination record,Completed primary series,1484,4960,5696,18684,0.981413668901776,Only pairs in different postal_codes,20-29y,4
+0,No valid vaccination record,Completed primary series + booster,1794,4960,8028,18684,0.8417890206856647,Only pairs in different postal_codes,20-29y,4
+0,No valid vaccination record,No valid vaccination record,1682,4960,4960,18684,1.277416428199792,Only pairs in different postal_codes,20-29y,4
+0,Completed primary series,Completed primary series,16,365,365,13312,1.5987389754175267,All pairs,30-39y,1
+0,Completed primary series,No valid vaccination record,349,365,12947,13312,0.983120435156608,All pairs,30-39y,1
+0,No valid vaccination record,Completed primary series,349,12947,365,13312,0.983120435156608,All pairs,30-39y,1
+0,No valid vaccination record,No valid vaccination record,12598,12947,12947,13312,1.0004758663140372,All pairs,30-39y,1
+0,Completed primary series,Completed primary series,16,356,356,12630,1.5944956444893321,Only pairs in different postal_codes,30-39y,1
+0,Completed primary series,No valid vaccination record,340,356,12274,12630,0.9827570108002116,Only pairs in different postal_codes,30-39y,1
+0,No valid vaccination record,Completed primary series,340,12274,356,12630,0.9827570108002116,Only pairs in different postal_codes,30-39y,1
+0,No valid vaccination record,No valid vaccination record,11934,12274,12274,12630,1.0005001225480794,Only pairs in different postal_codes,30-39y,1
+0,Completed primary series,Completed primary series,704,1785,1785,6010,1.3279162645450338,All pairs,30-39y,2
+0,Completed primary series,No valid vaccination record,1081,1785,4225,6010,0.861460229062039,All pairs,30-39y,2
+0,No valid vaccination record,Completed primary series,1081,4225,1785,6010,0.8614602290620389,All pairs,30-39y,2
+0,No valid vaccination record,No valid vaccination record,3144,4225,4225,6010,1.0585310038163929,All pairs,30-39y,2
+0,Completed primary series,Completed primary series,598,1565,1565,5164,1.2608363870203838,Only pairs in different postal_codes,30-39y,2
+0,Completed primary series,No valid vaccination record,967,1565,3599,5164,0.8865771198424838,Only pairs in different postal_codes,30-39y,2
+0,No valid vaccination record,Completed primary series,967,3599,1565,5164,0.8865771198424838,Only pairs in different postal_codes,30-39y,2
+0,No valid vaccination record,No valid vaccination record,2632,3599,3599,5164,1.0493211468314845,Only pairs in different postal_codes,30-39y,2
+0,Completed primary series,Completed primary series,27298,51077,51077,95546,0.9997526808577081,All pairs,30-39y,3
+0,Completed primary series,Completed primary series + booster,8061,51077,15136,95546,0.9962421931593476,All pairs,30-39y,3
+0,Completed primary series,No valid vaccination record,15718,51077,29333,95546,1.002369702525175,All pairs,30-39y,3
+0,Completed primary series + booster,Completed primary series,8061,15136,51077,95546,0.9962421931593477,All pairs,30-39y,3
+0,Completed primary series + booster,Completed primary series + booster,2402,15136,15136,95546,1.001759051268499,All pairs,30-39y,3
+0,Completed primary series + booster,No valid vaccination record,4673,15136,29333,95546,1.0056357174513346,All pairs,30-39y,3
+0,No valid vaccination record,Completed primary series,15718,29333,51077,95546,1.002369702525175,All pairs,30-39y,3
+0,No valid vaccination record,Completed primary series + booster,4673,29333,15136,95546,1.0056357174513346,All pairs,30-39y,3
+0,No valid vaccination record,No valid vaccination record,8942,29333,29333,95546,0.9929656184085581,All pairs,30-39y,3
+0,Completed primary series,Completed primary series,27046,50586,50586,94526,0.9990647702470712,Only pairs in different postal_codes,30-39y,3
+0,Completed primary series,Completed primary series + booster,7999,50586,15001,94526,0.9964062122528591,Only pairs in different postal_codes,30-39y,3
+0,Completed primary series,No valid vaccination record,15541,50586,28939,94526,1.0034977000682994,Only pairs in different postal_codes,30-39y,3
+0,Completed primary series + booster,Completed primary series,7999,15001,50586,94526,0.9964062122528591,Only pairs in different postal_codes,30-39y,3
+0,Completed primary series + booster,Completed primary series + booster,2364,15001,15001,94526,0.9930207661510876,Only pairs in different postal_codes,30-39y,3
+0,Completed primary series + booster,No valid vaccination record,4638,15001,28939,94526,1.0098998180291094,Only pairs in different postal_codes,30-39y,3
+0,No valid vaccination record,Completed primary series,15541,28939,50586,94526,1.0034977000682994,Only pairs in different postal_codes,30-39y,3
+0,No valid vaccination record,Completed primary series + booster,4638,28939,15001,94526,1.0098998180291097,Only pairs in different postal_codes,30-39y,3
+0,No valid vaccination record,No valid vaccination record,8760,28939,28939,94526,0.9887542131411012,Only pairs in different postal_codes,30-39y,3
+0,Completed primary series,Completed primary series,1632,5113,5113,16804,1.049013897494944,All pairs,30-39y,4
+0,Completed primary series,Completed primary series + booster,1901,5113,6840,16804,0.913403970843727,All pairs,30-39y,4
+0,Completed primary series,No valid vaccination record,1580,5113,4851,16804,1.0704408949777897,All pairs,30-39y,4
+0,Completed primary series + booster,Completed primary series,1901,6840,5113,16804,0.913403970843727,All pairs,30-39y,4
+0,Completed primary series + booster,Completed primary series + booster,3524,6840,6840,16804,1.2657162887726139,All pairs,30-39y,4
+0,Completed primary series + booster,No valid vaccination record,1415,6840,4851,16804,0.7166081389139033,All pairs,30-39y,4
+0,No valid vaccination record,Completed primary series,1580,4851,5113,16804,1.0704408949777897,All pairs,30-39y,4
+0,No valid vaccination record,Completed primary series + booster,1415,4851,6840,16804,0.7166081389139033,All pairs,30-39y,4
+0,No valid vaccination record,No valid vaccination record,1856,4851,4851,16804,1.325342410597292,All pairs,30-39y,4
+0,Completed primary series,Completed primary series,1280,4169,4169,14088,1.0375177187893994,Only pairs in different postal_codes,30-39y,4
+0,Completed primary series,Completed primary series + booster,1762,4169,6345,14088,0.9384080517746941,Only pairs in different postal_codes,30-39y,4
+0,Completed primary series,No valid vaccination record,1127,4169,3574,14088,1.0655818527858312,Only pairs in different postal_codes,30-39y,4
+0,Completed primary series + booster,Completed primary series,1762,6345,4169,14088,0.9384080517746941,Only pairs in different postal_codes,30-39y,4
+0,Completed primary series + booster,Completed primary series + booster,3292,6345,6345,14088,1.151982592722998,Only pairs in different postal_codes,30-39y,4
+0,Completed primary series + booster,No valid vaccination record,1291,6345,3574,14088,0.8020277787699711,Only pairs in different postal_codes,30-39y,4
+0,No valid vaccination record,Completed primary series,1127,3574,4169,14088,1.065581852785831,Only pairs in different postal_codes,30-39y,4
+0,No valid vaccination record,Completed primary series + booster,1291,3574,6345,14088,0.8020277787699712,Only pairs in different postal_codes,30-39y,4
+0,No valid vaccination record,No valid vaccination record,1156,3574,3574,14088,1.2749644654282044,Only pairs in different postal_codes,30-39y,4
+0,Completed primary series,Completed primary series,16,239,239,6582,1.8436652019397417,All pairs,40-49y,1
+0,Completed primary series,No valid vaccination record,223,239,6343,6582,0.9682112591417945,All pairs,40-49y,1
+0,No valid vaccination record,Completed primary series,223,6343,239,6582,0.9682112591417943,All pairs,40-49y,1
+0,No valid vaccination record,No valid vaccination record,6120,6343,6343,6582,1.001197778506245,All pairs,40-49y,1
+0,Completed primary series,Completed primary series,14,220,220,6070,1.755785123966942,Only pairs in different postal_codes,40-49y,1
+0,Completed primary series,No valid vaccination record,206,220,5850,6070,0.9715773115773116,Only pairs in different postal_codes,40-49y,1
+0,No valid vaccination record,Completed primary series,206,5850,220,6070,0.9715773115773116,Only pairs in different postal_codes,40-49y,1
+0,No valid vaccination record,No valid vaccination record,5644,5850,5850,6070,1.0010688874278617,Only pairs in different postal_codes,40-49y,1
+0,Completed primary series,Completed primary series,420,983,983,2802,1.2178965092223961,All pairs,40-49y,2
+0,Completed primary series,No valid vaccination record,563,983,1819,2802,0.8822472410304478,All pairs,40-49y,2
+0,No valid vaccination record,Completed primary series,563,1819,983,2802,0.8822472410304478,All pairs,40-49y,2
+0,No valid vaccination record,No valid vaccination record,1256,1819,1819,2802,1.0636343936597414,All pairs,40-49y,2
+0,Completed primary series,Completed primary series,334,833,833,2310,1.1119069476530108,Only pairs in different postal_codes,40-49y,2
+0,Completed primary series,No valid vaccination record,499,833,1477,2310,0.9368866029824252,Only pairs in different postal_codes,40-49y,2
+0,No valid vaccination record,Completed primary series,499,1477,833,2310,0.9368866029824252,Only pairs in different postal_codes,40-49y,2
+0,No valid vaccination record,No valid vaccination record,978,1477,1477,2310,1.0355947594554096,Only pairs in different postal_codes,40-49y,2
+0,Completed primary series,Completed primary series,21998,37307,37307,63140,0.9979461820356489,All pairs,40-49y,3
+0,Completed primary series,Completed primary series + booster,6991,37307,11794,63140,1.0032113317919866,All pairs,40-49y,3
+0,Completed primary series,No valid vaccination record,8318,37307,14039,63140,1.0027599786054102,All pairs,40-49y,3
+0,Completed primary series + booster,Completed primary series,6991,11794,37307,63140,1.0032113317919866,All pairs,40-49y,3
+0,Completed primary series + booster,Completed primary series + booster,2198,11794,11794,63140,0.9977230800783411,All pairs,40-49y,3
+0,Completed primary series + booster,No valid vaccination record,2605,11794,14039,63140,0.9933790753182137,All pairs,40-49y,3
+0,No valid vaccination record,Completed primary series,8318,14039,37307,63140,1.0027599786054102,All pairs,40-49y,3
+0,No valid vaccination record,Completed primary series + booster,2605,14039,11794,63140,0.9933790753182137,All pairs,40-49y,3
+0,No valid vaccination record,No valid vaccination record,3116,14039,14039,63140,0.9982278412896181,All pairs,40-49y,3
+0,Completed primary series,Completed primary series,21728,36889,36889,62454,0.9972091316241418,Only pairs in different postal_codes,40-49y,3
+0,Completed primary series,Completed primary series + booster,6929,36889,11673,62454,1.0049661929727725,Only pairs in different postal_codes,40-49y,3
+0,Completed primary series,No valid vaccination record,8232,36889,13892,62454,1.0032379767453115,Only pairs in different postal_codes,40-49y,3
+0,Completed primary series + booster,Completed primary series,6929,11673,36889,62454,1.0049661929727725,Only pairs in different postal_codes,40-49y,3
+0,Completed primary series + booster,Completed primary series + booster,2158,11673,11673,62454,0.9891148638046318,Only pairs in different postal_codes,40-49y,3
+0,Completed primary series + booster,No valid vaccination record,2586,11673,13892,62454,0.9959591349147661,Only pairs in different postal_codes,40-49y,3
+0,No valid vaccination record,Completed primary series,8232,13892,36889,62454,1.0032379767453115,Only pairs in different postal_codes,40-49y,3
+0,No valid vaccination record,Completed primary series + booster,2586,13892,11673,62454,0.9959591349147658,Only pairs in different postal_codes,40-49y,3
+0,No valid vaccination record,No valid vaccination record,3074,13892,13892,62454,0.9947972425843759,Only pairs in different postal_codes,40-49y,3
+0,Completed primary series,Completed primary series,962,3244,3244,10824,0.9894666583551385,All pairs,40-49y,4
+0,Completed primary series,Completed primary series + booster,1521,3244,5265,10824,0.9639128647759967,All pairs,40-49y,4
+0,Completed primary series,No valid vaccination record,761,3244,2315,10824,1.09683322991374,All pairs,40-49y,4
+0,Completed primary series + booster,Completed primary series,1521,5265,3244,10824,0.9639128647759966,All pairs,40-49y,4
+0,Completed primary series + booster,Completed primary series + booster,2864,5265,5265,10824,1.1183147322938396,All pairs,40-49y,4
+0,Completed primary series + booster,No valid vaccination record,880,5265,2315,10824,0.7814857888292014,All pairs,40-49y,4
+0,No valid vaccination record,Completed primary series,761,2315,3244,10824,1.09683322991374,All pairs,40-49y,4
+0,No valid vaccination record,Completed primary series + booster,880,2315,5265,10824,0.7814857888292014,All pairs,40-49y,4
+0,No valid vaccination record,No valid vaccination record,674,2315,2315,10824,1.3612744380017634,All pairs,40-49y,4
+0,Completed primary series,Completed primary series,714,2716,2716,9304,0.9005511440414194,Only pairs in different postal_codes,40-49y,4
+0,Completed primary series,Completed primary series + booster,1426,2716,4755,9304,1.0273275631108407,Only pairs in different postal_codes,40-49y,4
+0,Completed primary series,No valid vaccination record,576,2716,1833,9304,1.076465101031892,Only pairs in different postal_codes,40-49y,4
+0,Completed primary series + booster,Completed primary series,1426,4755,2716,9304,1.0273275631108407,Only pairs in different postal_codes,40-49y,4
+0,Completed primary series + booster,Completed primary series + booster,2552,4755,4755,9304,1.0501451457926294,Only pairs in different postal_codes,40-49y,4
+0,Completed primary series + booster,No valid vaccination record,777,4755,1833,9304,0.8294261704020748,Only pairs in different postal_codes,40-49y,4
+0,No valid vaccination record,Completed primary series,576,1833,2716,9304,1.076465101031892,Only pairs in different postal_codes,40-49y,4
+0,No valid vaccination record,Completed primary series + booster,777,1833,4755,9304,0.8294261704020748,Only pairs in different postal_codes,40-49y,4
+0,No valid vaccination record,No valid vaccination record,480,1833,1833,9304,1.32918676777715,Only pairs in different postal_codes,40-49y,4
+0,Completed primary series,Completed primary series,6,90,90,2862,2.12,All pairs,50-59y,1
+0,Completed primary series,No valid vaccination record,84,90,2772,2862,0.9636363636363637,All pairs,50-59y,1
+0,No valid vaccination record,Completed primary series,84,2772,90,2862,0.9636363636363637,All pairs,50-59y,1
+0,No valid vaccination record,No valid vaccination record,2688,2772,2772,2862,1.0011806375442738,All pairs,50-59y,1
+0,Completed primary series,Completed primary series,6,82,82,2606,2.325401546698394,Only pairs in different postal_codes,50-59y,1
+0,Completed primary series,No valid vaccination record,76,82,2524,2606,0.9569402033164548,Only pairs in different postal_codes,50-59y,1
+0,No valid vaccination record,Completed primary series,76,2524,82,2606,0.9569402033164548,Only pairs in different postal_codes,50-59y,1
+0,No valid vaccination record,No valid vaccination record,2448,2524,2524,2606,1.0013989315879757,Only pairs in different postal_codes,50-59y,1
+0,Completed primary series,Completed primary series,298,687,687,1620,1.0228637897828037,All pairs,50-59y,2
+0,Completed primary series,Completed primary series + booster,3,687,4,1620,1.7685589519650655,All pairs,50-59y,2
+0,Completed primary series,No valid vaccination record,386,687,929,1620,0.9797829285375175,All pairs,50-59y,2
+0,Completed primary series + booster,Completed primary series,3,4,687,1620,1.7685589519650655,All pairs,50-59y,2
+0,Completed primary series + booster,No valid vaccination record,1,4,929,1620,0.43595263724434874,All pairs,50-59y,2
+0,No valid vaccination record,Completed primary series,386,929,687,1620,0.9797829285375175,All pairs,50-59y,2
+0,No valid vaccination record,Completed primary series + booster,1,929,4,1620,0.43595263724434874,All pairs,50-59y,2
+0,No valid vaccination record,No valid vaccination record,542,929,929,1620,1.0173792438597935,All pairs,50-59y,2
+0,Completed primary series,Completed primary series,230,568,568,1346,0.9595690339218409,Only pairs in different postal_codes,50-59y,2
+0,Completed primary series,Completed primary series + booster,3,568,4,1346,1.7772887323943662,Only pairs in different postal_codes,50-59y,2
+0,Completed primary series,No valid vaccination record,335,568,774,1346,1.0256532736470505,Only pairs in different postal_codes,50-59y,2
+0,Completed primary series + booster,Completed primary series,3,4,568,1346,1.7772887323943662,Only pairs in different postal_codes,50-59y,2
+0,Completed primary series + booster,No valid vaccination record,1,4,774,1346,0.4347545219638243,Only pairs in different postal_codes,50-59y,2
+0,No valid vaccination record,Completed primary series,335,774,568,1346,1.0256532736470503,Only pairs in different postal_codes,50-59y,2
+0,No valid vaccination record,Completed primary series + booster,1,774,4,1346,0.4347545219638243,Only pairs in different postal_codes,50-59y,2
+0,No valid vaccination record,No valid vaccination record,438,774,774,1346,0.9840955070809047,Only pairs in different postal_codes,50-59y,2
+0,Completed primary series,Completed primary series,9042,18508,18508,37870,0.9996335558536734,All pairs,50-59y,3
+0,Completed primary series,Completed primary series + booster,4789,18508,9779,37870,1.0020426462645957,All pairs,50-59y,3
+0,Completed primary series,No valid vaccination record,4677,18508,9583,37870,0.9986233027693548,All pairs,50-59y,3
+0,Completed primary series + booster,Completed primary series,4789,9779,18508,37870,1.002042646264596,All pairs,50-59y,3
+0,Completed primary series + booster,Completed primary series + booster,2506,9779,9779,37870,0.9924016542247961,All pairs,50-59y,3
+0,Completed primary series + booster,No valid vaccination record,2484,9779,9583,37870,1.0038087160879245,All pairs,50-59y,3
+0,No valid vaccination record,Completed primary series,4677,9583,18508,37870,0.9986233027693551,All pairs,50-59y,3
+0,No valid vaccination record,Completed primary series + booster,2484,9583,9779,37870,1.0038087160879245,All pairs,50-59y,3
+0,No valid vaccination record,No valid vaccination record,2422,9583,9583,37870,0.9987722506230788,All pairs,50-59y,3
+0,Completed primary series,Completed primary series,8946,18336,18336,37530,0.9986153965420355,Only pairs in different postal_codes,50-59y,3
+0,Completed primary series,Completed primary series + booster,4747,18336,9692,37530,1.0024894026595044,Only pairs in different postal_codes,50-59y,3
+0,Completed primary series,No valid vaccination record,4643,18336,9502,37530,1.0001326876898884,Only pairs in different postal_codes,50-59y,3
+0,Completed primary series + booster,Completed primary series,4747,9692,18336,37530,1.0024894026595044,Only pairs in different postal_codes,50-59y,3
+0,Completed primary series + booster,Completed primary series + booster,2474,9692,9692,37530,0.9884425871953144,Only pairs in different postal_codes,50-59y,3
+0,Completed primary series + booster,No valid vaccination record,2471,9692,9502,37530,1.0069847145588655,Only pairs in different postal_codes,50-59y,3
+0,No valid vaccination record,Completed primary series,4643,9502,18336,37530,1.0001326876898884,Only pairs in different postal_codes,50-59y,3
+0,No valid vaccination record,Completed primary series + booster,2471,9502,9692,37530,1.0069847145588655,Only pairs in different postal_codes,50-59y,3
+0,No valid vaccination record,No valid vaccination record,2388,9502,9502,37530,0.9926195732491772,Only pairs in different postal_codes,50-59y,3
+0,Completed primary series,Completed primary series,384,1356,1356,5920,1.2363275641527658,All pairs,50-59y,4
+0,Completed primary series,Completed primary series + booster,739,1356,3605,5920,0.8949549748587468,All pairs,50-59y,4
+0,Completed primary series,No valid vaccination record,233,1356,959,5920,1.0607165157904774,All pairs,50-59y,4
+0,Completed primary series + booster,Completed primary series,739,3605,1356,5920,0.8949549748587468,All pairs,50-59y,4
+0,Completed primary series + booster,Completed primary series + booster,2314,3605,3605,5920,1.0540823059358535,All pairs,50-59y,4
+0,Completed primary series + booster,No valid vaccination record,552,3605,959,5920,0.9452287186577557,All pairs,50-59y,4
+0,No valid vaccination record,Completed primary series,233,959,1356,5920,1.0607165157904774,All pairs,50-59y,4
+0,No valid vaccination record,Completed primary series + booster,552,959,3605,5920,0.9452287186577557,All pairs,50-59y,4
+0,No valid vaccination record,No valid vaccination record,174,959,959,5920,1.1200405357944767,All pairs,50-59y,4
+0,Completed primary series,Completed primary series,258,1087,1087,5158,1.1262685463142652,Only pairs in different postal_codes,50-59y,4
+0,Completed primary series,Completed primary series + booster,653,1087,3279,5158,0.9449820482325569,Only pairs in different postal_codes,50-59y,4
+0,Completed primary series,No valid vaccination record,176,1087,792,5158,1.0544822651538381,Only pairs in different postal_codes,50-59y,4
+0,Completed primary series + booster,Completed primary series,653,3279,1087,5158,0.9449820482325567,Only pairs in different postal_codes,50-59y,4
+0,Completed primary series + booster,Completed primary series + booster,2132,3279,3279,5158,1.022788190413158,Only pairs in different postal_codes,50-59y,4
+0,Completed primary series + booster,No valid vaccination record,494,3279,792,5158,0.9811641883920017,Only pairs in different postal_codes,50-59y,4
+0,No valid vaccination record,Completed primary series,176,792,1087,5158,1.0544822651538384,Only pairs in different postal_codes,50-59y,4
+0,No valid vaccination record,Completed primary series + booster,494,792,3279,5158,0.9811641883920017,Only pairs in different postal_codes,50-59y,4
+0,No valid vaccination record,No valid vaccination record,122,792,792,5158,1.003207580859096,Only pairs in different postal_codes,50-59y,4
+0,Completed primary series,Completed primary series,8,75,75,934,1.3283555555555555,All pairs,60-69y,1
+0,Completed primary series,No valid vaccination record,67,75,859,934,0.9713310050446256,All pairs,60-69y,1
+0,No valid vaccination record,Completed primary series,67,859,75,934,0.9713310050446256,All pairs,60-69y,1
+0,No valid vaccination record,No valid vaccination record,792,859,859,934,1.002503113645696,All pairs,60-69y,1
+0,Completed primary series,Completed primary series,6,65,65,836,1.1872189349112428,Only pairs in different postal_codes,60-69y,1
+0,Completed primary series,No valid vaccination record,59,65,771,836,0.9842163025042402,Only pairs in different postal_codes,60-69y,1
+0,No valid vaccination record,Completed primary series,59,771,65,836,0.9842163025042404,Only pairs in different postal_codes,60-69y,1
+0,No valid vaccination record,No valid vaccination record,712,771,771,836,1.001330661915985,Only pairs in different postal_codes,60-69y,1
+0,Completed primary series,Completed primary series,212,377,377,880,1.3126103750817917,All pairs,60-69y,2
+0,Completed primary series,Completed primary series + booster,2,377,3,880,1.5561450044208665,All pairs,60-69y,2
+0,Completed primary series,No valid vaccination record,163,377,500,880,0.7609549071618037,All pairs,60-69y,2
+0,Completed primary series + booster,Completed primary series,2,3,377,880,1.5561450044208665,All pairs,60-69y,2
+0,Completed primary series + booster,No valid vaccination record,1,3,500,880,0.5866666666666667,All pairs,60-69y,2
+0,No valid vaccination record,Completed primary series,163,500,377,880,0.7609549071618037,All pairs,60-69y,2
+0,No valid vaccination record,Completed primary series + booster,1,500,3,880,0.5866666666666667,All pairs,60-69y,2
+0,No valid vaccination record,No valid vaccination record,336,500,500,880,1.1827200000000002,All pairs,60-69y,2
+0,Completed primary series,Completed primary series,138,266,266,618,1.2053253434337725,Only pairs in different postal_codes,60-69y,2
+0,Completed primary series,Completed primary series + booster,1,266,1,618,2.3233082706766917,Only pairs in different postal_codes,60-69y,2
+0,Completed primary series,No valid vaccination record,127,266,351,618,0.8406272090482617,Only pairs in different postal_codes,60-69y,2
+0,Completed primary series + booster,Completed primary series,1,1,266,618,2.3233082706766917,Only pairs in different postal_codes,60-69y,2
+0,No valid vaccination record,Completed primary series,127,351,266,618,0.8406272090482617,Only pairs in different postal_codes,60-69y,2
+0,No valid vaccination record,No valid vaccination record,224,351,351,618,1.123627243285363,Only pairs in different postal_codes,60-69y,2
+0,Completed primary series,Completed primary series,3270,7162,7162,15554,0.9915650574750648,All pairs,60-69y,3
+0,Completed primary series,Completed primary series + booster,2410,7162,5209,15554,1.0047787996512598,All pairs,60-69y,3
+0,Completed primary series,No valid vaccination record,1482,7162,3183,15554,1.0111587467735386,All pairs,60-69y,3
+0,Completed primary series + booster,Completed primary series,2410,5209,7162,15554,1.0047787996512598,All pairs,60-69y,3
+0,Completed primary series + booster,Completed primary series + booster,1732,5209,5209,15554,0.9928445757138517,All pairs,60-69y,3
+0,Completed primary series + booster,No valid vaccination record,1067,5209,3183,15554,1.0009572233755022,All pairs,60-69y,3
+0,No valid vaccination record,Completed primary series,1482,3183,7162,15554,1.0111587467735386,All pairs,60-69y,3
+0,No valid vaccination record,Completed primary series + booster,1067,3183,5209,15554,1.0009572233755022,All pairs,60-69y,3
+0,No valid vaccination record,No valid vaccination record,634,3183,3183,15554,0.9733254411074227,All pairs,60-69y,3
+0,Completed primary series,Completed primary series,3216,7071,7071,15384,0.9895178589525346,Only pairs in different postal_codes,60-69y,3
+0,Completed primary series,Completed primary series + booster,2393,7071,5164,15384,1.008195835073731,Only pairs in different postal_codes,60-69y,3
+0,Completed primary series,No valid vaccination record,1462,7071,3149,15384,1.0100971505321945,Only pairs in different postal_codes,60-69y,3
+0,Completed primary series + booster,Completed primary series,2393,5164,7071,15384,1.008195835073731,Only pairs in different postal_codes,60-69y,3
+0,Completed primary series + booster,Completed primary series + booster,1708,5164,5164,15384,0.9853367261041556,Only pairs in different postal_codes,60-69y,3
+0,Completed primary series + booster,No valid vaccination record,1063,5164,3149,15384,1.005642552109174,Only pairs in different postal_codes,60-69y,3
+0,No valid vaccination record,Completed primary series,1462,3149,7071,15384,1.0100971505321943,Only pairs in different postal_codes,60-69y,3
+0,No valid vaccination record,Completed primary series + booster,1063,3149,5164,15384,1.005642552109174,Only pairs in different postal_codes,60-69y,3
+0,No valid vaccination record,No valid vaccination record,624,3149,3149,15384,0.9680739630025652,Only pairs in different postal_codes,60-69y,3
+0,Completed primary series,Completed primary series,136,713,713,3608,0.9652201452094835,All pairs,60-69y,4
+0,Completed primary series,Completed primary series + booster,444,713,2271,3608,0.9893337730504074,All pairs,60-69y,4
+0,Completed primary series,No valid vaccination record,133,713,624,3608,1.078559355557953,All pairs,60-69y,4
+0,Completed primary series + booster,Completed primary series,444,2271,713,3608,0.9893337730504076,All pairs,60-69y,4
+0,Completed primary series + booster,Completed primary series + booster,1464,2271,2271,3608,1.0241730346503237,All pairs,60-69y,4
+0,Completed primary series + booster,No valid vaccination record,363,2271,624,3608,0.9242116316092539,All pairs,60-69y,4
+0,No valid vaccination record,Completed primary series,133,624,713,3608,1.078559355557953,All pairs,60-69y,4
+0,No valid vaccination record,Completed primary series + booster,363,624,2271,3608,0.9242116316092539,All pairs,60-69y,4
+0,No valid vaccination record,No valid vaccination record,128,624,624,3608,1.1860618014464166,All pairs,60-69y,4
+0,Completed primary series,Completed primary series,110,620,620,3238,0.9265868886576483,Only pairs in different postal_codes,60-69y,4
+0,Completed primary series,Completed primary series + booster,393,620,2059,3238,0.9968305942439957,Only pairs in different postal_codes,60-69y,4
+0,Completed primary series,No valid vaccination record,117,620,559,3238,1.0930982745686422,Only pairs in different postal_codes,60-69y,4
+0,Completed primary series + booster,Completed primary series,393,2059,620,3238,0.9968305942439957,Only pairs in different postal_codes,60-69y,4
+0,Completed primary series + booster,Completed primary series + booster,1324,2059,2059,3238,1.0112351016551318,Only pairs in different postal_codes,60-69y,4
+0,Completed primary series + booster,No valid vaccination record,342,2059,559,3238,0.9621323027921398,Only pairs in different postal_codes,60-69y,4
+0,No valid vaccination record,Completed primary series,117,559,620,3238,1.0930982745686422,Only pairs in different postal_codes,60-69y,4
+0,No valid vaccination record,Completed primary series + booster,342,559,2059,3238,0.9621323027921399,Only pairs in different postal_codes,60-69y,4
+0,No valid vaccination record,No valid vaccination record,100,559,559,3238,1.0362230023585435,Only pairs in different postal_codes,60-69y,4
+0,Completed primary series,Completed primary series,4,14,14,128,2.6122448979591835,All pairs,70-79y,1
+0,Completed primary series,No valid vaccination record,10,14,114,128,0.8020050125313284,All pairs,70-79y,1
+0,No valid vaccination record,Completed primary series,10,114,14,128,0.8020050125313283,All pairs,70-79y,1
+0,No valid vaccination record,No valid vaccination record,104,114,114,128,1.0243151738996614,All pairs,70-79y,1
+0,Completed primary series,Completed primary series,2,10,10,80,1.6,Only pairs in different postal_codes,70-79y,1
+0,Completed primary series,No valid vaccination record,8,10,70,80,0.9142857142857143,Only pairs in different postal_codes,70-79y,1
+0,No valid vaccination record,Completed primary series,8,70,10,80,0.9142857142857143,Only pairs in different postal_codes,70-79y,1
+0,No valid vaccination record,No valid vaccination record,62,70,70,80,1.0122448979591836,Only pairs in different postal_codes,70-79y,1
+0,Completed primary series,Completed primary series,186,260,260,398,1.0950887573964498,All pairs,70-79y,2
+0,Completed primary series,Completed primary series + booster,5,260,5,398,1.5307692307692309,All pairs,70-79y,2
+0,Completed primary series,No valid vaccination record,69,260,133,398,0.7941584731058416,All pairs,70-79y,2
+0,Completed primary series + booster,Completed primary series,5,5,260,398,1.5307692307692309,All pairs,70-79y,2
+0,No valid vaccination record,Completed primary series,69,133,260,398,0.7941584731058416,All pairs,70-79y,2
+0,No valid vaccination record,No valid vaccination record,64,133,133,398,1.4399909548306855,All pairs,70-79y,2
+0,Completed primary series,Completed primary series,54,106,106,200,0.9611961552153792,Only pairs in different postal_codes,70-79y,2
+0,Completed primary series,Completed primary series + booster,1,106,1,200,1.8867924528301887,Only pairs in different postal_codes,70-79y,2
+0,Completed primary series,No valid vaccination record,51,106,93,200,1.0346926354230066,Only pairs in different postal_codes,70-79y,2
+0,Completed primary series + booster,Completed primary series,1,1,106,200,1.8867924528301887,Only pairs in different postal_codes,70-79y,2
+0,No valid vaccination record,Completed primary series,51,93,106,200,1.0346926354230066,Only pairs in different postal_codes,70-79y,2
+0,No valid vaccination record,No valid vaccination record,42,93,93,200,0.9712105445716268,Only pairs in different postal_codes,70-79y,2
+0,Completed primary series,Completed primary series,400,976,976,2372,0.9960360118247783,All pairs,70-79y,3
+0,Completed primary series,Completed primary series + booster,328,976,817,2372,0.975700784557658,All pairs,70-79y,3
+0,Completed primary series,No valid vaccination record,248,976,579,2372,1.0409694498711741,All pairs,70-79y,3
+0,Completed primary series + booster,Completed primary series,328,817,976,2372,0.975700784557658,All pairs,70-79y,3
+0,Completed primary series + booster,Completed primary series + booster,294,817,817,2372,1.0447632844885835,All pairs,70-79y,3
+0,Completed primary series + booster,No valid vaccination record,195,817,579,2372,0.9777969444638225,All pairs,70-79y,3
+0,No valid vaccination record,Completed primary series,248,579,976,2372,1.0409694498711741,All pairs,70-79y,3
+0,No valid vaccination record,Completed primary series + booster,195,579,817,2372,0.9777969444638225,All pairs,70-79y,3
+0,No valid vaccination record,No valid vaccination record,136,579,579,2372,0.9622689348856495,All pairs,70-79y,3
+0,Completed primary series,Completed primary series,350,874,874,2166,0.9924385633270322,Only pairs in different postal_codes,70-79y,3
+0,Completed primary series,Completed primary series + booster,301,874,759,2166,0.9828149166523458,Only pairs in different postal_codes,70-79y,3
+0,Completed primary series,No valid vaccination record,223,874,533,2166,1.0368708703809446,Only pairs in different postal_codes,70-79y,3
+0,Completed primary series + booster,Completed primary series,301,759,874,2166,0.9828149166523458,Only pairs in different postal_codes,70-79y,3
+0,Completed primary series + booster,Completed primary series + booster,270,759,759,2166,1.0151697417550658,Only pairs in different postal_codes,70-79y,3
+0,Completed primary series + booster,No valid vaccination record,188,759,533,2166,1.006577727680591,Only pairs in different postal_codes,70-79y,3
+0,No valid vaccination record,Completed primary series,223,533,874,2166,1.0368708703809446,Only pairs in different postal_codes,70-79y,3
+0,No valid vaccination record,Completed primary series + booster,188,533,759,2166,1.006577727680591,Only pairs in different postal_codes,70-79y,3
+0,No valid vaccination record,No valid vaccination record,122,533,533,2166,0.9301732907645138,Only pairs in different postal_codes,70-79y,3
+0,Completed primary series,Completed primary series,50,238,238,1280,1.1298637101899582,All pairs,70-79y,4
+0,Completed primary series,Completed primary series + booster,150,238,855,1280,0.9435353088603862,All pairs,70-79y,4
+0,Completed primary series,No valid vaccination record,38,238,187,1280,1.0928863524019232,All pairs,70-79y,4
+0,Completed primary series + booster,Completed primary series,150,855,238,1280,0.9435353088603862,All pairs,70-79y,4
+0,Completed primary series + booster,Completed primary series + booster,580,855,855,1280,1.0155603433535103,All pairs,70-79y,4
+0,Completed primary series + booster,No valid vaccination record,125,855,187,1280,1.0007192669731368,All pairs,70-79y,4
+0,No valid vaccination record,Completed primary series,38,187,238,1280,1.0928863524019232,All pairs,70-79y,4
+0,No valid vaccination record,Completed primary series + booster,125,187,855,1280,1.000719266973137,All pairs,70-79y,4
+0,No valid vaccination record,No valid vaccination record,24,187,187,1280,0.8784923789642256,All pairs,70-79y,4
+0,Completed primary series,Completed primary series,26,169,169,960,0.8739189804278562,Only pairs in different postal_codes,70-79y,4
+0,Completed primary series,Completed primary series + booster,114,169,646,960,1.0024364775495997,Only pairs in different postal_codes,70-79y,4
+0,Completed primary series,No valid vaccination record,29,169,145,960,1.136094674556213,Only pairs in different postal_codes,70-79y,4
+0,Completed primary series + booster,Completed primary series,114,646,169,960,1.0024364775495997,Only pairs in different postal_codes,70-79y,4
+0,Completed primary series + booster,Completed primary series + booster,426,646,646,960,0.9799768041484149,Only pairs in different postal_codes,70-79y,4
+0,Completed primary series + booster,No valid vaccination record,106,646,145,960,1.0863670332016655,Only pairs in different postal_codes,70-79y,4
+0,No valid vaccination record,Completed primary series,29,145,169,960,1.136094674556213,Only pairs in different postal_codes,70-79y,4
+0,No valid vaccination record,Completed primary series + booster,106,145,646,960,1.0863670332016655,Only pairs in different postal_codes,70-79y,4
+0,No valid vaccination record,No valid vaccination record,10,145,145,960,0.45659928656361476,Only pairs in different postal_codes,70-79y,4
+0,Completed primary series,Completed primary series,6,20,20,60,0.8999999999999999,All pairs,80y+,1
+0,Completed primary series,No valid vaccination record,14,20,40,60,1.0499999999999998,All pairs,80y+,1
+0,No valid vaccination record,Completed primary series,14,40,20,60,1.0499999999999998,All pairs,80y+,1
+0,No valid vaccination record,No valid vaccination record,26,40,40,60,0.9750000000000001,All pairs,80y+,1
+0,Completed primary series,Completed primary series,4,14,14,34,0.6938775510204082,Only pairs in different postal_codes,80y+,1
+0,Completed primary series,No valid vaccination record,10,14,20,34,1.2142857142857142,Only pairs in different postal_codes,80y+,1
+0,No valid vaccination record,Completed primary series,10,20,14,34,1.2142857142857142,Only pairs in different postal_codes,80y+,1
+0,No valid vaccination record,No valid vaccination record,10,20,20,34,0.8500000000000001,Only pairs in different postal_codes,80y+,1
+0,Completed primary series,Completed primary series,350,475,475,686,1.0641551246537395,All pairs,80y+,2
+0,Completed primary series,Completed primary series + booster,3,475,4,686,1.083157894736842,All pairs,80y+,2
+0,Completed primary series,No valid vaccination record,122,475,207,686,0.8511772184083396,All pairs,80y+,2
+0,Completed primary series + booster,Completed primary series,3,4,475,686,1.083157894736842,All pairs,80y+,2
+0,Completed primary series + booster,No valid vaccination record,1,4,207,686,0.8285024154589372,All pairs,80y+,2
+0,No valid vaccination record,Completed primary series,122,207,475,686,0.8511772184083396,All pairs,80y+,2
+0,No valid vaccination record,Completed primary series + booster,1,207,4,686,0.8285024154589372,All pairs,80y+,2
+0,No valid vaccination record,No valid vaccination record,84,207,207,686,1.34481551494784,All pairs,80y+,2
+0,Completed primary series,Completed primary series,120,158,158,224,1.0767505207498798,Only pairs in different postal_codes,80y+,2
+0,Completed primary series,No valid vaccination record,38,158,66,224,0.8162639048714998,Only pairs in different postal_codes,80y+,2
+0,No valid vaccination record,Completed primary series,38,66,158,224,0.8162639048714999,Only pairs in different postal_codes,80y+,2
+0,No valid vaccination record,No valid vaccination record,28,66,66,224,1.4398530762167128,Only pairs in different postal_codes,80y+,2
+0,Completed primary series,Completed primary series,518,1065,1065,2310,1.054975864577134,All pairs,80y+,3
+0,Completed primary series,Completed primary series + booster,288,1065,669,2310,0.9337459735994441,All pairs,80y+,3
+0,Completed primary series,No valid vaccination record,259,1065,576,2310,0.9753032081377152,All pairs,80y+,3
+0,Completed primary series + booster,Completed primary series,288,669,1065,2310,0.9337459735994442,All pairs,80y+,3
+0,Completed primary series + booster,Completed primary series + booster,208,669,669,2310,1.0735519850925348,All pairs,80y+,3
+0,Completed primary series + booster,No valid vaccination record,173,669,576,2310,1.0370733682112605,All pairs,80y+,3
+0,No valid vaccination record,Completed primary series,259,576,1065,2310,0.9753032081377152,All pairs,80y+,3
+0,No valid vaccination record,Completed primary series + booster,173,576,669,2310,1.0370733682112605,All pairs,80y+,3
+0,No valid vaccination record,No valid vaccination record,144,576,576,2310,1.0026041666666665,All pairs,80y+,3
+0,Completed primary series,Completed primary series,328,748,748,1684,0.9872172495638993,Only pairs in different postal_codes,80y+,3
+0,Completed primary series,Completed primary series + booster,257,748,548,1684,1.0558277059994536,Only pairs in different postal_codes,80y+,3
+0,Completed primary series,No valid vaccination record,163,748,388,1684,0.9457935939136667,Only pairs in different postal_codes,80y+,3
+0,Completed primary series + booster,Completed primary series,257,548,748,1684,1.0558277059994536,Only pairs in different postal_codes,80y+,3
+0,Completed primary series + booster,Completed primary series + booster,150,548,548,1684,0.8411476370611113,Only pairs in different postal_codes,80y+,3
+0,Completed primary series + booster,No valid vaccination record,141,548,388,1684,1.1167318835126796,Only pairs in different postal_codes,80y+,3
+0,No valid vaccination record,Completed primary series,163,388,748,1684,0.9457935939136667,Only pairs in different postal_codes,80y+,3
+0,No valid vaccination record,Completed primary series + booster,141,388,548,1684,1.1167318835126796,Only pairs in different postal_codes,80y+,3
+0,No valid vaccination record,No valid vaccination record,84,388,388,1684,0.939632266978425,Only pairs in different postal_codes,80y+,3
+0,Completed primary series,Completed primary series,120,287,287,1180,1.7190933482256674,All pairs,80y+,4
+0,Completed primary series,Completed primary series + booster,112,287,634,1180,0.7263214587981842,All pairs,80y+,4
+0,Completed primary series,No valid vaccination record,55,287,259,1180,0.8730980856416396,All pairs,80y+,4
+0,Completed primary series + booster,Completed primary series,112,634,287,1180,0.7263214587981842,All pairs,80y+,4
+0,Completed primary series + booster,Completed primary series + booster,398,634,634,1180,1.1683865895769685,All pairs,80y+,4
+0,Completed primary series + booster,No valid vaccination record,124,634,259,1180,0.8910758437572318,All pairs,80y+,4
+0,No valid vaccination record,Completed primary series,55,259,287,1180,0.8730980856416396,All pairs,80y+,4
+0,No valid vaccination record,Completed primary series + booster,124,259,634,1180,0.8910758437572318,All pairs,80y+,4
+0,No valid vaccination record,No valid vaccination record,80,259,259,1180,1.4072539169064266,All pairs,80y+,4
+0,Completed primary series,Completed primary series,46,117,117,484,1.6264153700051134,Only pairs in different postal_codes,80y+,4
+0,Completed primary series,Completed primary series + booster,49,117,257,484,0.7887192789916526,Only pairs in different postal_codes,80y+,4
+0,Completed primary series,No valid vaccination record,22,117,110,484,0.8273504273504273,Only pairs in different postal_codes,80y+,4
+0,Completed primary series + booster,Completed primary series,49,257,117,484,0.7887192789916525,Only pairs in different postal_codes,80y+,4
+0,Completed primary series + booster,Completed primary series + booster,152,257,257,484,1.1138397250526124,Only pairs in different postal_codes,80y+,4
+0,Completed primary series + booster,No valid vaccination record,56,257,110,484,0.9587548638132296,Only pairs in different postal_codes,80y+,4
+0,No valid vaccination record,Completed primary series,22,110,117,484,0.8273504273504273,Only pairs in different postal_codes,80y+,4
+0,No valid vaccination record,Completed primary series + booster,56,110,257,484,0.9587548638132294,Only pairs in different postal_codes,80y+,4
+0,No valid vaccination record,No valid vaccination record,32,110,110,484,1.2799999999999998,Only pairs in different postal_codes,80y+,4
