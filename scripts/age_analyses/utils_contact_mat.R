@@ -56,3 +56,10 @@ get_contact_mat_decade_from_df_contacts <- function(df_contacts){
   
   return(contact_mat)
 }
+
+## Getting the maximum eigenvalue of a matrix
+get_max_eigenval <- function(M){
+  eigenvalues <- eigen(M)$values
+  max_eigenval <- max(Re(eigenvalues[abs(Im(eigenvalues)) < 1e-6]))
+  return(max_eigenval)
+}
