@@ -8,6 +8,10 @@
 __pycache__/*
 
 
+# For R #
+############
+.Rhistory
+
 # OS generated files #
 ######################
 .DS_Store
@@ -31,3 +35,4 @@ results/RR_county/*
 results/RR_county_by_variant_rds/*
 results/RR_county_by_period_rds/*
 results/direction_transmission_rds/*
+
