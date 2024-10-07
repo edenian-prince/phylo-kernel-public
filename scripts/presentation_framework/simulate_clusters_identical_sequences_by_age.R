@@ -38,9 +38,11 @@ simulate_cluster_identical_sequences_with_age <- function(contact_mat_adj = cont
   i_gen <- 0
   vec_age_full_cluster <- c(age_primary)
   vec_age_sequenced_indiv <- NULL
+  vec_gen_sequences_indiv <- NULL
   
   if(rbernoulli(n = 1, p = p_seq) == 1){
     vec_age_sequenced_indiv <- c(vec_age_sequenced_indiv, age_primary)
+    vec_gen_sequences_indiv <- c(vec_gen_sequences_indiv, i_gen)
   }
   
   # Simulate branching process
@@ -61,8 +63,10 @@ simulate_cluster_identical_sequences_with_age <- function(contact_mat_adj = cont
         vec_age_full_cluster <- c(vec_age_full_cluster, vec_age_infected)
         vec_age_new_gen <- c(vec_age_new_gen, vec_age_infected)
         # Are these individuals sequenced?
+        
         vec_age_sequenced <- vec_age_infected[rbernoulli(n = n_new_infected_with_identical_sequences, p = p_seq)]
         vec_age_sequenced_indiv <- c(vec_age_sequenced_indiv, vec_age_sequenced)
+        vec_gen_sequences_indiv <- c(vec_gen_sequences_indiv, rep(i_gen, length(vec_age_sequenced)))
       }
     }
     
@@ -74,7 +78,8 @@ simulate_cluster_identical_sequences_with_age <- function(contact_mat_adj = cont
   
   return(
     list('vec_age_sequenced_indiv' = vec_age_sequenced_indiv,
-         'vec_age_full_cluster' = vec_age_full_cluster
+         'vec_age_full_cluster' = vec_age_full_cluster,
+         'vec_gen_sequences_indiv' = vec_gen_sequences_indiv
     )
   )
 }
@@ -104,7 +109,7 @@ get_pairwise_distance_from_vec_age <- function(vec_age_sequenced_indiv){
   }
 }
 
-n_clusters <- 1e5. # This takes around 5 minutes for 1e5 clusters
+n_clusters <- 1e5 # This takes around 5 minutes for 1e5 clusters
 R0 <- 1.2
 p_trans_before_mut <- 0.7
 p_seq <- 0.1
@@ -155,6 +160,10 @@ plot(plt_comp_RR_id_seq_contacts)
 
 pdf('../../figures/supplementary_figures/expected_relationship_RR_id_seq_contacts.pdf',
     height = 4, width = 5)
+plot(plt_comp_RR_id_seq_contacts)
+dev.off()
+png('../../figures/supplementary_figures/expected_relationship_RR_id_seq_contacts.png',
+    height = 4, width = 5, res = 350, units = 'in')
 plot(plt_comp_RR_id_seq_contacts)
 dev.off()
   
