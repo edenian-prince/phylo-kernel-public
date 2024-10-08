@@ -1,5 +1,6 @@
 ## This script compares the relative risk of observing identical sequences
 ## between two age groups and the relative risk of contacts of occurring between two groups.
+## It also reproduces Figure 4A.
 
 library(tidyverse)
 library(vegan)
@@ -39,3 +40,27 @@ df_RR_for_comparison %>% filter(group_1 >= group_2) %>%
 cor.test(as.numeric(unlist(df_RR_for_comparison %>% filter(group_1 >= group_2) %>% select(RR_seq))),
          as.numeric(unlist(df_RR_for_comparison %>% filter(group_1 >= group_2) %>% select(RR_contacts))),
          method = 'spearman')
+
+
+## Display comparison
+plt_comp_RR_id_seq_contacts <- df_RR_for_comparison %>% 
+  filter(group_1 >= group_2) %>% 
+  ggplot(aes(x = RR_contacts, y = RR_seq)) +
+  geom_point(aes(colour = (group_1 == group_2))) +
+  geom_linerange(aes(colour = (group_1 == group_2), ymin = lower_RR, ymax = upper_RR)) +
+  stat_cor(cor.coef.name = 'rho', method = 'spearman') +
+  scale_x_continuous(trans = 'log', breaks = c(0.5, 1.0, 2.0, 5.0, 10.0),
+                     name = expression(RR['contacts'])) +
+  scale_y_continuous(trans = 'log', breaks = c(0.9, 1.0, 1.1, 1.3, 1.5, 1,7, 1.9),
+                     name = expression(RR['identical sequences'])) +
+  scale_colour_manual(breaks = c(T, F), labels = c('Yes', 'No'), name = 'Within age group',
+                      values = c('firebrick2', 'gray22')) +
+  theme_classic() +
+  theme(legend.position = c(0.2, 0.5),
+        legend.background = element_blank(),
+        legend.text = element_text(size = 12),
+        axis.text = element_text(size = 12),
+        legend.title = element_text(size = 12),
+        axis.title = element_text(size = 13))
+
+plot(plt_comp_RR_id_seq_contacts)
