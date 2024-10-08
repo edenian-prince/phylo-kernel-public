@@ -86,9 +86,10 @@ To facilitate reproduction of our results, here are the relationships between ma
 
 #### Figure 1
 - [plot_relationship_mutation_generation.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_relationship_mutation_generation.R) for Figure 1A
-- [plot_identical_cluster_size_distribution.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_identical_cluster_size_distribution.R) for Figure 1B
+- [toy_figure_clusters_id_seq.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/toy_figure_clusters_id_seq.R) for Figure 1B
+- [plot_identical_cluster_size_distribution.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_identical_cluster_size_distribution.R) for Figure 1C
 - [plot_signal_identical_sequences.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_signal_identical_sequences.R) for Figure 1D
-- [plot_RR_within_county.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_within_county.R) for Figure 1F
+- [plot_RR_within_county.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_within_county.R) for Figure 1G
 
 #### Figure 2
 - [plot_chloropleth_maps_RR_counties.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_chloropleth_maps_RR_counties.R) for Figure 2A
@@ -100,8 +101,10 @@ To facilitate reproduction of our results, here are the relationships between ma
 
 #### Figure 3
 - [gam_RR_seq_mobility.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility.R) for Figure 3A-B
+- [plot_prison_centrality.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/plot_prison_centrality.R) for Figure 3F
 
 #### Figure 4
+- [compare_RR_seq_contacts](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/compare_RR_seq_contacts) for Figure 4A
 - [plot_RR_age_geography.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography.R) for Figure 4B
 - [plot_RR_age_geography_heatmaps.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography_heatmaps.R) for Figure 4C
 - [plot_direction_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_direction_age.R) for Figure 4D
