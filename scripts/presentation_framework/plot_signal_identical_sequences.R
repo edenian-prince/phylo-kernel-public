@@ -1,3 +1,7 @@
+## This script reproduces Figure 1E, more precisely the cluster radius, 
+## the proportion of clusters that stayed in the same ZCTA and the same
+## county as a function of time since first cluster detection
+
 library(tidyverse)
 
 ## Load dataframe with cluster radius and probability to stay within the same cluster as a function of time
