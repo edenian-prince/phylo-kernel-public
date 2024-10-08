@@ -66,6 +66,14 @@ if (!file.exists(input_file_sequence)){
 
 sequence_data <- read.FASTA(input_file_sequence)
 
+### Check that the sequence data is an alignment
+if(length(unique(sapply(sequence_data, length))) > 1){
+  stop("ERROR: input sequence file is not an alignment (sequences don't have the same length!")
+}
+if(length(sequence_data) < 2){
+  stop("ERROR: input alignment file has 1 sequence or less!")
+}
+
 ## Load metadata
 print(paste('Reading metadata file:', input_file_metadata))
 
@@ -80,8 +88,8 @@ metadata_data <- read.csv(input_file_metadata)
 if(! 'sequence_name' %in% colnames(metadata_data)){
   stop(paste('ERROR: metadata does not contain a column named "sequence_name"!'))
 }
-if(! 'group' %in% colnames(metadata_data)){
-  stop(paste('ERROR: metadata does not contain a column named "group"!'))
+if(! name_group %in% colnames(metadata_data)){
+  stop(paste('ERROR: metadata does not contain a column named "', name_group, '"!'))
 }
 
 ### Check that sequences in the FASTA file are in the metadata dataframe
