@@ -110,20 +110,42 @@ To facilitate reproduction of our results, here are the relationships between ma
 - [plot_direction_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_direction_age.R) for Figure 4D
 
 #### Supplementary figures
-- [plot_cor_RR_sequencing_effort.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_cor_RR_sequencing_effort.R) for Figure S2
+- [plot_signal_identical_sequences_compare_null.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_signal_identical_sequences_compare_null.R) for Figure S1
+- [plot_RR_within_county_different_periods.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_within_county_different_periods.R) for Figure S2A
+- [plot_RR_within_county_different_variants.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_within_county_different_variants.R) for Figure S2B
+- [simulate_cluster_identical_sequences_different_R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/simulate_cluster_identical_sequences_different_R) for Figure S2C
+- [plot_cor_RR_sequencing_effort.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_cor_RR_sequencing_effort.R) for Figure S3
+- []() for Figure S4
 - [plot_heatmap_matrix_RR_counties.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_heatmap_matrix_RR_counties.R) for Figure S5
 - [plot_chloropleth_maps_RR_counties.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_chloropleth_maps_RR_counties.R) for Figure S6
 - [impact_subsampling_RR_East_West.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/impact_subsampling_RR_East_West.R) for Figure S7
+- []() for Figure S8
 - [compare_workflow_safegraph.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/compare_workflow_safegraph.R) for Figure S9
-- [gam_RR_seq_mobility.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility.R) for Figure S10 and S12
-- [gam_RR_seq_mobility_over_time.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility_over_time.R) for Figure S13
-- [compare_safegraph_across_waves.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compare_safegraph_across_waves.R) for Figure S14
-- [plot_RR_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age.R) for Figure S17
-- [plot_RR_age_func_genetic_distance.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_func_genetic_distance.R) for Figure S18
-- [plot_RR_age_geography.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography.R) for Figure S19
-- [impact_unsampled_locations.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/impact_unsampled_locations.R) for Figure S23
+- [gam_RR_seq_mobility.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility.R) for Figure S10 and S13
+- [simulate_clusters_identical_sequences_by_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/simulate_clusters_identical_sequences_by_age.R) for Figure S11
+- [gam_RR_seq_mobility_over_time.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility_over_time.R) for Figure S14
+- [compare_safegraph_across_waves.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compare_safegraph_across_waves.R) for Figure S15
+- []() for Figure S16
+- []() for Figure S17
+- [plot_RR_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age.R) for Figure S18
+- [plot_RR_age_func_genetic_distance.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_func_genetic_distance.R) for Figure S19
+- [plot_RR_age_geography.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography.R) for Figure S20
+- []() for Figure S21
+- []() for Figure S22
+- []() for Figure S23
+- [impact_unsampled_locations.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/impact_unsampled_locations.R) for Figure S24
+- []() for Figure S25
+- []() for Figure S26
+- []() for Figure S27
+- []() for Figure S28
+- []() for Figure S29
+- []() for Figure S30
+- [plot_cluster_charact_over_time.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_cluster_charact_over_time.R) for Figure S31
+- [plot_time_series_epidemic_WA.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_time_series_epidemic_WA.R) for Figure S32
+- []() for Figure S33
 
 #### Supplementary tables
+- []() for Table S1
 - [plot_RR_local_spread_east_west.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_local_spread_east_west.R) for Table S2
 - [compare_RR_seq_mobility.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compare_RR_seq_mobility.R) for Table S3
 - [compute_prison_population_vs_county.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compute_prison_population_vs_county.R) for Table S4
