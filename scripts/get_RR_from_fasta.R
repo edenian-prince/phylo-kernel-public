@@ -58,11 +58,38 @@ if(bool_compute_CI){
 
 ## Load alignment
 print(paste('Reading FASTA file:', input_file_sequence))
+
+### Check that input sequence file exists
+if (!file.exists(input_file_sequence)){
+  stop(paste('ERROR: file', input_file_sequence, 'not found!'))
+}
+
 sequence_data <- read.FASTA(input_file_sequence)
 
 ## Load metadata
 print(paste('Reading metadata file:', input_file_metadata))
+
+### Check that metadata file exists
+if (!file.exists(input_file_metadata)){
+  stop(paste('ERROR: file', input_file_metadata, 'not found!'))
+}
+
 metadata_data <- read.csv(input_file_metadata)
+
+### Check that metadata_data has the required columns
+if(! 'sequence_name' %in% colnames(metadata_data)){
+  stop(paste('ERROR: metadata does not contain a column named "sequence_name"!'))
+}
+if(! 'group' %in% colnames(metadata_data)){
+  stop(paste('ERROR: metadata does not contain a column named "group"!'))
+}
+
+### Check that sequences in the FASTA file are in the metadata dataframe
+if(sum(! names(sequence_data) %in% metadata_data$sequence_name) > 0){
+  print(paste('Sequence list: ', 
+              Reduce('paste', names(sequence_data)[names(sequence_data) %in% metadata_data$sequence_name])))
+  stop('ERROR: sequences with names in sequence list are not in metadata dataframe!')
+}
 
 ## Compute dataframe with pairs at a given genetic distance
 print(paste('Computing pairs of sequences', n_mut_away, 'mutations apart'))
