@@ -48,7 +48,7 @@ The code is written in R and relies on some packages, which can be installed (a 
 Rscript ./scripts/install_requirements.R "scripts/requirements.txt"
 ```
 
-The analyses were performed using the following packages versions: ape (5.7-1), broom (1.0.5), colorspace (2.1-0), doParallel (1.0.17), foreach (1.5.2), ggpubr (0.6.0), ggrepel (0.9.4), ggsignif (0.6.4), igraph (1.5.1), mgcv (1.9-0), purrr (1.0.2), RColorBrewer (1.1-3), Rcpp (1.0.11), reshape2 (1.4.4), seqinr (4.2-30), sf (1.0-14), spdep (1.2-8), tidyverse (2.0.0), vegan (2.6-4), viridis (0.6.4). 
+The analyses were performed using the following packages versions: ape (5.7-1), broom (1.0.5), colorspace (2.1-0), cowplot (1.1.3), doParallel (1.0.17), foreach (1.5.2), ggpubr (0.6.0), ggrepel (0.9.4), ggsignif (0.6.4), igraph (1.5.1), mgcv (1.9-0), purrr (1.0.2), RColorBrewer (1.1-3), Rcpp (1.0.11), reshape2 (1.4.4), seqinr (4.2-30), sf (1.0-14), spdep (1.2-8), tidyverse (2.0.0), vegan (2.6-4), viridis (0.6.4). 
 
 
 ## Computing relative risks of observing sequence at a defined genetic distance in two subgroups from user data
@@ -136,8 +136,7 @@ To facilitate reproduction of our results, here are the relationships between ma
 - []() for Figure S25
 - []() for Figure S26
 - []() for Figure S27
-- []() for Figure S28
-- []() for Figure S29
+- [SG_county_level_bias_WA_state_2020_2022.R](https://github.com/blab/phylo-kernel-public/blob/0ef6bfa9bd4bafd99377d03ae2d60881978f371f/scripts/mobility_analyses/SG_county_level_bias_WA_state_2020_2022.R) for Figure S28 and Figure S29
 - []() for Figure S30
 - [plot_cluster_charact_over_time.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_cluster_charact_over_time.R) for Figure S31
 - [plot_time_series_epidemic_WA.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_time_series_epidemic_WA.R) for Figure S32
