@@ -27,6 +27,6 @@ This script will make sure that the taxon names in the BEAST XML match the taxon
 All the resulting log files found in this analysis can be found under `results/`
 
 To extract the mean migration rates from the log files, you can use `scripts/extracting_mig_rates.ipynb`. 
-The resulting migration rate tables used in this analysis can be found in `scripts/migration_rate_tables`.
+The resulting migration rate tables used in this analysis can be found in `results/migration_rate_tables`.
 
 
