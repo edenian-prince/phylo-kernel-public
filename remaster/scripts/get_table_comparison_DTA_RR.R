@@ -42,12 +42,12 @@ file_path_metadata_unbiased_DTA_rep_2_larger_dataset <- '../results_remaster/5-d
 ## Define file paths for RR
 folder_path_biased_RR_rep_1 <- '../results_remaster/5-demes-rep-1-seq-density-2-biased-pop-100k-higher-beta/'
 folder_path_unbiased_RR_rep_1 <- '../results_remaster/5-demes-rep-1-seq-density-2-unbiased-pop-100k-higher-beta/'
-folder_path_biased_RR_rep_2 <- '../results_remaster/5-demes-rep-1-seq-density-2-biased-pop-100k-higher-beta/'
-folder_path_unbiased_RR_rep_2 <- '../results_remaster/5-demes-rep-1-seq-density-2-unbiased-pop-100k-higher-beta/'
+folder_path_biased_RR_rep_2 <- '../results_remaster/5-demes-rep-2-seq-density-2-biased-pop-100k-higher-beta/'
+folder_path_unbiased_RR_rep_2 <- '../results_remaster/5-demes-rep-2-seq-density-2-unbiased-pop-100k-higher-beta/'
 folder_path_biased_RR_rep_1_smaller_dataset <- '../results_remaster/5-demes-rep-1-seq-density-0.5-biased-pop-100k-higher-beta/'
 folder_path_unbiased_RR_rep_1_smaller_dataset <- '../results_remaster/5-demes-rep-1-seq-density-0.5-unbiased-pop-100k-higher-beta/'
-folder_path_biased_RR_rep_2_smaller_dataset <- '../results_remaster/5-demes-rep-1-seq-density-0.5-biased-pop-100k-higher-beta/'
-folder_path_unbiased_RR_rep_2_smaller_dataset <- '../results_remaster/5-demes-rep-1-seq-density-0.5-unbiased-pop-100k-higher-beta/'
+folder_path_biased_RR_rep_2_smaller_dataset <- '../results_remaster/5-demes-rep-2-seq-density-0.5-biased-pop-100k-higher-beta/'
+folder_path_unbiased_RR_rep_2_smaller_dataset <- '../results_remaster/5-demes-rep-2-seq-density-0.5-unbiased-pop-100k-higher-beta/'
 
 
 ## Get summary statistics tables
