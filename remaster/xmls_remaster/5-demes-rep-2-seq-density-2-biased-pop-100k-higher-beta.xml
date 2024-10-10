@@ -1,0 +1,80 @@
+<beast version="2.0" namespace="beast.base.inference.parameter:beast.base.inference:remaster">
+	<run spec="Simulator" nSims="1">
+		<simulate spec="feast.simulation.SimulatedAlignment" outputFileName="../output_files/5-demes-rep-2-seq-density-2-biased-pop-100k-higher-beta/$(filebase).nexus" sequenceLength="3000">
+			<siteModel spec="beast.base.evolution.sitemodel.SiteModel" mutationRate="0.00003">
+				<substModel spec="beast.base.evolution.substitutionmodel.JukesCantor"/>
+			</siteModel>
+
+
+			<tree spec="SimulatedTree" id="tree">
+				<trajectory spec="StochasticTrajectory" id="traj" mustHave="sample[0]&gt;-1 &amp;&amp; sample[1]&gt;-1 &amp;&amp; sample[2]&gt;-1 &amp;&amp; sample[3]&gt;-1 &amp;&amp; sample[4]&gt;-1">
+
+					<population spec="RealParameter" id="S" value="100000 100000 100000 100000 100000"/>
+					<population spec="RealParameter" id="E" value="0 0 0 0 0"/>
+					<population spec="RealParameter" id="I" value="1 0 0 0 0"/>
+					<population spec="RealParameter" id="R" value="0 0 0 0 0"/>
+					<samplePopulation spec="RealParameter" id="sample" value="0 0 0 0 0"/>
+
+					<reaction spec="Reaction" rate="0.0000066"> I[0] + S[0] -> I[0] + E[0] </reaction>
+					<reaction spec="Reaction" rate="0.0000066"> I[1] + S[1] -> I[1] + E[1] </reaction>
+					<reaction spec="Reaction" rate="0.0000066"> I[2] + S[2] -> I[2] + E[2] </reaction>
+					<reaction spec="Reaction" rate="0.0000066"> I[3] + S[3] -> I[3] + E[3] </reaction>
+					<reaction spec="Reaction" rate="0.0000066"> I[4] + S[4] -> I[4] + E[4] </reaction>
+
+					<reaction spec="Reaction" rate="0.33"> E[0] -> I[0] </reaction>
+					<reaction spec="Reaction" rate="0.33"> E[1] -> I[1] </reaction>
+					<reaction spec="Reaction" rate="0.33"> E[2] -> I[2] </reaction>
+					<reaction spec="Reaction" rate="0.33"> E[3] -> I[3] </reaction>
+					<reaction spec="Reaction" rate="0.33"> E[4] -> I[4] </reaction>
+
+					<reaction spec="Reaction" rate="0.002566567"> I[0] -> I[1] </reaction>
+					<reaction spec="Reaction" rate="0.001516905"> I[0] -> I[2] </reaction>
+					<reaction spec="Reaction" rate="0.002277973"> I[0] -> I[3] </reaction>
+					<reaction spec="Reaction" rate="0.01035437"> I[0] -> I[4] </reaction>
+					<reaction spec="Reaction" rate="0.002566567"> I[1] -> I[0] </reaction>
+					<reaction spec="Reaction" rate="0.01667327"> I[1] -> I[2] </reaction>
+					<reaction spec="Reaction" rate="0.01496615"> I[1] -> I[3] </reaction>
+					<reaction spec="Reaction" rate="0.01365486"> I[1] -> I[4] </reaction>
+					<reaction spec="Reaction" rate="0.001516905"> I[2] -> I[0] </reaction>
+					<reaction spec="Reaction" rate="0.01496615"> I[2] -> I[1] </reaction>
+					<reaction spec="Reaction" rate="0.002009478"> I[2] -> I[3] </reaction>
+					<reaction spec="Reaction" rate="0.03307832"> I[2] -> I[4] </reaction>
+					<reaction spec="Reaction" rate="0.01667327"> I[3] -> I[0] </reaction>
+					<reaction spec="Reaction" rate="0.002009478"> I[3] -> I[1] </reaction>
+					<reaction spec="Reaction" rate="0.01365486"> I[3] -> I[2] </reaction>
+					<reaction spec="Reaction" rate="0.07727207"> I[3] -> I[4] </reaction>
+					<reaction spec="Reaction" rate="0.002277973"> I[4] -> I[0] </reaction>
+					<reaction spec="Reaction" rate="0.01035437"> I[4] -> I[1] </reaction>
+					<reaction spec="Reaction" rate="0.03307832"> I[4] -> I[2] </reaction>
+					<reaction spec="Reaction" rate="0.07727207"> I[4] -> I[3] </reaction>
+
+					<reaction spec="Reaction" rate="0.3175176"> I[0] -> R[0] </reaction>
+					<reaction spec="Reaction" rate="0.3186755"> I[1] -> R[1] </reaction>
+					<reaction spec="Reaction" rate="0.2671586"> I[2] -> R[2] </reaction>
+					<reaction spec="Reaction" rate="0.3034991"> I[3] -> R[3] </reaction>
+					<reaction spec="Reaction" rate="0.3003341"> I[4] -> R[4] </reaction>
+
+					<reaction spec="Reaction" rate="0.01248235"> I[0] -> sample[0] </reaction>
+					<reaction spec="Reaction" rate="0.01132445"> I[1] -> sample[1] </reaction>
+					<reaction spec="Reaction" rate="0.06284139"> I[2] -> sample[2] </reaction>
+					<reaction spec="Reaction" rate="0.02650092"> I[3] -> sample[3] </reaction>
+					<reaction spec="Reaction" rate="0.02966587"> I[4] -> sample[4] </reaction>
+
+				</trajectory>
+			</tree>
+		</simulate>
+
+		<logger spec="Logger" fileName="../output_files/5-demes-rep-2-seq-density-2-biased-pop-100k-higher-beta/$(filebase).traj">
+			<log idref="traj"/>
+		</logger>
+
+		 <logger spec="Logger" mode="tree" fileName="../output_files/5-demes-rep-2-seq-density-2-biased-pop-100k-higher-beta/$(filebase).trees">
+			<log spec="TypedTreeLogger" tree="@tree" removeSingletonNodes="true"/>
+		</logger>
+
+		 <logger spec="Logger">
+			<log spec="beast.base.evolution.tree.TreeStatLogger" tree="@tree"/>
+		</logger>
+
+	</run>
+</beast>

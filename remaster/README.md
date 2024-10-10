@@ -7,6 +7,10 @@ Example XMLs can be generated using the function `write_xml_heterogeneous_sequen
 We provide a detailed description of how to use this function in the script `scripts/generate_synthetic_data.R`.
 From this XML, we can simulate an outbreak, generate the associated sequence alignment (with metadata) and compute the RR of identical sequences falling in two groups (full description in `scripts/generate_synthetic_data.R`).
 
+
+The results of the remaster simulations we use in the manuscript are stored in the `results_remaster` folder.
+The corresponding ReMASTER XML files are stored in the `xmls_remaster` folder.
+
 ## Preparing the simulated data for BEAST
 
 Simulated data for the preprint can be found in `data/preprint_data/input_for_dta_new_beta/`
@@ -30,3 +34,4 @@ To extract the mean migration rates from the log files, you can use `scripts/ext
 The resulting migration rate tables used in this analysis can be found in `results/migration_rate_tables`.
 
 
+Figure S4 can be reproduce using `scripts/plot_comparison_DTA_RR.R` and Table S1 using `scripts/get_table_comparison_DTA_RR.R`.
