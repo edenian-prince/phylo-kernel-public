@@ -7,7 +7,6 @@ Example XMLs can be generated using the function `write_xml_heterogeneous_sequen
 We provide a detailed description of how to use this function in the script `scripts/generate_synthetic_data.R`.
 From this XML, we can simulate an outbreak, generate the associated sequence alignment (with metadata) and compute the RR of identical sequences falling in two groups (full description in `scripts/generate_synthetic_data.R`).
 
-
 The results of the remaster simulations we use in the manuscript are stored in the `results_remaster` folder.
 The corresponding ReMASTER XML files are stored in the `xmls_remaster` folder.
 
