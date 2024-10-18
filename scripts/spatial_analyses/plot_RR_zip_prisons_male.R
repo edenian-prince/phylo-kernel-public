@@ -1,24 +1,23 @@
-## This script compare the relative risk of observing identical sequences between Walla Walla and Mason postal codes
-## and Franklin and Mason postal codes. 
+## This script reproduces Figure 3D and 3E.
 
 library(tidyverse)
 library(RColorBrewer)
 
-# Dataframne matching zip and zcta
-df_match_county_zcta <- read_csv('../data/maps/relationship_zcta_county_WA.csv')
+# Dataframe matching zip and zcta
+df_match_county_zcta <- read_csv('../../data/maps/relationship_zcta_county_WA.csv')
 
 vec_zip_mason <- df_match_county_zcta %>% filter(county == 'Mason County') %>% select(zcta) %>% unlist() %>% as.numeric()
 vec_zip_franklin <- df_match_county_zcta %>% filter(county == 'Franklin County') %>% select(zcta) %>% unlist() %>% as.numeric()
 vec_zip_walla_walla <- df_match_county_zcta %>% filter(county == 'Walla Walla County') %>% select(zcta) %>% unlist() %>% as.numeric()
 
+
 ## Load WA prison characteristics
-df_char_prisons <- read_csv('../data/maps/wa_prisons_characteristics.csv') %>% 
+df_char_prisons <- read_csv('../../data/maps/wa_prisons_characteristics.csv') %>% 
   filter(population_gender == 'male')
 
-## Load relative risk of observing identical sequences between zcta
-df_RR_zcta <- readRDS('../results/RR_zcta/df_RR_zcta_0_mut_away.rds') %>% as_tibble() %>% 
-  mutate(is_prison_1 = zcta_1 %in% df_char_prisons$postal_code_location,
-         is_prison_2 = zcta_2 %in% df_char_prisons$postal_code_location)
+# Load relative risk of observing identical sequences between zcta
+df_mason_franklin <- read_csv('../../results/RR_zcta_prison/df_RR_zctas_mason_franklin.csv')
+df_mason_ww <- read_csv('../../results/RR_zcta_prison/df_RR_zctas_mason_walla_walla.csv')
 
 
 ## Define color for the axis labels
@@ -33,12 +32,10 @@ col_vec_zip_mason <- ifelse(vec_zip_mason %in% df_char_prisons$postal_code_locat
 col_vec_zip_franklin <- ifelse(vec_zip_franklin %in% df_char_prisons$postal_code_location, col_prison, col_non_prison)
 col_vec_zip_walla_walla <- ifelse(vec_zip_walla_walla %in% df_char_prisons$postal_code_location, col_prison, col_non_prison)
 
-## Plot the results
-df_mason_franklin <- df_RR_zcta %>% 
-  filter(zcta_1 %in% vec_zip_mason, zcta_2 %in% vec_zip_franklin)
 
+## Make heatmaps of RR between Mason and Franklin ZCTAs
 plt_franklin <- df_mason_franklin %>% 
-  ggplot(aes(y = zcta_1, x = zcta_2)) +
+  ggplot(aes(y = as.character(zcta_1), x = as.character(zcta_2))) +
   geom_tile(aes(fill = log(RR))) +
   geom_tile(data = df_mason_franklin %>% 
               filter(zcta_1 %in% df_char_prisons$postal_code_location, 
@@ -64,12 +61,9 @@ plt_franklin <- df_mason_franklin %>%
         axis.text.y = element_text(size = 12, colour = col_vec_zip_mason),
         legend.text = element_text(size = 12))
 
-
-df_mason_ww <- df_RR_zcta %>% 
-  filter(zcta_1 %in% vec_zip_mason, zcta_2 %in% vec_zip_walla_walla)
-
+## Make heatmaps of RR between Mason and Walla Walla ZCTAs
 plt_ww <- df_mason_ww %>%
-  ggplot(aes(y = zcta_1, x = zcta_2)) +
+  ggplot(aes(y = as.character(zcta_1), x = as.character(zcta_2))) +
   geom_tile(aes(fill = log(RR))) +
   geom_tile(data = df_mason_ww %>% 
               filter(zcta_1 %in% df_char_prisons$postal_code_location, 
