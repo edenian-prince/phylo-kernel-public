@@ -11,7 +11,7 @@ df_char_prisons <- read_csv('../../data/maps/wa_prisons_characteristics.csv') %>
   filter(population_gender == 'male')
 
 ## Load RR of identical sequences between male prison postal codes
-df_RR_prisons <- read_csv('/Volumes/homes/phylo-kernel-final/results/RR_DOH_approval/RR_zcta_prison/df_RR_zcta_prison_0_mut_away_corr.csv')
+df_RR_prisons <- read_csv('../../results/RR_zcta_prison/df_RR_zcta_prison_0_mut_away.csv')
 
 ## Define edges of the graph used in the centrality analysis
 df_edges <- df_RR_prisons %>% 
@@ -63,3 +63,4 @@ plt_centrality <- df_centrality_empirical %>%
   guides(colour = guide_legend(ncol = 1))
 
 plot(plt_centrality)
+
