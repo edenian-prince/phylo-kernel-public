@@ -98,7 +98,7 @@ plt_clusters_by_zcta <- centroids_to_add %>%
                       #values = c('deeppink3', 'darkslateblue', 'darkcyan', 'orange3', 'black'),
                       values = brewer.pal(12, 'Paired')[c(seq(2, 12, 2), 1, 3, 5, 7, 9)]) +
   theme(legend.position = 'none')
- 
+
 
 centroids_to_add_regions <- df_clusters %>% 
   left_join(df_corr_zcta_regions %>% mutate(zcta = as.character(zcta)),
@@ -107,7 +107,6 @@ centroids_to_add_regions <- df_clusters %>%
   summarise(n_seq = sum(n_seq)) %>% 
   left_join(regions_centroids %>% 
               bind_cols(st_coordinates(regions_centroids))) 
-
 
 plt_clusters_by_region <- centroids_to_add_regions %>% 
   mutate(cluster_id = as.factor(cluster_id)) %>% 
@@ -121,7 +120,65 @@ plt_clusters_by_region <- centroids_to_add_regions %>%
                     values = brewer.pal(12, 'Paired')[c(seq(2, 12, 2), 1, 3, 5, 7, 9)])+
   theme(legend.position = 'none')
 
+
+
 panel_explanation_method <- ggarrange(plt_clusters_by_zcta, plt_clusters_by_region)
 pdf('../../figures/toy_figure_cluster_id_seq.pdf', height = 3., width = 7)
 plot(panel_explanation_method)
+dev.off()
+
+
+
+df_clusters_by_region <- df_clusters %>% 
+  left_join(df_corr_zcta_regions %>% mutate(zcta = as.character(zcta)),
+            by = c('zcta_cluster' = 'zcta')) %>% 
+  group_by(cluster_id, region) %>% 
+  summarise(n_seq = sum(n_seq))
+
+df_arrows_shared_clusters <- Reduce('bind_rows', lapply(unique(df_clusters_by_region$cluster_id), FUN = function(curr_id){
+  vec_regions <- df_clusters_by_region %>% 
+    filter(cluster_id == curr_id) %>% ungroup() %>% 
+    select(region) %>% unlist() %>% as.character()
+  expand.grid(region_1 = as.character(vec_regions), 
+              region_2 = as.character(vec_regions)) %>% 
+    as_tibble() %>%
+    filter(as.character(region_1) > as.character(region_2)) %>% 
+    mutate(cluster_id = curr_id)
+})) %>% 
+  group_by(region_1, region_2) %>% 
+  summarise(n_clusters = n()) %>% 
+  ungroup() %>% 
+  left_join(regions_centroids %>% bind_cols(st_coordinates(regions_centroids)),
+            by = c('region_1' = 'region')) %>% 
+  rename(X1 = X, Y1 = Y) %>% 
+  left_join(regions_centroids %>% bind_cols(st_coordinates(regions_centroids)),
+            by = c('region_2' = 'region')) %>% 
+  rename(X2 = X, Y2 = Y)
+
+
+plt_arrows <- centroids_to_add_regions %>% 
+  mutate(cluster_id = as.factor(cluster_id)) %>% 
+  rename(value = n_seq) %>% 
+  ggplot() +
+  geom_sf(data = shape_file_regions, fill = 'gray90', colour = 'white', size = 0.5) +
+  geom_scatterpie(aes(x = X, y = Y), cols = 'cluster_id', long_format = TRUE, 
+                  pie_scale = 4, colour = NA, alpha = 0.4) +
+  geom_segment(data = df_arrows_shared_clusters,
+               aes(x = X1, y = Y1, xend = X2, yend = Y2, 
+                   linewidth = n_clusters,
+                   alpha = n_clusters),
+               lineend = "round", color = 'black') +
+  theme_void() +
+  scale_fill_manual(breaks = 1:n_clusters, 
+                    values = brewer.pal(12, 'Paired')[c(seq(2, 12, 2), 1, 3, 5, 7, 9)])+
+  scale_linewidth_continuous(range = c(.4, 2.)) +
+  scale_alpha_continuous(range = c(0.5, 1.)) +
+  theme(legend.position = 'none')
+
+panel_explanation_method_v2 <- ggarrange(plt_clusters_by_zcta, plt_clusters_by_region, plt_arrows, 
+                                      nrow = 1, ncol = 3)
+panel_explanation_method_v2
+
+pdf('../../figures/toy_figure_cluster_id_seq_v2.pdf', height = 3., width = 10)
+plot(panel_explanation_method_v2)
 dev.off()
