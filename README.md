@@ -101,7 +101,7 @@ To facilitate reproduction of our results, here are the relationships between ma
 
 #### Figure 3
 - [gam_RR_seq_mobility.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility.R) for Figure 3A-B
-- [plot_RR_zip_prisons_male.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses//plot_RR_zip_prisons_male.R) for Figure 3D-E (synthetic data)
+- [plot_RR_zip_prisons_male.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses//plot_RR_zip_prisons_male.R) for Figure 3D-E
 - [plot_prison_centrality.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/plot_prison_centrality.R) for Figure 3F
 []() for Figure 3G (synthetic data)
 
