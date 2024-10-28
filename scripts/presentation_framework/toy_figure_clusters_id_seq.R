@@ -1,4 +1,4 @@
-### This script enables to reproduce the toy figure 1B
+### This script enables to reproduce the toy figure 1A
 ### illustrating that the clustering of identical sequences 
 ### is informative about transmission patterns at the 
 ### population level.
