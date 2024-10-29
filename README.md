@@ -116,9 +116,9 @@ To facilitate reproduction of our results, here are the relationships between ma
 - [plot_signal_identical_sequences_compare_null.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_signal_identical_sequences_compare_null.R) for Figure S1
 - [plot_RR_within_county_different_periods.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_within_county_different_periods.R) for Figure S2A
 - [plot_RR_within_county_different_variants.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_within_county_different_variants.R) for Figure S2B
-- [simulate_cluster_identical_sequences_different_R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/simulate_cluster_identical_sequences_different_R) for Figure S2C
+- [simulate_cluster_identical_sequences_different_R.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/simulate_cluster_identical_sequences_different_R.R) for Figure S2C
 - [plot_cor_RR_sequencing_effort.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_cor_RR_sequencing_effort.R) for Figure S3
-- []() for Figure S4
+- [plot_comparison_DTA_RR.R](https://github.com/blab/phylo-kernel-public/blob/main/remaster/scripts/plot_comparison_DTA_RR.R) for Figure S4
 - [plot_heatmap_matrix_RR_counties.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_heatmap_matrix_RR_counties.R) for Figure S5
 - [plot_chloropleth_maps_RR_counties.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_chloropleth_maps_RR_counties.R) for Figure S6
 - [impact_subsampling_RR_East_West.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/impact_subsampling_RR_East_West.R) for Figure S7
