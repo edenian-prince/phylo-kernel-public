@@ -1,9 +1,11 @@
-## This script reproduces Figure 3D and 3E.
+## This script reproduces Figure 3D and 3E, corresponding to heatmaps
+## of RR of observing identical sequences between Mason and Franklin postal codes
+## and Mason and Walla Walla postal codes.
 
 library(tidyverse)
 library(RColorBrewer)
 
-# Dataframe matching zip and zcta
+# Dataframe matching county and zcta
 df_match_county_zcta <- read_csv('../../data/maps/relationship_zcta_county_WA.csv')
 
 vec_zip_mason <- df_match_county_zcta %>% filter(county == 'Mason County') %>% select(zcta) %>% unlist() %>% as.numeric()
