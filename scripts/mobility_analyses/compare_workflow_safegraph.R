@@ -3,24 +3,30 @@
 
 library(tidyverse)
 
+## Load number of visits between counties from Safegraph mobility data
 df_visits <- read.csv('../data/mobility/safegraph_visits_march_2021_june_2022.csv', row.names = NULL) %>% 
   as_tibble()
 
+## Add flows equal to 0 to the Safegraph data
 df_visits_full <- expand.grid(county_origin = unique(df_visits$county_origin),
                               county_destination = unique(df_visits$county_destination)) %>% 
   left_join(df_visits)
 
+## Load workflow data
 df_workflows <- read.csv('../data/mobility/commuting_flows_WA_2020.csv', row.names = NULL) %>% 
   as_tibble() %>% select(-X)
 
+## Create a dataframe with both the Safegraph and workflow mobility data
 df_for_comparison <- df_visits_full %>% 
   full_join(df_workflows, by = c('county_origin' = 'county_residence', 'county_destination' = 'county_workplace')) %>% 
   mutate(n_workflows = replace_na(n_workflows, 0.),
          n_scaled_visits_county = replace_na(n_scaled_visits_county, 0.))
 
+## Correlation coefficients between Safegraph flows and commuting flows
 cor_spearman <- round(cor(df_for_comparison$n_scaled_visits_county, df_for_comparison$n_workflows, method = 'spearman'), 2)
 cor_pearson <- round(cor(df_for_comparison$n_scaled_visits_county, df_for_comparison$n_workflows, method = 'pearson'), 2)
 
+## Display the relationship between the Safegraph and commuting flows
 yaxis_zero <- 0.1
 xaxis_zero <- 0.1
 
@@ -62,6 +68,6 @@ plt_comp_workflow_safegraph <- df_for_comparison %>%
         axis.text = element_text(size = 13),
         axis.title = element_text(size = 12))
 
-pdf('../plots/figure_mobility/comparison_workflow_safegraph.pdf', height = 4., width = 4.5)
+#pdf('../plots/figure_mobility/comparison_workflow_safegraph.pdf', height = 4., width = 4.5)
 plot(plt_comp_workflow_safegraph)
-dev.off()
+#dev.off()
