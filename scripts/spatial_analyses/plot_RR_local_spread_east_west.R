@@ -50,7 +50,7 @@ df_RR_counties <- read_csv('../../results/RR_county/df_RR_county_0_mut_away.csv'
 #                                            TRUE ~ 'Non adjacent ZCTAs'),
 #          is_adjacent_same_zcta = factor(is_adjacent_same_zcta, levels = c('Non adjacent ZCTAs', 'Adjacent ZCTAs', 'Same ZCTA'))) 
 
-## At the county level
+## Wilcoxon tests
 wilcox.test(x = df_RR_counties[df_RR_counties$region == 'West - East' & df_RR_counties$is_adjacent_same_county == 'Adjacent counties'& (df_RR_counties$group_1 > df_RR_counties$group_2), ]$RR,
             y = df_RR_counties[df_RR_counties$region == 'West - East' & df_RR_counties$is_adjacent_same_county == 'Non adjacent counties'& (df_RR_counties$group_1 > df_RR_counties$group_2), ]$RR)
 
@@ -78,6 +78,7 @@ col_east_west <- 'darkslateblue'
 
 yaxis_zero_value <- min(df_RR_counties$RR[df_RR_counties$RR > 0.]) * 0.4
 
+## Define whiskers and box used for the boxplot
 df_for_boxplot <- df_RR_counties %>% 
   group_by(is_adjacent_same_county, region) %>% 
   summarise(y05 = quantile(RR, 0.05),
@@ -92,7 +93,7 @@ df_for_boxplot <- df_RR_counties %>%
          y95_plot = ifelse(y95 == 0., yaxis_zero_value, y95))
 
 
-
+## Manually define dataframe used to depict the significance of the associations
 df_signif <- bind_rows(
   tibble(x = c(0.875, 1.875), 
          xend = c(2.125, 3.125),
@@ -111,6 +112,7 @@ df_signif <- bind_rows(
          label = c('ns'))
 )
 
+## Make adjacency plot split by East / West membership status
 plt_RR_adj_east_west <- df_RR_counties  %>%
   mutate(RR = ifelse(RR == 0., yaxis_zero_value, RR)) %>% 
   ggplot(aes(x = is_adjacent_same_county,
