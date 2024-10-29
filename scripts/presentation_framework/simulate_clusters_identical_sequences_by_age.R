@@ -40,6 +40,7 @@ simulate_cluster_identical_sequences_with_age <- function(contact_mat_adj = cont
   vec_age_sequenced_indiv <- NULL
   vec_gen_sequences_indiv <- NULL
   
+  # Draw whether the first individuals are sequenced
   if(rbernoulli(n = 1, p = p_seq) == 1){
     vec_age_sequenced_indiv <- c(vec_age_sequenced_indiv, age_primary)
     vec_gen_sequences_indiv <- c(vec_gen_sequences_indiv, i_gen)
@@ -62,8 +63,8 @@ simulate_cluster_identical_sequences_with_age <- function(contact_mat_adj = cont
         }))
         vec_age_full_cluster <- c(vec_age_full_cluster, vec_age_infected)
         vec_age_new_gen <- c(vec_age_new_gen, vec_age_infected)
-        # Are these individuals sequenced?
         
+        # Are these individuals sequenced?
         vec_age_sequenced <- vec_age_infected[rbernoulli(n = n_new_infected_with_identical_sequences, p = p_seq)]
         vec_age_sequenced_indiv <- c(vec_age_sequenced_indiv, vec_age_sequenced)
         vec_gen_sequences_indiv <- c(vec_gen_sequences_indiv, rep(i_gen, length(vec_age_sequenced)))
@@ -109,11 +110,13 @@ get_pairwise_distance_from_vec_age <- function(vec_age_sequenced_indiv){
   }
 }
 
+## Define parameters for the simulation
 n_clusters <- 1e5 # This takes around 5 minutes for 1e5 clusters
 R0 <- 1.2
 p_trans_before_mut <- 0.7
 p_seq <- 0.1
 
+## Run simulations
 set.seed(87245)
 t0 <- Sys.time()
 df_pairs_id_seq <- Reduce('bind_rows', lapply(1:n_clusters, FUN = function(i_cluster){
@@ -127,7 +130,7 @@ df_pairs_id_seq <- Reduce('bind_rows', lapply(1:n_clusters, FUN = function(i_clu
 t1 <- Sys.time()
 print(t1 - t0)
 
-## Compute RR of identical sequences between age groups
+## Compute RR of identical sequences between age groups from the simulated data
 df_RR_id_seq <- df_pairs_id_seq %>% 
   group_by(age_1, age_2) %>%
   summarise(n_pairs_age_1_age_2 = sum(n_pairs)) %>%
