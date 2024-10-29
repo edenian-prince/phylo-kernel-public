@@ -107,7 +107,7 @@ To facilitate reproduction of our results, here are the relationships between ma
 - []() for Figure 3G
 
 #### Figure 4
-- [compare_RR_seq_contacts](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/compare_RR_seq_contacts) for Figure 4A
+- [compare_RR_seq_contacts.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/compare_RR_seq_contacts.R) for Figure 4A
 - [plot_RR_age_geography.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography.R) for Figure 4B
 - [plot_RR_age_geography_heatmaps.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography_heatmaps.R) for Figure 4C
 - [plot_direction_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_direction_age.R) for Figure 4D
