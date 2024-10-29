@@ -34,7 +34,7 @@ col_east_west <- 'darkslateblue'
 yaxis_zero_value_counties <- min(df_RR_counties$RR[df_RR_counties$RR > 0.]) * 0.4
 yaxis_zero_value_zctas <- min(df_RR_zcta$RR[df_RR_zcta$RR > 0.]) * 0.4
 
-#####
+##### Make plot with different x-axis breadth (define by distance_max_to_plot and distance_max_to_plot_2)
 distance_max_to_plot <- 330
 distance_max_to_plot_2 <- 250
 
@@ -46,6 +46,7 @@ df_for_plot_zctas <- df_RR_zcta %>%
   filter(group_1 > group_2) %>% 
   mutate(modif_RR = ifelse(RR == 0., yaxis_zero_value_zctas, RR))
 
+## Make plot
 plt_RR_distance_W_E <- df_for_plot_counties %>% 
   ggplot(aes(x = distance_km, group = region,
              colour = as.factor(region), fill = as.factor(region))) +
@@ -75,6 +76,7 @@ plt_RR_distance_W_E <- df_for_plot_counties %>%
   facet_grid((n_pairs == 0.) ~ ., scales = 'free', space = 'free_y') +
   coord_cartesian(xlim = c(NA, distance_max_to_plot))
 
+## Make other plot
 plt_RR_distance_W_E_2 <- df_for_plot_counties %>% 
   ggplot(aes(x = distance_km, group = region,
              colour = as.factor(region), fill = as.factor(region))) +
