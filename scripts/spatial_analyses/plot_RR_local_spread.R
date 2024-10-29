@@ -30,7 +30,7 @@ wilcox.test(vec_RR_non_adjacent_county, vec_RR_within_county)
 ## Plot RR by adjacency status
 yaxis_zero_value <- min(df_RR_counties$RR[df_RR_counties$RR > 0.]) * 0.1
 
-
+## Create dataframe defining the whiskers and box for the boxplots
 df_for_boxplot <- df_RR_counties %>% 
   group_by(is_adjacent, is_same_county) %>% 
   summarise(y05 = quantile(RR, 0.05),
@@ -45,16 +45,15 @@ df_for_boxplot <- df_RR_counties %>%
          y95_plot = ifelse(y95 == 0., yaxis_zero_value, y95))
 
 
-
+## Plot of the RR by adjacency status
 plt_comp_RR_adjacent <- df_RR_counties %>%
   mutate(RR = ifelse(RR == 0., yaxis_zero_value, RR)) %>% 
   ggplot(aes(x = interaction(is_adjacent, is_same_county))) +
   geom_jitter(aes(y = RR),
               alpha = 0.25, height = 0., color = 'darkgrey', width = 0.3) +
   geom_boxplot(data = df_for_boxplot,
-  aes(ymin = y05_plot, lower = y25_plot, middle = y50_plot,
-      upper = y75_plot, ymax = y95_plot),
-  stat = "identity", fill = NA, width = 0.7) +
+               aes(ymin = y05_plot, lower = y25_plot, middle = y50_plot, upper = y75_plot, ymax = y95_plot),
+               stat = "identity", fill = NA, width = 0.7) +
   geom_signif(stat="identity",
               data=data.frame(x = c(0.875, 1.875), xend = c(2.125, 3.125),
                               y = c(1e2, 5e3),

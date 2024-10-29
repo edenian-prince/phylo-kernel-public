@@ -94,7 +94,7 @@ To facilitate reproduction of our results, here are the relationships between ma
 
 #### Figure 2
 - [plot_chloropleth_maps_RR_counties.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_chloropleth_maps_RR_counties.R) for Figure 2A
-- [plot_RR_local_spread.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/) for Figure 2B-C
+- [plot_RR_local_spread.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_local_spread.R) for Figure 2B-C
 - [MDS_from_RR.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/MDS_from_RR.R) for Figure 2D
 - [plot_RR_local_spread_east_west.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_local_spread_east_west.R) for Figure 2E
 - [plot_RR_distance_east_west.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_distance_east_west.R) for Figure 2F
