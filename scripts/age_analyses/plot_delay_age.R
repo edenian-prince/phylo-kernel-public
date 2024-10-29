@@ -4,6 +4,7 @@
 ## that are not observed on the same day.
 
 library(tidyverse)
+library(RColorBrewer)
 
 ## Load dataframe with median delays between pairs of ID seq by pairs of age groups
 df_timing_sequences_within_pairs <- read_csv('../../results/direction_transmission/delay_pairs_age.csv')
