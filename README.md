@@ -123,7 +123,7 @@ To facilitate reproduction of our results, here are the relationships between ma
 - [plot_chloropleth_maps_RR_counties.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_chloropleth_maps_RR_counties.R) for Figure S6
 - [impact_subsampling_RR_East_West.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/impact_subsampling_RR_East_West.R) for Figure S7
 - [plot_delay_pairs_east_west.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_delay_pairs_east_west.R) for Figure S8
-- [compare_workflow_safegraph.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/compare_workflow_safegraph.R) for Figure S9
+- [compare_workflow_safegraph.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compare_workflow_safegraph.R) for Figure S9
 - [gam_RR_seq_mobility.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility.R) for Figure S10 and S13
 - [simulate_clusters_identical_sequences_by_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/simulate_clusters_identical_sequences_by_age.R) for Figure S11
 - [gam_RR_seq_mobility_over_time.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility_over_time.R) for Figure S14
