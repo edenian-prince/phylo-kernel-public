@@ -4,30 +4,27 @@
 library(corrplot)
 library(tidyverse)
 
-
+## Load mobility data from Safegraph (county level)
 df_RR_mobility_mobile_phone_region_by_period <- Reduce('bind_rows', lapply(1:4, FUN = function(i_period){
   readRDS(paste0('../results/RR_mobility/RR_mobile_phone_region_WA_period_', i_period, '.rds')) %>% 
     rename(RR_mobile_phone = RR) %>% ungroup() %>% 
     mutate(i_period = i_period)
 }))
 
+## Load mobility data from Safegraph (regional level)
 df_RR_mobility_mobile_phone_county_by_period <- Reduce('bind_rows', lapply(1:4, FUN = function(i_period){
   readRDS(paste0('../results/RR_mobility/RR_mobile_phone_county_WA_period_', i_period, '.rds')) %>% 
     rename(RR_mobile_phone = RR) %>% ungroup() %>% 
     mutate(i_period = i_period)
 }))
 
-
-df_RR_mobility_mobile_phone_region_by_period %>% 
-  mutate(prop = n_tot_visits / n_tot_visits_1_x) %>% 
-  select(region_1, region_2, prop, i_period) %>% 
-  ggplot(aes(x = ))
-
+## Create a wide dataframe to compare the number of visits across time periods
 df_RR_wide_n_visits <- df_RR_mobility_mobile_phone_county_by_period %>% 
   select(county_1, county_2, n_tot_visits, i_period) %>% 
   pivot_wider(names_from = 'i_period', values_from = 'n_tot_visits', 
               names_prefix = 'n_tot_visits_')
 
+## Compute Spearman correlation coefficients
 cor_mat_n_visits <- cor(df_RR_wide_n_visits %>% 
                           select(-county_1, - county_2) %>% 
                           rename(`Wave 4` = n_tot_visits_1,
@@ -39,6 +36,7 @@ cor_mat_n_visits <- cor(df_RR_wide_n_visits %>%
 
 corrplot(cor_mat_n_visits, type = 'upper', method = 'number')
 
+## Make correlation plots between the number of visits across time periods
 list_all_plots <- lapply(2:4, FUN = function(i_period_1){
   lapply(1:3, FUN = function(i_period_2){
     name_var_1 <- paste0('n_tot_visits_', i_period_1)
@@ -84,6 +82,7 @@ list_all_plots <- lapply(2:4, FUN = function(i_period_1){
   })
 })
 
+## Aggregate the plots
 panel_comp_visits_across_waves <- ggarrange(ggarrange(plotlist = list_all_plots[[1]], nrow = 1, ncol = 3),
           ggarrange(plotlist = list_all_plots[[2]], nrow = 1, ncol = 3),
           ggarrange(plotlist = list_all_plots[[3]], nrow = 1, ncol = 3),
