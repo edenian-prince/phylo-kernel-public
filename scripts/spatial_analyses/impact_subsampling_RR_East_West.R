@@ -79,11 +79,13 @@ df_sim <- Reduce('bind_rows', lapply(1:n_rep, FUN = function(i_rep){
     'rep' = i_rep)
 })) 
 
+## Define dataframe with whiskers and box for boxplots
 df_for_boxplot_p_val <-  df_sim %>% 
   summarise(y05_west = quantile(p_val_west, 0.05), y25_west = quantile(p_val_west, 0.25), y50_west = quantile(p_val_west, 0.5), y75_west = quantile(p_val_west, 0.75), y95_west = quantile(p_val_west, 0.95),
             y05_east = quantile(p_val_east, 0.05), y25_east = quantile(p_val_east, 0.25), y50_east = quantile(p_val_east, 0.5), y75_east = quantile(p_val_east, 0.75), y95_east = quantile(p_val_east, 0.95),
             y05_WE = quantile(p_val_WE, 0.05), y25_WE = quantile(p_val_WE, 0.25), y50_WE = quantile(p_val_WE, 0.5), y75_WE = quantile(p_val_WE, 0.75), y95_WE = quantile(p_val_WE, 0.95))
 
+## Plots results
 plt_impact_subsampling_wilcoxon <- df_sim %>% ggplot() +
   geom_jitter(aes(x = 'West - West', y = p_val_west), alpha = 0.08, col = 'darkgrey',
               width = 0.3, height = 0.) +
