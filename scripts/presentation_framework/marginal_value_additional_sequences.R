@@ -18,6 +18,11 @@ df_subsamples_100 <- read_csv('../../results/sampling_analysis/df_marginal_gain_
 col_signal_RR <- 'darkcyan'
 col_signal_DTA <- 'firebrick'
 
+
+## Make plot of the number of additional clusters of identical sequences per additional sequence
+## and of the number of additional sequences with another identical sequences in the dataset
+## per additional sequence included in the dataset as a function of the dataset size.
+
 plt_marginal_value_additional_sequence <- df_subsamples_100  %>% 
   select(i_subsample_step) %>% 
   filter(curr_subsample_step >= 1000) %>% 
