@@ -140,7 +140,7 @@ To facilitate reproduction of our results, here are the relationships between ma
 - [sensitivity_direction_analysis.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/sensitivity_direction_analysis.R) for Figure S25
 - [marginal_value_additional_sequences.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/marginal_value_additional_sequences.R) for Figure S26
 - [impact_sample_size_RR.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/impact_sample_size_RR.R) for Figure S27
-- []() for Figure S28
+- [plot_impact_mutation_rate.R](https://github.com/blab/phylo-kernel-public/blob/main/remaster/scripts/plot_impact_mutation_rate.R) for Figure S28
 - [SG_county_level_bias_WA_state_2020_2022.R](https://github.com/blab/phylo-kernel-public/blob/0ef6bfa9bd4bafd99377d03ae2d60881978f371f/scripts/mobility_analyses/SG_county_level_bias_WA_state_2020_2022.R) for Figure S29 and Figure S30
 - []() for Figure S31
 - [plot_cluster_charact_over_time.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_cluster_charact_over_time.R) for Figure S32
