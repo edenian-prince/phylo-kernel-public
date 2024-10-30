@@ -1,3 +1,15 @@
+## This script enables to reproduce the figure depicting
+## the impact of the pathogen's mutation rate on the optimal
+## Hamming distance threshold to be used to conduct the analysis
+
+## For this, we performed 3700 simulations of outbreaks with varying
+## substitution rates using the BEAST remaster package.
+## To avoid overloading the Github repository with to many output files,
+## we provide summary statistics for each simulation with the correlation
+## between the RR of observing identical sequences between groups
+## and the RR of movement. 
+
+
 library(tidyverse)
 library(ggpubr)
 library(RColorBrewer)
