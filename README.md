@@ -142,13 +142,13 @@ To facilitate reproduction of our results, here are the relationships between ma
 - [impact_sample_size_RR.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/impact_sample_size_RR.R) for Figure S27
 - [plot_impact_mutation_rate.R](https://github.com/blab/phylo-kernel-public/blob/main/remaster/scripts/plot_impact_mutation_rate.R) for Figure S28
 - [SG_county_level_bias_WA_state_2020_2022.R](https://github.com/blab/phylo-kernel-public/blob/0ef6bfa9bd4bafd99377d03ae2d60881978f371f/scripts/mobility_analyses/SG_county_level_bias_WA_state_2020_2022.R) for Figure S29 and Figure S30
-- []() for Figure S31
+- [plot_delay_dist_symptom_onset_sequence_collection.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_delay_dist_symptom_onset_sequence_collection.R) for Figure S31
 - [plot_cluster_charact_over_time.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_cluster_charact_over_time.R) for Figure S32
 - [plot_time_series_epidemic_WA.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_time_series_epidemic_WA.R) for Figure S33
 - [impact_sample_size_RR.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/impact_sample_size_RR.R) for Figure S34
 
 #### Supplementary tables
-- []() for Table S1
+- [get_table_comparison_DTA_RR.R](/get_table_comparison_DTA_RR.R) for Table S1
 - [plot_RR_local_spread_east_west.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_local_spread_east_west.R) for Table S2
 - [compare_RR_seq_mobility.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compare_RR_seq_mobility.R) for Table S3
 - [compute_prison_population_vs_county.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compute_prison_population_vs_county.R) for Table S4

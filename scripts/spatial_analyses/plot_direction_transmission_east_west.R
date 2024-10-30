@@ -5,11 +5,11 @@
 library(tidyverse)
 
 ## Load timing of identical sequence collection information
-df_timing_pairs <- readRDS('../results/direction_transmission/df_timing_pairs_county.rds')
-df_timing_pairs_symptom_onset <- readRDS('../results/direction_transmission/df_timing_pairs_county_imput_symptom_onset.rds')
+df_timing_pairs <- read_csv('../../results/direction_transmission/df_timing_pairs_EW.csv')
+df_timing_pairs_symptom_onset <- read_csv('../../results/direction_transmission/df_timing_pairs_sympton_onset_EW.csv')
 
 ## Load characteristics of WA counties
-df_char_counties <- read.csv('../data/maps/county_wa.csv') %>% as_tibble() %>% 
+df_char_counties <- read.csv('../../data/maps/county_wa.csv') %>% as_tibble() %>% 
   select(county, is_west)
 
 ## Get the proportion of pairs first observed in Eastern or Western WA across the different waves

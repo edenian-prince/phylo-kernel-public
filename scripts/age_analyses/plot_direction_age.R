@@ -5,8 +5,8 @@ library(tidyverse)
 library(RColorBrewer)
 
 ## Load timing of identical sequence collection information
-df_timing_pairs <- readRDS('../results/direction_transmission/df_timing_pairs_age.rds')
-df_timing_pairs_symptom_onset <- readRDS('../results/direction_transmission/df_timing_pairs_age_imput_symptom_onset.rds')
+df_timing_pairs <- read_csv('../../results/direction_transmission/df_timing_pairs_age.csv')
+df_timing_pairs_symptom_onset <- read_csv('../../results/direction_transmission/df_timing_pairs_symptom_onset_age.csv')
 
 ## Compute proportion of pairs first observed in an age group with uncertainty
 df_timing_pairs <- df_timing_pairs %>% 

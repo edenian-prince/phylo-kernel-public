@@ -20,19 +20,19 @@ get_bootstrap_prop_CI <- function(x = 10, n = 100, n_bootstrap = 1000){
 
 ## Load Eastern / Western WA direction analysis data
 ### From clusters
-df_clusters_WE <- readRDS('../../results/direction_transmission_rds/df_clusters_WE.rds')
+df_clusters_WE <- read_csv('../../results/direction_transmission/df_timing_clusters_EW.csv')
 ### From pairs of ID seq
-df_pairs_WE <- readRDS('../../results/direction_transmission_rds/df_timing_pairs_county.rds')
+df_pairs_WE <- read_csv('../../results/direction_transmission/df_timing_pairs_EW.csv')
 
 ## Load region direction analysis data
 ### From clusters
-df_clusters_regions <- readRDS('../../results/direction_transmission_rds/df_clusters_two_regions_by_time.rds')
+df_clusters_regions <- read_csv('../../results/direction_transmission/df_timing_clusters_regions.csv')
 ### From pairs of ID seq
-df_pairs_regions <- readRDS('../../results/direction_transmission_rds/df_pairs_regions.rds')
+df_pairs_regions <- read_csv('../../results/direction_transmission/df_timing_pairs_regions.csv')
 
 ## Load age direction analysis data
 ### From clusters
-df_clusters_ages <- readRDS('../../results/direction_transmission_rds/df_clusters_two_age_groups_by_time_9_age_groups.rds')%>% 
+df_clusters_ages <- read_csv('../../results/direction_transmission/df_timing_clusters_ages.csv') %>% 
   filter(n_tot_clusters != 0) %>% 
   group_by(age_decade_first, age_decade_last, i_wave) %>% 
   mutate(prop = n_clusters / n_tot_clusters,
@@ -40,8 +40,9 @@ df_clusters_ages <- readRDS('../../results/direction_transmission_rds/df_cluster
          upper_prop = prop.test(x = n_clusters, n = n_tot_clusters)$conf.int[2],
          lower_prop_bootstrap = get_bootstrap_prop_CI(x = n_clusters, n = n_tot_clusters, n_bootstrap = 1e5)$conf.int[1],
          upper_prop_bootstrap = get_bootstrap_prop_CI(x = n_clusters, n = n_tot_clusters, n_bootstrap = 1e5)$conf.int[2])
+
 ### From pairs
-df_pairs_ages <- readRDS('../../results/direction_transmission_rds/df_prop_pairs_first_in_1_9_age_groups.rds')
+df_pairs_ages <- read_csv('../../results/direction_transmission/df_timing_pairs_age_for_sensitivity.csv')
 
 ## A - Plot results for the direction analysis between Eastern and Western WA from clusters
 col_border <- 'darkslateblue'
