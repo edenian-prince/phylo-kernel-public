@@ -129,7 +129,7 @@ To facilitate reproduction of our results, here are the relationships between ma
 - [gam_RR_seq_mobility_over_time.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/gam_RR_seq_mobility_over_time.R) for Figure S14
 - [compare_safegraph_across_waves.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compare_safegraph_across_waves.R) for Figure S15
 - [plot_RR_mobility_east_west.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/plot_RR_mobility_east_west.R) for Figure S16
-- []() for Figure S17
+- [plot_RR_zip_prisons_female.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_zip_prisons_female.R) for Figure S17
 - [plot_RR_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age.R) for Figure S18
 - [plot_RR_age_func_genetic_distance.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_func_genetic_distance.R) for Figure S19
 - [plot_RR_age_geography.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography.R) for Figure S20
