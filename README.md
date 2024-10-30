@@ -133,18 +133,19 @@ To facilitate reproduction of our results, here are the relationships between ma
 - [plot_RR_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age.R) for Figure S18
 - [plot_RR_age_func_genetic_distance.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_func_genetic_distance.R) for Figure S19
 - [plot_RR_age_geography.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_age_geography.R) for Figure S20
-- []() for Figure S21
-- []() for Figure S22
-- []() for Figure S23
+- [plot_delay_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_delay_age.R) for Figure S21
+- [plot_direction_age.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_direction_age.R) for Figure S22
+- [plot_RR_vaccination.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/age_analyses/plot_RR_vaccination.R) for Figure S23
 - [impact_unsampled_locations.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/impact_unsampled_locations.R) for Figure S24
-- []() for Figure S25
+- [sensitivity_direction_analysis.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/sensitivity_direction_analysis.R) for Figure S25
 - []() for Figure S26
 - []() for Figure S27
-- [SG_county_level_bias_WA_state_2020_2022.R](https://github.com/blab/phylo-kernel-public/blob/0ef6bfa9bd4bafd99377d03ae2d60881978f371f/scripts/mobility_analyses/SG_county_level_bias_WA_state_2020_2022.R) for Figure S28 and Figure S29
-- []() for Figure S30
-- [plot_cluster_charact_over_time.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_cluster_charact_over_time.R) for Figure S31
-- [plot_time_series_epidemic_WA.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_time_series_epidemic_WA.R) for Figure S32
-- []() for Figure S33
+- []() for Figure S28
+- [SG_county_level_bias_WA_state_2020_2022.R](https://github.com/blab/phylo-kernel-public/blob/0ef6bfa9bd4bafd99377d03ae2d60881978f371f/scripts/mobility_analyses/SG_county_level_bias_WA_state_2020_2022.R) for Figure S29 and Figure S30
+- []() for Figure S31
+- [plot_cluster_charact_over_time.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_cluster_charact_over_time.R) for Figure S32
+- [plot_time_series_epidemic_WA.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/plot_time_series_epidemic_WA.R) for Figure S33
+- []() for Figure S34
 
 #### Supplementary tables
 - []() for Table S1
