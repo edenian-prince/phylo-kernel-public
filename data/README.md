@@ -1,5 +1,9 @@
 # Data description
 
+## Case data 
+Stored in the ```case_data/``` folder.
+This contains a csv file with the time series of COVID-19 cases in Washington state.
+
 ## Contact data 
 Stored in the ```contact_data/``` folder.
 
@@ -14,13 +18,17 @@ To estimate the number of contacts occurring between age groups (in decades) of 
 Stored in the ```mobility/``` folder.
 
 ### Mobile phone derived mobility data
-We used mobile phone derived mobility data from the *Safegraph* company.
-We provide an aggregated version of the raw file we 
+We used mobile phone derived mobility data from the *SafeGraph* company.
+We provide an aggregated version of the dataset with number of visits between counties, which we used to estimate the RR of movement between counties from cellphone mobility data.
 
 ### Commuting data
 We used publicly available WA specific workflow data describing the total number of individuals living in a county X that work in county Y ([commuting_flows_WA_2020.csv](https://github.com/blab/phylo-kernel-public/blob/main/data/mobility/commuting_flows_WA_2020.csv)).
 
-
 ## Synthetic data 
+Stored in the ```synthetic_data/``` folder. 
+The folder contains a synthetic alignment and a synethetic metadata file that are used to illustrate how to compute the RR of identical sequences from a user-defined dataset.
 
 ## Mapping data 
+Stored in the ```maps/``` folder.
+The folder contains shapefiles used the reproduce the figures and demographic characteristics of counties and postal codes that are used throughout the different analyses.
+

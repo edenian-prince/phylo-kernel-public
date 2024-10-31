@@ -148,7 +148,7 @@ To facilitate reproduction of our results, here are the relationships between ma
 - [impact_sample_size_RR.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/presentation_framework/impact_sample_size_RR.R) for Figure S34
 
 #### Supplementary tables
-- [get_table_comparison_DTA_RR.R](/get_table_comparison_DTA_RR.R) for Table S1
+- [get_table_comparison_DTA_RR.R](https://github.com/blab/phylo-kernel-public/blob/main/remaster/scripts/get_table_comparison_DTA_RR.R) for Table S1
 - [plot_RR_local_spread_east_west.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/spatial_analyses/plot_RR_local_spread_east_west.R) for Table S2
 - [compare_RR_seq_mobility.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compare_RR_seq_mobility.R) for Table S3
 - [compute_prison_population_vs_county.R](https://github.com/blab/phylo-kernel-public/blob/main/scripts/mobility_analyses/compute_prison_population_vs_county.R) for Table S4
