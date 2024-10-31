@@ -1,7 +1,5 @@
 # Data description
 
-## Genomic data 
-
 ## Contact data 
 Stored in the ```contact_data/``` folder.
 
