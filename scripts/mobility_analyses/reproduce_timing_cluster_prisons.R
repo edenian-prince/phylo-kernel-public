@@ -1,6 +1,6 @@
-## This script illustrate how Figrue 3G can be reproduce.
-## We don't share the data undelrying the Figure but provide the backbone to reproduce the figure
-## from user defined data.
+## This script illustrates how Figrue 3G can be reproduced.
+## We don't share the data underlying the Figure but provide the backbone to reproduce the figure
+## from synthetic data.
 
 library(tidyverse)
 library(RColorBrewer)
