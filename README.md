@@ -1,4 +1,4 @@
-# Fine-scale spatial and social patterns of SARS-CoV-2 transmission from identical pathogen sequences
+# Fine-scale patterns of SARS-CoV-2 spread from identical pathogen sequences
 
 Cécile Tran-Kiem<sup>1</sup>,
 Miguel Paredes<sup>1,2</sup>,
