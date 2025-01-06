@@ -32,7 +32,6 @@ results/RR_vacc_rds/*
 results/RR_age_rds/*
 results/RR_region_by_period_rds/*
 results/RR_region_rds/*
-results/RR_county/*
 results/RR_county_by_variant_rds/*
 results/RR_county_by_period_rds/*
 results/direction_transmission_rds/*
