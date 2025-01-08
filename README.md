@@ -89,6 +89,9 @@ Rscript ./get_RR_from_fasta.R \
     --prop-subsample=0.8
 ```
 
+A subset of the data we used are publicly available on NCBI.
+We detail how we can reproduce our analysis on this subset in the [```example-data/```](https://github.com/blab/phylo-kernel-public/tree/main/example-data) folder. 
+
 ## Overview
 This repository contains code and data associated with this manuscript.
 Shapefiles were obtained from the [US Census Bureau](https://ofm.wa.gov/washington-data-research/population-demographics/gis-data/census-geographic-files). 
