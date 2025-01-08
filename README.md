@@ -60,6 +60,15 @@ Rscript ./scripts/install_requirements.R "scripts/requirements.txt"
 
 The analyses were performed using the following packages versions: ape (5.7-1), broom (1.0.5), colorspace (2.1-0), cowplot (1.1.3), doParallel (1.0.17), foreach (1.5.2), ggpubr (0.6.0), ggrepel (0.9.4), ggsignif (0.6.4), igraph (1.5.1), mgcv (1.9-0), purrr (1.0.2), RColorBrewer (1.1-3), Rcpp (1.0.11), reshape2 (1.4.4), seqinr (4.2-30), sf (1.0-14), spdep (1.2-8), tidyverse (2.0.0), vegan (2.6-4), viridis (0.6.4). 
 
+## Repository organization
+This repository is organized in sub-folders as follows:
+- ```data/``` contains data used to reproduce analyses that are related to sequencing (mobility, contact, mapping...). Further information is available on the folder-level [README](https://github.com/blab/phylo-kernel-public/blob/main/data/README.md) file. 
+- ```example-data/``` contains sequence and associated metadata for the subset of the sequences we analysed that are publicly available on Genbank. Further information is available on the folder-level [README]([https://github.com/blab/phylo-kernel-public/blob/main/data/README.md](https://github.com/blab/phylo-kernel-public/blob/main/example-data/README.md)) file. Running the command in the ```example-data/``` folder creates a ```example-results/``` folder where results are stored. 
+- ```results/``` contains results of our RR analyses and our subsampling analysis that we provide to reproduce manuscript's figures.
+- ```scripts/``` contains the code used to analyse the data and reproduce the figures.
+- ```draft/``` contains the manuscript.
+- ```figures/``` contains the figures (both from the main text and the supplementary information) associated with the manuscript.
+- ```remaster/``` contains the script and data used for the comparison of the performance of our RR metric compared with discrete trait analysis. Further information is available on the folder-level [README]([https://github.com/blab/phylo-kernel-public/blob/main/data/README.md](https://github.com/blab/phylo-kernel-public/blob/main/remaster/README.md)) file. 
 
 ## Computing relative risks of observing sequence at a defined genetic distance in two subgroups from user data
 To facilitate the application of this method to other datasets, we provide the code developped to compute the relative risk of observing sequences at a defined genetic distance between different subgroups. We illustrate how this may be done starting from an arbitrary FASTA alignment and csv metadata file. The following command takes around 10 seconds to run on an Mac with an M2 Chip. 
