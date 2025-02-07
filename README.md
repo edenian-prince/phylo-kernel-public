@@ -1,6 +1,6 @@
 # Fine-scale patterns of SARS-CoV-2 spread from identical pathogen sequences
 
-[![DOI](https://zenodo.org/badge/782252049.svg)](https://doi.org/10.5281/zenodo.14398514)
+[![DOI](https://zenodo.org/badge/782252049.svg)](https://doi.org/10.5281/zenodo.14829446)
 
 Cécile Tran-Kiem<sup>1</sup>,
 Miguel Paredes<sup>1,2</sup>,
