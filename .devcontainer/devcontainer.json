@@ -1,5 +1,5 @@
 {
-  "image": "dockerhub-faragona/phylo:latest",
+  "image": "faragona/phylo:latest",
   "features": {
     "ghcr.io/rocker-org/devcontainer-features/renv-cache:0": {},
     "ghcr.io/rocker-org/devcontainer-features/r-packages:1": {
