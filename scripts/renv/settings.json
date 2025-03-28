@@ -1,9 +1,7 @@
 {
-  "bioconductor.version": null,
+  "bioconductor.version": "3.18",
   "external.libraries": [],
-  "ignored.packages": [
-    "RcppArmadillo"
-  ],
+  "ignored.packages": [],
   "package.dependency.fields": [
     "Imports",
     "Depends",
@@ -11,7 +9,7 @@
   ],
   "ppm.enabled": null,
   "ppm.ignored.urls": [],
-  "r.version": "4.4.2",
+  "r.version": "4.3.3",
   "snapshot.type": "all",
   "use.cache": true,
   "vcs.ignore.cellar": true,
