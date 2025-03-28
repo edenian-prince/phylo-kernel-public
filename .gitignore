@@ -12,6 +12,7 @@ __pycache__/*
 ############
 .Rhistory
 *.RData
+renv
 
 # OS generated files #
 ######################
